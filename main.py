@@ -10,22 +10,32 @@ import re
 from google import genai
 
 # ==========================================
-# CONFIGURATION & PASSWORDS
+# CONFIGURATION & PASSWORDS (GITHUB SECRETS)
 # ==========================================
-# 🌟 5 API KEYS SYSTEM (5 alag Gmail accounts ki keys)
+# 🌟 Tijori se keys nikalne ka Jadu
 GEMINI_API_KEYS = [
-    "first key here",
-    "second key ", 
-    "Thord key here",
-    "fourth key",
-    "fifth key"
+    os.environ.get("GEMINI_KEY_1"),
+    os.environ.get("GEMINI_KEY_2"), 
+    os.environ.get("GEMINI_KEY_3"),
+    os.environ.get("GEMINI_KEY_4"),
+    os.environ.get("GEMINI_KEY_5")
 ]
+
+# Agar koi key khali ho toh usay ignore kar dega
+GEMINI_API_KEYS = [key for key in GEMINI_API_KEYS if key]
+
 CURRENT_KEY_INDEX = 0
-client = genai.Client(api_key=GEMINI_API_KEYS[CURRENT_KEY_INDEX])
+
+# Failsafe: System secure initialize karne ke liye
+if GEMINI_API_KEYS:
+    client = genai.Client(api_key=GEMINI_API_KEYS[CURRENT_KEY_INDEX])
+else:
+    client = None
+
 MODEL_NAME = 'gemini-3.6-flash' 
 
 GMAIL_SENDER = "mateenarshad877@gmail.com" 
-GMAIL_APP_PASSWORD = "app password here" 
+GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD") 
 GMAIL_RECEIVER = "mateenarshad877@gmail.com" 
 
 RSS_FEEDS = [
@@ -93,6 +103,10 @@ def update_dashboard(status, message):
         pass
 
 def send_error_email(error_msg):
+    if not GMAIL_APP_PASSWORD:
+        add_log("WARNING", "Gmail App Password missing. Email skipped.")
+        return
+
     print("📧 Alert Email bhej raha hoon...")
     try:
         msg = MIMEText(f"Assalam o Alaikum Mateen Bhai,\n\nTrendify bot mein ek error aaya hai. Details yeh hain:\n\n{error_msg}\n\nJaldi check karein!")
@@ -146,13 +160,15 @@ def scrape_unposted_news():
 def generate_ai_article(title, raw_text):
     global CURRENT_KEY_INDEX, client
     
+    if not GEMINI_API_KEYS:
+        raise Exception("Koi API key nahi mili! GitHub Secrets check karein.")
+
     prompt = f"""
     You are an expert tech journalist and SEO content writer. Write a highly engaging, 400-word news article based on this news:
     Title: {title}\nSummary: {raw_text}\n
     Requirements: Format entirely in HTML (no ```html tags, no <html> or <body> tags). Use <p>, <h3 style="color: #FFD700; margin-top: 30px;"> and <ul>.
     """
     
-    # 5 keys ki bari
     for _ in range(len(GEMINI_API_KEYS)):
         try:
             response = client.models.generate_content(model=MODEL_NAME, contents=prompt)
@@ -163,15 +179,13 @@ def generate_ai_article(title, raw_text):
                 print(f"⚠️ Key {CURRENT_KEY_INDEX + 1} ki limit khatam. Dusri key par shift kar raha hoon...")
                 add_log("WARNING", f"Key {CURRENT_KEY_INDEX + 1} hit 429 Limit. Switching key...")
                 
-                # Math magic: 0->1->2->3->4->0
                 CURRENT_KEY_INDEX = (CURRENT_KEY_INDEX + 1) % len(GEMINI_API_KEYS)
                 client = genai.Client(api_key=GEMINI_API_KEYS[CURRENT_KEY_INDEX])
                 time.sleep(2) 
             else:
                 raise Exception(f"AI Generation Failed: {error_msg}")
                 
-    # Agar 5 ki 5 keys 429 de dein
-    raise Exception("Sari 5 API keys ki limit khatam ho chuki hai! (429)")
+    raise Exception("Sari API keys ki limit khatam ho chuki hai! (429)")
 
 # ==========================================
 # MODULE C: CLEAN TEMPLATE BUILDER 
@@ -254,9 +268,9 @@ def run_infinite_pipeline():
             error_details = str(e)
             
             if "429" in error_details or "RESOURCE_EXHAUSTED" in error_details:
-                print("⏳ Sari 5 keys ki limit hit ho gayi. 30 minute wait kar raha hoon...")
-                add_log("WARNING", "All 5 API Keys Exhausted. Resting for 30 mins.")
-                time.sleep(1800) # 30 minute ka lamba wait
+                print("⏳ Sari keys ki limit hit ho gayi. 30 minute wait kar raha hoon...")
+                add_log("WARNING", "All API Keys Exhausted. Resting for 30 mins.")
+                time.sleep(1800) 
             else:
                 print(f"❌ Crash se bach gaya! Error: {error_details}")
                 add_log("ERROR", error_details)
