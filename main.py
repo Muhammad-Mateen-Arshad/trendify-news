@@ -236,47 +236,37 @@ def update_main_pages(title, image_url, file_name, raw_text):
             pass
 
 # ==========================================
-# 🚀 INFINITE NON-STOP LOOP
+# 🚀 SINGLE RUN PIPELINE (For Cloud Automation)
 # ==========================================
-def run_infinite_pipeline():
-    print("🔥 INFINITE PIPELINE STARTED! System ab rukega nahi...\n")
-    add_log("INFO", "System Started.")
-    
-    while True:
-        try:
-            news = scrape_unposted_news()
+def run_single_pipeline():
+    print("🔥 GITHUB ACTION TRIGGERED! Checking for news...\n")
+    try:
+        news = scrape_unposted_news()
+        if news:
+            print(f"🤖 AI Article likh raha hai: {news['title']}")
+            article = generate_ai_article(news["title"], news["raw_text"])
+            file_name = build_html_page(news["title"], news["image_url"], article)
             
-            if news:
-                print(f"🤖 AI Article likh raha hai: {news['title']}")
-                article = generate_ai_article(news["title"], news["raw_text"])
-                file_name = build_html_page(news["title"], news["image_url"], article)
-                
-                if file_name:
-                    update_main_pages(news["title"], news["image_url"], file_name, news["raw_text"])
-                    
-                    add_log("SUCCESS", f"Published: {news['title']}")
-                    update_dashboard("SUCCESS", news["title"])
-                    print(f"🎉 SUCCESS! Nayi khabar post ho gayi aur Dashboard update ho gaya.")
-                    
-                print("⏳ Agli khabar ke liye 15 minute wait kar raha hoon...\n")
-                time.sleep(900) 
-            else:
-                print("⏳ Nayi khabar nahi mili, 1 ghanta wait kar raha hoon...\n")
-                time.sleep(3600)
-                
-        except Exception as e:
-            error_details = str(e)
-            
-            if "429" in error_details or "RESOURCE_EXHAUSTED" in error_details:
-                print("⏳ Sari keys ki limit hit ho gayi. 30 minute wait kar raha hoon...")
-                add_log("WARNING", "All API Keys Exhausted. Resting for 30 mins.")
-                time.sleep(1800) 
-            else:
-                print(f"❌ Crash se bach gaya! Error: {error_details}")
-                add_log("ERROR", error_details)
-                update_dashboard("ERROR", error_details)
-                send_error_email(error_details)
-                time.sleep(120) 
+            if file_name:
+                update_main_pages(news["title"], news["image_url"], file_name, news["raw_text"])
+                add_log("SUCCESS", f"Published: {news['title']}")
+                update_dashboard("SUCCESS", news["title"])
+                print("🎉 SUCCESS! Nayi khabar post ho gayi.")
+        else:
+            print("⏳ Koi nayi khabar nahi mili.")
+    except Exception as e:
+        error_details = str(e)
+        if "429" in error_details or "RESOURCE_EXHAUSTED" in error_details:
+            add_log("WARNING", "All 5 API Keys Exhausted.")
+        else:
+            add_log("ERROR", error_details)
+            update_dashboard("ERROR", error_details)
+            send_error_email(error_details)
+
+if __name__ == "__main__":
+    run_single_pipeline()
+
+   
 
 if __name__ == "__main__":
     run_infinite_pipeline()
