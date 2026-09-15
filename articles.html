@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archive - Trendify News</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { background-color: #050505; color: #ffffff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; overflow-x: hidden; }
+        
+        .durood-marquee { width: 100%; background: #000000; color: #FFD700; overflow: hidden; padding: 10px 0; font-family: 'Amiri', 'Arial', sans-serif; position: relative; height: 35px; border-bottom: 1px solid #111; }
+        .marquee-content { position: absolute; white-space: nowrap; font-size: 1.4em; animation: scrollDuroodLR 30s linear infinite; }
+        @keyframes scrollDuroodLR { 0% { transform: translateX(-100%); left: 0; } 100% { transform: translateX(0); left: 100vw; } }
+
+        header { text-align: center; padding: 30px 20px; background: #0a0a0a; border-bottom: 2px solid #00ffcc; box-shadow: 0 4px 15px rgba(0, 255, 204, 0.1); }
+        h1 { color: #00ffcc; font-size: 2.8em; margin: 0; text-shadow: 0 0 15px rgba(0, 255, 204, 0.4); }
+        p.subtitle { color: #aaaaaa; font-size: 1.1em; margin-top: 10px; }
+        
+        nav { text-align: center; padding: 15px; background: #0a0a0a; }
+        nav a { color: #00ffcc; text-decoration: none; margin: 0 15px; font-size: 1.1em; font-weight: bold; transition: all 0.3s; }
+        nav a:hover, nav a.active { color: #fff; text-shadow: 0 0 10px #00ffcc; }
+
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes floatEffect { 0% { transform: translateY(0px); } 50% { transform: translateY(-8px); } 100% { transform: translateY(0px); } }
+        
+        .main-container { padding: 40px 20px; animation: fadeIn 0.6s ease-out; display: grid; grid-template-columns: repeat(4, 1fr); gap: 25px; max-width: 1200px; margin: 0 auto; justify-items: center; }
+        @media (max-width: 1024px) { .main-container { grid-template-columns: repeat(3, 1fr); } }
+        @media (max-width: 768px) { .main-container { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 480px) { .main-container { grid-template-columns: 1fr; } }
+
+        .news-card { background: #111; border-top: 1px solid #222; border-right: 1px solid #222; border-bottom: 1px solid #222; border-left: 5px solid #00ffcc; border-radius: 8px; padding: 15px; width: 100%; max-width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.5); animation: floatEffect 3s ease-in-out infinite; transition: transform 0.2s, box-shadow 0.2s; overflow: hidden; display: flex; flex-direction: column; }
+        .news-card:hover { transform: scale(1.04); box-shadow: 0 8px 25px rgba(0, 255, 204, 0.2); border-left: 5px solid #FFD700; animation-play-state: paused; }
+
+        .news-card img { width: 100%; height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 12px; border: 1px solid #333; }
+        .news-card h3 { color: #eeeeee; margin-top: 0; font-size: 1.1em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .news-card p { color: #999999; line-height: 1.4; font-size: 0.9em; margin-bottom: 15px; height: 55px; overflow: hidden; word-wrap: break-word; }
+
+        .read-more { display: inline-block; padding: 8px 15px; background: rgba(0, 255, 204, 0.1); color: #00ffcc; border: 1px solid rgba(0, 255, 204, 0.3); text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 0.85em; transition: all 0.2s; text-transform: uppercase; letter-spacing: 1px; align-self: flex-start; margin-top: auto; }
+        .read-more:hover { background: #00ffcc; color: #000; box-shadow: 0 0 15px rgba(0, 255, 204, 0.6); }
+
+        footer { text-align: center; padding: 20px; color: #777; border-top: 1px solid #222; margin-top: 50px; background: #0a0a0a; clear: both; width: 100%; display: block; }
+        footer span { color: #00ffcc; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="durood-marquee">
+        <div class="marquee-content" dir="rtl">
+            ۞ اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ ۞ اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ ۞
+        </div>
+    </div>
+
+    <header>
+        <h1>System Archive</h1>
+        <p class="subtitle">Complete Database of Automated News</p>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="articles.html" class="active">Articles</a>
+        <a href="about.html">About</a>
+    </nav>
+    
+    <div class="main-container">
+        <!-- NEW_CARD_HERE -->
+        <div class="news-card">
+            <img src="https://image.pollinations.ai/prompt/Boston%20dumps%20Flock%2C%20says%20it%20shared%20data%20nationwide%20in%20violation%20of%20contract%20technology%20futuristic%20high%20quality%20realistic?width=800&height=400&nologo=true" alt="News Image">
+            <h3>Boston dumps Flock, says it shared data nationwide in violation of contract</h3>
+            <p>City: Flock enabled "nationwide lookup" despite contract requiring it to be disabled.</p>
+            <a href="news/boston-dumps-flock-says-it-shared-data-nationwide-in-violation-of-contract.html" class="read-more">Read Full Article</a>
+        </div>
+        <div class="news-card">
+            <img src="https://image.pollinations.ai/prompt/Can%20you%20use%20an%20Apple%20Pencil%20with%20an%20iPhone%3F%20technology%20futuristic%20high%20quality%20realistic?width=800&height=400&nologo=true" alt="News Image">
+            <h3>Can you use an Apple Pencil with an iPhone?</h3>
+            <p>If you have the right Apple Pencil and iPhone, you can use them together. But it won't be cheap, and there are some limitations to...</p>
+            <a href="news/can-you-use-an-apple-pencil-with-an-iphone.html" class="read-more">Read Full Article</a>
+        </div>
+        <div class="news-card">
+            <img src="https://image.pollinations.ai/prompt/Why%20It%E2%80%99s%20Difficult%20for%20Tech%20Companies%20to%20Rein%20In%20A.I.%20technology%20futuristic%20high%20quality%20realistic?width=800&height=400&nologo=true" alt="News Image">
+            <h3>Why It’s Difficult for Tech Companies to Rein In A.I.</h3>
+            <p>Researchers say artificial intelligence is developing faster than the systems put in place to monitor and control it.</p>
+            <a href="news/why-its-difficult-for-tech-companies-to-rein-in-ai.html" class="read-more">Read Full Article</a>
+        </div>
+        <div class="news-card">
+            <img src="https://image.pollinations.ai/prompt/Inside%20the%20Discussions%20at%20AI%20Companies%20Over%20a%20Superintelligence%20Doomsday%20technology%20futuristic%20high%20quality%20realistic?width=800&height=400&nologo=true" alt="News Image">
+            <h3>Inside the Discussions at AI Companies Over a Superintelligence Doomsday</h3>
+            <p>Researchers at Anthropic, OpenAI, Meta and Google are increasingly trying to raise awareness about the risks of artificial intelli...</p>
+            <a href="news/inside-the-discussions-at-ai-companies-over-a-superintelligence-doomsday.html" class="read-more">Read Full Article</a>
+        </div>
+        <div class="news-card">
+            <img src="https://image.pollinations.ai/prompt/Pubs%20in%20England%20and%20Wales%20to%20allow%20digital%20ID%20apps%20to%20prove%20age%20technology%20futuristic%20high%20quality%20realistic?width=800&height=400&nologo=true" alt="News Image">
+            <h3>Pubs in England and Wales to allow digital ID apps to prove age</h3>
+            <p>New rules introduced on Tuesday mean establishments will be able to accept digital ID apps alongside physical documents.</p>
+            <a href="news/pubs-in-england-and-wales-to-allow-digital-id-apps-to-prove-age.html" class="read-more">Read Full Article</a>
+        </div>
+        <div class="news-card">
+            <img src="https://image.pollinations.ai/prompt/OpenAI%20buys%20smartphone%20camera%20maker%20Glass%20Imaging%20for%20%24300%20million%2C%20report%20says%20technology%20futuristic%20high%20quality%20realistic?width=800&height=400&nologo=true" alt="News Image">
+            <h3>OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says</h3>
+            <p>Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple's Portrait Mode.</p>
+            <a href="news/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says.html" class="read-more">Read Full Article</a>
+        </div>
+        <div class="news-card">
+            <img src="https://image.pollinations.ai/prompt/The%20AI%20visibility%20gap%3A%20Why%20great%20brands%20disappear%20from%20AI%20answers%20technology%20futuristic%20high%20quality%20realistic?width=800&height=400&nologo=true" alt="News Image">
+            <h3>The AI visibility gap: Why great brands disappear from AI answers</h3>
+            <p>Presented by ContentfulMost marketing teams still measure visibility the same way they always have: rankings, click-through rates,...</p>
+            <a href="news/the-ai-visibility-gap-why-great-brands-disappear-from-ai-answers.html" class="read-more">Read Full Article</a>
+        </div>
+        <div class="news-card">
+            <img src="https://image.pollinations.ai/prompt/Disabling%20Apple%20Intelligence%20Just%20Got%20Harder%20With%20iOS%2027.%20Here%E2%80%99s%20How%20to%20Opt%20Out%20technology%20futuristic%20high%20quality%20realistic?width=800&height=400&nologo=true" alt="News Image">
+            <h3>Disabling Apple Intelligence Just Got Harder With iOS 27. Here’s How to Opt Out</h3>
+            <p>Since Apple Intelligence is all about Siri AI now, here’s what you need to know to de-AI your iPhone.</p>
+            <a href="news/disabling-apple-intelligence-just-got-harder-with-ios-27-heres-how-to-opt-out.html" class="read-more">Read Full Article</a>
+        </div>
+        <div class="news-card">
+            <img src="https://image.pollinations.ai/prompt/What%20execs%20and%20politicians%20are%20saying%20about%20slowing%20down%20AI%20development%20technology%20futuristic%20high%20quality%20realistic?width=800&height=400&nologo=true" alt="News Image">
+            <h3>What execs and politicians are saying about slowing down AI development</h3>
+            <p>Dario Amodei kicked off a flood of statements over the past few days about AI safety by publishing a long essay titled "We Must Pa...</p>
+            <a href="news/what-execs-and-politicians-are-saying-about-slowing-down-ai-development.html" class="read-more">Read Full Article</a>
+        </div>
+        <div class="news-card">
+            <img src="https://image.pollinations.ai/prompt/OpenAI%20stuck%20fighting%20Musk%20antitrust%20suit%20after%20Apple%20finds%20a%20way%20out%20technology%20futuristic%20high%20quality%20realistic?width=800&height=400&nologo=true" alt="News Image">
+            <h3>OpenAI stuck fighting Musk antitrust suit after Apple finds a way out</h3>
+            <p>Musk stops attacking Apple over ChatGPT integration but not OpenAI.</p>
+            <a href="news/openai-stuck-fighting-musk-antitrust-suit-after-apple-finds-a-way-out.html" class="read-more">Read Full Article</a>
+        </div>
+        <div class="news-card">
+            <img src="https://image.pollinations.ai/prompt/How%20to%20force%20quit%20on%20your%20Windows%20PC%20technology%20futuristic%20high%20quality%20realistic?width=800&height=400&nologo=true" alt="News Image">
+            <h3>How to force quit on your Windows PC</h3>
+            <p>If you're switching from a Mac or new to Windows, knowing how to 'force quit' an app can be confusing. Luckily, there are a number...</p>
+            <a href="news/how-to-force-quit-on-your-windows-pc.html" class="read-more">Read Full Article</a>
+        </div>
+        <div class="news-card">
+            <img src="https://image.pollinations.ai/prompt/NFL%20betting%20growth%20stalls%20as%20prediction%20markets%20expand%20across%20United%20States%20technology%20futuristic%20high%20quality%20realistic?width=800&height=400&nologo=true" alt="News Image">
+            <h3>NFL betting growth stalls as prediction markets expand across United States</h3>
+            <p>Americans are projected to legally bet $29.5 billion on the 2026 NFL season through regulated commercial sportsbooks, according to...</p>
+            <a href="news/nfl-betting-growth-stalls-as-prediction-markets-expand-across-united-states.html" class="read-more">Read Full Article</a>
+        </div>
+        <div class="news-card">
+            <img src="https://image.pollinations.ai/prompt/Nvidia%E2%80%99s%20Jensen%20Huang%20Gets%20Onstage%20Call%20From%20Trump%2C%20Who%20Dismissed%20A.I.%20Safety%20Concerns%20technology%20futuristic%20high%20quality%20realistic?width=800&height=400&nologo=true" alt="News Image">
+            <h3>Nvidia’s Jensen Huang Gets Onstage Call From Trump, Who Dismissed A.I. Safety Concerns</h3>
+            <p>Mr. Trump called Jensen Huang, Nvidia’s chief executive, while Mr. Huang was onstage in Los Angeles and criticized calls to slow d...</p>
+            <a href="news/nvidias-jensen-huang-gets-onstage-call-from-trump-who-dismissed-ai-safety-concerns.html" class="read-more">Read Full Article</a>
+        </div>
+        <div class="news-card">
+            <img src="https://image.pollinations.ai/prompt/What%20Anthropic%20CEO%20Dario%20Amodei%20Argued%20in%20His%20Call%20for%20AI%20Slowdown%20technology%20futuristic%20high%20quality%20realistic?width=800&height=400&nologo=true" alt="News Image">
+            <h3>What Anthropic CEO Dario Amodei Argued in His Call for AI Slowdown</h3>
+            <p>Dario Amodei’s 3,800-word letter laid out a three-step plan to rein in artificial intelligence.</p>
+            <a href="news/what-anthropic-ceo-dario-amodei-argued-in-his-call-for-ai-slowdown.html" class="read-more">Read Full Article</a>
+        </div>
+        <div class="news-card">
+            <img src="https://image.pollinations.ai/prompt/What%20is%20AI%2C%20how%20does%20it%20work%20and%20why%20are%20some%20people%20concerned%20about%20it%3F%20technology%20futuristic%20high%20quality%20realistic?width=800&height=400&nologo=true" alt="News Image">
+            <h3>What is AI, how does it work and why are some people concerned about it?</h3>
+            <p>AI is transforming modern life, but not without worry for some that it may be abused or have an adverse environmental impact.</p>
+            <a href="news/what-is-ai-how-does-it-work-and-why-are-some-people-concerned-about-it.html" class="read-more">Read Full Article</a>
+        </div>
+        <div class="news-card">
+            <img src="https://image.pollinations.ai/prompt/31%2C000%20Twitch%20users%20hit%20by%20malicious%20browser%20extension%20%E2%80%94%20OAuth%20tokens%20leaked%20via%20Russian%20proxy%20network%20technology%20futuristic%20high%20quality%20realistic?width=800&height=400&nologo=true" alt="News Image">
+            <h3>31,000 Twitch users hit by malicious browser extension — OAuth tokens leaked via Russian proxy network</h3>
+            <p>The extension has since been updated to remove the OAuth exfil.</p>
+            <a href="news/31000-twitch-users-hit-by-malicious-browser-extension--oauth-tokens-leaked-via-russian-proxy-network.html" class="read-more">Read Full Article</a>
+        </div>
+        <div class="news-card">
+            <img src="https://image.pollinations.ai/prompt/The%20Best%20Air%20Purifier%20of%202026%3A%20Tested%20Picks%20for%20Every%20Room%20technology%20futuristic%20high%20quality%20realistic?width=800&height=400&nologo=true" alt="News Image">
+            <h3>The Best Air Purifier of 2026: Tested Picks for Every Room</h3>
+            <p>Protect your home against dust, pets, allergens, and more with the best air purifiers, tested firsthand.</p>
+            <a href="news/the-best-air-purifier-of-2026-tested-picks-for-every-room.html" class="read-more">Read Full Article</a>
+        </div>
+        <div class="news-card">
+            <img src="https://image.pollinations.ai/prompt/Meta%20says%20Muse%20Spark%201.3%20has%20frontier%20performance%20%E2%80%94%20but%20its%20best%20results%20come%20from%20a%20model%20developers%20can%E2%80%99t%20broadly%20use%20yet%20technology%20futuristic%20high%20quality%20realistic?width=800&height=400&nologo=true" alt="News Image">
+            <h3>Meta says Muse Spark 1.3 has frontier performance — but its best results come from a model developers can’t broadly use yet</h3>
+            <p><p>Meta’s newest AI model Muse Spark 1.3, <a href="https://research.meta.ai/blog/introducing-muse-spark-1-3">unveiled yesterday</a...</p>
+            <a href="news/meta-says-muse-spark-13-has-frontier-performance--but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet.html" class="read-more">Read Full Article</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Trendify News Pipeline. Built & Automated by <span>Muhammad Mateen Arshad</span>.</p>
+    </footer>
+</body>
+</html>

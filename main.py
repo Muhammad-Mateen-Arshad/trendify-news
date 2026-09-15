@@ -1,0 +1,268 @@
+import time
+import os
+import feedparser
+import random
+import urllib.parse
+import smtplib
+from email.mime.text import MIMEText
+from datetime import datetime
+import re  
+from google import genai
+
+# ==========================================
+# CONFIGURATION & PASSWORDS
+# ==========================================
+# 🌟 5 API KEYS SYSTEM (5 alag Gmail accounts ki keys)
+GEMINI_API_KEYS = [
+    "first key here",
+    "second key ", 
+    "Thord key here",
+    "fourth key",
+    "fifth key"
+]
+CURRENT_KEY_INDEX = 0
+client = genai.Client(api_key=GEMINI_API_KEYS[CURRENT_KEY_INDEX])
+MODEL_NAME = 'gemini-3.6-flash' 
+
+GMAIL_SENDER = "mateenarshad877@gmail.com" 
+GMAIL_APP_PASSWORD = "app password here" 
+GMAIL_RECEIVER = "mateenarshad877@gmail.com" 
+
+RSS_FEEDS = [
+    "http://feeds.bbci.co.uk/news/technology/rss.xml",
+    "https://techcrunch.com/feed/",
+    "https://www.wired.com/feed/rss",
+    "https://mashable.com/feeds/rss/all",
+    "https://www.theverge.com/rss/index.xml",
+    "http://feeds.arstechnica.com/arstechnica/index",
+    "https://www.engadget.com/rss.xml",
+    "https://gizmodo.com/rss",
+    "https://www.zdnet.com/news/rss.xml",
+    "https://feeds.feedburner.com/venturebeat/SZYF",
+    "https://readwrite.com/feed/",
+    "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
+    "https://www.cnet.com/rss/news/",
+    "https://www.techradar.com/rss",
+    "https://www.technologyreview.com/feed/"
+]
+
+# ==========================================
+# MODULE: LOGGER, EMAIL & DASHBOARD ALERTS
+# ==========================================
+def add_log(status_type, message):
+    current_time = datetime.now().strftime("%Y-%m-%d %I:%M:%S %p")
+    log_folder = "logs"
+    if not os.path.exists(log_folder):
+        os.makedirs(log_folder)
+    file_path = os.path.join(log_folder, "system.log")
+    log_entry = f"[{current_time}] [{status_type}] {message}\n"
+    try:
+        with open(file_path, "a", encoding="utf-8") as f:
+            f.write(log_entry)
+    except Exception:
+        pass
+
+def update_dashboard(status, message):
+    current_time = datetime.now().strftime("%B %d, %Y - %I:%M %p")
+    
+    if status == "SUCCESS":
+        log_html = f"""<!-- NEW_LOG_HERE -->
+        <div class="log-card">
+            <div class="log-left">
+                <span class="status-badge">✔ PUBLISHED</span>
+                <span class="log-title">{message}</span>
+            </div>
+            <span class="log-time">🕒 {current_time}</span>
+        </div>"""
+    else:
+        log_html = f"""<!-- NEW_LOG_HERE -->
+        <div class="log-card" style="border-left-color: #ff3333;">
+            <div class="log-left">
+                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ ERROR</span>
+                <span class="log-title" style="color: #ff8888;">{message}</span>
+            </div>
+            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 {current_time}</span>
+        </div>"""
+    
+    try:
+        with open("system-logs.html", "r", encoding="utf-8") as f:
+            content = f.read()
+        with open("system-logs.html", "w", encoding="utf-8") as f:
+            f.write(content.replace("<!-- NEW_LOG_HERE -->", log_html))
+    except Exception as e:
+        pass
+
+def send_error_email(error_msg):
+    print("📧 Alert Email bhej raha hoon...")
+    try:
+        msg = MIMEText(f"Assalam o Alaikum Mateen Bhai,\n\nTrendify bot mein ek error aaya hai. Details yeh hain:\n\n{error_msg}\n\nJaldi check karein!")
+        msg['Subject'] = '⚠️ Trendify Bot Alert - System Error'
+        msg['From'] = GMAIL_SENDER
+        msg['To'] = GMAIL_RECEIVER
+
+        server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
+        server.login(GMAIL_SENDER, GMAIL_APP_PASSWORD)
+        server.sendmail(GMAIL_SENDER, GMAIL_RECEIVER, msg.as_string())
+        server.quit()
+    except Exception as e:
+        print(f"📧 Email Error: {e}")
+
+# ==========================================
+# MODULE A: SCRAPER & AI IMAGE GENERATOR
+# ==========================================
+def scrape_unposted_news():
+    if not os.path.exists("posted.txt"):
+        open("posted.txt", "w").close()
+        
+    with open("posted.txt", "r", encoding="utf-8") as f:
+        posted_history = f.read().splitlines()
+
+    random.shuffle(RSS_FEEDS) 
+    
+    for feed_url in RSS_FEEDS:
+        try:
+            feed = feedparser.parse(feed_url)
+            for entry in feed.entries[:10]:
+                if entry.title not in posted_history:
+                    with open("posted.txt", "a", encoding="utf-8") as f:
+                        f.write(entry.title + "\n")
+                    
+                    image_prompt = entry.title + " technology futuristic high quality realistic"
+                    encoded_prompt = urllib.parse.quote(image_prompt)
+                    ai_generated_image_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=800&height=400&nologo=true"
+                    
+                    return {
+                        "title": entry.title,
+                        "raw_text": entry.summary,
+                        "image_url": ai_generated_image_url
+                    }
+        except Exception as e:
+            continue
+    return None
+
+# ==========================================
+# MODULE B: REAL AI CONTENT (5-KEY AUTO-ROTATOR)
+# ==========================================
+def generate_ai_article(title, raw_text):
+    global CURRENT_KEY_INDEX, client
+    
+    prompt = f"""
+    You are an expert tech journalist and SEO content writer. Write a highly engaging, 400-word news article based on this news:
+    Title: {title}\nSummary: {raw_text}\n
+    Requirements: Format entirely in HTML (no ```html tags, no <html> or <body> tags). Use <p>, <h3 style="color: #FFD700; margin-top: 30px;"> and <ul>.
+    """
+    
+    # 5 keys ki bari
+    for _ in range(len(GEMINI_API_KEYS)):
+        try:
+            response = client.models.generate_content(model=MODEL_NAME, contents=prompt)
+            return response.text.replace("```html", "").replace("```", "")
+        except Exception as e:
+            error_msg = str(e)
+            if "429" in error_msg or "RESOURCE_EXHAUSTED" in error_msg:
+                print(f"⚠️ Key {CURRENT_KEY_INDEX + 1} ki limit khatam. Dusri key par shift kar raha hoon...")
+                add_log("WARNING", f"Key {CURRENT_KEY_INDEX + 1} hit 429 Limit. Switching key...")
+                
+                # Math magic: 0->1->2->3->4->0
+                CURRENT_KEY_INDEX = (CURRENT_KEY_INDEX + 1) % len(GEMINI_API_KEYS)
+                client = genai.Client(api_key=GEMINI_API_KEYS[CURRENT_KEY_INDEX])
+                time.sleep(2) 
+            else:
+                raise Exception(f"AI Generation Failed: {error_msg}")
+                
+    # Agar 5 ki 5 keys 429 de dein
+    raise Exception("Sari 5 API keys ki limit khatam ho chuki hai! (429)")
+
+# ==========================================
+# MODULE C: CLEAN TEMPLATE BUILDER 
+# ==========================================
+def build_html_page(title, image_url, ai_content):
+    safe_title = "".join(x for x in title if x.isalnum() or x.isspace())
+    file_name = safe_title.lower().replace(" ", "-") + ".html"
+    current_time = datetime.now().strftime("%B %d, %Y at %I:%M %p")
+    
+    news_folder = "news"
+    if not os.path.exists(news_folder):
+        os.makedirs(news_folder)
+        
+    file_path = os.path.join(news_folder, file_name)
+    
+    with open("article_template.html", "r", encoding="utf-8") as f:
+        html_template = f.read()
+        
+    final_html = html_template.replace("{{TITLE}}", title).replace("{{IMAGE_URL}}", image_url).replace("{{CURRENT_TIME}}", current_time).replace("{{AI_CONTENT}}", ai_content)
+
+    with open(file_path, "w", encoding="utf-8") as file:
+        file.write(final_html)
+        
+    return file_name
+
+# ==========================================
+# MODULE D: POSTER 
+# ==========================================
+def update_main_pages(title, image_url, file_name, raw_text):
+    clean_text = re.sub(r'<[^>]+>', '', raw_text).strip()
+    hook_text = clean_text[:130] + "..." if len(clean_text) > 130 else clean_text
+    
+    new_card_html = f"""<!-- NEW_CARD_HERE -->
+        <div class="news-card">
+            <img src="{image_url}" alt="News Image">
+            <h3>{title}</h3>
+            <p>{hook_text}</p>
+            <a href="news/{file_name}" class="read-more">Read Full Article</a>
+        </div>"""
+        
+    for page in ["index.html", "articles.html"]:
+        try:
+            with open(page, "r", encoding="utf-8") as f:
+                content = f.read()
+            with open(page, "w", encoding="utf-8") as f:
+                f.write(content.replace("<!-- NEW_CARD_HERE -->", new_card_html))
+        except:
+            pass
+
+# ==========================================
+# 🚀 INFINITE NON-STOP LOOP
+# ==========================================
+def run_infinite_pipeline():
+    print("🔥 INFINITE PIPELINE STARTED! System ab rukega nahi...\n")
+    add_log("INFO", "System Started.")
+    
+    while True:
+        try:
+            news = scrape_unposted_news()
+            
+            if news:
+                print(f"🤖 AI Article likh raha hai: {news['title']}")
+                article = generate_ai_article(news["title"], news["raw_text"])
+                file_name = build_html_page(news["title"], news["image_url"], article)
+                
+                if file_name:
+                    update_main_pages(news["title"], news["image_url"], file_name, news["raw_text"])
+                    
+                    add_log("SUCCESS", f"Published: {news['title']}")
+                    update_dashboard("SUCCESS", news["title"])
+                    print(f"🎉 SUCCESS! Nayi khabar post ho gayi aur Dashboard update ho gaya.")
+                    
+                print("⏳ Agli khabar ke liye 15 minute wait kar raha hoon...\n")
+                time.sleep(900) 
+            else:
+                print("⏳ Nayi khabar nahi mili, 1 ghanta wait kar raha hoon...\n")
+                time.sleep(3600)
+                
+        except Exception as e:
+            error_details = str(e)
+            
+            if "429" in error_details or "RESOURCE_EXHAUSTED" in error_details:
+                print("⏳ Sari 5 keys ki limit hit ho gayi. 30 minute wait kar raha hoon...")
+                add_log("WARNING", "All 5 API Keys Exhausted. Resting for 30 mins.")
+                time.sleep(1800) # 30 minute ka lamba wait
+            else:
+                print(f"❌ Crash se bach gaya! Error: {error_details}")
+                add_log("ERROR", error_details)
+                update_dashboard("ERROR", error_details)
+                send_error_email(error_details)
+                time.sleep(120) 
+
+if __name__ == "__main__":
+    run_infinite_pipeline()

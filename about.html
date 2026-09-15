@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Trendify News</title>
+    <style>
+        body { background-color: #050505; color: #ffffff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; overflow-x: hidden; }
+        
+        .durood-marquee { width: 100%; background: #000000; color: #FFD700; overflow: hidden; padding: 10px 0; font-family: 'Amiri', 'Arial', sans-serif; position: relative; height: 35px; border-bottom: 1px solid #111; }
+        .marquee-content { position: absolute; white-space: nowrap; font-size: 1.4em; animation: scrollDuroodLR 30s linear infinite; }
+        @keyframes scrollDuroodLR { 0% { transform: translateX(-100%); left: 0; } 100% { transform: translateX(0); left: 100vw; } }
+
+        header { text-align: center; padding: 30px 20px; background: #0a0a0a; border-bottom: 2px solid #00ffcc; box-shadow: 0 4px 15px rgba(0, 255, 204, 0.1); }
+        h1 { color: #00ffcc; font-size: 2.8em; margin: 0; text-shadow: 0 0 15px rgba(0, 255, 204, 0.4); }
+        
+        nav { text-align: center; padding: 15px; background: #0a0a0a; }
+        nav a { color: #00ffcc; text-decoration: none; margin: 0 15px; font-size: 1.1em; font-weight: bold; transition: all 0.3s; }
+        nav a:hover, nav a.active { color: #fff; text-shadow: 0 0 10px #00ffcc; }
+
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        
+        .about-container { max-width: 800px; margin: 50px auto; padding: 40px; background: #111; border-top: 1px solid #222; border-right: 1px solid #222; border-bottom: 1px solid #222; border-left: 5px solid #00ffcc; border-radius: 12px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8); animation: fadeIn 0.8s ease-out; }
+        .about-container h2 { color: #00ffcc; font-size: 2.2em; margin-top: 0; border-bottom: 1px solid #222; padding-bottom: 15px; }
+        .about-container p, .about-container ul { color: #cccccc; line-height: 1.8; font-size: 1.15em; margin-bottom: 20px; }
+        .about-container span.highlight { color: #FFD700; font-weight: bold; background: rgba(255, 215, 0, 0.1); padding: 2px 5px; border-radius: 3px; }
+
+        footer { text-align: center; padding: 20px; color: #777; border-top: 1px solid #222; margin-top: 50px; background: #0a0a0a; clear: both; width: 100%; }
+        footer span { color: #00ffcc; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="durood-marquee">
+        <div class="marquee-content" dir="rtl">
+            ۞ اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ ۞ اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ ۞
+        </div>
+    </div>
+
+    <header>
+        <h1>System Overview</h1>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="articles.html">Articles</a>
+        <a href="about.html" class="active">About</a>
+    </nav>
+    
+    <div class="about-container">
+        <h2>Welcome to the Future of News</h2>
+        <p>Trendify News is a <span class="highlight">fully automated, 100% AI-driven news aggregation pipeline</span> built to deliver global updates in real-time.</p>
+        <p>Developed by <span class="highlight">Muhammad Mateen Arshad</span>, this platform utilizes cutting-edge automation technologies:</p>
+        <ul>
+            <li><strong>Python Scrapers:</strong> Constantly monitoring 15 top global RSS feeds.</li>
+            <li><strong>Google Gemini AI:</strong> Processing and restructuring content flawlessly.</li>
+            <li><strong>AI Visuals:</strong> Auto-generating context-aware imagery.</li>
+            <li><strong>Infinite Loop:</strong> Operating 24/7 autonomously.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Trendify News Pipeline. Built & Automated by <span>Muhammad Mateen Arshad</span>.</p>
+    </footer>
+</body>
+</html>
