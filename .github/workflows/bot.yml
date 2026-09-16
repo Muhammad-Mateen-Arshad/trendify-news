@@ -21,7 +21,7 @@ jobs:
           python-version: '3.10'
 
       - name: Install Libraries
-        run: pip install feedparser google-genai
+        run: pip install feedparser google-genai requests tweepy
 
       - name: Run Trendify Bot
         env:
@@ -30,6 +30,10 @@ jobs:
           GEMINI_KEY_3: ${{ secrets.GEMINI_KEY_3 }}
           GEMINI_KEY_4: ${{ secrets.GEMINI_KEY_4 }}
           GEMINI_KEY_5: ${{ secrets.GEMINI_KEY_5 }}
+          TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+          TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: python main.py
