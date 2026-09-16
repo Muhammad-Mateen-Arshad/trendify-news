@@ -1,5 +1,6 @@
 import time
 import os
+import requests
 import feedparser
 import random
 import urllib.parse
@@ -55,6 +56,34 @@ RSS_FEEDS = [
     "https://www.techradar.com/rss",
     "https://www.technologyreview.com/feed/"
 ]
+
+def send_telegram_message(title):
+    token = os.environ.get("TELEGRAM_TOKEN")
+    if not token:
+        print("⚠️ Telegram Token nahi mila!")
+        return
+    
+    channel_id = "@trendify_news_live"
+    website_url = "https://Muhammad-Mateen-Arshad.github.io/trendify-news/"
+    
+    # Catchy Message for Telegram
+    message = f"🚨 *LATEST NEWS UPDATE* 🚨\n\n⚡ {title}\n\n👇 Read the full story now:\n{website_url}"
+    
+    url = f"https://api.telegram.org/bot{token}/sendMessage"
+    payload = {
+        "chat_id": channel_id,
+        "text": message,
+        "parse_mode": "Markdown"
+    }
+    
+    try:
+        response = requests.post(url, json=payload)
+        if response.status_code == 200:
+            print("🚀 Telegram par khabar automatically post ho gayi!")
+        else:
+            print(f"⚠️ Telegram Error: {response.text}")
+    except Exception as e:
+        print(f"⚠️ Telegram Exception: {e}")
 
 # ==========================================
 # MODULE: LOGGER, EMAIL & DASHBOARD ALERTS
@@ -252,6 +281,8 @@ def run_single_pipeline():
                 add_log("SUCCESS", f"Published: {news['title']}")
                 update_dashboard("SUCCESS", news["title"])
                 print("🎉 SUCCESS! Nayi khabar post ho gayi.")
+                # Telegram par bhejne ke liye
+                send_telegram_message(title)
         else:
             print("⏳ Koi nayi khabar nahi mili.")
     except Exception as e:
