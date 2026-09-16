@@ -9,6 +9,7 @@ from email.mime.text import MIMEText
 from datetime import datetime
 import re  
 from google import genai
+import tweepy
 
 # ==========================================
 # CONFIGURATION & PASSWORDS (GITHUB SECRETS)
@@ -84,6 +85,58 @@ def send_telegram_message(title):
             print(f"⚠️ Telegram Error: {response.text}")
     except Exception as e:
         print(f"⚠️ Telegram Exception: {e}")
+
+def send_twitter_message(title, file_name):
+    # --- 🛡️ Daily Limit Check (Max 40 Posts/Day) ---
+    today_date = datetime.now().strftime("%Y-%m-%d")
+    count_file = "tweet_count.txt"
+    current_count = 0
+    
+    if os.path.exists(count_file):
+        try:
+            with open(count_file, "r", encoding="utf-8") as f:
+                data = f.read().strip().split(":")
+                if len(data) == 2 and data[0] == today_date:
+                    current_count = int(data[1])
+        except Exception:
+            pass
+            
+    if current_count >= 40:
+        print("⚠️ Aaj ki 40 posts ki limit poori ho gayi. Twitter Safe Mode ON (Tweet skipped).")
+        return
+
+    # --- 🐦 Twitter API Setup ---
+    api_key = os.environ.get("TWITTER_API_KEY")
+    api_secret = os.environ.get("TWITTER_API_SECRET")
+    access_token = os.environ.get("TWITTER_ACCESS_TOKEN")
+    access_secret = os.environ.get("TWITTER_ACCESS_SECRET")
+
+    if not api_key:
+        print("⚠️ Twitter Keys nahi milin!")
+        return
+
+    # Direct article ka link
+    website_url = f"https://Muhammad-Mateen-Arshad.github.io/trendify-news/news/{file_name}"
+    
+    # Tweet ka Text
+    tweet_text = f"🚨 LATEST TECH NEWS 🚨\n\n⚡ {title}\n\n👇 Read full story here:\n{website_url}\n\n#TechNews #AI #Trendify"
+
+    try:
+        client = tweepy.Client(
+            consumer_key=api_key,
+            consumer_secret=api_secret,
+            access_token=access_token,
+            access_token_secret=access_secret
+        )
+        client.create_tweet(text=tweet_text)
+        print("🐦 Twitter par post kamyab!")
+        
+        # Limit count ko update karein
+        with open(count_file, "w", encoding="utf-8") as f:
+            f.write(f"{today_date}:{current_count + 1}")
+            
+    except Exception as e:
+        print(f"⚠️ Twitter Error: {e}")
 
 # ==========================================
 # MODULE: LOGGER, EMAIL & DASHBOARD ALERTS
@@ -283,6 +336,8 @@ def run_single_pipeline():
                 print("🎉 SUCCESS! Nayi khabar post ho gayi.")
                # Telegram par bhejne ke liye
                 send_telegram_message(news["title"])
+                # Twitter par bhejne ke liye
+                send_twitter_message(news["title"], file_name)
         else:
             print("⏳ Koi nayi khabar nahi mili.")
     except Exception as e:
