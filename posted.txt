@@ -128,3 +128,4 @@ Building the materials foundation for AI
 Microsoft says AI rival Anthropic could have 'disastrous impact' on humanity
 The AI data center e-waste problem is huge — and getting bigger
 Anthropic merges Claude chat and Cowork into one
+Apple's redesigned Health app is available now in the iOS 27.2 developer beta
