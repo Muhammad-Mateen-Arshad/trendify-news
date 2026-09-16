@@ -281,8 +281,8 @@ def run_single_pipeline():
                 add_log("SUCCESS", f"Published: {news['title']}")
                 update_dashboard("SUCCESS", news["title"])
                 print("🎉 SUCCESS! Nayi khabar post ho gayi.")
-                # Telegram par bhejne ke liye
-                send_telegram_message(title)
+               # Telegram par bhejne ke liye
+                send_telegram_message(news["title"])
         else:
             print("⏳ Koi nayi khabar nahi mili.")
     except Exception as e:
