@@ -211,3 +211,5 @@
 [2026-09-17 11:04:28 AM] [SUCCESS] Published: AI is changing discovery. What does that mean for your business?
 [2026-09-17 11:19:26 AM] [SUCCESS] Published: Soundboks Rider Party Speaker Review: Loud and Durable
 [2026-09-17 11:34:18 AM] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-09-17 11:49:12 AM] [WARNING] Key 1 hit 429 Limit. Switching key...
+[2026-09-17 11:49:25 AM] [SUCCESS] Published: On ‘Cupertino,’ Robert and Michelle King Go Online
