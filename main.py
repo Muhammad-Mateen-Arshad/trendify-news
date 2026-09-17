@@ -86,9 +86,22 @@ def send_telegram_message(title):
     except Exception as e:
         print(f"⚠️ Telegram Exception: {e}")
 
+import os
+import requests 
+
 def send_to_make_webhook(title, file_name):
+    # --- 🛡️ Duplicate Check (Bot ki Yaadasht) ---
+    history_file = "posted_history.txt"
+    
+    # Check karte hain ke kya yeh file pehle se history mein hai?
+    if os.path.exists(history_file):
+        with open(history_file, "r", encoding="utf-8") as f:
+            if file_name in f.read():
+                print(f"⏩ Yeh khabar Twitter par pehle hi ja chuki hai (Skipping): {title}")
+                return
+
     # 👇 Yahan in commas ke andar apna Make.com ka Webhook link paste karein
-    webhook_url = "https://hook.us2.make.com/oh9njxe3rrwa9mg9sx462q9pphnwca82"
+    webhook_url = "YAHAN_APNA_MAKE_WEBHOOK_LINK_PASTE_KAREIN"
     
     # Direct article ka link
     website_url = f"https://Muhammad-Mateen-Arshad.github.io/trendify-news/news/{file_name}"
@@ -96,15 +109,20 @@ def send_to_make_webhook(title, file_name):
     # Tweet ka Text
     tweet_text = f"🚨 LATEST TECH NEWS 🚨\n\n⚡ {title}\n\n👇 Read full story here:\n{website_url}\n\n#TechNews #AI #Trendify"
 
-    # Data jo Make.com ko jayega
     payload = {
         "text": tweet_text
     }
 
     try:
         response = requests.post(webhook_url, json=payload)
-        if response.status_code == 200:
+        # Agar kamyabi se post ho gaya, toh history mein likh do
+        if response.status_code == 200 or response.status_code == 201 or response.text.lower() == "accepted":
             print("✅ Make.com Webhook par data kamyabi se chala gaya!")
+            
+            # File ka naam history mein save kar lein
+            with open(history_file, "a", encoding="utf-8") as f:
+                f.write(file_name + "\n")
+                
         else:
             print(f"⚠️ Webhook Error: {response.status_code} - {response.text}")
     except Exception as e:
