@@ -150,3 +150,4 @@ Windows 11 out-of-band update fixes audio glitch and other bugs – grab it now
 iOS 27 is finally here, with the new Siri AI beta – and 120 security patches
 OpenAI reveals six more safety issues and unveils plan to disclose incidents
 Meet Dyson's New Robot Vacuum Line: The Dyson Nurovi Line (2026)
+Judge Orders Data Sharing and Other Fixes to Solve Google’s Ad Tech Monopoly
