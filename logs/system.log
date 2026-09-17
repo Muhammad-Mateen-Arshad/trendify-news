@@ -157,3 +157,4 @@
 [2026-09-17 12:49:12 AM] [WARNING] Key 1 hit 429 Limit. Switching key...
 [2026-09-17 12:49:27 AM] [SUCCESS] Published: I’ve used both iPhone 18 Pro models – here’s how my buying advice is changing in 2026
 [2026-09-17 01:04:21 AM] [SUCCESS] Published: Apple reportedly building server packed with M-series Ultra chips for AI
+[2026-09-17 01:19:10 AM] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
