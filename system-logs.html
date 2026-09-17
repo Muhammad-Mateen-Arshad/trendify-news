@@ -52,6 +52,54 @@
     </header>
     
     <div class="dashboard-container">
+    <!-- 🛑 BOT CONTROL PANEL (Logs ke upar paste karein) 🛑 -->
+<div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #ddd; text-align: center;">
+    <h3 style="margin-top: 0;">⚙️ System Control</h3>
+    <input type="password" id="secret_token" placeholder="Enter GitHub Secret Token" style="padding: 10px; width: 250px; border: 1px solid #ccc; border-radius: 4px;">
+    
+    <button onclick="controlBot('enable')" style="background: #28a745; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px; font-weight: bold;">🟢 Turn ON</button>
+    <button onclick="controlBot('disable')" style="background: #dc3545; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px; font-weight: bold;">🔴 Turn OFF</button>
+    
+    <p id="status-msg" style="margin-top: 15px; font-weight: bold;"></p>
+</div>
+
+<script>
+    function controlBot(action) {
+        const token = document.getElementById("secret_token").value;
+        const statusMsg = document.getElementById("status-msg");
+        
+        if (!token) { 
+            statusMsg.innerHTML = "<span style='color:red;'>⚠️ Please enter your Secret Token first!</span>"; 
+            return; 
+        }
+        
+        // GitHub Details
+        const owner = "Muhammad-Mateen-Arshad";
+        const repo = "trendify-news";
+        const workflow_id = "bot.yml"; // Agar workflow ka naam kuch aur hai toh yahan badal lein
+
+        statusMsg.innerHTML = "<span style='color:blue;'>⏳ Processing...</span>";
+        
+        fetch(`https://api.github.com/repos/${owner}/${repo}/actions/workflows/${workflow_id}/${action}`, {
+            method: "PUT",
+            headers: { 
+                "Authorization": `Bearer ${token}`, 
+                "Accept": "application/vnd.github.v3+json" 
+            }
+        })
+        .then(res => {
+            if(res.status === 204) {
+                statusMsg.innerHTML = action === 'enable' ? "<span style='color:green;'>✅ System is Live!</span>" : "<span style='color:red;'>⏸️ System Stopped!</span>";
+            } else {
+                statusMsg.innerHTML = "<span style='color:red;'>❌ Error: Token galat hai ya permission nahi hai.</span>";
+            }
+        }).catch(err => {
+            statusMsg.innerHTML = "<span style='color:red;'>❌ Network Error</span>";
+        });
+    }
+</script>
+<!-- 🛑 CONTROL PANEL END 🛑 -->
+        
         <!-- NEW_LOG_HERE -->
         <div class="log-card" style="border-left-color: #ff3333;">
             <div class="log-left">
