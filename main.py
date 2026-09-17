@@ -101,7 +101,7 @@ def send_to_make_webhook(title, file_name):
                 return
 
     # 👇 Yahan in commas ke andar apna Make.com ka Webhook link paste karein
-    webhook_url = "YAHAN_APNA_MAKE_WEBHOOK_LINK_PASTE_KAREIN"
+    webhook_url = "https://hook.us2.make.com/oh9njxe3rrwa9mg9sx462q9pphnwca82"
     
     # Direct article ka link
     website_url = f"https://Muhammad-Mateen-Arshad.github.io/trendify-news/news/{file_name}"
