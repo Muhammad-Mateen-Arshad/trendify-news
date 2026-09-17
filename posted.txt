@@ -176,3 +176,4 @@ Today’s NYT Mini Crossword Answers for Thursday, Sept. 17
 Uncontrolled AI could lead to 'silicon species' rivalling humans, warns Microsoft
 Your startup’s next teammate might be an AI agent: Gusto, Insight Partners, and Leland explain what that changes at TechCrunch Disrupt 2026
 Oversight Board says Meta's rules for AI deepfakes are 'consistently and fundamentally inadequate'
+Autonomous AI agent hit Spanish firm with vulnerability scans before accessing files and data
