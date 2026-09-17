@@ -90,12 +90,15 @@ import os
 import requests 
 
 def send_to_make_webhook(title, file_name):
-    # --- 🛑 Anti-Error Filter (503 / API Errors rokne ke liye) ---
-    forbidden_words = ["503", "error", "failed", "unavailable", "bad gateway"]
-    # Check karein agar title mein koi error word majood hai
-    if any(word in title.lower() for word in forbidden_words):
-        print(f"🛑 Kharab title rok liya gaya (Error detected): {title}")
-        return
+    webhook_url = "https://hook.us2.make.com/oh9njxe3rrwa9mg9sx462q9pphnwca82"
+    website_url = f"https://Muhammad-Mateen-Arshad.github.io/trendify-news/news/{file_name}"
+    
+    # 👇 Nayi line: Har tweet ke aakhir mein ek unique Ref ID lag jayegi
+    tweet_text = f"🚨 LATEST TECH NEWS 🚨\n\n⚡ {title}\n\n👇 Read full story here:\n{website_url}\n\n#TechNews #AI #Trendify\n[Ref: {int(time.time())}]"
+
+    payload = {
+        "text": tweet_text
+    }
 
     # --- 🛡️ Duplicate Check (Bot ki Yaadasht) ---
     history_file = "posted_history.txt"
