@@ -53,52 +53,269 @@
     
     <div class="dashboard-container">
     <!-- 🛑 BOT CONTROL PANEL (Logs ke upar paste karein) 🛑 -->
-<div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #ddd; text-align: center;">
-    <h3 style="margin-top: 0;">⚙️ System Control</h3>
-    <input type="password" id="secret_token" placeholder="Enter GitHub Secret Token" style="padding: 10px; width: 250px; border: 1px solid #ccc; border-radius: 4px;">
+<!-- 🛑 UPGRADED PROFESSIONAL BOT CONTROL DASHBOARD 🛑 -->
+<style>
+    /* Main Dashboard Styling */
+    #dashboard-container {
+        display: flex;
+        background: #f8f9fa;
+        padding: 0;
+        border-radius: 12px;
+        margin-bottom: 30px;
+        border: 1px solid #e1e4e8;
+        box-shadow: 0px 4px 15px rgba(0,0,0,0.05);
+        overflow: hidden;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Left Control Side */
+    #control-side {
+        flex: 1;
+        padding: 30px;
+        border-right: 1px solid #ddd;
+    }
+    #control-side h3 { margin-top: 0; color: #333; }
     
-    <button onclick="controlBot('enable')" style="background: #28a745; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px; font-weight: bold;">🟢 Turn ON</button>
-    <button onclick="controlBot('disable')" style="background: #dc3545; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px; font-weight: bold;">🔴 Turn OFF</button>
+    /* Token Input Styling */
+    #secret_token {
+        padding: 12px;
+        width: 100%;
+        max-width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 14px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+
+    /* General Button Styling */
+    .dashboard-btn {
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-right: 10px;
+        font-weight: bold;
+        font-size: 14px;
+        transition: background-color 0.2s, transform 0.1s;
+    }
+    .dashboard-btn:hover { transform: translateY(-1px); }
+    .dashboard-btn:active { transform: translateY(1px); }
+
+    /* ON Button Styling */
+    #btn-on { background-color: #28a745; border-bottom: 3px solid #1e7e34; }
+    #btn-on:hover { background-color: #218838; }
+
+    /* OFF Button Styling */
+    #btn-off { background-color: #dc3545; border-bottom: 3px solid #bd2130; }
+    #btn-off:hover { background-color: #c82333; }
+
+    /* Right Animation Side (Only Visible When ON) */
+    #animation-side {
+        flex: 1;
+        display: none; /* Default Hidden */
+        background-color: #0b0f19;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    /* Logic to show animation when body has 'system-active' class */
+    body.system-active #animation-side { display: flex; }
+
+    /* STATUS VISUAL INDICATOR */
+    #visual-status {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        padding: 10px 15px;
+        border-radius: 6px;
+        background: white;
+        border: 1px solid #ddd;
+        font-weight: bold;
+    }
+    #status-dot {
+        height: 15px; width: 15px;
+        border-radius: 50%;
+        margin-right: 10px;
+        background-color: #ccc; /* Disabled color */
+    }
     
-    <p id="status-msg" style="margin-top: 15px; font-weight: bold;"></p>
+    /* ON State Status */
+    body.system-active #status-dot {
+        background-color: #28a745;
+        box-shadow: 0 0 10px rgba(40, 167, 69, 0.7);
+        animation: status-pulse 1.5s infinite;
+    }
+    body.system-active #status-text { color: #28a745; }
+    body.system-active #status-text::after { content: " | System is now LIVE and Working!"; }
+    
+    /* OFF State Status */
+    body:not(.system-active) #status-text::after { content: " | System is currently SLEEPING."; }
+
+    @keyframes status-pulse { 0% { opacity: 0.7; } 50% { opacity: 1; } 100% { opacity: 0.7; } }
+
+    /* Process Message in Control Side */
+    #status-msg { margin-top: 20px; font-size: 14px; }
+
+    /* 👇 HEAVY COMPLEX DATA FLOW CSS ANIMATION (Right Side) 👇 */
+    .data-loader { position: relative; width: 120px; height: 120px; }
+    .data-loader div {
+        position: absolute;
+        width: 10px; height: 10px;
+        border-radius: 50%;
+        background: #00e676;
+        animation: data-flow 1.5s infinite;
+    }
+    
+    .data-loader div:nth-child(1) { top: 0; left: 0; animation-delay: 0s; }
+    .data-loader div:nth-child(2) { top: 0; left: 40px; animation-delay: 0.1s; }
+    .data-loader div:nth-child(3) { top: 0; left: 80px; animation-delay: 0.2s; }
+    .data-loader div:nth-child(4) { top: 0; left: 120px; animation-delay: 0.3s; }
+
+    .data-loader div:nth-child(5) { top: 40px; left: 120px; animation-delay: 0.4s; }
+    .data-loader div:nth-child(6) { top: 80px; left: 120px; animation-delay: 0.5s; }
+    .data-loader div:nth-child(7) { top: 120px; left: 120px; animation-delay: 0.6s; }
+    
+    .data-loader div:nth-child(8) { top: 120px; left: 80px; animation-delay: 0.7s; }
+    .data-loader div:nth-child(9) { top: 120px; left: 40px; animation-delay: 0.8s; }
+    .data-loader div:nth-child(10) { top: 120px; left: 0; animation-delay: 0.9s; }
+    
+    .data-loader div:nth-child(11) { top: 80px; left: 0; animation-delay: 1.0s; }
+    .data-loader div:nth-child(12) { top: 40px; left: 0; animation-delay: 1.1s; }
+    
+    .data-loader div:nth-child(13) { top: 60px; left: 60px; width: 15px; height: 15px; background: #28a745; animation: core-pulse 2s infinite ease-in-out; }
+
+    @keyframes data-flow {
+        0% { transform: scale(1); background: #00e676; opacity: 1; }
+        50% { transform: scale(0.6); background: #28a745; opacity: 0.5; }
+        100% { transform: scale(1); background: #00e676; opacity: 1; }
+    }
+    @keyframes core-pulse {
+        0% { transform: translate(-50%, -50%) scale(1); box-shadow: 0 0 10px rgba(40, 167, 69, 0.5); }
+        50% { transform: translate(-50%, -50%) scale(1.1); box-shadow: 0 0 25px rgba(40, 167, 69, 0.9); }
+        100% { transform: translate(-50%, -50%) scale(1); box-shadow: 0 0 10px rgba(40, 167, 69, 0.5); }
+    }
+    /* 👆 CONTROL PANEL ANIMATION END 👆 */
+
+</style>
+
+<div id="dashboard-container">
+    <!-- LEFT SIDE: CONTROLS -->
+    <div id="control-side">
+        <h3>🤖 Master Control Panel</h3>
+        <p style="font-size:13px; color:#666; margin-bottom:10px;">Enter your GitHub Token to control the bot.</p>
+        
+        <input type="password" id="secret_token" placeholder="Enter Your Secret Token Here">
+        
+        <br>
+        <button id="btn-on" class="dashboard-btn" onclick="controlBot('enable')">🟢 Turn ON Bot</button>
+        <button id="btn-off" class="dashboard-btn" onclick="controlBot('disable')">🔴 Turn OFF Bot</button>
+
+        <p id="status-msg"></p>
+
+        <!-- VISUAL STATUS INDICATOR IN CONTROL SIDE -->
+        <div id="visual-status">
+            <div id="status-dot"></div>
+            <span id="status-text">Status: Checking...</span>
+        </div>
+    </div>
+
+    <!-- RIGHT SIDE: HEAVY COMPLEX ANIMATION (Visible only when system is active) -->
+    <div id="animation-side">
+        <!-- Text Overlay -->
+        <div style="position:absolute; top:15px; left:15px; color:#00e676; font-size:12px; font-family:monospace; font-weight:bold;">> System Process: Active Data Stream...</div>
+        
+        <!-- Animated Elements -->
+        <div class="data-loader">
+            <div></div><div></div><div></div><div></div>
+            <div></div><div></div><div></div><div></div>
+            <div></div><div></div><div></div><div></div>
+            <div style="position: absolute; top: 60px; left: 60px;"></div> <!-- Center Core -->
+        </div>
+        
+        <div style="position:absolute; bottom:15px; left:15px; color:rgba(255,255,255,0.4); font-size:10px;">Awaiting bulk posting command...</div>
+    </div>
 </div>
 
 <script>
+    // GitHub Repository and Workflow Configuration
+    // 👇 Confirm this matches your .github/workflows/ file name 👇
+    const GITHUB_OWNER = "Muhammad-Mateen-Arshad";
+    const GITHUB_REPO = "trendify-news";
+    const WORKFLOW_ID = "bot.yml"; // <-- Ensure this is correct
+
+    // Function to update the visual UI based on state
+    function updateStateUI(state) {
+        if (state === 'active') {
+            document.body.classList.add('system-active');
+            localStorage.setItem('bot_active_state', 'active');
+        } else {
+            document.body.classList.remove('system-active');
+            localStorage.setItem('bot_active_state', 'inactive');
+        }
+        
+        const statusText = document.getElementById("status-text");
+        statusText.innerText = (state === 'active') ? "ON" : "OFF";
+    }
+
+    // ON PAGE LOAD: Check previous state from localStorage
+    document.addEventListener("DOMContentLoaded", () => {
+        const savedState = localStorage.getItem('bot_active_state');
+        if (savedState === 'active') {
+            updateStateUI('active');
+        } else {
+            updateStateUI('inactive');
+        }
+    });
+
+    // Main Control Function for ON/OFF Buttons
     function controlBot(action) {
         const token = document.getElementById("secret_token").value;
         const statusMsg = document.getElementById("status-msg");
-        
-        if (!token) { 
-            statusMsg.innerHTML = "<span style='color:red;'>⚠️ Please enter your Secret Token first!</span>"; 
-            return; 
-        }
-        
-        // GitHub Details
-        const owner = "Muhammad-Mateen-Arshad";
-        const repo = "trendify-news";
-        const workflow_id = "bot.yml"; // Agar workflow ka naam kuch aur hai toh yahan badal lein
 
-        statusMsg.innerHTML = "<span style='color:blue;'>⏳ Processing...</span>";
-        
-        fetch(`https://api.github.com/repos/${owner}/${repo}/actions/workflows/${workflow_id}/${action}`, {
+        if (!token) {
+            statusMsg.innerHTML = "<span style='color:red;'>⚠️ Please enter your Secret Token first!</span>";
+            return;
+        }
+
+        const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/${WORKFLOW_ID}/${action}`;
+
+        statusMsg.innerHTML = "<span style='color:blue;'>⏳ Sending request...</span>";
+
+        fetch(url, {
             method: "PUT",
-            headers: { 
-                "Authorization": `Bearer ${token}`, 
-                "Accept": "application/vnd.github.v3+json" 
+            headers: {
+                "Authorization": `Bearer ${token}`,
+                "Accept": "application/vnd.github.v3+json"
             }
         })
-        .then(res => {
-            if(res.status === 204) {
-                statusMsg.innerHTML = action === 'enable' ? "<span style='color:green;'>✅ System is Live!</span>" : "<span style='color:red;'>⏸️ System Stopped!</span>";
+        .then(response => {
+            if (response.status === 204) {
+                // Success: Update state and visual feedback
+                if (action === 'enable') {
+                    updateStateUI('active');
+                    statusMsg.innerHTML = "<span style='color:green;'>✅ Bot is now ON!</span>";
+                } else {
+                    updateStateUI('inactive');
+                    statusMsg.innerHTML = "<span style='color:red;'>⏸️ Bot has been TURNED OFF.</span>";
+                }
+                
+                // Keep token input for a session, but you can clear it for safety if you wish
+                // document.getElementById("secret_token").value = ""; 
             } else {
-                statusMsg.innerHTML = "<span style='color:red;'>❌ Error: Token galat hai ya permission nahi hai.</span>";
+                statusMsg.innerHTML = "<span style='color:red;'>❌ Error: Invalid Token or permissions. Check your setup.</span>";
+                console.log(response);
             }
-        }).catch(err => {
-            statusMsg.innerHTML = "<span style='color:red;'>❌ Network Error</span>";
+        })
+        .catch(error => {
+            statusMsg.innerHTML = "<span style='color:red;'>❌ Network Error.</span>";
+            console.error(error);
         });
     }
 </script>
-<!-- 🛑 CONTROL PANEL END 🛑 -->
+<!-- 🛑 UPGRADED DASHBOARD END 🛑 -->
         
         <!-- NEW_LOG_HERE -->
         <div class="log-card">
