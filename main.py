@@ -1,4 +1,5 @@
 import time
+from datatime import datetime
 import os
 import requests
 import feedparser
@@ -57,6 +58,29 @@ RSS_FEEDS = [
     "https://www.techradar.com/rss",
     "https://www.technologyreview.com/feed/"
 ]
+
+def update_rss(title, file_name):
+    website_url = f"https://Muhammad-Mateen-Arshad.github.io/trendify-news/news/{file_name}"
+    
+    # Simple RSS format jo sirf latest khabar dikhayega
+    rss_content = f"""<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Trendify News</title>
+  <link>https://Muhammad-Mateen-Arshad.github.io/trendify-news/</link>
+  <description>Latest Tech News Updates</description>
+  <item>
+    <title>{title}</title>
+    <link>{website_url}</link>
+    <pubDate>{datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S GMT')}</pubDate>
+  </item>
+</channel>
+</rss>"""
+
+    # rss.xml file root folder mein save hogi
+    with open("rss.xml", "w", encoding="utf-8") as f:
+        f.write(rss_content)
+    print("✅ RSS Feed Updated!")
 
 def send_telegram_message(title):
     token = os.environ.get("TELEGRAM_TOKEN")
@@ -285,6 +309,7 @@ def run_single_pipeline():
                 update_main_pages(news["title"], news["image_url"], file_name, news["raw_text"])
                 add_log("SUCCESS", f"Published: {news['title']}")
                 update_dashboard("SUCCESS", news["title"])
+                update_rss(news["title"], file_name)
                 print("🎉 SUCCESS! Nayi khabar post ho gayi.")
                # Telegram par bhejne ke liye
                 send_telegram_message(news["title"])
