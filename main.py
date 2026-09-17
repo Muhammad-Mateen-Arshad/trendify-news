@@ -90,10 +90,16 @@ import os
 import requests 
 
 def send_to_make_webhook(title, file_name):
+    # --- 🛑 Anti-Error Filter (503 / API Errors rokne ke liye) ---
+    forbidden_words = ["503", "error", "failed", "unavailable", "bad gateway"]
+    # Check karein agar title mein koi error word majood hai
+    if any(word in title.lower() for word in forbidden_words):
+        print(f"🛑 Kharab title rok liya gaya (Error detected): {title}")
+        return
+
     # --- 🛡️ Duplicate Check (Bot ki Yaadasht) ---
     history_file = "posted_history.txt"
     
-    # Check karte hain ke kya yeh file pehle se history mein hai?
     if os.path.exists(history_file):
         with open(history_file, "r", encoding="utf-8") as f:
             if file_name in f.read():
@@ -115,11 +121,10 @@ def send_to_make_webhook(title, file_name):
 
     try:
         response = requests.post(webhook_url, json=payload)
-        # Agar kamyabi se post ho gaya, toh history mein likh do
+        
         if response.status_code == 200 or response.status_code == 201 or response.text.lower() == "accepted":
             print("✅ Make.com Webhook par data kamyabi se chala gaya!")
             
-            # File ka naam history mein save kar lein
             with open(history_file, "a", encoding="utf-8") as f:
                 f.write(file_name + "\n")
                 
