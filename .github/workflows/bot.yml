@@ -1,8 +1,7 @@
 name: Trendify Auto-Pilot
 
 on:
-  schedule:
-    - cron: '*/10 * * * *'
+ 
   workflow_dispatch:
 
 jobs:
