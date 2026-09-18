@@ -59,10 +59,13 @@ RSS_FEEDS = [
     "https://www.technologyreview.com/feed/"
 ]
 
-def update_rss(title, file_name):
+def update_rss(title, file_name, image_url):
     website_url = f"https://Muhammad-Mateen-Arshad.github.io/trendify-news/news/{file_name}"
     
-    # Simple RSS format jo sirf latest khabar dikhayega
+    # Yeh text Facebook aur Instagram ki post (caption) mein nazar aayega
+    post_caption = f"⚡ {title} \n\n👇 Click on the link below to read full details!"
+    
+    # RSS format updated with Description
     rss_content = f"""<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
@@ -71,16 +74,17 @@ def update_rss(title, file_name):
   <description>Latest Tech News Updates</description>
   <item>
     <title>{title}</title>
+    <description>{post_caption}</description>
     <link>{website_url}</link>
     <pubDate>{datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S GMT')}</pubDate>
+    <enclosure url="{image_url}" type="image/jpeg" length="0" />
   </item>
 </channel>
 </rss>"""
 
-    # rss.xml file root folder mein save hogi
     with open("rss.xml", "w", encoding="utf-8") as f:
         f.write(rss_content)
-    print("✅ RSS Feed Updated!")
+    print("✅ RSS Feed Updated with Call to Action!")
 
 def send_telegram_message(title):
     token = os.environ.get("TELEGRAM_TOKEN")
