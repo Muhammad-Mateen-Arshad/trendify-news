@@ -314,11 +314,15 @@ def run_single_pipeline():
                 update_main_pages(news["title"], news["image_url"], file_name, news["raw_text"])
                 add_log("SUCCESS", f"Published: {news['title']}")
                 update_dashboard("SUCCESS", news["title"])
-                update_rss(news["title"], file_name)
+                
+                # Yahan error tha, ab 3 cheezein bhej rahe hain (Title, File Name, Image URL)
+                update_rss(news["title"], file_name, news["image_url"])
+                
                 print("🎉 SUCCESS! Nayi khabar post ho gayi.")
-               # Telegram par bhejne ke liye
+                
+                # Telegram par bhejne ke liye
                 send_telegram_message(news["title"])
-             
+              
         else:
             print("⏳ Koi nayi khabar nahi mili.")
     except Exception as e:
@@ -332,6 +336,5 @@ def run_single_pipeline():
 
 if __name__ == "__main__":
     run_single_pipeline()
-
    
 
