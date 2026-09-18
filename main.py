@@ -62,10 +62,10 @@ RSS_FEEDS = [
 def update_rss(title, file_name, image_url):
     website_url = f"https://Muhammad-Mateen-Arshad.github.io/trendify-news/news/{file_name}"
     
-    # Yeh text Facebook aur Instagram ki post (caption) mein nazar aayega
-    post_caption = f"⚡ {title} \n\n👇 Click on the link below to read full details!"
+    # Caption jo Instagram, Twitter aur FB ki post par nazar aayega
+    post_caption = f"⚡ {title} \n\n👇 Read full details here:\n{website_url}"
     
-    # RSS format updated with Description
+    # RSS XML Format (Image enclosure ke sath lazmi hai Insta ke liye)
     rss_content = f"""<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
@@ -82,9 +82,10 @@ def update_rss(title, file_name, image_url):
 </channel>
 </rss>"""
 
+    # File ko save karna
     with open("rss.xml", "w", encoding="utf-8") as f:
         f.write(rss_content)
-    print("✅ RSS Feed Updated with Call to Action!")
+    print("✅ RSS Feed Updated for FB, Insta, & Twitter!")
 
 def send_telegram_message(title):
     token = os.environ.get("TELEGRAM_TOKEN")
