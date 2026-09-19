@@ -134,9 +134,12 @@ def scrape_unposted_health():
     shuffled_feeds = HEALTH_FEEDS.copy()
     random.shuffle(shuffled_feeds)
     
-    for feed_url in shuffled_feeds:
+for feed_url in shuffled_feeds:
         try:
-            feed = feedparser.parse(feed_url)
+            # Yahan humne strict 15 second ka timeout laga diya hai
+            response = requests.get(feed_url, timeout=15)
+            feed = feedparser.parse(response.content)
+            
             for entry in feed.entries[:10]:
                 if entry.title not in posted_history:
                     with open("posted_health.txt", "a", encoding="utf-8") as f:
@@ -152,9 +155,9 @@ def scrape_unposted_health():
                         "raw_text": getattr(entry, 'summary', entry.title),
                         "image_url": image_url
                     }
-        except Exception:
+        except Exception as e:
+            print(f"Skipping feed {feed_url} due to error: {e}")
             continue
-    return None
 
 # ==========================================
 # MODULE B: USA 60+ TARGETED AI CONTENT
