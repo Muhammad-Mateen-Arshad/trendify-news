@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-  <title>Trendify Portal - Scholarships</title>
-  <link>https://Muhammad-Mateen-Arshad.github.io/trendify-news/</link>
-  <description>Fully Funded Scholarships and International Opportunities</description>
-  <item>
-    <title>OpenAI’s AI & Teen Development Research Grant Program 2026</title>
-    <description>🎓 Scholarship Alert: OpenAI’s AI & Teen Development Research Grant Program 2026 
+  <title>Trendify Scholarships</title>
+  <link>https://muhammad-mateen-arshad.github.io/trendify-news/scholarships</link>
+  <description>Latest scholarships updates.</description>
 
   <item>
     <title>Interactivity Foundation Collaborative Discussion Emerging Fellowship 2027 6000 Stipend</title>
     <link>https://muhammad-mateen-arshad.github.io/trendify-news/scholarships/interactivity-foundation-collaborative-discussion-emerging-fellowship-2027-6000-stipend.html</link>
-    <pubDate>Sat, 19 Sep 2026 20:32:12 +0000</pubDate>
+    <pubDate>Sat, 19 Sep 2026 21:12:11 +0000</pubDate>
   </item>
   <item>
     <title>Cornell University Ai For Sustainability Ai4S Visiting Professorship Program 2027</title>
     <link>https://muhammad-mateen-arshad.github.io/trendify-news/scholarships/cornell-university-ai-for-sustainability-ai4s-visiting-professorship-program-2027.html</link>
-    <pubDate>Sat, 19 Sep 2026 20:32:12 +0000</pubDate>
+    <pubDate>Sat, 19 Sep 2026 21:12:11 +0000</pubDate>
+  </item>
+  <item>
+    <title>Openais Ai  Teen Development Research Grant Program 2026</title>
+    <link>https://muhammad-mateen-arshad.github.io/trendify-news/scholarships/openais-ai--teen-development-research-grant-program-2026.html</link>
+    <pubDate>Sat, 19 Sep 2026 21:12:11 +0000</pubDate>
   </item>
 </channel>
 </rss>

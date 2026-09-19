@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-  <title>Trendify Portal - History & Docs</title>
-  <link>https://Muhammad-Mateen-Arshad.github.io/trendify-news/</link>
-  <description>Epic Historical Biographies & Prehistoric Wildlife Documentaries</description>
-  <item>
-    <title>Peer sexual harassment emerges early, highlighting need for prevention before Grade 4</title>
-    <description>🦕 Historical Doc: Peer sexual harassment emerges early, highlighting need for prevention before Grade 4 
+  <title>Trendify History</title>
+  <link>https://muhammad-mateen-arshad.github.io/trendify-news/history</link>
+  <description>Latest history updates.</description>
 
   <item>
     <title>How Rural Policing Gaps Can Make Escaping Domestic Violence Harder</title>
     <link>https://muhammad-mateen-arshad.github.io/trendify-news/history/how-rural-policing-gaps-can-make-escaping-domestic-violence-harder.html</link>
-    <pubDate>Sat, 19 Sep 2026 20:32:12 +0000</pubDate>
+    <pubDate>Sat, 19 Sep 2026 21:12:11 +0000</pubDate>
   </item>
   <item>
     <title>Rethinking How We Assess Students Could Improve Their Wellbeing</title>
     <link>https://muhammad-mateen-arshad.github.io/trendify-news/history/rethinking-how-we-assess-students-could-improve-their-wellbeing.html</link>
-    <pubDate>Sat, 19 Sep 2026 20:32:12 +0000</pubDate>
+    <pubDate>Sat, 19 Sep 2026 21:12:11 +0000</pubDate>
+  </item>
+  <item>
+    <title>Peer Sexual Harassment Emerges Early Highlighting Need For Prevention Before Grade 4</title>
+    <link>https://muhammad-mateen-arshad.github.io/trendify-news/history/peer-sexual-harassment-emerges-early-highlighting-need-for-prevention-before-grade-4.html</link>
+    <pubDate>Sat, 19 Sep 2026 21:12:11 +0000</pubDate>
   </item>
 </channel>
 </rss>
