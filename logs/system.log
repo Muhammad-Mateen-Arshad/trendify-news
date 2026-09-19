@@ -299,3 +299,4 @@
 [2026-09-18 08:01:22 PM] [SUCCESS] Published: The Download: AI’s extinction risk and bioweapons threat
 [2026-09-19 06:02:40 PM] [NEWS_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
 [2026-09-19 06:03:08 PM] [HISTORY_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-09-19 06:12:48 PM] [NEWS_BOT] [SUCCESS] Published: Trump treads further on free speech with new journalist bans
