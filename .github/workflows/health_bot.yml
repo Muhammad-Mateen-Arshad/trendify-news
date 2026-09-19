@@ -19,6 +19,7 @@ jobs:
         run: pip install requests feedparser google-genai
       - name: Run Health Bot
         env:
+          PYTHONUNBUFFERED: "1"
           GEMINI_KEY_1: ${{ secrets.GEMINI_KEY_1 }}
           GEMINI_KEY_2: ${{ secrets.GEMINI_KEY_2 }}
           GEMINI_KEY_3: ${{ secrets.GEMINI_KEY_3 }}
@@ -26,7 +27,9 @@ jobs:
           GEMINI_KEY_5: ${{ secrets.GEMINI_KEY_5 }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-        run: python scripts/health_bot.py
+        run: |
+          python scripts/health_bot.py
+          python scripts/generate_rss.py
       - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
