@@ -1,32 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-  <title>Trendify Portal - Global Jobs</title>
-  <link>https://Muhammad-Mateen-Arshad.github.io/trendify-news/</link>
-  <description>Latest Remote Careers and Job Opportunities</description>
-  <item>
-    <title>A.Team: Senior Independent Software Developer ($90-$170/hr)</title>
-    <description>💼 New Job Alert: A.Team: Senior Independent Software Developer ($90-$170/hr) 
+  <title>Trendify Jobs</title>
+  <link>https://muhammad-mateen-arshad.github.io/trendify-news/jobs</link>
+  <description>Latest jobs updates.</description>
 
   <item>
     <title>Sanctuary Computer Senior Shopify Developer</title>
     <link>https://muhammad-mateen-arshad.github.io/trendify-news/jobs/sanctuary-computer-senior-shopify-developer.html</link>
-    <pubDate>Sat, 19 Sep 2026 23:32:16 +0000</pubDate>
+    <pubDate>Sat, 19 Sep 2026 23:48:30 +0000</pubDate>
   </item>
   <item>
     <title>Ateam Senior Independent Ai Engineer  Architect</title>
     <link>https://muhammad-mateen-arshad.github.io/trendify-news/jobs/ateam-senior-independent-ai-engineer--architect.html</link>
-    <pubDate>Sat, 19 Sep 2026 23:32:16 +0000</pubDate>
+    <pubDate>Sat, 19 Sep 2026 23:48:30 +0000</pubDate>
   </item>
   <item>
     <title>Legion Chief Architect</title>
     <link>https://muhammad-mateen-arshad.github.io/trendify-news/jobs/legion-chief-architect.html</link>
-    <pubDate>Sat, 19 Sep 2026 23:32:16 +0000</pubDate>
+    <pubDate>Sat, 19 Sep 2026 23:48:30 +0000</pubDate>
   </item>
   <item>
     <title>Wrike Account Manager L4</title>
     <link>https://muhammad-mateen-arshad.github.io/trendify-news/jobs/wrike-account-manager-l4.html</link>
-    <pubDate>Sat, 19 Sep 2026 23:32:16 +0000</pubDate>
+    <pubDate>Sat, 19 Sep 2026 23:48:30 +0000</pubDate>
+  </item>
+  <item>
+    <title>Ateam Senior Independent Software Developer 90170Hr</title>
+    <link>https://muhammad-mateen-arshad.github.io/trendify-news/jobs/ateam-senior-independent-software-developer-90170hr.html</link>
+    <pubDate>Sat, 19 Sep 2026 23:48:30 +0000</pubDate>
   </item>
 </channel>
 </rss>
