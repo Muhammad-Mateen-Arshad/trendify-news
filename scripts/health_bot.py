@@ -134,9 +134,9 @@ def scrape_unposted_health():
     shuffled_feeds = HEALTH_FEEDS.copy()
     random.shuffle(shuffled_feeds)
     
-for feed_url in shuffled_feeds:
+    for feed_url in shuffled_feeds:
         try:
-            # Yahan humne strict 15 second ka timeout laga diya hai
+            # Strict 15-second timeout to prevent freezing
             response = requests.get(feed_url, timeout=15)
             feed = feedparser.parse(response.content)
             
@@ -158,7 +158,8 @@ for feed_url in shuffled_feeds:
         except Exception as e:
             print(f"Skipping feed {feed_url} due to error: {e}")
             continue
-
+            
+    return None
 # ==========================================
 # MODULE B: USA 60+ TARGETED AI CONTENT
 # ==========================================
