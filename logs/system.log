@@ -19,4 +19,4 @@
 [2026-09-19 09:32:07 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Scholarship Post Published: D-Prize Global Competition 2026 for Entrepreneurs ($20K grants)
 [2026-09-19 10:32:30 PM] [DRAMAS_BOT] [SUCCESS] Drama Post Published: Anthony Page Dies: Tony-Winning, Emmy-Nominated Director Of Stage & Screen Was 90
 [2026-09-19 10:56:30 PM] [HISTORY_BOT] [SUCCESS] History Post Published: Workplace AI adoption remains slow, informal and uneven, survey finds
-[2026-09-19 11:31:51 PM] [JOBS_BOT] [SUCCESS] Job Published: A.Team: Senior Independent Software Developer ($90-$170/hr)
+[2026-09-19 11:31:57 PM] [HISTORY_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
