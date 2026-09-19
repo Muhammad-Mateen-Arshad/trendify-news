@@ -3,36 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{TITLE}} - Trendify</title>
+    <title>{{TITLE}} - Trendify Portal</title>
+    <!-- ../ isliye lagaya hai kyunke yeh file news/ ya jobs/ folder ke andar save hogi -->
+    <link rel="stylesheet" href="../css/style.css">
     <style>
-        body { background-color: #050505; color: #ffffff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; overflow-x: hidden; }
+        /* Article-specific styling */
+        .detail-container { 
+            max-width: 900px; 
+            margin: 40px auto 80px; 
+            padding: 45px; 
+            background: #0c111d; 
+            border: 1px solid #1e293b; 
+            border-top: 5px solid #00ffcc; 
+            border-radius: 12px; 
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5); 
+            animation: fadeIn 0.8s ease-out; 
+        }
         
-        .durood-marquee { width: 100%; background: #000000; color: #FFD700; overflow: hidden; padding: 10px 0; font-family: 'Amiri', 'Arial', sans-serif; position: relative; height: 35px; border-bottom: 1px solid #111; }
-        .marquee-content { position: absolute; white-space: nowrap; font-size: 1.4em; animation: scrollDuroodLR 30s linear infinite; }
-        @keyframes scrollDuroodLR { 0% { transform: translateX(-100%); left: 0; } 100% { transform: translateX(0); left: 100vw; } }
-
-        header { text-align: center; padding: 30px 20px; background: #0a0a0a; border-bottom: 2px solid #00ffcc; box-shadow: 0 4px 15px rgba(0, 255, 204, 0.1); }
-        h1 { color: #00ffcc; font-size: 2.8em; margin: 0; text-shadow: 0 0 15px rgba(0, 255, 204, 0.4); }
+        .hero-image { 
+            width: 100%; 
+            height: 450px; 
+            object-fit: cover; 
+            border-radius: 10px; 
+            border: 1px solid #1e293b; 
+            margin-bottom: 35px; 
+            box-shadow: 0 10px 25px rgba(0, 255, 204, 0.1); 
+        }
         
-        nav { text-align: center; padding: 15px; background: #0a0a0a; }
-        nav a { color: #00ffcc; text-decoration: none; margin: 0 15px; font-size: 1.1em; font-weight: bold; transition: all 0.3s; }
-        nav a:hover { color: #fff; text-shadow: 0 0 10px #00ffcc; }
-
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        .article-title { 
+            color: #f1f5f9; 
+            font-size: 2.6em; /* Title aur bara kar diya */
+            margin-top: 0; 
+            margin-bottom: 15px; 
+            line-height: 1.3;
+            text-shadow: 0 0 10px rgba(0, 255, 204, 0.2);
+        }
         
-        .detail-container { max-width: 800px; margin: 50px auto; padding: 30px; background: #111; border-left: 5px solid #00ffcc; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.8); animation: fadeIn 0.8s ease-out; }
-        .hero-image { width: 100%; height: 400px; object-fit: cover; border-radius: 8px; margin-bottom: 20px; border: 1px solid #222; }
-        .article-title { color: #00ffcc; font-size: 2.5em; margin-bottom: 10px; margin-top: 0; }
-        .article-date { color: #FFD700; font-size: 0.95em; margin-bottom: 30px; border-bottom: 1px solid #222; padding-bottom: 15px; font-weight: bold; }
+        .article-date { 
+            color: #64748b; 
+            font-size: 1.05em; 
+            margin-bottom: 35px; 
+            border-bottom: 1px solid #1e293b; 
+            padding-bottom: 15px; 
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .article-date span { color: #00ffcc; }
         
-        .article-content { color: #dddddd; line-height: 1.8; font-size: 1.15em; }
-        .article-content p { margin-bottom: 20px; }
+        /* 🔥 FULL DESCRIPTION TEXT SIZE INCREASED HERE 🔥 */
+        .article-content { 
+            color: #e2e8f0; 
+            line-height: 1.95; 
+            font-size: 1.3em; /* Text kafi bara aur clear kar diya */
+        }
+        .article-content p { margin-bottom: 25px; }
+        .article-content ul { margin-bottom: 25px; padding-left: 25px; color: #cbd5e1; }
+        .article-content li { margin-bottom: 12px; }
 
-        .back-btn { display: inline-block; margin-top: 30px; padding: 10px 20px; background: rgba(0, 255, 204, 0.1); color: #00ffcc; text-decoration: none; border-radius: 5px; border: 1px solid rgba(0, 255, 204, 0.3); font-weight: bold; transition: all 0.3s; text-transform: uppercase; letter-spacing: 1px; }
-        .back-btn:hover { background: #00ffcc; color: #000; box-shadow: 0 0 15px rgba(0, 255, 204, 0.6); }
-
-        footer { text-align: center; padding: 20px; color: #777; border-top: 1px solid #222; margin-top: 50px; background: #0a0a0a; }
-        footer span { color: #00ffcc; font-weight: bold; }
+        .back-btn { 
+            display: inline-block; 
+            margin-top: 40px; 
+            padding: 12px 25px; 
+            background: rgba(0, 255, 204, 0.08); 
+            color: #00ffcc; 
+            text-decoration: none; 
+            border-radius: 6px; 
+            border: 1px solid rgba(0, 255, 204, 0.3); 
+            font-weight: bold;
+            transition: all 0.3s; 
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 1.1em;
+        }
+        .back-btn:hover { 
+            background: #00ffcc; 
+            color: #06080c; 
+            box-shadow: 0 0 15px rgba(0, 255, 204, 0.5); 
+        }
+        
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
     </style>
 </head>
 <body>
@@ -43,29 +93,39 @@
     </div>
 
     <header>
-        <h1>Trendify News</h1>
+        <h1>Trendify Portal</h1>
+        <p class="subtitle">Live Automated Knowledge & Media Network</p>
     </header>
     
     <nav>
-        <a href="../index.html">Home</a>
-        <a href="../articles.html">Articles</a>
+        <a href="../index.html">News</a>
+        <a href="../jobs.html">Jobs</a>
+        <a href="../scholarships.html">Scholarships</a>
+        <a href="../dramas.html">Dramas</a>
+        <a href="../health.html">Senior Health</a>
+        <a href="../history.html">History & Docs</a>
         <a href="../about.html">About</a>
     </nav>
     
     <div class="detail-container">
-        <img class="hero-image" src="{{IMAGE_URL}}" alt="News Image">
-        <h2 class="article-title">{{TITLE}}</h2>
-        <div class="article-date">🕒 Published on {{CURRENT_TIME}} | Auto-Generated AI Log</div>
+        <!-- AI Generated Image -->
+        <img class="hero-image" src="{{IMAGE_URL}}" alt="Article Image">
         
+        <!-- Title and Meta -->
+        <h2 class="article-title">{{TITLE}}</h2>
+        <div class="article-date">Published by <span>AI Pipeline</span> | {{CURRENT_TIME}}</div>
+        
+        <!-- Real AI Content generated by Gemini -->
         <div class="article-content">
             {{AI_CONTENT}}
         </div>
 
-        <a href="../index.html" class="back-btn">&larr; Back to Dashboard</a>
+        <!-- Back to specific section button -->
+        <a href="javascript:history.back()" class="back-btn">&larr; Go Back</a>
     </div>
 
     <footer>
-        <p>&copy; 2026 Trendify News Pipeline. Built & Automated by <span>Muhammad Mateen Arshad</span>.</p>
+        <p>&copy; 2026 Trendify Media Pipeline. Built & Automated by <span>Muhammad Mateen Arshad</span>.</p>
     </footer>
 </body>
 </html>
