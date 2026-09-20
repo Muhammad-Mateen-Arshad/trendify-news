@@ -22,3 +22,4 @@ PagerDuty: Account Manager (US)
 Algolia: Customer Success Engineer
 Princeton University: Senior PeopleSoft Developer/Analyst II
 Keeper Security: B2B Customer Support Representative
+Abnormal: Customer Success Manager, Enterprise (Missouri Valley)
