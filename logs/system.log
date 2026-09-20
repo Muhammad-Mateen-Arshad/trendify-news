@@ -62,3 +62,4 @@
 [2026-09-20 05:31:59 PM] [DRAMAS_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
 [2026-09-20 05:58:45 PM] [NEWS_BOT] [WARNING] Key 1 hit 429 Limit.
 [2026-09-20 05:58:57 PM] [NEWS_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-09-20 06:13:14 PM] [JOBS_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
