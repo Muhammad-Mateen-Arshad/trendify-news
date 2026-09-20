@@ -1,34 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-  <title>Trendify Jobs</title>
-  <link>https://muhammad-mateen-arshad.github.io/trendify-news/jobs</link>
-  <description>Latest jobs updates.</description>
+  <title>Trendify Portal - Global Jobs</title>
+  <link>https://Muhammad-Mateen-Arshad.github.io/trendify-news/</link>
+  <description>Latest Remote Careers and Job Opportunities</description>
+  <item>
+    <title>Ondeckglobal: iGaming UI/UX Designer</title>
+    <description>💼 New Job Alert: Ondeckglobal: iGaming UI/UX Designer 
 
-  <item>
-    <title>Sanctuary Computer Senior Shopify Developer</title>
-    <link>https://muhammad-mateen-arshad.github.io/trendify-news/jobs/sanctuary-computer-senior-shopify-developer.html</link>
-    <pubDate>Sat, 19 Sep 2026 23:48:30 +0000</pubDate>
-  </item>
-  <item>
-    <title>Ateam Senior Independent Ai Engineer  Architect</title>
-    <link>https://muhammad-mateen-arshad.github.io/trendify-news/jobs/ateam-senior-independent-ai-engineer--architect.html</link>
-    <pubDate>Sat, 19 Sep 2026 23:48:30 +0000</pubDate>
-  </item>
-  <item>
-    <title>Legion Chief Architect</title>
-    <link>https://muhammad-mateen-arshad.github.io/trendify-news/jobs/legion-chief-architect.html</link>
-    <pubDate>Sat, 19 Sep 2026 23:48:30 +0000</pubDate>
-  </item>
-  <item>
-    <title>Wrike Account Manager L4</title>
-    <link>https://muhammad-mateen-arshad.github.io/trendify-news/jobs/wrike-account-manager-l4.html</link>
-    <pubDate>Sat, 19 Sep 2026 23:48:30 +0000</pubDate>
-  </item>
-  <item>
-    <title>Ateam Senior Independent Software Developer 90170Hr</title>
-    <link>https://muhammad-mateen-arshad.github.io/trendify-news/jobs/ateam-senior-independent-software-developer-90170hr.html</link>
-    <pubDate>Sat, 19 Sep 2026 23:48:30 +0000</pubDate>
+👇 Apply and read full details here:
+https://Muhammad-Mateen-Arshad.github.io/trendify-news/jobs/ondeckglobal-igaming-uiux-designer.html</description>
+    <link>https://Muhammad-Mateen-Arshad.github.io/trendify-news/jobs/ondeckglobal-igaming-uiux-designer.html</link>
+    <pubDate>Sun, 20 Sep 2026 00:10:39 GMT</pubDate>
+    <enclosure url="https://image.pollinations.ai/prompt/Modern%20corporate%20office%20remote%20work%20setup%20laptop%20professional%20cinematic%20high%20quality%20realistic?width=800&height=400&nologo=true&seed=414" type="image/jpeg" length="0" />
   </item>
 </channel>
 </rss>
