@@ -19,3 +19,4 @@ Yooli: FULL TIME: Software Engineer Position - React and Rest
 Koast.ai: Head of Technical Support @ Koast.ai
 IxDF - Interaction Design Foundation: Course Writer and Editor: UX, UI, and AI
 PagerDuty: Account Manager (US)
+Algolia: Customer Success Engineer
