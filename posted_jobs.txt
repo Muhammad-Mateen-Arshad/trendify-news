@@ -9,3 +9,4 @@ A.Team: Senior Independent Software Developer ($90-$170/hr)
 Ondeckglobal: iGaming UI/UX Designer
 IxDF - Interaction Design Foundation: Course Director: UX, UI, and AI
 Tines: Deal Desk Analyst
+Lemon.io: Senior React Native Developer
