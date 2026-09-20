@@ -35,3 +35,5 @@
 [2026-09-20 04:32:19 AM] [DRAMAS_BOT] [SUCCESS] Drama Post Published: Ride Or Die Canceled At Prime Video After 1 Season
 [2026-09-20 04:47:32 AM] [HISTORY_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
 [2026-09-20 05:32:03 AM] [HISTORY_BOT] [SUCCESS] History Post Published: An 'impossible' black hole merger may finally be solved thanks to Einstein's relativity — but it raises an even bigger mystery
+[2026-09-20 05:44:55 AM] [NEWS_BOT] [WARNING] Key 1 hit 429 Limit.
+[2026-09-20 05:45:10 AM] [NEWS_BOT] [SUCCESS] Published: How to watch Warriors vs Knights: FREE streams, TV channels for NRL Semi-Final 2026
