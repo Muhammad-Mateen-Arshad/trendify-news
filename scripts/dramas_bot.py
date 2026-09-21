@@ -41,11 +41,46 @@ GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD")
 GMAIL_RECEIVER = "mateenarshad877@gmail.com" 
 
 # Entertainment & Drama Feeds (Mix of general TV and historical drama sources)
+# ==========================================
+# 50 ENTERTAINMENT & DRAMA FEEDS
+# ==========================================
 DRAMA_FEEDS = [
-    "https://www.cinemablend.com/television/rss.xml",
-    "https://tvline.com/feed/",
-    "https://deadline.com/v/tv/feed/"
+    # Netflix & Streaming
+    "https://netflixlife.com/feed/", "https://www.whats-on-netflix.com/feed/", "https://decider.com/feed/", 
+    "https://tvline.com/category/streaming/feed/", "https://vaguevisages.com/feed/",
+    # Turkish & Global Historical (Mehmed, Ertugrul, etc.)
+   # Turkish Historical & Romantic Dramas
+    "https://dizilah.com/feed",
+    "https://turkishtvclub.com/feed/",
+    "https://www.teammy.com/feed/",
+    "https://geekycraze.com/category/entertainment/turkish-dramas/feed/",
+    "https://www.dailysabah.com/arts/rss",
+    "https://www.hurriyetdailynews.com/rss/arts",
+    "https://www.trtworld.com/arts-and-culture/rss.xml",
+    "https://www.albawaba.com/rss/entertainment",
+    "https://en.qantara.de/taxonomy/term/3257/all/feed",
+    "https://arabamericannews.com/category/arts-and-entertainment/feed/",
+    # Hollywood & Western TV
+    "https://deadline.com/v/tv/feed/", "https://variety.com/v/tv/feed/", "https://www.hollywoodreporter.com/c/tv/tv-news/feed/",
+    "https://www.cinemablend.com/television/rss.xml", "https://tvline.com/feed/", "https://collider.com/feed/",
+    "https://screenrant.com/feed/tv/", "https://ew.com/feed/", "https://www.empireonline.com/tv/news/rss",
+    "https://www.slashfilm.com/feed/", "https://www.thewrap.com/category/tv/feed/", "https://www.indiewire.com/c/tv/feed/",
+    "https://www.ign.com/feed/tv", "https://comicbook.com/tv-shows/feed/", "https://bleedingcool.com/tv/feed/",
+    "https://www.tvinsider.com/feed/", "https://www.denofgeek.com/tv/feed/", "https://www.digitalspy.com/tv/rss/",
+    "https://www.spoilertv.com/feeds/posts/default", "https://telltaletv.com/feed/",
+    # Bollywood & Indian TV
+    "https://www.bollywoodhungama.com/rss/news.xml", "https://www.pinkvilla.com/feed/entertainment.xml", 
+    "https://c.ndtv.com/ndtv/feeds/entertainment.xml", "https://indianexpress.com/section/entertainment/feed/",
+    "https://www.hindustantimes.com/feeds/rss/entertainment/rssfeed.xml", "https://zeenews.india.com/rss/entertainment-news.xml",
+    "https://www.news18.com/rss/entertainment.xml", "https://www.firstpost.com/rss/entertainment.xml",
+    "https://www.mid-day.com/Resources/midday/rss/entertainment-news.xml", "https://www.dnaindia.com/feeds/entertainment.xml",
+    # Tollywood & South Indian
+    "https://www.123telugu.com/feed", "https://www.gulte.com/feed", "https://tracktollywood.com/feed/",
+    "https://telugucinema.com/feed", "https://www.greatandhra.com/rss.xml", "https://www.mirchi9.com/feed/",
+    "https://www.cinejosh.com/rss/news", "https://www.tollywood.net/feed/", "https://www.indiaherald.com/rss/tollywood",
+    "https://www.behindwoods.com/rss/tamil-movies-news.xml"
 ]
+
 
 # ==========================================
 # MODULE: RSS FEED (DRAMAS ONLY)
@@ -120,6 +155,7 @@ def send_error_email(error_msg):
     except Exception:
         pass
 
+
 # ==========================================
 # MODULE A: SCRAPER & IMAGE
 # ==========================================
@@ -135,21 +171,35 @@ def scrape_unposted_dramas():
     
     for feed_url in shuffled_feeds:
         try:
-            feed = feedparser.parse(feed_url)
+            response = requests.get(feed_url, timeout=15)
+            feed = feedparser.parse(response.content)
+            
             for entry in feed.entries[:10]:
                 if entry.title not in posted_history:
                     with open("posted_dramas.txt", "a", encoding="utf-8") as f:
                         f.write(entry.title + "\n")
                     
-                    # Epic historical drama vibe lock
-                    image_prompt = entry.title + " ottoman empire historical drama warrior cinematic lighting epic scene high quality"
-                    encoded_prompt = urllib.parse.quote(image_prompt)
-                    image_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=800&height=400&nologo=true&seed={random.randint(1,1000)}"
+                    # Real Image Logic
+                    real_image_url = ""
+                    if 'media_content' in entry and len(entry.media_content) > 0:
+                        real_image_url = entry.media_content[0]['url']
+                    elif 'media_thumbnail' in entry and len(entry.media_thumbnail) > 0:
+                        real_image_url = entry.media_thumbnail[0]['url']
+                    elif 'links' in entry:
+                        for link in entry.links:
+                            if 'image' in link.get('type', ''):
+                                real_image_url = link.href
+                                break
+                    
+                    if not real_image_url:
+                        encoded_prompt = urllib.parse.quote(entry.title + " tv series drama realistic cinematic scene high quality")
+                        real_image_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=800&height=400&nologo=true"
                     
                     return {
                         "title": entry.title,
                         "raw_text": getattr(entry, 'summary', entry.title),
-                        "image_url": image_url
+                        "image_url": real_image_url,
+                        "original_link": getattr(entry, 'link', 'https://netflix.com')
                     }
         except Exception:
             continue
@@ -158,19 +208,21 @@ def scrape_unposted_dramas():
 # ==========================================
 # MODULE B: DRAMA REVIEW STYLE AI CONTENT
 # ==========================================
-def generate_ai_article(title, raw_text):
+def generate_ai_article(title, raw_text, original_link):
     global CURRENT_KEY_INDEX, client
     
     if not GEMINI_API_KEYS:
         raise Exception("API key missing!")
 
     prompt = f"""
-    You are an expert TV critic and entertainment writer specializing in historical and epic dramas. Write a thrilling 400-word article based on this news:
+    You are an expert TV critic specializing in global series (Netflix, Turkish, Hollywood, Bollywood). Write a thrilling 400-word article based on this news:
     Topic: {title}\nDetails: {raw_text}\n
     Requirements:
-    1. Tone: Exciting, dramatic, and engaging for hardcore fans of epic historical series.
+    1. Tone: Exciting and engaging for hardcore fans.
     2. Format entirely in clean HTML (no ```html, no <html> or <body>). 
-    3. Use <p>, <h3 style="color: #00ffcc; margin-top: 25px;"> for headers (e.g., 'What This Means for the Story', 'Character Arcs') and <ul> for key takeaways.
+    3. Use <p>, <h3 style="color: #00ffcc; margin-top: 25px;"> for headers and <ul> for key takeaways.
+    4. At the exact end of the article, add this HTML line for the source link:
+    <p style="margin-top: 30px;"><strong>🔗 Official Source & Full Details:</strong> <a href="{original_link}" target="_blank" style="color: #00ffcc;">Click Here to Read More</a></p>
     """
     
     for _ in range(len(GEMINI_API_KEYS)):
@@ -189,7 +241,7 @@ def generate_ai_article(title, raw_text):
     raise Exception("All API keys exhausted! (429)")
 
 # ==========================================
-# MODULE C: BUILD ARTICLE HTML
+# MODULE C & D: BUILD HTML & FRONTEND
 # ==========================================
 def build_html_page(title, image_url, ai_content):
     safe_title = "".join(x for x in title if x.isalnum() or x.isspace())
@@ -212,9 +264,6 @@ def build_html_page(title, image_url, ai_content):
         
     return file_name
 
-# ==========================================
-# MODULE D: UPDATE FRONTEND PAGES
-# ==========================================
 def update_main_pages(title, image_url, file_name, raw_text):
     clean_text = re.sub(r'<[^>]+>', '', raw_text).strip()
     hook_text = clean_text[:120] + "..." if len(clean_text) > 120 else clean_text
@@ -246,7 +295,8 @@ def run_single_pipeline():
         drama_news = scrape_unposted_dramas()
         if drama_news:
             print(f"🤖 Generating Drama Article: {drama_news['title']}")
-            article = generate_ai_article(drama_news["title"], drama_news["raw_text"])
+            # Notice we are now passing the original_link
+            article = generate_ai_article(drama_news["title"], drama_news["raw_text"], drama_news["original_link"])
             file_name = build_html_page(drama_news["title"], drama_news["image_url"], article)
             
             if file_name:

@@ -40,12 +40,69 @@ GMAIL_SENDER = "mateenarshad877@gmail.com"
 GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD") 
 GMAIL_RECEIVER = "mateenarshad877@gmail.com" 
 
-# History, Archaeology & Science Documentaries Feeds
+# ==========================================
+# 50 HISTORY, ARCHAEOLOGY & ANCIENT WORLD FEEDS
+# ==========================================
 HISTORY_FEEDS = [
-    "https://www.smithsonianmag.com/rss/history/",
-    "https://www.livescience.com/feeds/all",
-    "https://phys.org/rss-feed/science-news/history/",
-    "https://www.archaeology.org/news?format=feed"
+    # General History & Archaeology
+    "https://news.google.com/rss/search?q=archaeology+discoveries&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=historical+discoveries&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=world+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=ancient+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=history+museum+exhibits&hl=en-US&gl=US&ceid=US:en",
+    
+    # Civilizations & Empires
+    "https://news.google.com/rss/search?q=ancient+egypt+archaeology&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=roman+empire+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=ancient+greece+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=ottoman+empire+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=byzantine+empire+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=mayan+civilization+discoveries&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=aztec+empire+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=inca+empire+archaeology&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=mesopotamia+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=indus+valley+civilization&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=viking+history+discoveries&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=mongol+empire+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=persian+empire+history&hl=en-US&gl=US&ceid=US:en",
+    
+    # Regions
+    "https://news.google.com/rss/search?q=european+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=asian+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=african+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=middle+east+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=american+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=native+american+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=islamic+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=subcontinent+history+india+pakistan&hl=en-US&gl=US&ceid=US:en",
+    
+    # Specific Eras
+    "https://news.google.com/rss/search?q=stone+age+discoveries&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=bronze+age+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=iron+age+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=middle+ages+medieval+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=renaissance+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=victorian+era+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=world+war+1+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=world+war+2+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=cold+war+history&hl=en-US&gl=US&ceid=US:en",
+    
+    # Niche History
+    "https://news.google.com/rss/search?q=history+of+science&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=history+of+medicine&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=history+of+art&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=military+history+battles&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=maritime+history+shipwrecks&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=paleontology+dinosaur+discoveries&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=fossil+discoveries&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=royal+family+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=mythology+and+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=ancient+languages+deciphered&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=historical+artifacts+found&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=historical+documents+uncovered&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=history+of+technology&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=space+exploration+history&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=historical+biographies&hl=en-US&gl=US&ceid=US:en"
 ]
 
 # ==========================================
@@ -53,14 +110,14 @@ HISTORY_FEEDS = [
 # ==========================================
 def update_rss(title, file_name, image_url):
     website_url = f"https://Muhammad-Mateen-Arshad.github.io/trendify-news/history/{file_name}"
-    post_caption = f"🦕 Historical Doc: {title} \n\n👇 Dive into history here:\n{website_url}"
+    post_caption = f"📜 Historical Fact: {title} \n\n👇 Read the full story here:\n{website_url}"
     
     rss_content = f"""<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-  <title>Trendify Portal - History & Docs</title>
+  <title>Trendify Portal - History & Archaeology</title>
   <link>https://Muhammad-Mateen-Arshad.github.io/trendify-news/</link>
-  <description>Epic Historical Biographies & Prehistoric Wildlife Documentaries</description>
+  <description>Latest Historical Discoveries and World History Stories</description>
   <item>
     <title>{title}</title>
     <description>{post_caption}</description>
@@ -82,7 +139,7 @@ def send_telegram_message(title):
     
     channel_id = "@trendify_news_live"
     website_url = "https://Muhammad-Mateen-Arshad.github.io/trendify-news/history.html"
-    message = f"🦕 *EPIC HISTORY & DOCS* 🎬\n\n📌 {title}\n\n👇 Read the full story:\n{website_url}"
+    message = f"📜 *NEW HISTORICAL DISCOVERY* 🏛️\n\n📌 {title}\n\n👇 Read full story:\n{website_url}"
     
     url = f"https://api.telegram.org/bot{token}/sendMessage"
     payload = {"chat_id": channel_id, "text": message, "parse_mode": "Markdown"}
@@ -134,44 +191,70 @@ def scrape_unposted_history():
     shuffled_feeds = HISTORY_FEEDS.copy()
     random.shuffle(shuffled_feeds)
     
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'
+    }
+    
     for feed_url in shuffled_feeds:
         try:
-            feed = feedparser.parse(feed_url)
+            response = requests.get(feed_url, headers=headers, timeout=15)
+            feed = feedparser.parse(response.content)
+            
             for entry in feed.entries[:10]:
                 if entry.title not in posted_history:
                     with open("posted_history.txt", "a", encoding="utf-8") as f:
                         f.write(entry.title + "\n")
                     
-                    # Cinematic & Documentary vibe lock
-                    image_prompt = entry.title + " epic cinematic wildlife documentary historical dramatic lighting high quality"
-                    encoded_prompt = urllib.parse.quote(image_prompt)
-                    image_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=800&height=400&nologo=true&seed={random.randint(1,1000)}"
+                    # Real Image Logic
+                    real_image_url = ""
+                    if 'media_content' in entry and len(entry.media_content) > 0:
+                        real_image_url = entry.media_content[0]['url']
+                    elif 'media_thumbnail' in entry and len(entry.media_thumbnail) > 0:
+                        real_image_url = entry.media_thumbnail[0]['url']
+                    elif 'links' in entry:
+                        for link in entry.links:
+                            if 'image' in link.get('type', ''):
+                                real_image_url = link.href
+                                break
+                    
+                    if not real_image_url:
+                        image_prompt = entry.title + " ancient history historical artifact cinematic epic scene high quality realistic"
+                        encoded_prompt = urllib.parse.quote(image_prompt)
+                        real_image_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=800&height=400&nologo=true&seed={random.randint(1,1000)}"
                     
                     return {
                         "title": entry.title,
                         "raw_text": getattr(entry, 'summary', entry.title),
-                        "image_url": image_url
+                        "image_url": real_image_url,
+                        "source_link": getattr(entry, 'link', 'https://www.google.com/search?q=historical+discoveries') 
                     }
         except Exception:
             continue
     return None
 
 # ==========================================
-# MODULE B: DOCUMENTARY STYLE AI CONTENT
+# MODULE B: HISTORIAN AI CONTENT
 # ==========================================
-def generate_ai_article(title, raw_text):
+def generate_ai_article(title, raw_text, source_link):
     global CURRENT_KEY_INDEX, client
     
     if not GEMINI_API_KEYS:
         raise Exception("API key missing!")
 
     prompt = f"""
-    You are an expert documentary scriptwriter and historian. Write a highly captivating, 400-word article based on this finding/news:
+    You are an expert historian and archaeologist. Write a fascinating 300-400 word historical account based on this news:
     Topic: {title}\nDetails: {raw_text}\n
     Requirements:
-    1. Tone: Epic, immersive, and narrative-driven (similar to a premium historical or prehistoric wildlife documentary).
+    1. Tone: Educational, mysterious, and highly engaging.
     2. Format entirely in clean HTML (no ```html, no <html> or <body>). 
-    3. Use <p>, <h3 style="color: #00ffcc; margin-top: 25px;"> for dramatic section headers (e.g., 'The Discovery', 'Echoes of the Past') and <ul> for fascinating facts.
+    3. Use <p>, <h3 style="color: #00ffcc; margin-top: 25px;"> for headings (e.g., 'Historical Context', 'Why This Matters') and <ul> for key facts.
+    4. At the exact end of the article, add this exact HTML button block for the original source:
+    
+    <div style="text-align: center; margin-top: 40px; margin-bottom: 20px;">
+        <a href="{source_link}" target="_blank" style="background-color: #8B4513; color: #fff; padding: 15px 30px; text-decoration: none; font-size: 18px; font-weight: bold; border-radius: 8px; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.3); transition: 0.3s; text-transform: uppercase;">
+            📖 Read Full Historical Account
+        </a>
+    </div>
     """
     
     for _ in range(len(GEMINI_API_KEYS)):
@@ -225,7 +308,7 @@ def update_main_pages(title, image_url, file_name, raw_text):
             <img src="{image_url}" alt="History Image">
             <h3>{title}</h3>
             <p>{hook_text}</p>
-            <a href="history/{file_name}" class="read-more">Read Full Story</a>
+            <a href="history/{file_name}" class="read-more">Uncover History</a>
         </div>"""
         
     page = "history.html"
@@ -244,20 +327,21 @@ def update_main_pages(title, image_url, file_name, raw_text):
 def run_single_pipeline():
     print("🔥 HISTORY BOT RUNNING...\n")
     try:
-        doc_news = scrape_unposted_history()
-        if doc_news:
-            print(f"🤖 Generating Documentary Article: {doc_news['title']}")
-            article = generate_ai_article(doc_news["title"], doc_news["raw_text"])
-            file_name = build_html_page(doc_news["title"], doc_news["image_url"], article)
+        history_news = scrape_unposted_history()
+        if history_news:
+            print(f"🤖 Generating History Article: {history_news['title']}")
+            
+            article = generate_ai_article(history_news["title"], history_news["raw_text"], history_news["source_link"])
+            file_name = build_html_page(history_news["title"], history_news["image_url"], article)
             
             if file_name:
-                update_main_pages(doc_news["title"], doc_news["image_url"], file_name, doc_news["raw_text"])
-                add_log("SUCCESS", f"History Post Published: {doc_news['title']}")
-                update_rss(doc_news["title"], file_name, doc_news["image_url"])
-                send_telegram_message(doc_news["title"])
+                update_main_pages(history_news["title"], history_news["image_url"], file_name, history_news["raw_text"])
+                add_log("SUCCESS", f"History Post Published: {history_news['title']}")
+                update_rss(history_news["title"], file_name, history_news["image_url"])
+                send_telegram_message(history_news["title"])
                 print("🎉 SUCCESS! Nayi History post ho chuki hai.")
         else:
-            print("⏳ Koi nayi history doc nahi mili.")
+            print("⏳ Koi nayi history update nahi mili.")
     except Exception as e:
         error_details = str(e)
         add_log("ERROR", error_details)

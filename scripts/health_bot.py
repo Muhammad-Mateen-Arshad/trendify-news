@@ -41,11 +41,20 @@ GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD")
 GMAIL_RECEIVER = "mateenarshad877@gmail.com" 
 
 # USA Targeted Health & Senior Care Feeds
+# Premium USA Targeted Health & Senior Care Feeds
 HEALTH_FEEDS = [
-    "https://www.nih.gov/news-events/news-releases/rss.xml",
-    "https://tools.cdc.gov/api/v2/resources/media/316408.rss",
-    "https://health.usnews.com/conditions/rss",
-    "https://www.medicalnewstoday.com/feed"
+    "https://rss.nytimes.com/services/xml/rss/nyt/Health.xml",
+    "https://feeds.npr.org/1128/rss.xml",
+    "https://medicalxpress.com/rss-feed/health-news/",
+    "http://rss.cnn.com/rss/cnn_health.rss",
+    "https://moxie.foxnews.com/google-publisher/health.xml",
+    "https://www.cbsnews.com/latest/rss/health",
+    "https://abcnews.go.com/abcnews/healthheadlines",
+    "https://kffhealthnews.org/feed/", 
+    "https://www.health.harvard.edu/blog/feed",
+    "https://www.statnews.com/feed/",
+    "https://news.un.org/feed/subscribe/en/news/topic/health/rss.xml",
+    "https://www.medpagetoday.com/rss/headlines.xml"
 ]
 
 # ==========================================
@@ -124,6 +133,9 @@ def send_error_email(error_msg):
 # ==========================================
 # MODULE A: SCRAPER & IMAGE
 # ==========================================
+# ==========================================
+# MODULE A: SCRAPER & IMAGE
+# ==========================================
 def scrape_unposted_health():
     if not os.path.exists("posted_health.txt"):
         open("posted_health.txt", "w", encoding="utf-8").close()
@@ -134,10 +146,15 @@ def scrape_unposted_health():
     shuffled_feeds = HEALTH_FEEDS.copy()
     random.shuffle(shuffled_feeds)
     
+    # Browser identity taake websites bot samajh kar block na karein
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'
+    }
+    
     for feed_url in shuffled_feeds:
         try:
-            # Strict 15-second timeout to prevent freezing
-            response = requests.get(feed_url, timeout=15)
+            # Strict 15-second timeout and headers added
+            response = requests.get(feed_url, headers=headers, timeout=15)
             feed = feedparser.parse(response.content)
             
             for entry in feed.entries[:10]:

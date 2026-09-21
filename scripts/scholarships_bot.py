@@ -40,11 +40,74 @@ GMAIL_SENDER = "mateenarshad877@gmail.com"
 GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD") 
 GMAIL_RECEIVER = "mateenarshad877@gmail.com" 
 
-# Global Scholarships & Student Opportunities Feeds
+# ==========================================
+# 50+ SCHOLARSHIPS & OPPORTUNITIES FEEDS
+# ==========================================
 SCHOLARSHIP_FEEDS = [
+    # Dedicated Scholarship Portals
     "https://www.scholars4dev.com/feed/",
     "https://opportunitydesk.org/feed/",
-    "https://youthop.com/feed/"
+    "https://youthop.com/feed/",
+    
+    # Fully Funded Global
+    "https://news.google.com/rss/search?q=fully+funded+scholarships+for+international+students&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=bachelors+scholarship+fully+funded&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=masters+scholarship+fully+funded&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=phd+scholarship+fully+funded&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=postdoc+fellowship+fully+funded&hl=en-US&gl=US&ceid=US:en",
+    
+    # Pakistan Specific Opportunities
+    "https://news.google.com/rss/search?q=scholarships+for+pakistani+students&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=hec+scholarships+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=us+fp+fulbright+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=peef+scholarships+punjab&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=ehsaas+undergraduate+scholarship&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=need+based+scholarship+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=merit+scholarship+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    
+    # Top International Scholarships
+    "https://news.google.com/rss/search?q=chevening+scholarship+uk&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=erasmus+mundus+scholarship&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=fulbright+scholarship+usa&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=daad+scholarship+germany&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=mext+scholarship+japan&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=eiffel+excellence+scholarship+france&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=gates+cambridge+scholarship&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=rhodes+scholarship+oxford&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=knight-hennessy+scholars+stanford&hl=en-US&gl=US&ceid=US:en",
+    
+    # Country Specific Scholarships
+    "https://news.google.com/rss/search?q=study+in+usa+scholarships&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=study+in+uk+scholarships&hl=en-GB&gl=GB&ceid=GB:en",
+    "https://news.google.com/rss/search?q=study+in+canada+scholarships&hl=en-CA&gl=CA&ceid=CA:en",
+    "https://news.google.com/rss/search?q=study+in+australia+scholarships&hl=en-AU&gl=AU&ceid=AU:en",
+    "https://news.google.com/rss/search?q=study+in+germany+scholarships&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=study+in+china+csc+scholarship&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=study+in+italy+scholarships&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=study+in+south+korea+kgsp&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=study+in+turkey+turkiye+burslari&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=study+in+saudi+arabia+scholarships&hl=en-US&gl=US&ceid=US:en",
+    
+    # Partial Funding & Financial Aid
+    "https://news.google.com/rss/search?q=partial+scholarship+international+students&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=tuition+fee+waiver+scholarship&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=financial+aid+international+students&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=university+grants+international+students&hl=en-US&gl=US&ceid=US:en",
+    
+    # Fellowships & Internships
+    "https://news.google.com/rss/search?q=international+fellowship+programs&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=fully+funded+summer+internships&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=un+internships+fully+funded&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=cern+summer+student+program&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=world+bank+internship&hl=en-US&gl=US&ceid=US:en",
+    
+    # Subject Specific
+    "https://news.google.com/rss/search?q=stem+scholarships+international+students&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=medical+scholarships+international+students&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=engineering+scholarships+international+students&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=arts+humanities+scholarships&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=women+in+tech+scholarships&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=mba+scholarships+international&hl=en-US&gl=US&ceid=US:en"
 ]
 
 # ==========================================
@@ -133,23 +196,42 @@ def scrape_unposted_scholarships():
     shuffled_feeds = SCHOLARSHIP_FEEDS.copy()
     random.shuffle(shuffled_feeds)
     
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'
+    }
+    
     for feed_url in shuffled_feeds:
         try:
-            feed = feedparser.parse(feed_url)
+            response = requests.get(feed_url, headers=headers, timeout=15)
+            feed = feedparser.parse(response.content)
+            
             for entry in feed.entries[:10]:
                 if entry.title not in posted_history:
                     with open("posted_scholarships.txt", "a", encoding="utf-8") as f:
                         f.write(entry.title + "\n")
                     
-                    image_prompt = entry.title + " international university campus student success graduation high quality realistic"
-                    encoded_prompt = urllib.parse.quote(image_prompt)
-                    image_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=800&height=400&nologo=true&seed={random.randint(1,1000)}"
+                    # Real Image Logic
+                    real_image_url = ""
+                    if 'media_content' in entry and len(entry.media_content) > 0:
+                        real_image_url = entry.media_content[0]['url']
+                    elif 'media_thumbnail' in entry and len(entry.media_thumbnail) > 0:
+                        real_image_url = entry.media_thumbnail[0]['url']
+                    elif 'links' in entry:
+                        for link in entry.links:
+                            if 'image' in link.get('type', ''):
+                                real_image_url = link.href
+                                break
+                    
+                    if not real_image_url:
+                        image_prompt = entry.title + " university campus students studying library high quality realistic"
+                        encoded_prompt = urllib.parse.quote(image_prompt)
+                        real_image_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=800&height=400&nologo=true&seed={random.randint(1,1000)}"
                     
                     return {
                         "title": entry.title,
                         "raw_text": getattr(entry, 'summary', entry.title),
-                        "image_url": image_url,
-                        "source_link": entry.link  # 🔥 Original apply link yahan se scrape hoga
+                        "image_url": real_image_url,
+                        "source_link": getattr(entry, 'link', 'https://www.google.com/search?q=scholarships') 
                     }
         except Exception:
             continue
@@ -158,7 +240,7 @@ def scrape_unposted_scholarships():
 # ==========================================
 # MODULE B: EDUCATION COUNSELOR AI CONTENT
 # ==========================================
-def generate_ai_article(title, raw_text):
+def generate_ai_article(title, raw_text, source_link):
     global CURRENT_KEY_INDEX, client
     
     if not GEMINI_API_KEYS:
@@ -168,9 +250,17 @@ def generate_ai_article(title, raw_text):
     You are an expert international education counselor. Write a highly informative, encouraging 300-400 word guide based on this scholarship opportunity:
     Opportunity: {title}\nDetails: {raw_text}\n
     Requirements:
-    1. Tone: Professional, motivating, and clear.
+    1. Tone: Professional, motivating, and clear for both Pakistani and International students.
     2. Format entirely in clean HTML (no ```html, no <html> or <body>). 
-    3. Use <p>, <h3 style="color: #00ffcc; margin-top: 25px;"> for headings (e.g., 'What is Included', 'Eligibility Criteria', 'How to Apply') and <ul> for lists.
+    3. Clearly highlight if it's fully or partially funded.
+    4. Use <p>, <h3 style="color: #00ffcc; margin-top: 25px;"> for headings (e.g., 'What is Included', 'Eligibility Criteria') and <ul> for lists.
+    5. At the exact end of the article, add this exact HTML button block for the apply link:
+    
+    <div style="text-align: center; margin-top: 40px; margin-bottom: 20px;">
+        <a href="{source_link}" target="_blank" style="background-color: #FFD700; color: #111; padding: 15px 30px; text-decoration: none; font-size: 18px; font-weight: bold; border-radius: 8px; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.3); transition: 0.3s; text-transform: uppercase;">
+            🎓 Click Here to Apply (Official Website)
+        </a>
+    </div>
     """
     
     for _ in range(len(GEMINI_API_KEYS)):
@@ -246,19 +336,11 @@ def run_single_pipeline():
         schol_news = scrape_unposted_scholarships()
         if schol_news:
             print(f"🤖 Generating Scholarship Article: {schol_news['title']}")
-            article = generate_ai_article(schol_news["title"], schol_news["raw_text"])
             
-            # 🔥 YAHAAN ORIGINAL LINK KA BUTTON ATTACH KIYA GAYA HAI 🔥
-            apply_button_html = f"""
-            <div style="margin-top: 40px; text-align: center;">
-                <a href="{schol_news['source_link']}" target="_blank" style="display: inline-block; padding: 15px 30px; background: #FFD700; color: #000; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 1.2em; text-transform: uppercase; letter-spacing: 1px; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);">
-                    Apply / Official Website
-                </a>
-            </div>
-            """
-            article_with_button = article + apply_button_html
+            # Module B se article aur button generate hoga
+            article = generate_ai_article(schol_news["title"], schol_news["raw_text"], schol_news["source_link"])
             
-            file_name = build_html_page(schol_news["title"], schol_news["image_url"], article_with_button)
+            file_name = build_html_page(schol_news["title"], schol_news["image_url"], article)
             
             if file_name:
                 update_main_pages(schol_news["title"], schol_news["image_url"], file_name, schol_news["raw_text"])

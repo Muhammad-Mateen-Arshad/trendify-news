@@ -43,6 +43,38 @@ GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD")
 GMAIL_RECEIVER = "mateenarshad877@gmail.com" 
 
 RSS_FEEDS = [
+    # Global Geopolitics, Conflicts & World News Feeds
+
+    "http://feeds.bbci.co.uk/news/world/rss.xml",
+    "https://www.aljazeera.com/xml/rss/all.xml",
+    "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+    "https://www.theguardian.com/world/rss",
+    "https://rss.dw.com/rdf/rss-en-world",
+    "https://www.france24.com/en/rss",
+    "https://moxie.foxnews.com/google-publisher/world.xml",
+    "https://feeds.a.dj.com/rss/RSSWorldNews.xml",
+    "http://rss.cnn.com/rss/edition_world.rss",
+    "https://www.cbsnews.com/latest/rss/world",
+    "https://abcnews.go.com/abcnews/internationalheadlines",
+    "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+    "https://www.independent.co.uk/news/world/rss",
+    "https://www.telegraph.co.uk/world-news/rss.xml",
+    "https://www.scmp.com/rss/91/feed",
+    "https://www.thehindu.com/news/international/feeder/default.rss",
+    "https://dawn.com/feeds/home/",
+    "https://tribune.com.pk/feed/latest",
+    "https://www.geo.tv/rss/1/53",
+    "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml",
+    "https://www.japantimes.co.jp/news_category/world/feed/",
+    "https://www.straitstimes.com/news/world/rss.xml",
+    "https://www.politico.eu/feed/",
+    "https://www.euractiv.com/feed/",
+    "https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf",
+    "https://mercopress.com/rss",
+    "https://www.smh.com.au/rss/world.xml",
+    "https://theintercept.com/feed/?lang=en",
+    "https://defense-update.com/feed",
+    "https://www.amnesty.org/en/rss/",
     "http://feeds.bbci.co.uk/news/technology/rss.xml",
     "https://techcrunch.com/feed/",
     "https://www.wired.com/feed/rss",
@@ -183,10 +215,10 @@ def send_error_email(error_msg):
 # MODULE A: SCRAPER & IMAGE
 # ==========================================
 def scrape_unposted_news():
-    if not os.path.exists("posted.txt"):
-        open("posted.txt", "w", encoding="utf-8").close()
+    if not os.path.exists("posted_news.txt"):
+        open("posted_news.txt", "w", encoding="utf-8").close()
         
-    with open("posted.txt", "r", encoding="utf-8") as f:
+    with open("posted_news.txt", "r", encoding="utf-8") as f:
         posted_history = f.read().splitlines()
 
     shuffled_feeds = RSS_FEEDS.copy()
@@ -194,24 +226,40 @@ def scrape_unposted_news():
     
     for feed_url in shuffled_feeds:
         try:
-            feed = feedparser.parse(feed_url)
+            response = requests.get(feed_url, timeout=15)
+            feed = feedparser.parse(response.content)
+            
             for entry in feed.entries[:10]:
                 if entry.title not in posted_history:
-                    with open("posted.txt", "a", encoding="utf-8") as f:
+                    with open("posted_news.txt", "a", encoding="utf-8") as f:
                         f.write(entry.title + "\n")
                     
-                    image_prompt = entry.title + " technology futuristic high quality realistic"
-                    encoded_prompt = urllib.parse.quote(image_prompt)
-                    ai_generated_image_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=800&height=400&nologo=true"
+                    # Real Image Extract Karne Ka Logic
+                    real_image_url = ""
+                    if 'media_content' in entry and len(entry.media_content) > 0:
+                        real_image_url = entry.media_content[0]['url']
+                    elif 'media_thumbnail' in entry and len(entry.media_thumbnail) > 0:
+                        real_image_url = entry.media_thumbnail[0]['url']
+                    elif 'links' in entry:
+                        for link in entry.links:
+                            if 'image' in link.get('type', ''):
+                                real_image_url = link.href
+                                break
                     
-                    raw_text = getattr(entry, 'summary', entry.title)
+                    # Agar original picture na mile toh backup
+                    if not real_image_url:
+                        encoded_prompt = urllib.parse.quote(entry.title + " global news event realistic photo")
+                        real_image_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=800&height=400&nologo=true"
+                    
                     return {
                         "title": entry.title,
-                        "raw_text": raw_text,
-                        "image_url": ai_generated_image_url
+                        "raw_text": getattr(entry, 'summary', entry.title),
+                        "image_url": real_image_url
                     }
-        except Exception:
+        except Exception as e:
+            print(f"Skipping feed {feed_url} due to error: {e}")
             continue
+            
     return None
 
 # ==========================================

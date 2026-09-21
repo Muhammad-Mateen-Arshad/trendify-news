@@ -11,13 +11,13 @@ import re
 from google import genai
 
 # ==========================================
-# PATH CORRECTION (Ensures root directory execution)
+# PATH CORRECTION
 # ==========================================
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(REPO_ROOT)
 
 # ==========================================
-# CONFIGURATION & PASSWORDS
+# CONFIGURATION
 # ==========================================
 GEMINI_API_KEYS = [
     os.environ.get("GEMINI_KEY_1"),
@@ -40,12 +40,112 @@ GMAIL_SENDER = "mateenarshad877@gmail.com"
 GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD") 
 GMAIL_RECEIVER = "mateenarshad877@gmail.com" 
 
-# Global Remote Job RSS Feeds
+# ==========================================
+# 50 PAKISTAN JOBS RSS FEEDS (Govt & Private)
+# ==========================================
 JOB_FEEDS = [
-    "https://weworkremotely.com/categories/remote-programming-jobs.rss",
-    "https://weworkremotely.com/categories/remote-marketing-jobs.rss",
-    "https://weworkremotely.com/categories/remote-design-jobs.rss",
-    "https://weworkremotely.com/categories/remote-customer-support-jobs.rss"
+    "https://news.google.com/rss/search?q=government+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=private+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=fpsc+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=ppsc+jobs+lahore&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=spsc+jobs+sindh&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=kppsc+jobs+peshawar&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=bpsc+jobs+balochistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=pakistan+army+jobs&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=pakistan+navy+jobs&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=pakistan+air+force+jobs&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=wapda+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=railway+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=nadra+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=fia+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=asf+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=fbr+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=police+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=teaching+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=lecturer+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=banking+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=state+bank+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=national+bank+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=hospital+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=medical+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=engineering+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=software+engineering+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=it+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=data+entry+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=marketing+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=sales+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=hr+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=accounting+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=finance+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=ngo+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=un+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=part+time+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=remote+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=freelance+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=internship+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=management+trainee+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=driver+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=security+guard+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=customs+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=airport+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=pia+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=ptcl+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=ogdcl+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=sui+gas+jobs+pakistan&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=karachi+jobs&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=islamabad+jobs&hl=en-PK&gl=PK&ceid=PK:en",
+    
+    # --- 50 INTERNATIONAL & REMOTE JOBS ---
+    "https://news.google.com/rss/search?q=remote+software+engineer+jobs&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=remote+marketing+jobs+usa&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=remote+data+analyst+jobs&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=work+from+home+jobs+usa&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=remote+customer+support+jobs&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=remote+project+manager+jobs&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=remote+graphic+design+jobs&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=remote+accounting+jobs+usa&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=remote+sales+jobs+usa&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=remote+hr+jobs+usa&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=jobs+in+usa+visa+sponsorship&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=tech+jobs+silicon+valley&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=cybersecurity+jobs+usa&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=healthcare+jobs+usa&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=nursing+jobs+usa&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=finance+jobs+new+york&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=engineering+jobs+texas&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=ai+machine+learning+jobs+usa&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=amazon+jobs+usa&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=google+apple+jobs+usa&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=jobs+in+london+uk&hl=en-GB&gl=GB&ceid=GB:en",
+    "https://news.google.com/rss/search?q=tier+2+visa+jobs+uk&hl=en-GB&gl=GB&ceid=GB:en",
+    "https://news.google.com/rss/search?q=nhs+jobs+uk&hl=en-GB&gl=GB&ceid=GB:en",
+    "https://news.google.com/rss/search?q=software+developer+jobs+uk&hl=en-GB&gl=GB&ceid=GB:en",
+    "https://news.google.com/rss/search?q=marketing+jobs+uk&hl=en-GB&gl=GB&ceid=GB:en",
+    "https://news.google.com/rss/search?q=finance+jobs+london&hl=en-GB&gl=GB&ceid=GB:en",
+    "https://news.google.com/rss/search?q=remote+jobs+uk&hl=en-GB&gl=GB&ceid=GB:en",
+    "https://news.google.com/rss/search?q=engineering+jobs+uk&hl=en-GB&gl=GB&ceid=GB:en",
+    "https://news.google.com/rss/search?q=care+worker+jobs+uk&hl=en-GB&gl=GB&ceid=GB:en",
+    "https://news.google.com/rss/search?q=accountant+jobs+uk&hl=en-GB&gl=GB&ceid=GB:en",
+    "https://news.google.com/rss/search?q=jobs+in+toronto+canada&hl=en-CA&gl=CA&ceid=CA:en",
+    "https://news.google.com/rss/search?q=lmia+jobs+canada&hl=en-CA&gl=CA&ceid=CA:en",
+    "https://news.google.com/rss/search?q=tech+jobs+vancouver&hl=en-CA&gl=CA&ceid=CA:en",
+    "https://news.google.com/rss/search?q=remote+jobs+canada&hl=en-CA&gl=CA&ceid=CA:en",
+    "https://news.google.com/rss/search?q=nursing+jobs+canada&hl=en-CA&gl=CA&ceid=CA:en",
+    "https://news.google.com/rss/search?q=truck+driver+jobs+canada&hl=en-CA&gl=CA&ceid=CA:en",
+    "https://news.google.com/rss/search?q=engineering+jobs+canada&hl=en-CA&gl=CA&ceid=CA:en",
+    "https://news.google.com/rss/search?q=finance+jobs+canada&hl=en-CA&gl=CA&ceid=CA:en",
+    "https://news.google.com/rss/search?q=jobs+in+sydney+australia&hl=en-AU&gl=AU&ceid=AU:en",
+    "https://news.google.com/rss/search?q=visa+sponsorship+jobs+australia&hl=en-AU&gl=AU&ceid=AU:en",
+    "https://news.google.com/rss/search?q=mining+jobs+australia&hl=en-AU&gl=AU&ceid=AU:en",
+    "https://news.google.com/rss/search?q=tech+jobs+australia&hl=en-AU&gl=AU&ceid=AU:en",
+    "https://news.google.com/rss/search?q=healthcare+jobs+australia&hl=en-AU&gl=AU&ceid=AU:en",
+    "https://news.google.com/rss/search?q=remote+jobs+australia&hl=en-AU&gl=AU&ceid=AU:en",
+    "https://news.google.com/rss/search?q=jobs+in+dubai+uae&hl=en-AE&gl=AE&ceid=AE:en",
+    "https://news.google.com/rss/search?q=tech+jobs+dubai&hl=en-AE&gl=AE&ceid=AE:en",
+    "https://news.google.com/rss/search?q=jobs+in+saudi+arabia+riyadh&hl=en-SA&gl=SA&ceid=SA:en",
+    "https://news.google.com/rss/search?q=remote+crypto+web3+jobs&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=remote+content+writing+jobs&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=freelance+upwork+fiverr+jobs&hl=en-US&gl=US&ceid=US:en"
 ]
 
 # ==========================================
@@ -53,14 +153,14 @@ JOB_FEEDS = [
 # ==========================================
 def update_rss(title, file_name, image_url):
     website_url = f"https://Muhammad-Mateen-Arshad.github.io/trendify-news/jobs/{file_name}"
-    post_caption = f"💼 New Job Alert: {title} \n\n👇 Apply and read full details here:\n{website_url}"
+    post_caption = f"💼 New Job Alert in Pakistan: {title} \n\n👇 Apply and read full details here:\n{website_url}"
     
     rss_content = f"""<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-  <title>Trendify Portal - Global Jobs</title>
+  <title>Trendify Portal - Pakistan Jobs</title>
   <link>https://Muhammad-Mateen-Arshad.github.io/trendify-news/</link>
-  <description>Latest Remote Careers and Job Opportunities</description>
+  <description>Latest Government and Private Jobs in Pakistan</description>
   <item>
     <title>{title}</title>
     <description>{post_caption}</description>
@@ -82,7 +182,7 @@ def send_telegram_message(title):
     
     channel_id = "@trendify_news_live"
     website_url = "https://Muhammad-Mateen-Arshad.github.io/trendify-news/jobs.html"
-    message = f"💼 *NEW REMOTE JOB OPPORTUNITY* 💼\n\n📌 {title}\n\n👇 Check details & apply now:\n{website_url}"
+    message = f"💼 *NEW JOB OPPORTUNITY IN PAKISTAN* 💼\n\n📌 {title}\n\n👇 Check details & apply now:\n{website_url}"
     
     url = f"https://api.telegram.org/bot{token}/sendMessage"
     payload = {"chat_id": channel_id, "text": message, "parse_mode": "Markdown"}
@@ -136,44 +236,71 @@ def scrape_unposted_jobs():
     shuffled_feeds = JOB_FEEDS.copy()
     random.shuffle(shuffled_feeds)
     
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'
+    }
+    
     for feed_url in shuffled_feeds:
         try:
-            feed = feedparser.parse(feed_url)
+            response = requests.get(feed_url, headers=headers, timeout=15)
+            feed = feedparser.parse(response.content)
+            
             for entry in feed.entries[:10]:
                 if entry.title not in posted_history:
                     with open("posted_jobs.txt", "a", encoding="utf-8") as f:
                         f.write(entry.title + "\n")
                     
-                    # Professional corporate image prompt
-                    image_prompt = "Modern corporate office remote work setup laptop professional cinematic high quality realistic"
-                    encoded_prompt = urllib.parse.quote(image_prompt)
-                    ai_generated_image_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=800&height=400&nologo=true&seed={random.randint(1,1000)}"
+                    # Real Image Logic
+                    real_image_url = ""
+                    if 'media_content' in entry and len(entry.media_content) > 0:
+                        real_image_url = entry.media_content[0]['url']
+                    elif 'media_thumbnail' in entry and len(entry.media_thumbnail) > 0:
+                        real_image_url = entry.media_thumbnail[0]['url']
+                    elif 'links' in entry:
+                        for link in entry.links:
+                            if 'image' in link.get('type', ''):
+                                real_image_url = link.href
+                                break
                     
-                    raw_text = getattr(entry, 'summary', entry.title)
+                    if not real_image_url:
+                        encoded_prompt = urllib.parse.quote(entry.title + " corporate office interview professional workplace realistic photography")
+                        real_image_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=800&height=400&nologo=true&seed={random.randint(1,1000)}"
+                    
                     return {
                         "title": entry.title,
-                        "raw_text": raw_text,
-                        "image_url": ai_generated_image_url
+                        "raw_text": getattr(entry, 'summary', entry.title),
+                        "image_url": real_image_url,
+                        "original_link": getattr(entry, 'link', 'https://www.google.com/search?q=jobs+in+pakistan')
                     }
-        except Exception:
+        except Exception as e:
             continue
     return None
 
 # ==========================================
 # MODULE B: REAL AI CONTENT
 # ==========================================
-def generate_ai_article(title, raw_text):
+# ==========================================
+# MODULE B: REAL AI CONTENT (WITH BUTTON)
+# ==========================================
+def generate_ai_article(title, raw_text, original_link):
     global CURRENT_KEY_INDEX, client
     
     if not GEMINI_API_KEYS:
         raise Exception("API key missing!")
 
     prompt = f"""
-    You are an expert career consultant and copywriter. Write a highly engaging, 300-400 word job alert post based on this listing:
+    You are an expert global career consultant. Write a highly engaging, 300-400 word job alert post based on this listing:
     Job Title: {title}\nDetails: {raw_text}\n
     Requirements: Format entirely in clean HTML (no ```html, no <html> or <body>). 
-    Use <p>, <h3 style="color: #00ffcc; margin-top: 25px;"> for headings (like Role Overview, Requirements, How to Apply) and <ul> for bullet points.
-    Make it sound exciting for someone looking for remote opportunities.
+    Use <p>, <h3 style="color: #00ffcc; margin-top: 25px;"> for headings (like 'Role Overview', 'Eligibility Criteria', 'Why Join?') and <ul> for bullet points.
+    Make it sound encouraging for global and local job seekers.
+    At the exact end of the article, add this exact HTML button block for the apply link:
+    
+    <div style="text-align: center; margin-top: 40px; margin-bottom: 20px;">
+        <a href="{original_link}" target="_blank" style="background-color: #00ffcc; color: #111; padding: 15px 30px; text-decoration: none; font-size: 18px; font-weight: bold; border-radius: 8px; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.3); transition: 0.3s;">
+            💼 Click Here to Apply (Official Website)
+        </a>
+    </div>
     """
     
     for _ in range(len(GEMINI_API_KEYS)):
@@ -199,7 +326,6 @@ def build_html_page(title, image_url, ai_content):
     file_name = safe_title.lower().replace(" ", "-") + ".html"
     current_time = datetime.now().strftime("%B %d, %Y")
     
-    # Jobs folder mein save karega
     jobs_folder = "jobs"
     if not os.path.exists(jobs_folder):
         os.makedirs(jobs_folder)
@@ -231,7 +357,6 @@ def update_main_pages(title, image_url, file_name, raw_text):
             <a href="jobs/{file_name}" class="read-more">View Job Details</a>
         </div>"""
         
-    # Sirf jobs.html ko update karega
     page = "jobs.html"
     if os.path.exists(page):
         try:
@@ -251,7 +376,7 @@ def run_single_pipeline():
         job = scrape_unposted_jobs()
         if job:
             print(f"🤖 Generating Job Post: {job['title']}")
-            article = generate_ai_article(job["title"], job["raw_text"])
+            article = generate_ai_article(job["title"], job["raw_text"], job["original_link"])
             file_name = build_html_page(job["title"], job["image_url"], article)
             
             if file_name:
