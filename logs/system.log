@@ -72,3 +72,4 @@
 [2026-09-20 11:52:10 PM] [NEWS_BOT] [WARNING] Key 1 hit 429 Limit.
 [2026-09-20 11:52:28 PM] [NEWS_BOT] [SUCCESS] Published: 6 days left to save up to $200 to TechCrunch Disrupt 2026
 [2026-09-21 12:30:59 AM] [DRAMAS_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-09-21 03:42:09 AM] [NEWS_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
