@@ -94,4 +94,4 @@
 [2026-09-21 09:28:19 PM] [HISTORY_BOT] [SUCCESS] History Post Published: Inclusion is central to England's education policy—but what it means is changing
 [2026-09-21 10:17:28 PM] [SCHOLARSHIPS_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
 [2026-09-21 10:23:03 PM] [HEALTH_BOT] [SUCCESS] Health Post Published: Telehealth companies keep exposing their customers' medical data. What should they do?
-[2026-09-21 11:21:51 PM] [JOBS_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-09-21 11:22:09 PM] [DRAMAS_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
