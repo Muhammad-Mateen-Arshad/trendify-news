@@ -44,42 +44,77 @@ GMAIL_RECEIVER = "mateenarshad877@gmail.com"
 # ==========================================
 # 50 ENTERTAINMENT & DRAMA FEEDS
 # ==========================================
+# ==========================================
+# TARGETED ENTERTAINMENT & TRAILERS FEEDS
+# ==========================================
 DRAMA_FEEDS = [
-    # Netflix & Streaming
-    "https://netflixlife.com/feed/", "https://www.whats-on-netflix.com/feed/", "https://decider.com/feed/", 
-    "https://tvline.com/category/streaming/feed/", "https://vaguevisages.com/feed/",
-    # Turkish & Global Historical (Mehmed, Ertugrul, etc.)
-   # Turkish Historical & Romantic Dramas
-    "https://dizilah.com/feed",
-    "https://turkishtvclub.com/feed/",
-    "https://www.teammy.com/feed/",
-    "https://geekycraze.com/category/entertainment/turkish-dramas/feed/",
-    "https://www.dailysabah.com/arts/rss",
-    "https://www.hurriyetdailynews.com/rss/arts",
-    "https://www.trtworld.com/arts-and-culture/rss.xml",
-    "https://www.albawaba.com/rss/entertainment",
-    "https://en.qantara.de/taxonomy/term/3257/all/feed",
-    "https://arabamericannews.com/category/arts-and-entertainment/feed/",
-    # Hollywood & Western TV
-    "https://deadline.com/v/tv/feed/", "https://variety.com/v/tv/feed/", "https://www.hollywoodreporter.com/c/tv/tv-news/feed/",
-    "https://www.cinemablend.com/television/rss.xml", "https://tvline.com/feed/", "https://collider.com/feed/",
-    "https://screenrant.com/feed/tv/", "https://ew.com/feed/", "https://www.empireonline.com/tv/news/rss",
-    "https://www.slashfilm.com/feed/", "https://www.thewrap.com/category/tv/feed/", "https://www.indiewire.com/c/tv/feed/",
-    "https://www.ign.com/feed/tv", "https://comicbook.com/tv-shows/feed/", "https://bleedingcool.com/tv/feed/",
-    "https://www.tvinsider.com/feed/", "https://www.denofgeek.com/tv/feed/", "https://www.digitalspy.com/tv/rss/",
-    "https://www.spoilertv.com/feeds/posts/default", "https://telltaletv.com/feed/",
-    # Bollywood & Indian TV
-    "https://www.bollywoodhungama.com/rss/news.xml", "https://www.pinkvilla.com/feed/entertainment.xml", 
-    "https://c.ndtv.com/ndtv/feeds/entertainment.xml", "https://indianexpress.com/section/entertainment/feed/",
-    "https://www.hindustantimes.com/feeds/rss/entertainment/rssfeed.xml", "https://zeenews.india.com/rss/entertainment-news.xml",
-    "https://www.news18.com/rss/entertainment.xml", "https://www.firstpost.com/rss/entertainment.xml",
-    "https://www.mid-day.com/Resources/midday/rss/entertainment-news.xml", "https://www.dnaindia.com/feeds/entertainment.xml",
-    # Tollywood & South Indian
-    "https://www.123telugu.com/feed", "https://www.gulte.com/feed", "https://tracktollywood.com/feed/",
-    "https://telugucinema.com/feed", "https://www.greatandhra.com/rss.xml", "https://www.mirchi9.com/feed/",
-    "https://www.cinejosh.com/rss/news", "https://www.tollywood.net/feed/", "https://www.indiaherald.com/rss/tollywood",
-    "https://www.behindwoods.com/rss/tamil-movies-news.xml"
+    # Turkish Historical (Top Priority)
+    "https://news.google.com/rss/search?q=Mehmed+Fetihler+Sultani+trailer+OR+episode+when:2d&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=Kurulus+Osman+fragman+OR+trailer+when:2d&hl=en-US&gl=US&ceid=US:en",
+    
+    # Global Netflix / Web Series
+    "https://news.google.com/rss/search?q=Netflix+new+series+trailer+release+when:1d&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=Money+Heist+spinoff+trailer+when:7d&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=Amazon+Prime+series+trailer+when:1d&hl=en-US&gl=US&ceid=US:en",
+    
+    # Bollywood & Indian Cinema
+    "https://news.google.com/rss/search?q=Bollywood+movie+trailer+release+when:1d&hl=en-IN&gl=IN&ceid=IN:en",
+    "https://news.google.com/rss/search?q=Indian+web+series+trailer+when:1d&hl=en-IN&gl=IN&ceid=IN:en",
+    
+    # Hollywood & General Entertainment
+    "https://news.google.com/rss/search?q=Hollywood+movie+trailer+official+when:1d&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=HBO+Max+series+trailer+when:1d&hl=en-US&gl=US&ceid=US:en"
 ]
+
+# ==========================================
+# MODULE A: SCRAPER & IMAGE (Dramas)
+# ==========================================
+def scrape_unposted_dramas():
+    if not os.path.exists("posted_dramas.txt"):
+        open("posted_dramas.txt", "w", encoding="utf-8").close()
+        
+    with open("posted_dramas.txt", "r", encoding="utf-8") as f:
+        posted_history = f.read().splitlines()
+
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'
+    }
+    
+    # Sequential Check: Priority wise feeds check hongi
+    for feed_url in DRAMA_FEEDS:
+        try:
+            response = requests.get(feed_url, headers=headers, timeout=15)
+            if response.status_code in [503, 500, 502, 403]:
+                continue
+                
+            feed = feedparser.parse(response.content)
+            
+            # Sirf top 3 results check karega
+            for entry in feed.entries[:3]:
+                if entry.title not in posted_history:
+                    with open("posted_dramas.txt", "a", encoding="utf-8") as f:
+                        f.write(entry.title + "\n")
+                    
+                    real_image_url = ""
+                    if 'media_content' in entry and len(entry.media_content) > 0:
+                        real_image_url = entry.media_content[0]['url']
+                    elif 'media_thumbnail' in entry and len(entry.media_thumbnail) > 0:
+                        real_image_url = entry.media_thumbnail[0]['url']
+                    
+                    if not real_image_url:
+                        encoded_prompt = urllib.parse.quote(entry.title + " cinematic high quality tv series movie trailer shot")
+                        real_image_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=800&height=400&nologo=true"
+                    
+                    # Original link pass ho raha hai taake article end mein Official button lag sakay
+                    return {
+                        "title": entry.title,
+                        "raw_text": getattr(entry, 'summary', entry.title),
+                        "image_url": real_image_url,
+                        "original_link": getattr(entry, 'link', 'https://www.youtube.com')
+                    }
+        except Exception:
+            continue
+    return None
 
 
 # ==========================================
@@ -156,68 +191,8 @@ def send_error_email(error_msg):
         pass
 
 
-# ==========================================
-# MODULE A: SCRAPER & IMAGE
-# ==========================================
-# ==========================================
-# MODULE A: SCRAPER & IMAGE
-# ==========================================
-def scrape_unposted_dramas():
-    if not os.path.exists("posted_dramas.txt"):
-        open("posted_dramas.txt", "w", encoding="utf-8").close()
-        
-    with open("posted_dramas.txt", "r", encoding="utf-8") as f:
-        posted_history = f.read().splitlines()
 
-    shuffled_feeds = DRAMA_FEEDS.copy()
-    random.shuffle(shuffled_feeds)
-    
-    # Anti-bot block bypass headers
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'
-    }
-    
-    for feed_url in shuffled_feeds:
-        try:
-            response = requests.get(feed_url, headers=headers, timeout=15)
-            
-            # 🔥 YAHAN WOH 503 WALA CHECK AAYEGA 🔥
-            # Agar website down ya blocked hai toh fail hone ke bajaye agli website par chalo
-            if response.status_code in [503, 500, 502, 403]:
-                continue
-                
-            feed = feedparser.parse(response.content)
-            
-            for entry in feed.entries[:10]:
-                if entry.title not in posted_history:
-                    with open("posted_dramas.txt", "a", encoding="utf-8") as f:
-                        f.write(entry.title + "\n")
-                    
-                    # Real Image Logic
-                    real_image_url = ""
-                    if 'media_content' in entry and len(entry.media_content) > 0:
-                        real_image_url = entry.media_content[0]['url']
-                    elif 'media_thumbnail' in entry and len(entry.media_thumbnail) > 0:
-                        real_image_url = entry.media_thumbnail[0]['url']
-                    elif 'links' in entry:
-                        for link in entry.links:
-                            if 'image' in link.get('type', ''):
-                                real_image_url = link.href
-                                break
-                    
-                    if not real_image_url:
-                        encoded_prompt = urllib.parse.quote(entry.title + " tv series drama realistic cinematic scene high quality")
-                        real_image_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=800&height=400&nologo=true"
-                    
-                    return {
-                        "title": entry.title,
-                        "raw_text": getattr(entry, 'summary', entry.title),
-                        "image_url": real_image_url,
-                        "original_link": getattr(entry, 'link', 'https://netflix.com')
-                    }
-        except Exception:
-            continue
-    return None
+
 
 # ==========================================
 # MODULE B: DRAMA REVIEW STYLE AI CONTENT
