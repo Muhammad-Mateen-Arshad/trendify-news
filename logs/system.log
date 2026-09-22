@@ -108,4 +108,5 @@
 [2026-09-22 06:18:48 AM] [JOBS_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
 [2026-09-22 06:31:00 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Scholarship Post Published: Sydney Royal scholarships invest in next generation of Australian wine talent - Drinks Trade
 [2026-09-22 06:48:15 AM] [DRAMAS_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-[2026-09-22 07:22:19 AM] [HISTORY_BOT] [SUCCESS] History Post Published: Italy - Roman Empire, Renaissance, Unification - Britannica
+[2026-09-22 07:21:50 AM] [NEWS_BOT] [SUCCESS] Published: Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day
+[2026-09-22 07:22:23 AM] [HEALTH_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
