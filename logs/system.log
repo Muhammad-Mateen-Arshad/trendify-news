@@ -113,3 +113,4 @@
 [2026-09-22 11:22:46 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Scholarship Post Published: Niskanen Summer Institute: Democracy that works - Niskanen Center
 [2026-09-22 12:33:28 PM] [HISTORY_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
 [2026-09-22 01:07:54 PM] [NEWS_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-09-22 01:29:26 PM] [JOBS_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
