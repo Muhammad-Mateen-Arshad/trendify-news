@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>System Dashboard - Trendify Portal</title>
-    <link rel="stylesheet" href="css/style.css">
     <style>
         body {
             background-color: #0c111d;
@@ -45,165 +44,92 @@
             font-size: 1.1em;
         }
 
-        /* Single Master Switch Interface */
-        .master-control {
-            text-align: center;
-            margin-bottom: 40px;
-            padding: 35px;
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 25px;
             background: #06080c;
-            border-radius: 12px;
+            border-radius: 8px;
+            overflow: hidden;
             border: 1px solid #1e293b;
         }
 
-        .bot-name {
-            display: block;
-            color: #e2e8f0;
-            font-weight: 700;
-            font-size: 1.6em;
+        th, td {
+            padding: 18px 15px;
+            text-align: left;
+            border-bottom: 1px solid #1e293b;
+        }
+
+        th {
+            background-color: #1e293b;
+            color: #00ffcc;
+            font-weight: 600;
+            text-transform: uppercase;
             letter-spacing: 1px;
-            margin-bottom: 20px;
+            font-size: 0.9em;
         }
 
-        .switch-wrapper {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 15px;
-            font-family: monospace;
-            font-size: 1.5em;
+        tr:hover {
+            background-color: #0a0e17;
+        }
+
+        td strong {
+            font-size: 1.1em;
+            letter-spacing: 0.5px;
+        }
+
+        /* Status Badges */
+        .status-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
             font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
         }
+        .posted { background: rgba(0, 255, 204, 0.1); color: #00ffcc; border: 1px solid #00ffcc; }
+        .error { background: rgba(255, 51, 51, 0.1); color: #ff8888; border: 1px solid #ff3333; }
+        .pending { background: rgba(255, 215, 0, 0.1); color: #FFD700; border: 1px solid #FFD700; }
 
-        .label-off { color: #64748b; }
-        .label-on { color: #64748b; transition: 0.4s; }
-
+        /* Toggle Switch */
         .switch {
             position: relative;
             display: inline-block;
-            width: 80px;
-            height: 40px;
+            width: 54px;
+            height: 28px;
         }
-
-        .switch input {
-            opacity: 0;
-            width: 0;
-            height: 0;
-        }
-
+        .switch input { opacity: 0; width: 0; height: 0; }
         .slider {
             position: absolute;
             cursor: pointer;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            top: 0; left: 0; right: 0; bottom: 0;
             background-color: #1e293b;
             transition: .4s;
-            border-radius: 40px;
-            border: 2px solid #334155;
+            border-radius: 34px;
+            border: 1px solid #334155;
         }
-
         .slider:before {
             position: absolute;
             content: "";
-            height: 28px;
-            width: 28px;
-            left: 4px;
-            bottom: 4px;
+            height: 20px;
+            width: 20px;
+            left: 3px;
+            bottom: 3px;
             background-color: #94a3b8;
             transition: .4s;
             border-radius: 50%;
         }
-
         input:checked + .slider {
             background-color: #0c111d;
             border-color: #00ffcc;
-            box-shadow: 0 0 15px rgba(0, 255, 204, 0.2);
+            box-shadow: 0 0 10px rgba(0, 255, 204, 0.2);
         }
-
         input:checked + .slider:before {
-            transform: translateX(40px);
+            transform: translateX(26px);
             background-color: #00ffcc;
-            box-shadow: 0 0 12px #00ffcc;
-        }
-
-        input:checked ~ .label-on {
-            color: #00ffcc;
-            text-shadow: 0 0 10px rgba(0, 255, 204, 0.8);
-        }
-
-        .master-desc {
-            color: #64748b;
-            margin-top: 20px;
-            font-size: 0.95em;
-        }
-
-        /* Log Cards Formatting */
-        .logs-section h3 {
-            color: #e2e8f0;
-            margin-bottom: 20px;
-            font-size: 1.5em;
-            border-left: 4px solid #FFD700;
-            padding-left: 10px;
-        }
-
-        .log-card {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: #06080c;
-            border: 1px solid #1e293b;
-            border-left: 4px solid #00ffcc;
-            padding: 15px 20px;
-            margin-bottom: 15px;
-            border-radius: 8px;
-            transition: transform 0.2s;
-        }
-        
-        .log-card:hover {
-            transform: translateX(5px);
-            background: #0a0e17;
-        }
-
-        .log-left {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-        }
-
-        .status-badge {
-            display: inline-block;
-            padding: 4px 10px;
-            background: rgba(0, 255, 204, 0.1);
-            color: #00ffcc;
-            border: 1px solid #00ffcc;
-            border-radius: 4px;
-            font-size: 0.75em;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            align-self: flex-start;
-        }
-
-        .log-title {
-            color: #e2e8f0;
-            font-size: 1.1em;
-            font-weight: 600;
-        }
-
-        .log-time {
-            color: #64748b;
-            font-size: 0.9em;
-            font-weight: 500;
-            text-align: right;
-            border-left: 1px solid #1e293b;
-            padding-left: 15px;
-            min-width: 150px;
-        }
-
-        @media (max-width: 650px) {
-            .log-card { flex-direction: column; align-items: flex-start; gap: 10px; }
-            .log-time { border-left: none; padding-left: 0; text-align: left; }
+            box-shadow: 0 0 8px #00ffcc;
         }
     </style>
 </head>
@@ -220,447 +146,98 @@
             <p>Live Bot Status & Activity Logs</p>
         </div>
 
-        <!-- Single Master ON/OFF Toggle -->
-        <div class="master-control">
-            <span class="bot-name">Master System Power</span>
-            <div class="switch-wrapper">
-                <span class="label-off">OFF</span>
-                <label class="switch">
-                    <input type="checkbox" checked>
-                    <span class="slider"></span>
-                </label>
-                <span class="label-on">ON</span>
-            </div>
-            <p class="master-desc">Controls execution of all 6 bots (News, Jobs, Health, History, Dramas, Scholarships)</p>
-        </div>
-
-        <div class="logs-section">
-            <h3>System Execution Logs</h3>
-            <!-- NEW_LOG_HERE -->
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Review: Resident Evil is the fresh take this flagging franchise really needed</span>
-            </div>
-            <span class="log-time">🕒 September 22, 2026 - 06:31 PM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Save $30 on Apple’s Magic Keyboard with Touch ID and a numpad</span>
-            </div>
-            <span class="log-time">🕒 September 22, 2026 - 06:12 PM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">I Tried Breville’s $300 Slot Toaster That Watches Bread So It Doesn’t Burn</span>
-            </div>
-            <span class="log-time">🕒 September 22, 2026 - 05:39 PM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 22, 2026 - 03:21 PM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 22, 2026 - 01:07 PM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Ethiopia: UN Voices Concern Over Worsening Security Situation, Armed-Group Coalition and Drone Strikes in Ethiopia</span>
-            </div>
-            <span class="log-time">🕒 September 22, 2026 - 11:21 AM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day</span>
-            </div>
-            <span class="log-time">🕒 September 22, 2026 - 07:21 AM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 22, 2026 - 05:52 AM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Africa: World Recognizing Africa as a 'Gamechanger for Global Business' - UN Chief</span>
-            </div>
-            <span class="log-time">🕒 September 22, 2026 - 03:22 AM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Healthcare in Africa ‘under growing strain’ after US withdrawal from aid programs, report warns</span>
-            </div>
-            <span class="log-time">🕒 September 22, 2026 - 12:36 AM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 21, 2026 - 11:21 PM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 21, 2026 - 10:15 PM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 21, 2026 - 09:27 PM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 21, 2026 - 07:53 PM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 21, 2026 - 07:43 PM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 21, 2026 - 03:42 PM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 21, 2026 - 02:54 PM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 21, 2026 - 11:42 AM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 21, 2026 - 07:42 AM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Hurdle hints and answers for September 21, 2026</span>
-            </div>
-            <span class="log-time">🕒 September 21, 2026 - 05:56 AM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 21, 2026 - 03:42 AM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">6 days left to save up to $200 to TechCrunch Disrupt 2026</span>
-            </div>
-            <span class="log-time">🕒 September 20, 2026 - 11:52 PM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Would Australians support a smart glasses ban?</span>
-            </div>
-            <span class="log-time">🕒 September 20, 2026 - 11:42 PM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Google's Gemini AI hacked three companies in security test</span>
-            </div>
-            <span class="log-time">🕒 September 20, 2026 - 08:42 PM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Welcome to Dogs Anonymous, the Online Support Group for People With Difficult Dogs</span>
-            </div>
-            <span class="log-time">🕒 September 20, 2026 - 07:42 PM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 20, 2026 - 05:58 PM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 20, 2026 - 05:31 PM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 20, 2026 - 04:31 PM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Don't call it an SUV: The Ferrari Purosangue review</span>
-            </div>
-            <span class="log-time">🕒 September 20, 2026 - 03:31 PM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 20, 2026 - 02:31 PM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Kalshi and Tunica-Biloxi Launch Tribal Prediction Market App</span>
-            </div>
-            <span class="log-time">🕒 September 20, 2026 - 01:31 PM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 20, 2026 - 12:53 PM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 20, 2026 - 12:31 PM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 20, 2026 - 11:31 AM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">How long can you expect your old cassette tapes to last?</span>
-            </div>
-            <span class="log-time">🕒 September 20, 2026 - 10:31 AM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Rings around a tiny body have changed over the past decade</span>
-            </div>
-            <span class="log-time">🕒 September 20, 2026 - 09:31 AM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 20, 2026 - 08:31 AM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">How to watch the 2026 AFL Grand Final online for free</span>
-            </div>
-            <span class="log-time">🕒 September 20, 2026 - 07:31 AM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Roku rolls out over 30 subscription bundles for up to 30% off, plus a new Labs feature</span>
-            </div>
-            <span class="log-time">🕒 September 20, 2026 - 06:31 AM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">How to watch Warriors vs Knights: FREE streams, TV channels for NRL Semi-Final 2026</span>
-            </div>
-            <span class="log-time">🕒 September 20, 2026 - 05:45 AM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Fake calendar invites can infect your system, and they’re surging – how to protect yourself</span>
-            </div>
-            <span class="log-time">🕒 September 20, 2026 - 05:31 AM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 20, 2026 - 04:31 AM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Gemini went rogue, hacked three companies, and Google hid it</span>
-            </div>
-            <span class="log-time">🕒 September 20, 2026 - 03:33 AM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Learning another language may be one of the best ways to keep your brain healthy</span>
-            </div>
-            <span class="log-time">🕒 September 20, 2026 - 02:31 AM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">We Can’t Stop Watching the First New Cat Species Found in a Century</span>
-            </div>
-            <span class="log-time">🕒 September 20, 2026 - 01:31 AM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Could AI really kill us all? Your questions, answered.</span>
-            </div>
-            <span class="log-time">🕒 September 20, 2026 - 12:31 AM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Meta’s Muse is creepy, but maybe not for the reasons you think</span>
-            </div>
-            <span class="log-time">🕒 September 19, 2026 - 11:55 PM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Iran and China Create First-of-Their-Kind Autonomous A.I. Influence Campaigns</span>
-            </div>
-            <span class="log-time">🕒 September 19, 2026 - 11:32 PM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 19, 2026 - 10:32 PM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 19, 2026 - 09:31 PM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Samsung Galaxy Watch9 Review: I Don’t Need Another Health Score</span>
-            </div>
-            <span class="log-time">🕒 September 19, 2026 - 08:24 PM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Anthropic Pursues IPO Despite Its A.I. Safety Warnings</span>
-            </div>
-            <span class="log-time">🕒 September 19, 2026 - 08:00 PM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Google’s Gemini is the latest AI model to hack other companies</span>
-            </div>
-            <span class="log-time">🕒 September 19, 2026 - 07:42 PM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Tired of Cluttered Productivity Apps? This One’s Just a Text Document</span>
-            </div>
-            <span class="log-time">🕒 September 19, 2026 - 07:31 PM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Businesses finally seeing AI ROI, but 62% can’t handle the storage demands</span>
-            </div>
-            <span class="log-time">🕒 September 19, 2026 - 07:27 PM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 19, 2026 - 06:54 PM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">What Is a Smart Lock? Why I Recommend This Security Upgrade for Everyone</span>
-            </div>
-            <span class="log-time">🕒 September 19, 2026 - 06:36 PM</span>
-        </div>
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">Trump treads further on free speech with new journalist bans</span>
-            </div>
-            <span class="log-time">🕒 September 19, 2026 - 06:12 PM</span>
-        </div>
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 September 19, 2026 - 06:02 PM</span>
-        </div>
-
-            <!-- Default Initial Log -->
-            <div class="log-card" style="border-left-color: #FFD700;">
-                <div class="log-left">
-                    <span class="status-badge" style="color: #FFD700; border-color: #FFD700; background: rgba(255, 215, 0, 0.1);">⚙️ SYSTEM READY</span>
-                    <span class="log-title">Mega Portal has been successfully initialized. All bots are active.</span>
-                </div>
-                <span class="log-time">🕒 Waiting for trigger...</span>
-            </div>
-        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Status</th>
+                    <th>Mention Error</th>
+                    <th>Bot Power</th>
+                </tr>
+            </thead>
+            <tbody id="dashboard-table-body">
+                <!-- News -->
+                <tr>
+                    <td><strong>News</strong></td>
+                    <td><span class="status-badge posted">Posted</span></td>
+                    <td style="color: #94a3b8;">-</td>
+                    <td>
+                        <label class="switch">
+                            <input type="checkbox" checked onchange="alertSync()">
+                            <span class="slider"></span>
+                        </label>
+                    </td>
+                </tr>
+                <!-- Jobs -->
+                <tr>
+                    <td><strong>Jobs</strong></td>
+                    <td><span class="status-badge error">Error</span></td>
+                    <td style="color: #ff8888;">API Limit (429)</td>
+                    <td>
+                        <label class="switch">
+                            <input type="checkbox" checked onchange="alertSync()">
+                            <span class="slider"></span>
+                        </label>
+                    </td>
+                </tr>
+                <!-- Health -->
+                <tr>
+                    <td><strong>Health</strong></td>
+                    <td><span class="status-badge error">Error</span></td>
+                    <td style="color: #ff8888;">API Limit (429)</td>
+                    <td>
+                        <label class="switch">
+                            <input type="checkbox" checked onchange="alertSync()">
+                            <span class="slider"></span>
+                        </label>
+                    </td>
+                </tr>
+                <!-- History -->
+                <tr>
+                    <td><strong>History</strong></td>
+                    <td><span class="status-badge error">Error</span></td>
+                    <td style="color: #ff8888;">API Limit (429)</td>
+                    <td>
+                        <label class="switch">
+                            <input type="checkbox" checked onchange="alertSync()">
+                            <span class="slider"></span>
+                        </label>
+                    </td>
+                </tr>
+                <!-- Dramas -->
+                <tr>
+                    <td><strong>Dramas</strong></td>
+                    <td><span class="status-badge posted">Posted</span></td>
+                    <td style="color: #94a3b8;">-</td>
+                    <td>
+                        <label class="switch">
+                            <input type="checkbox" checked onchange="alertSync()">
+                            <span class="slider"></span>
+                        </label>
+                    </td>
+                </tr>
+                <!-- Scholarships -->
+                <tr>
+                    <td><strong>Scholarships</strong></td>
+                    <td><span class="status-badge error">Error</span></td>
+                    <td style="color: #ff8888;">API Limit (429)</td>
+                    <td>
+                        <label class="switch">
+                            <input type="checkbox" checked onchange="alertSync()">
+                            <span class="slider"></span>
+                        </label>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
+
+    <!-- Alert Script for Syncing Issue -->
+    <script>
+        function alertSync() {
+            alert("⚠️ Syncing Requirement:\n\nYe buttons abhi sirf isi device (local browser) par kaam karenge. Mobile aur Laptop ke darmiyan real-time on/off sync karne ke liye humein isay 'Firebase Realtime Database' ke sath connect karna hoga.");
+        }
+    </script>
 
     <footer style="text-align: center; color: #64748b; padding-bottom: 30px;">
         <p>&copy; 2026 Trendify Media Pipeline. Built by Muhammad Mateen Arshad.</p>
