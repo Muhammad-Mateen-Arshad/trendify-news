@@ -44,6 +44,296 @@
             font-size: 1.1em;
         }
 
+        /* Single Master Switch Interface */
+        .master-control {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 35px;
+            background: #06080c;
+            border-radius: 12px;
+            border: 1px solid #1e293b;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+        }
+
+        .bot-name {
+            display: block;
+            color: #e2e8f0;
+            font-weight: 700;
+            font-size: 1.6em;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .switch-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            font-family: monospace;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .label-off { color: #64748b; }
+        .label-on { color: #64748b; transition: 0.4s; }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 80px;
+            height: 40px;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #1e293b;
+            transition: .4s;
+            border-radius: 40px;
+            border: 2px solid #334155;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 28px;
+            width: 28px;
+            left: 4px;
+            bottom: 4px;
+            background-color: #94a3b8;
+            transition: .4s;
+            border-radius: 50%;
+        }
+
+        input:checked + .slider {
+            background-color: #0c111d;
+            border-color: #00ffcc;
+            box-shadow: 0 0 15px rgba(0, 255, 204, 0.2);
+        }
+
+        input:checked + .slider:before {
+            transform: translateX(40px);
+            background-color: #00ffcc;
+            box-shadow: 0 0 12px #00ffcc;
+        }
+
+        input:checked ~ .label-on {
+            color: #00ffcc;
+            text-shadow: 0 0 10px rgba(0, 255, 204, 0.8);
+        }
+
+        .master-desc {
+            color: #64748b;
+            margin-top: 20px;
+            font-size: 0.95em;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            background: #06080c;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #1e293b;
+        }
+
+        th, td {
+            padding: 18px 15px;
+            text-align: left;
+            border-bottom: 1px solid #1e293b;
+        }
+
+        th {
+            background-color: #1e293b;
+            color: #00ffcc;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.9em;
+        }
+
+        tr:hover {
+            background-color: #0a0e17;
+        }
+
+        td strong {
+            font-size: 1.1em;
+            letter-spacing: 0.5px;
+        }
+
+        .time-text {
+            color: #94a3b8;
+            font-size: 0.9em;
+            font-family: monospace;
+        }
+
+        /* Status Badges */
+        .status-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .posted { background: rgba(0, 255, 204, 0.1); color: #00ffcc; border: 1px solid #00ffcc; }
+        .error { background: rgba(255, 51, 51, 0.1); color: #ff8888; border: 1px solid #ff3333; }
+    </style>
+</head>
+<body>
+    
+    <header style="text-align: center; padding: 20px;">
+        <h1 style="color: #fff;">Trendify Portal</h1>
+        <p style="color: #00ffcc;">Automated Media Network</p>
+    </header>
+    
+    <div class="dashboard-container">
+        <div class="dashboard-header">
+            <h2>System Control Panel</h2>
+            <p>Live Bot Status & Activity Logs</p>
+        </div>
+
+        <!-- Single Master ON/OFF Toggle -->
+        <div class="master-control">
+            <span class="bot-name">Master System Power</span>
+            <div class="switch-wrapper">
+                <span class="label-off">OFF</span>
+                <label class="switch">
+                    <input type="checkbox" checked onchange="alertSync()">
+                    <span class="slider"></span>
+                </label>
+                <span class="label-on">ON</span>
+            </div>
+            <p class="master-desc">Controls execution of all 6 bots (News, Jobs, Health, History, Dramas, Scholarships)</p>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Status</th>
+                    <th>Posting Time</th>
+                    <th>Mention Error</th>
+                </tr>
+            </thead>
+            <tbody id="dashboard-table-body">
+                <!-- News -->
+                <tr>
+                    <td><strong>News</strong></td>
+                    <td><span class="status-badge posted">Posted</span></td>
+                    <td class="time-text">Sept 22, 11:30 PM</td>
+                    <td style="color: #94a3b8;">-</td>
+                </tr>
+                <!-- Jobs -->
+                <tr>
+                    <td><strong>Jobs</strong></td>
+                    <td><span class="status-badge error">Error</span></td>
+                    <td class="time-text">Sept 22, 11:35 PM</td>
+                    <td style="color: #ff8888;">API Limit (429)</td>
+                </tr>
+                <!-- Health -->
+                <tr>
+                    <td><strong>Health</strong></td>
+                    <td><span class="status-badge error">Error</span></td>
+                    <td class="time-text">Sept 22, 11:35 PM</td>
+                    <td style="color: #ff8888;">API Limit (429)</td>
+                </tr>
+                <!-- History -->
+                <tr>
+                    <td><strong>History</strong></td>
+                    <td><span class="status-badge error">Error</span></td>
+                    <td class="time-text">Sept 22, 11:36 PM</td>
+                    <td style="color: #ff8888;">API Limit (429)</td>
+                </tr>
+                <!-- Dramas -->
+                <tr>
+                    <td><strong>Dramas</strong></td>
+                    <td><span class="status-badge posted">Posted</span></td>
+                    <td class="time-text">Sept 22, 11:40 PM</td>
+                    <td style="color: #94a3b8;">-</td>
+                </tr>
+                <!-- Scholarships -->
+                <tr>
+                    <td><strong>Scholarships</strong></td>
+                    <td><span class="status-badge error">Error</span></td>
+                    <td class="time-text">Sept 22, 11:42 PM</td>
+                    <td style="color: #ff8888;">API Limit (429)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Alert Script for Syncing Issue -->
+    <script>
+        function alertSync() {
+            alert("⚠️ Syncing Requirement:\n\nYe master button abhi sirf isi device (local browser) par kaam karega. Mobile aur Laptop ke darmiyan real-time on/off sync karne ke liye humein isay 'Firebase Realtime Database' ke sath connect karna hoga.");
+        }
+    </script>
+
+    <footer style="text-align: center; color: #64748b; padding-bottom: 30px;">
+        <p>&copy; 2026 Trendify Media Pipeline. Built by Arshad Iqbal.</p>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Dashboard - Trendify Portal</title>
+    <style>
+        body {
+            background-color: #0c111d;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #e2e8f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .dashboard-container {
+            max-width: 1000px;
+            margin: 40px auto 80px;
+            padding: 30px;
+            background: #0f1523;
+            border: 1px solid #1e293b;
+            border-top: 5px solid #00ffcc;
+            border-radius: 12px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+        }
+
+        .dashboard-header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #1e293b;
+        }
+
+        .dashboard-header h2 {
+            color: #00ffcc;
+            font-size: 2.5em;
+            margin: 0 0 10px 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .dashboard-header p {
+            color: #94a3b8;
+            font-size: 1.1em;
+        }
+
         /* Table Styling */
         table {
             width: 100%;
@@ -240,7 +530,7 @@
     </script>
 
     <footer style="text-align: center; color: #64748b; padding-bottom: 30px;">
-        <p>&copy; 2026 Trendify Media Pipeline. Built by Muhammad Mateen Arshad.</p>
+        <p>&copy; 2026 Trendify Media Pipeline. Built by Arshad Iqbal.</p>
     </footer>
 </body>
 </html>
