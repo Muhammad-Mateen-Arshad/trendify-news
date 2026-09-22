@@ -108,4 +108,4 @@
 [2026-09-22 06:18:48 AM] [JOBS_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
 [2026-09-22 06:31:00 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Scholarship Post Published: Sydney Royal scholarships invest in next generation of Australian wine talent - Drinks Trade
 [2026-09-22 06:48:15 AM] [DRAMAS_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-[2026-09-22 07:22:00 AM] [SCHOLARSHIPS_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-09-22 07:22:12 AM] [DRAMAS_BOT] [SUCCESS] Drama Post Published: Line Of Fire Show Boss Joshua Safran Promises 'All The Answers' About That Premiere Twist 'Will Come Out In The Course Of This Season'
