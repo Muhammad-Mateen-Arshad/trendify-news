@@ -101,4 +101,4 @@
 [2026-09-22 12:52:55 AM] [JOBS_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
 [2026-09-22 12:59:22 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Scholarship Post Published: CSU added as a Beinecke Scholarship institution - Colorado State University News
 [2026-09-22 01:11:44 AM] [DRAMAS_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-[2026-09-22 03:22:00 AM] [SCHOLARSHIPS_BOT] [ERROR] AI Generation Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-09-22 03:22:12 AM] [DRAMAS_BOT] [SUCCESS] Drama Post Published: Line Of Fire Review: NBC's New Crime Thriller Aims To Change The TV Game
