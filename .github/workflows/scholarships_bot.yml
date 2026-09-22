@@ -27,11 +27,19 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
         run: python scripts/scholarships_bot.py
-      - name: Commit and Push
+      - name: Commit and Push Changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update article"
-          git pull --rebase -X theirs origin main
-          git push
+          git commit -m "Auto-update article" || echo "No changes to commit"
+          
+          # Auto-Retry Logic 
+          n=0
+          until [ "$n" -ge 5 ]
+          do
+             git pull --rebase origin main && git push origin main && break
+             n=$((n+1))
+             echo "Push locked by another bot, retrying in 5 seconds..."
+             sleep 5
+          done

@@ -214,6 +214,9 @@ def send_error_email(error_msg):
 # ==========================================
 # MODULE A: SCRAPER & IMAGE
 # ==========================================
+# ==========================================
+# MODULE A: SCRAPER & IMAGE
+# ==========================================
 def scrape_unposted_news():
     if not os.path.exists("posted_news.txt"):
         open("posted_news.txt", "w", encoding="utf-8").close()
@@ -224,9 +227,19 @@ def scrape_unposted_news():
     shuffled_feeds = RSS_FEEDS.copy()
     random.shuffle(shuffled_feeds)
     
+    # Anti-bot block bypass headers
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'
+    }
+    
     for feed_url in shuffled_feeds:
         try:
-            response = requests.get(feed_url, timeout=15)
+            response = requests.get(feed_url, headers=headers, timeout=15)
+            
+            # 🔥 503 aur Website Down Error Bypass 🔥
+            if response.status_code in [503, 500, 502, 403]:
+                continue
+                
             feed = feedparser.parse(response.content)
             
             for entry in feed.entries[:10]:
@@ -283,12 +296,19 @@ def generate_ai_article(title, raw_text):
             return response.text.replace("```html", "").replace("```", "").strip()
         except Exception as e:
             error_msg = str(e)
+            
+            # 1. Agar API limit khatam ho (429) toh next key par shift karein
             if "429" in error_msg or "RESOURCE_EXHAUSTED" in error_msg:
-                print(f"⚠️ Key {CURRENT_KEY_INDEX + 1} limit reached. Switching key...")
-                add_log("WARNING", f"Key {CURRENT_KEY_INDEX + 1} hit 429 Limit.")
                 CURRENT_KEY_INDEX = (CURRENT_KEY_INDEX + 1) % len(GEMINI_API_KEYS)
                 client = genai.Client(api_key=GEMINI_API_KEYS[CURRENT_KEY_INDEX])
+                print(f"Key rotated! Switching to Key {CURRENT_KEY_INDEX + 1}")
                 time.sleep(2)
+                
+            # 2. Agar Server overload (503) ho toh 5 second wait kar ke dobara try karein
+            elif "503" in error_msg or "500" in error_msg or "502" in error_msg:
+                print("⚠️ 503 Server Error. API is overloaded. Waiting 5 seconds before retrying...")
+                time.sleep(5)
+                
             else:
                 raise Exception(f"AI Generation Failed: {error_msg}")
                 

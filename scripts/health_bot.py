@@ -133,6 +133,7 @@ def send_error_email(error_msg):
 # ==========================================
 # MODULE A: SCRAPER & IMAGE
 # ==========================================
+
 # ==========================================
 # MODULE A: SCRAPER & IMAGE
 # ==========================================
@@ -146,15 +147,19 @@ def scrape_unposted_health():
     shuffled_feeds = HEALTH_FEEDS.copy()
     random.shuffle(shuffled_feeds)
     
-    # Browser identity taake websites bot samajh kar block na karein
+    # Anti-bot block bypass headers
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'
     }
     
     for feed_url in shuffled_feeds:
         try:
-            # Strict 15-second timeout and headers added
             response = requests.get(feed_url, headers=headers, timeout=15)
+            
+            # 🔥 503 aur Website Down Error Bypass 🔥
+            if response.status_code in [503, 500, 502, 403]:
+                continue
+                
             feed = feedparser.parse(response.content)
             
             for entry in feed.entries[:10]:
@@ -162,18 +167,30 @@ def scrape_unposted_health():
                     with open("posted_health.txt", "a", encoding="utf-8") as f:
                         f.write(entry.title + "\n")
                     
-                    # Senior health focused AI image prompt
-                    image_prompt = entry.title + " healthy active senior people nature morning sunlight wellness high quality realistic"
-                    encoded_prompt = urllib.parse.quote(image_prompt)
-                    image_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=800&height=400&nologo=true&seed={random.randint(1,1000)}"
+                    # 🔥 Real Image Logic 🔥
+                    real_image_url = ""
+                    if 'media_content' in entry and len(entry.media_content) > 0:
+                        real_image_url = entry.media_content[0]['url']
+                    elif 'media_thumbnail' in entry and len(entry.media_thumbnail) > 0:
+                        real_image_url = entry.media_thumbnail[0]['url']
+                    elif 'links' in entry:
+                        for link in entry.links:
+                            if 'image' in link.get('type', ''):
+                                real_image_url = link.href
+                                break
+                    
+                    # AI Backup
+                    if not real_image_url:
+                        image_prompt = entry.title + " healthy active senior people nature morning sunlight wellness high quality realistic"
+                        encoded_prompt = urllib.parse.quote(image_prompt)
+                        real_image_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=800&height=400&nologo=true&seed={random.randint(1,1000)}"
                     
                     return {
                         "title": entry.title,
                         "raw_text": getattr(entry, 'summary', entry.title),
-                        "image_url": image_url
+                        "image_url": real_image_url
                     }
-        except Exception as e:
-            print(f"Skipping feed {feed_url} due to error: {e}")
+        except Exception:
             continue
             
     return None
@@ -201,10 +218,19 @@ def generate_ai_article(title, raw_text):
             return response.text.replace("```html", "").replace("```", "").strip()
         except Exception as e:
             error_msg = str(e)
+            
+            # 1. Agar API limit khatam ho (429) toh next key par shift karein
             if "429" in error_msg or "RESOURCE_EXHAUSTED" in error_msg:
                 CURRENT_KEY_INDEX = (CURRENT_KEY_INDEX + 1) % len(GEMINI_API_KEYS)
                 client = genai.Client(api_key=GEMINI_API_KEYS[CURRENT_KEY_INDEX])
+                print(f"Key rotated! Switching to Key {CURRENT_KEY_INDEX + 1}")
                 time.sleep(2)
+                
+            # 2. Agar Server overload (503) ho toh 5 second wait kar ke dobara try karein
+            elif "503" in error_msg or "500" in error_msg or "502" in error_msg:
+                print("⚠️ 503 Server Error. API is overloaded. Waiting 5 seconds before retrying...")
+                time.sleep(5)
+                
             else:
                 raise Exception(f"AI Generation Failed: {error_msg}")
                 
