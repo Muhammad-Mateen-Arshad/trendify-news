@@ -42,55 +42,78 @@ GMAIL_SENDER = "mateenarshad877@gmail.com"
 GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD") 
 GMAIL_RECEIVER = "mateenarshad877@gmail.com" 
 
+# ==========================================
+# TARGETED GLOBAL BREAKING NEWS FEEDS (Prioritized)
+# ==========================================
 RSS_FEEDS = [
-    # Global Geopolitics, Conflicts & World News Feeds
-
-    "http://feeds.bbci.co.uk/news/world/rss.xml",
-    "https://www.aljazeera.com/xml/rss/all.xml",
-    "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-    "https://www.theguardian.com/world/rss",
-    "https://rss.dw.com/rdf/rss-en-world",
-    "https://www.france24.com/en/rss",
-    "https://moxie.foxnews.com/google-publisher/world.xml",
-    "https://feeds.a.dj.com/rss/RSSWorldNews.xml",
-    "http://rss.cnn.com/rss/edition_world.rss",
-    "https://www.cbsnews.com/latest/rss/world",
-    "https://abcnews.go.com/abcnews/internationalheadlines",
-    "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-    "https://www.independent.co.uk/news/world/rss",
-    "https://www.telegraph.co.uk/world-news/rss.xml",
-    "https://www.scmp.com/rss/91/feed",
-    "https://www.thehindu.com/news/international/feeder/default.rss",
-    "https://dawn.com/feeds/home/",
-    "https://tribune.com.pk/feed/latest",
-    "https://www.geo.tv/rss/1/53",
-    "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml",
-    "https://www.japantimes.co.jp/news_category/world/feed/",
-    "https://www.straitstimes.com/news/world/rss.xml",
-    "https://www.politico.eu/feed/",
-    "https://www.euractiv.com/feed/",
-    "https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf",
-    "https://mercopress.com/rss",
-    "https://www.smh.com.au/rss/world.xml",
-    "https://theintercept.com/feed/?lang=en",
-    "https://defense-update.com/feed",
-    "https://www.amnesty.org/en/rss/",
-    "http://feeds.bbci.co.uk/news/technology/rss.xml",
-    "https://techcrunch.com/feed/",
-    "https://www.wired.com/feed/rss",
-    "https://mashable.com/feeds/rss/all",
-    "https://www.theverge.com/rss/index.xml",
-    "http://feeds.arstechnica.com/arstechnica/index",
-    "https://www.engadget.com/rss.xml",
-    "https://gizmodo.com/rss",
-    "https://www.zdnet.com/news/rss.xml",
-    "https://feeds.feedburner.com/venturebeat/SZYF",
-    "https://readwrite.com/feed/",
-    "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
-    "https://www.cnet.com/rss/news/",
-    "https://www.techradar.com/rss",
-    "https://www.technologyreview.com/feed/"
+    # Top Priority: Pakistan & Regional
+    "https://news.google.com/rss/search?q=Pakistan+breaking+news+when:1h&hl=en-PK&gl=PK&ceid=PK:en",
+    "https://news.google.com/rss/search?q=Pakistan+protest+strike+when:1d&hl=en-PK&gl=PK&ceid=PK:en",
+    
+    # Middle East & Islamic World
+    "https://news.google.com/rss/search?q=Saudi+Arabia+breaking+news+when:1h&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=Turkey+breaking+news+when:1h&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=Iran+breaking+news+when:1h&hl=en-US&gl=US&ceid=US:en",
+    
+    # Western World
+    "https://news.google.com/rss/search?q=USA+breaking+news+when:1h&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=UK+breaking+news+when:1h&hl=en-GB&gl=GB&ceid=GB:en",
+    "https://news.google.com/rss/search?q=Canada+breaking+news+when:1h&hl=en-CA&gl=CA&ceid=CA:en",
+    
+    # Global Tech & Trending
+    "https://news.google.com/rss/search?q=Global+trending+news+when:1h&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=technology+breaking+when:1d&hl=en-US&gl=US&ceid=US:en"
 ]
+
+# ==========================================
+# MODULE A: SCRAPER & IMAGE (News)
+# ==========================================
+def scrape_unposted_news():
+    if not os.path.exists("posted_news.txt"):
+        open("posted_news.txt", "w", encoding="utf-8").close()
+        
+    with open("posted_news.txt", "r", encoding="utf-8") as f:
+        posted_history = f.read().splitlines()
+
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'
+    }
+    
+    # Sequential Check: Priority wise feeds check hongi, shuffle nahi hoga
+    for feed_url in RSS_FEEDS:
+        try:
+            response = requests.get(feed_url, headers=headers, timeout=15)
+            if response.status_code in [503, 500, 502, 403]:
+                continue
+                
+            feed = feedparser.parse(response.content)
+            
+            # Sirf top 3 trending khabrein check karega (Index 0 priority par)
+            for entry in feed.entries[:3]:
+                if entry.title not in posted_history:
+                    with open("posted_news.txt", "a", encoding="utf-8") as f:
+                        f.write(entry.title + "\n")
+                    
+                    real_image_url = ""
+                    if 'media_content' in entry and len(entry.media_content) > 0:
+                        real_image_url = entry.media_content[0]['url']
+                    elif 'media_thumbnail' in entry and len(entry.media_thumbnail) > 0:
+                        real_image_url = entry.media_thumbnail[0]['url']
+                    
+                    if not real_image_url:
+                        encoded_prompt = urllib.parse.quote(entry.title + " highly detailed photo reportage news event")
+                        real_image_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=800&height=400&nologo=true"
+                    
+                    return {
+                        "title": entry.title,
+                        "raw_text": getattr(entry, 'summary', entry.title),
+                        "image_url": real_image_url,
+                        "original_link": getattr(entry, 'link', 'https://news.google.com')
+                    }
+        except Exception:
+            continue
+            
+    return None
 
 # ==========================================
 # MODULE: RSS FEED (NEWS ONLY)
@@ -211,69 +234,7 @@ def send_error_email(error_msg):
     except Exception as e:
         print(f"📧 Email Error: {e}")
 
-# ==========================================
-# MODULE A: SCRAPER & IMAGE
-# ==========================================
-# ==========================================
-# MODULE A: SCRAPER & IMAGE
-# ==========================================
-def scrape_unposted_news():
-    if not os.path.exists("posted_news.txt"):
-        open("posted_news.txt", "w", encoding="utf-8").close()
-        
-    with open("posted_news.txt", "r", encoding="utf-8") as f:
-        posted_history = f.read().splitlines()
 
-    shuffled_feeds = RSS_FEEDS.copy()
-    random.shuffle(shuffled_feeds)
-    
-    # Anti-bot block bypass headers
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'
-    }
-    
-    for feed_url in shuffled_feeds:
-        try:
-            response = requests.get(feed_url, headers=headers, timeout=15)
-            
-            # 🔥 503 aur Website Down Error Bypass 🔥
-            if response.status_code in [503, 500, 502, 403]:
-                continue
-                
-            feed = feedparser.parse(response.content)
-            
-            for entry in feed.entries[:10]:
-                if entry.title not in posted_history:
-                    with open("posted_news.txt", "a", encoding="utf-8") as f:
-                        f.write(entry.title + "\n")
-                    
-                    # Real Image Extract Karne Ka Logic
-                    real_image_url = ""
-                    if 'media_content' in entry and len(entry.media_content) > 0:
-                        real_image_url = entry.media_content[0]['url']
-                    elif 'media_thumbnail' in entry and len(entry.media_thumbnail) > 0:
-                        real_image_url = entry.media_thumbnail[0]['url']
-                    elif 'links' in entry:
-                        for link in entry.links:
-                            if 'image' in link.get('type', ''):
-                                real_image_url = link.href
-                                break
-                    
-                    # Agar original picture na mile toh backup
-                    if not real_image_url:
-                        encoded_prompt = urllib.parse.quote(entry.title + " global news event realistic photo")
-                        real_image_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=800&height=400&nologo=true"
-                    
-                    return {
-                        "title": entry.title,
-                        "raw_text": getattr(entry, 'summary', entry.title),
-                        "image_url": real_image_url
-                    }
-        except Exception as e:
-            print(f"Skipping feed {feed_url} due to error: {e}")
-            continue
-            
-    return None
 
 # ==========================================
 # MODULE B: REAL AI CONTENT
