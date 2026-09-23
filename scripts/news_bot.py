@@ -233,19 +233,6 @@ def send_error_email(error_msg):
     except Exception as e:
         print(f"📧 Email Error: {e}")
 
-<<<<<<< HEAD
-=======
-
-# ==========================================
-# MODULE A: SCRAPER & IMAGE
-# ==========================================
-def scrape_unposted_news():
-    if not os.path.exists("posted_news.txt"):
-        open("posted_news.txt", "w", encoding="utf-8").close()
-        
-    with open("posted_news.txt", "r", encoding="utf-8") as f:
-        posted_history = f.read().splitlines()
->>>>>>> 1b4a180 (Updating dashboard)
 
 
 # ==========================================

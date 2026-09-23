@@ -84,7 +84,6 @@
             width: 80px;
             height: 40px;
         }
-<<<<<<< HEAD
 
         .switch input {
             opacity: 0;
@@ -99,22 +98,12 @@
             left: 0;
             right: 0;
             bottom: 0;
-=======
-        .switch input { opacity: 0; width: 0; height: 0; }
-        .slider {
-            position: absolute;
-            cursor: pointer;
-            top: 0; left: 0; right: 0; bottom: 0;
->>>>>>> 1b4a180 (Updating dashboard)
             background-color: #1e293b;
             transition: .4s;
             border-radius: 40px;
             border: 2px solid #334155;
         }
-<<<<<<< HEAD
 
-=======
->>>>>>> 1b4a180 (Updating dashboard)
         .slider:before {
             position: absolute;
             content: "";
@@ -126,33 +115,24 @@
             transition: .4s;
             border-radius: 50%;
         }
-<<<<<<< HEAD
 
-=======
->>>>>>> 1b4a180 (Updating dashboard)
         input:checked + .slider {
             background-color: #0c111d;
             border-color: #00ffcc;
             box-shadow: 0 0 15px rgba(0, 255, 204, 0.2);
         }
-<<<<<<< HEAD
 
-=======
->>>>>>> 1b4a180 (Updating dashboard)
         input:checked + .slider:before {
             transform: translateX(40px);
             background-color: #00ffcc;
             box-shadow: 0 0 12px #00ffcc;
         }
 
-<<<<<<< HEAD
         input:checked ~ .label-on {
             color: #00ffcc;
             text-shadow: 0 0 10px rgba(0, 255, 204, 0.8);
         }
 
-=======
->>>>>>> 1b4a180 (Updating dashboard)
         .master-desc {
             color: #64748b;
             margin-top: 20px;
@@ -199,12 +179,6 @@
             font-family: monospace;
         }
 
-        .time-text {
-            color: #94a3b8;
-            font-size: 0.9em;
-            font-family: monospace;
-        }
-
         /* Status Badges */
         .status-badge {
             display: inline-block;
@@ -232,10 +206,7 @@
             <p>Live Bot Status & Activity Logs</p>
         </div>
 
-<<<<<<< HEAD
         <!-- Single Master ON/OFF Toggle -->
-=======
->>>>>>> 1b4a180 (Updating dashboard)
         <div class="master-control">
             <span class="bot-name">Master System Power</span>
             <div class="switch-wrapper">
@@ -246,11 +217,7 @@
                 </label>
                 <span class="label-on">ON</span>
             </div>
-<<<<<<< HEAD
             <p class="master-desc">Controls execution of all 6 bots (News, Jobs, Health, History, Dramas, Scholarships)</p>
-=======
-            <p class="master-desc">Controls execution of all bots (News, Jobs, Health, History, Dramas, Scholarships)</p>
->>>>>>> 1b4a180 (Updating dashboard)
         </div>
 
         <table>
@@ -259,71 +226,18 @@
                     <th>Category</th>
                     <th>Status</th>
                     <th>Posting Time</th>
-<<<<<<< HEAD
-                    <th>Mention Error</th>
-                </tr>
-            </thead>
-            <tbody id="dashboard-table-body">
-                <!-- News -->
-                <tr>
-                    <td><strong>News</strong></td>
-                    <td><span class="status-badge posted">Posted</span></td>
-                    <td class="time-text">Sept 22, 11:30 PM</td>
-                    <td style="color: #94a3b8;">-</td>
-                </tr>
-                <!-- Jobs -->
-                <tr>
-                    <td><strong>Jobs</strong></td>
-                    <td><span class="status-badge error">Error</span></td>
-                    <td class="time-text">Sept 22, 11:35 PM</td>
-                    <td style="color: #ff8888;">API Limit (429)</td>
-                </tr>
-                <!-- Health -->
-                <tr>
-                    <td><strong>Health</strong></td>
-                    <td><span class="status-badge error">Error</span></td>
-                    <td class="time-text">Sept 22, 11:35 PM</td>
-                    <td style="color: #ff8888;">API Limit (429)</td>
-                </tr>
-                <!-- History -->
-                <tr>
-                    <td><strong>History</strong></td>
-                    <td><span class="status-badge error">Error</span></td>
-                    <td class="time-text">Sept 22, 11:36 PM</td>
-                    <td style="color: #ff8888;">API Limit (429)</td>
-                </tr>
-                <!-- Dramas -->
-                <tr>
-                    <td><strong>Dramas</strong></td>
-                    <td><span class="status-badge posted">Posted</span></td>
-                    <td class="time-text">Sept 22, 11:40 PM</td>
-                    <td style="color: #94a3b8;">-</td>
-                </tr>
-                <!-- Scholarships -->
-                <tr>
-                    <td><strong>Scholarships</strong></td>
-                    <td><span class="status-badge error">Error</span></td>
-                    <td class="time-text">Sept 22, 11:42 PM</td>
-                    <td style="color: #ff8888;">API Limit (429)</td>
-                </tr>
-=======
                     <th>Details / Error</th>
                 </tr>
             </thead>
             <tbody id="dashboard-table-body">
                 <!-- NEW_LOG_HERE -->
->>>>>>> 1b4a180 (Updating dashboard)
             </tbody>
         </table>
     </div>
 
     <script>
         function alertSync() {
-<<<<<<< HEAD
             alert("⚠️ Syncing Requirement:\n\nYe master button abhi sirf isi device (local browser) par kaam karega. Mobile aur Laptop ke darmiyan real-time on/off sync karne ke liye humein isay 'Firebase Realtime Database' ke sath connect karna hoga.");
-=======
-            alert("⚠️ Syncing Requirement:\n\nYe master button abhi sirf isi device par kaam karega. Real-time sync ke liye Firebase integration required hai.");
->>>>>>> 1b4a180 (Updating dashboard)
         }
     </script>
 
