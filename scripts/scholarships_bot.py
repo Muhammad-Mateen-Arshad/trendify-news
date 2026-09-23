@@ -183,9 +183,35 @@ def send_error_email(error_msg):
     except Exception:
         pass
 
-# ==========================================
-# MODULE A: SCRAPER & IMAGE
-# ==========================================
+def update_dashboard(status, message):
+    current_time = datetime.now().strftime("%b %d, %Y - %I:%M %p")
+    bot_name = "SCHOLARSHIPS" # ⚠️ Har bot mein isay change karein (e.g., "HEALTH", "HISTORY", "DRAMAS")
+    
+    if status == "SUCCESS":
+        log_html = f"""<!-- NEW_LOG_HERE -->
+        <tr>
+            <td><strong>{bot_name}</strong></td>
+            <td><span class="status-badge posted">POSTED</span></td>
+            <td class="time-text">{current_time}</td>
+            <td style="color: #94a3b8;">{message}</td>
+        </tr>"""
+    else:
+        log_html = f"""<!-- NEW_LOG_HERE -->
+        <tr style="background-color: rgba(255, 51, 51, 0.05);">
+            <td><strong>{bot_name}</strong></td>
+            <td><span class="status-badge error">ERROR</span></td>
+            <td class="time-text">{current_time}</td>
+            <td style="color: #ff8888;">{message}</td>
+        </tr>"""
+    
+    try:
+        if os.path.exists("system-logs.html"):
+            with open("system-logs.html", "r", encoding="utf-8") as f:
+                content = f.read()
+            with open("system-logs.html", "w", encoding="utf-8") as f:
+                f.write(content.replace("<!-- NEW_LOG_HERE -->", log_html))
+    except Exception:
+        pass
 # ==========================================
 # MODULE A: SCRAPER & IMAGE
 # ==========================================
@@ -372,6 +398,32 @@ def run_single_pipeline():
     except Exception as e:
         error_details = str(e)
         add_log("ERROR", error_details)
+        send_error_email(error_details)
+# ==========================================
+# 🚀 PIPELINE RUNNER (SCHOLARSHIPS)
+# ==========================================
+def run_single_pipeline():
+    print("🔥 SCHOLARSHIPS BOT RUNNING...\n")
+    try:
+        schol_news = scrape_unposted_scholarships()
+        if schol_news:
+            print(f"🤖 Generating Scholarship Article: {schol_news['title']}")
+            article = generate_ai_article(schol_news["title"], schol_news["raw_text"], schol_news["source_link"])
+            file_name = build_html_page(schol_news["title"], schol_news["image_url"], article)
+            
+            if file_name:
+                update_main_pages(schol_news["title"], schol_news["image_url"], file_name, schol_news["raw_text"])
+                add_log("SUCCESS", f"Scholarship Published: {schol_news['title']}")
+                update_dashboard("SUCCESS", f"Published: {schol_news['title']}")
+                update_rss(schol_news["title"], file_name, schol_news["image_url"])
+                send_telegram_message(schol_news["title"])
+                print("🎉 SUCCESS! Nayi Scholarship post ho chuki hai.")
+        else:
+            print("⏳ Koi nayi scholarship nahi mili.")
+    except Exception as e:
+        error_details = str(e)
+        add_log("ERROR", error_details)
+        update_dashboard("ERROR", error_details)
         send_error_email(error_details)
 
 if __name__ == "__main__":

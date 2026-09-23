@@ -189,6 +189,36 @@ def send_error_email(error_msg):
         server.quit()
     except Exception:
         pass
+    
+def update_dashboard(status, message):
+    current_time = datetime.now().strftime("%b %d, %Y - %I:%M %p")
+    bot_name = "DRAMAS" # ⚠️ Har bot mein isay change karein (e.g., "HEALTH", "HISTORY", "DRAMAS")
+    
+    if status == "SUCCESS":
+        log_html = f"""<!-- NEW_LOG_HERE -->
+        <tr>
+            <td><strong>{bot_name}</strong></td>
+            <td><span class="status-badge posted">POSTED</span></td>
+            <td class="time-text">{current_time}</td>
+            <td style="color: #94a3b8;">{message}</td>
+        </tr>"""
+    else:
+        log_html = f"""<!-- NEW_LOG_HERE -->
+        <tr style="background-color: rgba(255, 51, 51, 0.05);">
+            <td><strong>{bot_name}</strong></td>
+            <td><span class="status-badge error">ERROR</span></td>
+            <td class="time-text">{current_time}</td>
+            <td style="color: #ff8888;">{message}</td>
+        </tr>"""
+    
+    try:
+        if os.path.exists("system-logs.html"):
+            with open("system-logs.html", "r", encoding="utf-8") as f:
+                content = f.read()
+            with open("system-logs.html", "w", encoding="utf-8") as f:
+                f.write(content.replace("<!-- NEW_LOG_HERE -->", log_html))
+    except Exception:
+        pass
 
 
 
@@ -308,6 +338,33 @@ def run_single_pipeline():
     except Exception as e:
         error_details = str(e)
         add_log("ERROR", error_details)
+        send_error_email(error_details)
+
+# ==========================================
+# 🚀 PIPELINE RUNNER (DRAMAS)
+# ==========================================
+def run_single_pipeline():
+    print("🔥 DRAMAS BOT RUNNING...\n")
+    try:
+        drama = scrape_unposted_dramas()
+        if drama:
+            print(f"🤖 Generating Drama Post: {drama['title']}")
+            article = generate_ai_article(drama["title"], drama["raw_text"], drama["original_link"])
+            file_name = build_html_page(drama["title"], drama["image_url"], article)
+            
+            if file_name:
+                update_main_pages(drama["title"], drama["image_url"], file_name, drama["raw_text"])
+                add_log("SUCCESS", f"Drama Published: {drama['title']}")
+                update_dashboard("SUCCESS", f"Published: {drama['title']}")
+                update_rss(drama["title"], file_name, drama["image_url"])
+                send_telegram_message(drama["title"])
+                print("🎉 SUCCESS! Nayi Drama post ho chuki hai.")
+        else:
+            print("⏳ Koi naya drama update nahi mila.")
+    except Exception as e:
+        error_details = str(e)
+        add_log("ERROR", error_details)
+        update_dashboard("ERROR", error_details)
         send_error_email(error_details)
 
 if __name__ == "__main__":

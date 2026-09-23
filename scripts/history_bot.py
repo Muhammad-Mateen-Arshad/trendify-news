@@ -178,9 +178,37 @@ def send_error_email(error_msg):
     except Exception:
         pass
 
-# ==========================================
-# MODULE A: SCRAPER & IMAGE
-# ==========================================
+def update_dashboard(status, message):
+    current_time = datetime.now().strftime("%b %d, %Y - %I:%M %p")
+    bot_name = "HISTORY" # ⚠️ Har bot mein isay change karein (e.g., "HEALTH", "HISTORY", "DRAMAS")
+    
+    if status == "SUCCESS":
+        log_html = f"""<!-- NEW_LOG_HERE -->
+        <tr>
+            <td><strong>{bot_name}</strong></td>
+            <td><span class="status-badge posted">POSTED</span></td>
+            <td class="time-text">{current_time}</td>
+            <td style="color: #94a3b8;">{message}</td>
+        </tr>"""
+    else:
+        log_html = f"""<!-- NEW_LOG_HERE -->
+        <tr style="background-color: rgba(255, 51, 51, 0.05);">
+            <td><strong>{bot_name}</strong></td>
+            <td><span class="status-badge error">ERROR</span></td>
+            <td class="time-text">{current_time}</td>
+            <td style="color: #ff8888;">{message}</td>
+        </tr>"""
+    
+    try:
+        if os.path.exists("system-logs.html"):
+            with open("system-logs.html", "r", encoding="utf-8") as f:
+                content = f.read()
+            with open("system-logs.html", "w", encoding="utf-8") as f:
+                f.write(content.replace("<!-- NEW_LOG_HERE -->", log_html))
+    except Exception:
+        pass
+
+
 # ==========================================
 # MODULE A: SCRAPER & IMAGE
 # ==========================================
@@ -365,6 +393,33 @@ def run_single_pipeline():
     except Exception as e:
         error_details = str(e)
         add_log("ERROR", error_details)
+        send_error_email(error_details)
+
+# ==========================================
+# 🚀 PIPELINE RUNNER (HISTORY)
+# ==========================================
+def run_single_pipeline():
+    print("🔥 HISTORY BOT RUNNING...\n")
+    try:
+        history_news = scrape_unposted_history()
+        if history_news:
+            print(f"🤖 Generating History Article: {history_news['title']}")
+            article = generate_ai_article(history_news["title"], history_news["raw_text"])
+            file_name = build_html_page(history_news["title"], history_news["image_url"], article)
+            
+            if file_name:
+                update_main_pages(history_news["title"], history_news["image_url"], file_name, history_news["raw_text"])
+                add_log("SUCCESS", f"History Post Published: {history_news['title']}")
+                update_dashboard("SUCCESS", f"Published: {history_news['title']}")
+                update_rss(history_news["title"], file_name, history_news["image_url"])
+                send_telegram_message(history_news["title"])
+                print("🎉 SUCCESS! Nayi History post ho chuki hai.")
+        else:
+            print("⏳ Koi nayi history news nahi mili.")
+    except Exception as e:
+        error_details = str(e)
+        add_log("ERROR", error_details)
+        update_dashboard("ERROR", error_details)
         send_error_email(error_details)
 
 if __name__ == "__main__":

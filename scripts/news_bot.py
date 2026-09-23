@@ -185,26 +185,25 @@ def add_log(status_type, message):
         pass
 
 def update_dashboard(status, message):
-    current_time = datetime.now().strftime("%B %d, %Y - %I:%M %p")
+    current_time = datetime.now().strftime("%b %d, %Y - %I:%M %p")
+    bot_name = "NEWS" # Isko apne bot ke hisaab se change kar lein, e.g. "JOBS", "DRAMAS"
     
     if status == "SUCCESS":
         log_html = f"""<!-- NEW_LOG_HERE -->
-        <div class="log-card">
-            <div class="log-left">
-                <span class="status-badge">✔ TECH NEWS</span>
-                <span class="log-title">{message}</span>
-            </div>
-            <span class="log-time">🕒 {current_time}</span>
-        </div>"""
+        <tr>
+            <td><strong>{bot_name}</strong></td>
+            <td><span class="status-badge posted">POSTED</span></td>
+            <td class="time-text">{current_time}</td>
+            <td style="color: #94a3b8;">{message}</td>
+        </tr>"""
     else:
         log_html = f"""<!-- NEW_LOG_HERE -->
-        <div class="log-card" style="border-left-color: #ff3333;">
-            <div class="log-left">
-                <span class="status-badge" style="color:#ff3333; border-color:#ff3333; background: rgba(255, 51, 51, 0.1);">❌ NEWS ERROR</span>
-                <span class="log-title" style="color: #ff8888;">{message}</span>
-            </div>
-            <span class="log-time" style="color: #ff3333; border-color: #ff3333;">🕒 {current_time}</span>
-        </div>"""
+        <tr style="background-color: rgba(255, 51, 51, 0.05);">
+            <td><strong>{bot_name}</strong></td>
+            <td><span class="status-badge error">ERROR</span></td>
+            <td class="time-text">{current_time}</td>
+            <td style="color: #ff8888;">{message}</td>
+        </tr>"""
     
     try:
         if os.path.exists("system-logs.html"):
@@ -234,6 +233,19 @@ def send_error_email(error_msg):
     except Exception as e:
         print(f"📧 Email Error: {e}")
 
+<<<<<<< HEAD
+=======
+
+# ==========================================
+# MODULE A: SCRAPER & IMAGE
+# ==========================================
+def scrape_unposted_news():
+    if not os.path.exists("posted_news.txt"):
+        open("posted_news.txt", "w", encoding="utf-8").close()
+        
+    with open("posted_news.txt", "r", encoding="utf-8") as f:
+        posted_history = f.read().splitlines()
+>>>>>>> 1b4a180 (Updating dashboard)
 
 
 # ==========================================
@@ -353,6 +365,33 @@ def run_single_pipeline():
             add_log("ERROR", error_details)
             update_dashboard("ERROR", error_details)
             send_error_email(error_details)
+
+# ==========================================
+# 🚀 PIPELINE RUNNER (NEWS)
+# ==========================================
+def run_single_pipeline():
+    print("🔥 TECH NEWS BOT RUNNING...\n")
+    try:
+        news = scrape_unposted_news()
+        if news:
+            print(f"🤖 AI Article Generating: {news['title']}")
+            article = generate_ai_article(news["title"], news["raw_text"])
+            file_name = build_html_page(news["title"], news["image_url"], article)
+            
+            if file_name:
+                update_main_pages(news["title"], news["image_url"], file_name, news["raw_text"])
+                add_log("SUCCESS", f"Published: {news['title']}")
+                update_dashboard("SUCCESS", f"Published: {news['title']}")
+                update_rss(news["title"], file_name, news["image_url"])
+                send_telegram_message(news["title"])
+                print("🎉 SUCCESS! Nayi khabar publish ho chuki hai.")
+        else:
+            print("⏳ Koi nayi unposted khabar nahi mili.")
+    except Exception as e:
+        error_details = str(e)
+        add_log("ERROR", error_details)
+        update_dashboard("ERROR", error_details)
+        send_error_email(error_details)
 
 if __name__ == "__main__":
     run_single_pipeline()
