@@ -173,3 +173,4 @@
 [2026-09-24 12:54:10 AM] [DRAMAS_BOT] [SUCCESS] Drama Published: ‘Cyberpunk: Edgerunners’ gears up for the premiere of Season 2 with a trailer packed with action and brutality - Diario AS
 [2026-09-24 03:21:53 AM] [NEWS_BOT] [SUCCESS] Published: Kabul-Islamabad tensions soar: Pakistan strikes 10 sites in Afghanistan after drone attacks - The Times of India
 [2026-09-24 03:22:37 AM] [HEALTH_BOT] [SUCCESS] Health Post Published: Doctors successfully separate twin girls conjoined at the head
+[2026-09-24 04:37:56 AM] [HISTORY_BOT] [ERROR] generate_ai_article() missing 1 required positional argument: 'source_link'
