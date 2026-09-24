@@ -196,3 +196,4 @@
 [2026-09-24 07:30:44 PM] [DRAMAS_BOT] [SUCCESS] Drama Published: Black Doves Season 2 Trailer: Keira Knightley and Ben Whishaw Are Back in Action - Netflix
 [2026-09-24 09:54:49 PM] [HEALTH_BOT] [SUCCESS] Health Post Published: FDA Approves New Option for Previously Treated Bile Duct Cancer
 [2026-09-24 11:21:58 PM] [NEWS_BOT] [SUCCESS] Published: He is a special talent, Yasir Hameed on 19-year-old Pakistan player - Batting with Bimal
+[2026-09-24 11:51:19 PM] [HISTORY_BOT] [ERROR] generate_ai_article() missing 1 required positional argument: 'source_link'
