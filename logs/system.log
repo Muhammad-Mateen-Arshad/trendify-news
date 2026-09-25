@@ -399,3 +399,12 @@
 [2026-09-25 10:53:14 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-09-25 10:53:34 PM] [NEWS_BOT] [SUCCESS] Published: Any attempt to divert Pakistan’s water to be treated as act of war, India ‘must make no mistake about it’: PM at UNGA
 [2026-09-25 10:53:34 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1549 in / 510 out tokens
+[2026-09-25 10:53:37 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 114 chars): Delhi eyes next-gen tech industries, identifies 1,148 acres for greenf
+[2026-09-25 10:53:38 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 97 chars): Govt seeks edible oil industrial city at Port Qasim as new zones plann
+[2026-09-25 10:53:40 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 95 chars): NADRA Jobs 2026 – Full Guide to Vacancies, Eligibility and Online Appl
+[2026-09-25 10:53:42 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 81 chars): CBD Punjab Announces Youth Career Program 2026 With Paid Internships
+[2026-09-25 10:53:45 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 34 chars): Career Opportunity in Banking
+[2026-09-25 10:53:46 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 96 chars): Unemployment hits 20-year high, Fin Min says govt’s role is not job cr
+[2026-09-25 10:53:47 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 96 chars): Microfinancing Pakistan’s Women Entrepreneurs: A Chance for Jobs and a
+[2026-09-25 10:53:49 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 88 chars): Pakistan’s Punjab funds workers’ path to Saudi jobs with interest-free
+[2026-09-25 10:53:49 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 30, 'tried': 8, 'thin': 8}
