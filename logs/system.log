@@ -412,3 +412,6 @@
 [2026-09-25 10:53:54 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 125 chars): Sarah Lancashire is back! The Happy Valley star gets a “dark” role in 
 [2026-09-25 10:53:55 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 135 chars): Adam Driver, Scarlett Johannson, Miles Teller Star In Riveting New Tra
 [2026-09-25 10:53:55 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 12, 'tried': 3, 'thin': 3}
+[2026-09-25 10:53:58 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 46 chars): FAPUASA takes faculty issues to HEC
+[2026-09-25 10:54:00 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 70 chars): DAAD scholarship Germany: eligibility, funding, and deadlines
+[2026-09-25 10:54:00 PM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'already_seen': 18, 'tried': 2, 'thin': 2}
