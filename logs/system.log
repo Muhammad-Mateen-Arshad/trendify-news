@@ -392,3 +392,6 @@
 [2026-09-25 04:06:22 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 104 chars): Fully Funded Scholarships for Indian Students: Study Abroad Without Mo
 [2026-09-25 04:06:23 PM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'already_seen': 19, 'tried': 1, 'thin': 1}
 [2026-09-25 04:06:25 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 11}
+[2026-09-25 04:06:28 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 103 chars): Found On Newcastle Ranch, 'Rex Jr.' Could Be Most Important T. Rex Eve
+[2026-09-25 04:06:30 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 120 chars): Researchers shined UV light on this 125-million-year-old crocodile. Wh
+[2026-09-25 04:06:30 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'already_seen': 18, 'tried': 2, 'thin': 2}
