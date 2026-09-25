@@ -310,3 +310,7 @@
 [2026-09-25 02:48:28 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 118 chars): Riphah University Expands Global Footprint Through Strategic Agreement
 [2026-09-25 02:48:29 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 80 chars): LHC extends suspension of PMDC directive for Afghan students’ return
 [2026-09-25 02:48:29 PM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'already_seen': 7, 'tried': 8, 'thin': 8}
+[2026-09-25 02:48:32 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 69 chars): Supporting a Spouse Through a Health Challenge
+[2026-09-25 02:48:34 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 58 chars): Do GLP-1 Patches Actually Work?
+[2026-09-25 02:48:35 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 72 chars): The How and Why of Hormone Testing, Explained
+[2026-09-25 02:48:35 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 8, 'tried': 3, 'thin': 3}
