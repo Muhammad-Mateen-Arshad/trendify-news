@@ -1,7 +1,8 @@
 {
  "version": 1,
  "imported": [
-  "jobs"
+  "jobs",
+  "news"
  ],
  "items": {
   "t:f155598725349bc0": {
@@ -399,6 +400,204 @@
    "n": "jobs",
    "t": "FPSC Postpones CSS 2026 Psychological Assessment",
    "at": "2026-09-25T12:11:59+00:00"
+  },
+  "t:b1d75a479c8fb67b": {
+   "s": "legacy",
+   "n": "news",
+   "t": "How to turn off your Google location history",
+   "at": ""
+  },
+  "t:5635076bd00e06b5": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Quordle hints and answers for Tuesday, September 22 (game #1702)",
+   "at": ""
+  },
+  "t:3e24c665cf6bf751": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Healthcare in Africa ‘under growing strain’ after US withdrawal from aid programs, report ",
+   "at": ""
+  },
+  "t:4ba087ce01381560": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Africa: World Recognizing Africa as a 'Gamechanger for Global Business' - UN Chief",
+   "at": ""
+  },
+  "t:3be97e5c135e56b8": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Iraq’s Prime Minister Al-Zaidi Vows to Disarm Iran-backed Militias",
+   "at": ""
+  },
+  "t:48603aa1f4a63ec8": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+   "at": ""
+  },
+  "t:2cb7acdaa41d8c6d": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Ethiopia: UN Voices Concern Over Worsening Security Situation, Armed-Group Coalition and D",
+   "at": ""
+  },
+  "t:30ba7479b44d112a": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Displacement on the rise in Yemen as fighting continues",
+   "at": ""
+  },
+  "t:f60a723f4f051c47": {
+   "s": "legacy",
+   "n": "news",
+   "t": "U.N. Live Updates: Trump Says He Faces Choice to Make a Deal or ‘Annihilate’ Iran",
+   "at": ""
+  },
+  "t:d02df0ea1831923b": {
+   "s": "legacy",
+   "n": "news",
+   "t": "I Tried Breville’s $300 Slot Toaster That Watches Bread So It Doesn’t Burn",
+   "at": ""
+  },
+  "t:4e77385033327101": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Save $30 on Apple’s Magic Keyboard with Touch ID and a numpad",
+   "at": ""
+  },
+  "t:cc2c5a5834f6a9c6": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Review: Resident Evil is the fresh take this flagging franchise really needed",
+   "at": ""
+  },
+  "t:4b7d47bc62c555aa": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Police officer wounded in shooting near Ontario synagogue on Yom Kippur",
+   "at": ""
+  },
+  "t:a22c49b2d7e4c2bd": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Live Updates: War returns to Iran with Israel, US strikes - dawn.com",
+   "at": ""
+  },
+  "t:dae5f4bea15514dd": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Protesting Dasu project workers seek job regularisation - Dawn",
+   "at": ""
+  },
+  "t:63e328c99427d692": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Finance Division rejects claims of sole control over Pakistan’s IMF programme - Mettis Glo",
+   "at": ""
+  },
+  "t:915140ae498c6a7c": {
+   "s": "legacy",
+   "n": "news",
+   "t": "'Malicious Propaganda': India Slams Pakistan Over Indus Waters Treaty Letter At UN - News1",
+   "at": ""
+  },
+  "t:d68e6dcd5037aa5a": {
+   "s": "legacy",
+   "n": "news",
+   "t": "BREAKING NEWS: Pakistan Shoots Down 8 Drones Fired By Afghan Taliban: Sources | Exclusive ",
+   "at": ""
+  },
+  "t:9d66c628c93aa11b": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Pakistan's olive cultivation drive expands to 60 districts under PSDP project - mettisglob",
+   "at": ""
+  },
+  "t:66c2895816f84fec": {
+   "s": "legacy",
+   "n": "news",
+   "t": "'Like we did in the Asia Cup': Pakistan to put India 'under pressure' in Asian Games, says",
+   "at": ""
+  },
+  "t:c631d1e090cd9559": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Test players bolster President’s Trophy squads ahead of third round - Dawn",
+   "at": ""
+  },
+  "t:f6f383c9bc4a4bf5": {
+   "s": "legacy",
+   "n": "news",
+   "t": "India Cannot Unilaterally Suspend Indus Waters Treaty, Dar Says - Pakistan Observer",
+   "at": ""
+  },
+  "t:4ee07a0e586c4eed": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Kabul-Islamabad tensions soar: Pakistan strikes 10 sites in Afghanistan after drone attack",
+   "at": ""
+  },
+  "t:86c3898277988a6a": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Pakistan receives $4.1bn under IMF programme, misses some key targets - Mettis Global",
+   "at": ""
+  },
+  "t:21a02ca26363b244": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Pakistan blocks roads around capital ahead of planned pro-Khan protest - afp.com",
+   "at": ""
+  },
+  "t:2d32fa9fcaa1d49e": {
+   "s": "legacy",
+   "n": "news",
+   "t": "7 Posts Destroyed, 17 Dead: Pakistan Forces Target Afghan Taliban Positions Along Durand L",
+   "at": ""
+  },
+  "t:84af15ac8a0b962d": {
+   "s": "legacy",
+   "n": "news",
+   "t": "He is a special talent, Yasir Hameed on 19-year-old Pakistan player - Batting with Bimal",
+   "at": ""
+  },
+  "t:5023a4219bd3473e": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Pak PM Shehbaz Sharif dodges questions on LeT chief Hafiz Saeed at UN - Asianet Newsable",
+   "at": ""
+  },
+  "t:7740ae0294c6d4ad": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Can a Chinese AI weather system help Pakistan manage the impacts of a changing climate? - ",
+   "at": ""
+  },
+  "t:26000885afa472af": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Breaking News | Pakistan On High Alert As PTI Plans Nationwide Protest On September 27 | N",
+   "at": ""
+  },
+  "t:027da68905ba2668": {
+   "s": "legacy",
+   "n": "news",
+   "t": "Pumping life into Mecca Pact? Saudi, Turkey, Pakistan plan urgent meet as Houthis step up ",
+   "at": ""
+  },
+  "t:c57ae5c1584642cb": {
+   "s": "posted",
+   "n": "news",
+   "t": "PTI decides to postpone Sept 27 Islamabad long march",
+   "at": "2026-09-25T12:15:23+00:00"
+  },
+  "u:486f870be6065092": {
+   "s": "posted",
+   "n": "news",
+   "t": "PTI decides to postpone Sept 27 Islamabad long march",
+   "at": "2026-09-25T12:15:23+00:00"
   }
  }
 }

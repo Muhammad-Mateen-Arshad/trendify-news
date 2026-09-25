@@ -222,3 +222,11 @@
 [2026-09-25 12:11:58 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 76 chars): Islamabad Road Closures force postponement of FPSC Interviews
 [2026-09-25 12:11:59 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 61 chars): FPSC Postpones CSS 2026 Psychological Assessment
 [2026-09-25 12:11:59 PM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8}
+[2026-09-25 12:13:45 PM] [NEWS_BOT] [INFO] Imported 32 old titles from posted_news.txt
+[2026-09-25 12:13:48 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-25 12:13:57 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-25 12:14:15 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-09-25 12:14:42 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-09-25 12:15:23 PM] [NEWS_BOT] [WARN] news.html not found - card not added
+[2026-09-25 12:15:23 PM] [NEWS_BOT] [SUCCESS] Published: PTI decides to postpone Sept 27 Islamabad long march
+[2026-09-25 12:15:24 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 836 in / 471 out tokens
