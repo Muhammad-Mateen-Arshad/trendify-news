@@ -349,3 +349,10 @@
 [2026-09-25 03:17:01 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 18, 'tried': 8, 'thin': 8}
 [2026-09-25 03:17:04 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 70 chars): 58 of the Best TV Shows on Netflix That Will Keep You Entertained
 [2026-09-25 03:17:04 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 14, 'tried': 1, 'thin': 1}
+[2026-09-25 03:17:07 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 85 chars): PU a major hub of knowledge, research and scholarship: VC...
+[2026-09-25 03:17:09 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 84 chars): Two Forestry Faculty Receive Global Fulbright Scholarships
+[2026-09-25 03:17:11 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 57 chars): Hughes receives Fulbright scholarship
+[2026-09-25 03:17:12 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 85 chars): CFAs: Chevening Scholarship Program for Saint Vincent and the Grenadin
+[2026-09-25 03:17:13 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 123 chars): Meet the Auburn educator who got the only Fulbright teacher scholarshi
+[2026-09-25 03:17:14 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 88 chars): CSUDH Professor Wins Prestigious Fulbright Scholar Award to Research i
+[2026-09-25 03:17:14 PM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'already_seen': 14, 'tried': 6, 'thin': 6}
