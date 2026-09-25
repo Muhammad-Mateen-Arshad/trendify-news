@@ -3,7 +3,8 @@
  "imported": [
   "jobs",
   "news",
-  "dramas"
+  "dramas",
+  "scholarships"
  ],
  "items": {
   "t:f155598725349bc0": {
@@ -1145,6 +1146,318 @@
    "n": "dramas",
    "t": "What to watch on streaming: what's new today on Netflix, Prime Video, Disney+ and more",
    "at": "2026-09-25T12:15:52+00:00"
+  },
+  "t:13a6cfe57128b0d9": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "Cornell University AI for Sustainability (AI4S) Visiting Professorship Program 2027",
+   "at": ""
+  },
+  "t:e71fc309f7ba8fec": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "Interactivity Foundation Collaborative Discussion Emerging Fellowship 2027 ($6,000 stipend",
+   "at": ""
+  },
+  "t:2faebcc3d1a200bb": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "Global Mental Health Fellowship Program 2026 (Cohort 5)",
+   "at": ""
+  },
+  "t:d5ea92fcfd8dde93": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "OpenAI’s AI & Teen Development Research Grant Program 2026",
+   "at": ""
+  },
+  "t:e4673e57b9f789dd": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "Black Ideas Grant (B.I.G.) 4.0 2026",
+   "at": ""
+  },
+  "t:d0b410cafb2e069a": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "D-Prize Global Competition 2026 for Entrepreneurs ($20K grants)",
+   "at": ""
+  },
+  "t:91fb426a9d74a9bb": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "How to Create the Right Business Strategy",
+   "at": ""
+  },
+  "t:cdc62856f8c9aa54": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "30 Hot Job Opportunities Currently Open – September 17, 2026",
+   "at": ""
+  },
+  "t:7cbd025cb6a44944": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "World Bank Group Small AI for Development Hackathon Challenge 2026",
+   "at": ""
+  },
+  "t:dd6367ab51d1270d": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "MAIA AI Safety Fundamentals (AISF) Fellowship – Fall 2026",
+   "at": ""
+  },
+  "t:5651b920ff1a71c0": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "30 Hot Job Opportunities Across Africa Currently Open  – September 21, 2026",
+   "at": ""
+  },
+  "t:d4130ca2885a64a2": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "Citizen AI Arts & Technology Fellowship 2026-2027 ($3,000 stipend)",
+   "at": ""
+  },
+  "t:4d64d23786a2835a": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "Partnership for Public Good (PPG) Research Fellowship 2026",
+   "at": ""
+  },
+  "t:f15bd01812e77c75": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "African Female Artist Mentorship Program 2026-2027",
+   "at": ""
+  },
+  "t:946ce24d0943f40c": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "Perplexity Research Fellowship 2027 (paid)",
+   "at": ""
+  },
+  "t:c038fdb674bc1510": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "1834 Global Fellowship 2027 for Black Canadians",
+   "at": ""
+  },
+  "t:334e24a6781d7c6a": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "Hamdan bin Mohammed bin Rashid Al Maktoum International Photography Award (HIPA) 2026",
+   "at": ""
+  },
+  "t:51075a1c472951c9": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "Polyfoni Social Sciences for AI Fellowship 2026-2027",
+   "at": ""
+  },
+  "t:d1b5185ca13503f4": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "Nevada program seeks businesses to host fully funded internships for students with disabil",
+   "at": ""
+  },
+  "t:9af07bee6b41fb91": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "ASU Japanese major earns prestigious MEXT Scholarship - news.asu.edu",
+   "at": ""
+  },
+  "t:7767e9cc56b7e2fd": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "CSU added as a Beinecke Scholarship institution - Colorado State University News",
+   "at": ""
+  },
+  "t:7730690eefae0cec": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "CERN Openlab Summer Student Programme 2026 (Paid) - Opportunity Desk",
+   "at": ""
+  },
+  "t:c17531e1c273f8cb": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "Sydney Royal scholarships invest in next generation of Australian wine talent - Drinks Tra",
+   "at": ""
+  },
+  "t:1b18d8c4b3b1c55d": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "From the Outside In: What I learned as a World Bank Group Intern - World Bank Group",
+   "at": ""
+  },
+  "t:44fe2b03a2f3b22f": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "Niskanen Summer Institute: Democracy that works - Niskanen Center",
+   "at": ""
+  },
+  "t:c98e173e77f70733": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "Charles Wallace Pakistan Trust Scholarships, UK - academiamag.com",
+   "at": ""
+  },
+  "t:e9d4418eff13c9b9": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "Govt opens Ehsaas Undergraduate Scholarship Online Portal 2020-21 - The News International",
+   "at": ""
+  },
+  "t:6126ac3ee2f00579": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "Summer students shine at CERN – Home - Home | CERN",
+   "at": ""
+  },
+  "t:184aeed63bedda96": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "AAUW International Fellowships 2027 in the USA: Fully Funded STEM Scholarships for Women W",
+   "at": ""
+  },
+  "t:fb50a12cce62cb39": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "Mandela Washington Fellowship for Young African Leaders 2027 (Fully-funded to the U.S.)",
+   "at": ""
+  },
+  "t:5fcdd4050cb28907": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "UNM Engineering student awarded 6 scholarships - UNM Newsroom",
+   "at": ""
+  },
+  "t:5729dd21378d9af5": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "Gates Cambridge Originals: Martin Kaonga - Gates Cambridge",
+   "at": ""
+  },
+  "t:3d4b6bf679102e5b": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "Pakistan launches second phase of Allama Muhammad Iqbal Scholarships for Students from Ban",
+   "at": ""
+  },
+  "t:a08ef2f403e6a748": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "Erasmus Mundus MAPP Scholarship 2027–2029: Fully Funded Joint Master's in Public Policy - ",
+   "at": ""
+  },
+  "t:3a0bc95daf2c14ca": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "Sheffield Hallam University announces 50% Transform Together Scholarships for internationa",
+   "at": ""
+  },
+  "t:f5f3a1d4f2243229": {
+   "s": "legacy",
+   "n": "scholarships",
+   "t": "Fulbright Foreign Student Program 2027–2028: Fully Funded Master’s Scholarships in the Uni",
+   "at": ""
+  },
+  "t:db93715571dedf10": {
+   "s": "thin",
+   "n": "scholarships",
+   "t": "Application Guide for the Gates Cambridge Fully Funded International Scholarship Programme",
+   "at": "2026-09-25T12:15:54+00:00"
+  },
+  "u:98357d1beb4a7260": {
+   "s": "thin",
+   "n": "scholarships",
+   "t": "Application Guide for the Gates Cambridge Fully Funded International Scholarship Programme",
+   "at": "2026-09-25T12:15:54+00:00"
+  },
+  "t:4f439e23d80fd82c": {
+   "s": "thin",
+   "n": "scholarships",
+   "t": "Request for Applications: Chevening Scholarship Program (Samoa)",
+   "at": "2026-09-25T12:15:56+00:00"
+  },
+  "u:24d21ea972093eac": {
+   "s": "thin",
+   "n": "scholarships",
+   "t": "Request for Applications: Chevening Scholarship Program (Samoa)",
+   "at": "2026-09-25T12:15:56+00:00"
+  },
+  "t:3f5c32d8bd94ea31": {
+   "s": "thin",
+   "n": "scholarships",
+   "t": "Top Humanities Scholarships to Study Abroad in 2027 and 2028",
+   "at": "2026-09-25T12:15:57+00:00"
+  },
+  "u:5d25b3c0a0c52d19": {
+   "s": "thin",
+   "n": "scholarships",
+   "t": "Top Humanities Scholarships to Study Abroad in 2027 and 2028",
+   "at": "2026-09-25T12:15:57+00:00"
+  },
+  "t:820aef2144b2182b": {
+   "s": "thin",
+   "n": "scholarships",
+   "t": "Adelaide University 200+ Fully Funded PhD & MPhil Scholarships 2027 – Apply Now for Full F",
+   "at": "2026-09-25T12:15:59+00:00"
+  },
+  "u:231518e4e8a72afd": {
+   "s": "thin",
+   "n": "scholarships",
+   "t": "Adelaide University 200+ Fully Funded PhD & MPhil Scholarships 2027 – Apply Now for Full F",
+   "at": "2026-09-25T12:15:59+00:00"
+  },
+  "t:f32df09eee05684d": {
+   "s": "thin",
+   "n": "scholarships",
+   "t": "Indomie Scholarship Program 2026 (Fully-funded)",
+   "at": "2026-09-25T12:16:00+00:00"
+  },
+  "u:62b9b2e8705dac15": {
+   "s": "thin",
+   "n": "scholarships",
+   "t": "Indomie Scholarship Program 2026 (Fully-funded)",
+   "at": "2026-09-25T12:16:00+00:00"
+  },
+  "t:abfcba5473fa0a8f": {
+   "s": "thin",
+   "n": "scholarships",
+   "t": "Pak students invited to vie for Russian scholarships",
+   "at": "2026-09-25T12:16:02+00:00"
+  },
+  "u:1508216dcb5b6411": {
+   "s": "thin",
+   "n": "scholarships",
+   "t": "Pak students invited to vie for Russian scholarships",
+   "at": "2026-09-25T12:16:02+00:00"
+  },
+  "t:610102055b6b34f5": {
+   "s": "thin",
+   "n": "scholarships",
+   "t": "University Of Melbourne Scholarship 2027",
+   "at": "2026-09-25T12:16:04+00:00"
+  },
+  "u:247e6b4b65b6b7b6": {
+   "s": "thin",
+   "n": "scholarships",
+   "t": "University Of Melbourne Scholarship 2027",
+   "at": "2026-09-25T12:16:04+00:00"
+  },
+  "t:6ab617d6b8844168": {
+   "s": "thin",
+   "n": "scholarships",
+   "t": "42 Bangladeshi students leave for Pakistan under scholarship program",
+   "at": "2026-09-25T12:16:05+00:00"
+  },
+  "u:83ac161c83c8eb7d": {
+   "s": "thin",
+   "n": "scholarships",
+   "t": "42 Bangladeshi students leave for Pakistan under scholarship program",
+   "at": "2026-09-25T12:16:05+00:00"
   }
  }
 }

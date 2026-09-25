@@ -249,3 +249,13 @@
 [2026-09-25 12:15:51 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 89 chars): The 8 Best New Movies and Shows to Stream This Weekend on Netflix, App
 [2026-09-25 12:15:52 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 98 chars): What to watch on streaming: what's new today on Netflix, Prime Video, 
 [2026-09-25 12:15:52 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8}
+[2026-09-25 12:15:52 PM] [SCHOLARSHIPS_BOT] [INFO] Imported 39 old titles from posted_scholarships.txt
+[2026-09-25 12:15:54 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 164 chars): Application Guide for the Gates Cambridge Fully Funded International S
+[2026-09-25 12:15:56 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 76 chars): Request for Applications: Chevening Scholarship Program (Samoa)
+[2026-09-25 12:15:57 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 75 chars): Top Humanities Scholarships to Study Abroad in 2027 and 2028
+[2026-09-25 12:15:59 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 123 chars): Adelaide University 200+ Fully Funded PhD & MPhil Scholarships 2027 – 
+[2026-09-25 12:16:00 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 64 chars): Indomie Scholarship Program 2026 (Fully-funded)
+[2026-09-25 12:16:02 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 70 chars): Pak students invited to vie for Russian scholarships
+[2026-09-25 12:16:04 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 53 chars): University Of Melbourne Scholarship 2027
+[2026-09-25 12:16:05 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 91 chars): 42 Bangladeshi students leave for Pakistan under scholarship program
+[2026-09-25 12:16:05 PM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8}
