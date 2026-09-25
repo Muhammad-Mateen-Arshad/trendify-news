@@ -230,3 +230,12 @@
 [2026-09-25 12:15:23 PM] [NEWS_BOT] [WARN] news.html not found - card not added
 [2026-09-25 12:15:23 PM] [NEWS_BOT] [SUCCESS] Published: PTI decides to postpone Sept 27 Islamabad long march
 [2026-09-25 12:15:24 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 836 in / 471 out tokens
+[2026-09-25 12:15:27 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 72 chars): FPSC Postpones Interviews in Islamabad, Lahore and Peshawar
+[2026-09-25 12:15:29 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 70 chars): Pakistan Downs 8 Afghan Taliban Drones Amid Border Clashes
+[2026-09-25 12:15:30 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 100 chars): Sarfaraz Bugti | Balochistan Separatism Claims | Jobs To Be Given On M
+[2026-09-25 12:15:32 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 93 chars): 18 Pakistani personnel killed in 25 operations across Balochistan, cla
+[2026-09-25 12:15:34 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 87 chars): Pakistan Army Official Named First Secretary General of Saudi Defense 
+[2026-09-25 12:15:36 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 112 chars): PTI Long March | Islamabad on High Alert | Pak Army Strikes | Petrol P
+[2026-09-25 12:15:38 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 66 chars): NADRA Announces Jobs for IT Graduates Across Pakistan
+[2026-09-25 12:15:39 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 63 chars): NADRA Announces IT Jobs for Graduates Across Pakistan
+[2026-09-25 12:15:39 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 8, 'tried': 8, 'thin': 8}
