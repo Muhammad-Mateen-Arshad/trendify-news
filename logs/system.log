@@ -211,3 +211,14 @@
 [2026-09-25 06:21:50 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Scholarship Published: Fulbright Foreign Student Program 2027–2028: Fully Funded Master’s Scholarships in the United States - globalsouthopportunities.com
 [2026-09-25 07:21:51 AM] [NEWS_BOT] [SUCCESS] Published: Pumping life into Mecca Pact? Saudi, Turkey, Pakistan plan urgent meet as Houthis step up attacks - timesofindia.indiatimes.com
 [2026-09-25 07:22:41 AM] [HEALTH_BOT] [ERROR] All API keys exhausted! (429)
+[2026-09-25 12:11:48 PM] [SYSTEM_BOT] [WARN] Could not read data/seen.json, starting fresh: Expecting value: line 1 column 1 (char 0)
+[2026-09-25 12:11:48 PM] [JOBS_BOT] [INFO] Imported 51 old titles from posted_jobs.txt
+[2026-09-25 12:11:50 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 92 chars): Shutdown in India's Ladakh marks anniversary of deadly autonomy protes
+[2026-09-25 12:11:51 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 83 chars): Taliban govt says Pakistan strikes kill 4 civilians in Afghanistan
+[2026-09-25 12:11:52 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 62 chars): IFC, World Bank Renew Pledge for Pakistan Development
+[2026-09-25 12:11:54 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 103 chars): Forestry, Wildlife and Fisheries Department Announces Jobs With Salari
+[2026-09-25 12:11:55 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 82 chars): Govt Takes Step Toward Local Telecom Hardware Repairs With Huawei Cent
+[2026-09-25 12:11:56 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 70 chars): FPSC Postpones PIMS Professor Tests Over Low Applications
+[2026-09-25 12:11:58 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 76 chars): Islamabad Road Closures force postponement of FPSC Interviews
+[2026-09-25 12:11:59 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 61 chars): FPSC Postpones CSS 2026 Psychological Assessment
+[2026-09-25 12:11:59 PM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8}

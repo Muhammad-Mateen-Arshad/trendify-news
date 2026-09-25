@@ -1,0 +1,404 @@
+{
+ "version": 1,
+ "imported": [
+  "jobs"
+ ],
+ "items": {
+  "t:f155598725349bc0": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Wrike: Account Manager L4",
+   "at": ""
+  },
+  "t:1ed6e8316a4752a5": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Sanctuary Computer: Senior Shopify Developer",
+   "at": ""
+  },
+  "t:787a68afc48e8393": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Legion: Chief Architect",
+   "at": ""
+  },
+  "t:3b7907ceed18ea75": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Track it Forward: Lead Developer — Rebuild, Modernize, & Scale (Social Good SaaS, Remote)",
+   "at": ""
+  },
+  "t:9e918947a98fe530": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "A.Team: Senior Independent AI Engineer / Architect",
+   "at": ""
+  },
+  "t:19a0dce11db5b5b3": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Pinterest: Content Designer II, Personalization",
+   "at": ""
+  },
+  "t:82bcd58a9df709b3": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Tines: Lead Customer Success Manager - West",
+   "at": ""
+  },
+  "t:155b57c4035ae101": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "A.Team: Senior Independent Software Developer ($90-$170/hr)",
+   "at": ""
+  },
+  "t:5c954ac40b4314f0": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Ondeckglobal: iGaming UI/UX Designer",
+   "at": ""
+  },
+  "t:e6ff60b603339e75": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "IxDF - Interaction Design Foundation: Course Director: UX, UI, and AI",
+   "at": ""
+  },
+  "t:925496ec962e7959": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Tines: Deal Desk Analyst",
+   "at": ""
+  },
+  "t:c094cc75be78b033": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Lemon.io: Senior React Native Developer",
+   "at": ""
+  },
+  "t:e7c4de19302ef469": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Fin: Senior Solutions Engineer- LATAM",
+   "at": ""
+  },
+  "t:ab50633f7e8c6ab4": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "IxDF - Interaction Design Foundation: Education Designer: UX, UI, and AI",
+   "at": ""
+  },
+  "t:ae200a8b80bc3266": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "ITI Digital: SaaS Client Success Manager",
+   "at": ""
+  },
+  "t:3db424806838d3af": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Legion: Director of Production Engineering",
+   "at": ""
+  },
+  "t:b221e2de322faf6a": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Prove: Director, Channel & Partnerships",
+   "at": ""
+  },
+  "t:6b1d857ba578f0b6": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Yooli: FULL TIME: Software Engineer Position - React and Rest",
+   "at": ""
+  },
+  "t:46d10ccbd3d7cca4": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Koast.ai: Head of Technical Support @ Koast.ai",
+   "at": ""
+  },
+  "t:d5b1011ffb8c809d": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "IxDF - Interaction Design Foundation: Course Writer and Editor: UX, UI, and AI",
+   "at": ""
+  },
+  "t:9d256c83806ef351": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "PagerDuty: Account Manager (US)",
+   "at": ""
+  },
+  "t:4b0b98d16f73448e": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Algolia: Customer Success Engineer",
+   "at": ""
+  },
+  "t:40f990e4a2e470a1": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Princeton University: Senior PeopleSoft Developer/Analyst II",
+   "at": ""
+  },
+  "t:36189cb48b468f9d": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Keeper Security: B2B Customer Support Representative",
+   "at": ""
+  },
+  "t:7badcc7f5b6cc0ac": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Abnormal: Customer Success Manager, Enterprise (Missouri Valley)",
+   "at": ""
+  },
+  "t:87f02b10c37b75f4": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "LaunchDarkly: Engineering Manager, Experimentation",
+   "at": ""
+  },
+  "t:863da02ec32f6dc6": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Abnormal: Customer Success Manager, Canada (Toronto)",
+   "at": ""
+  },
+  "t:dea8e558d1f208a2": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Webflow: Staff Brand Designer",
+   "at": ""
+  },
+  "t:e88617af418eb24a": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "PAF Sukkur announces recruitment for civilian staff, online registration opens - | Associa",
+   "at": ""
+  },
+  "t:c5441f7f1377444f": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Deportation of over 21,000 Pakistanis exposes Islamabad's dependence on jobs in Gulf natio",
+   "at": ""
+  },
+  "t:7c7f0c73f8a68d04": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "AI reshapes Pakistan’s software industry as entry-level roles decline by 25 percent - Arab",
+   "at": ""
+  },
+  "t:6665f873b4fe1f45": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "What Is a Machine Learning Engineer? (+ How to Get Started) - Coursera",
+   "at": ""
+  },
+  "t:addc6761ed4ad57c": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Guide to sponsorship in Australia: How to get sponsored - Expatica",
+   "at": ""
+  },
+  "t:33a1167b623245db": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Early retail closures dent sales, jobs and tax revenues, CAP warns - The News Pakistan",
+   "at": ""
+  },
+  "t:cdbad8bf48feacf5": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Pakistan, ILO and WHO will support 20 000 health workers and create decent jobs in the sec",
+   "at": ""
+  },
+  "t:d68e7b79135a639c": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Tal Block communities5th batch of management trainee plan launched - thenews.pk",
+   "at": ""
+  },
+  "t:6bbe61289b23e286": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "10 Highest Paying Fields In Pakistan - academiamag.com",
+   "at": ""
+  },
+  "t:27e487335241d447": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Belarusian Railway is looking for employees from Nepal and Pakistan. Language not required",
+   "at": ""
+  },
+  "t:46cc4a0bb68d4e63": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Pakistan Navy announces registrations for SSC Course 2026-B - | Associated Press Of Pakist",
+   "at": ""
+  },
+  "t:1b528016f70d35d6": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "NADRA begins minority registration drive from August 4 - The Nation (Pakistan )",
+   "at": ""
+  },
+  "t:37c4999dfd0da8eb": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Meezan Bank Number of Employees 2026 | Employee Count & Headcount Data - Revelio Labs",
+   "at": ""
+  },
+  "t:c0a44c9930fab0f2": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "U.S. Visa Sponsorship In Job Listings Drops From 10.9% To 2.6% - Briefs Finance",
+   "at": ""
+  },
+  "t:6ea6dead77d07f89": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Technical education Pakistan's urgent employment path - The Express Tribune",
+   "at": ""
+  },
+  "t:caa48f3e5cf449c6": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Pakistan’s AI Workforce: Inside JazzWorld’s AI Associates Program - Digital Pakistan",
+   "at": ""
+  },
+  "t:860d26be81d85e22": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Pakistan-China Diamer Basha Dam Project Announces Driver Jobs for Locals - thedailycpec.co",
+   "at": ""
+  },
+  "t:65c0dd46d0b595e2": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "No govt jobs will be sold, vows Bugti - The Express Tribune",
+   "at": ""
+  },
+  "t:b51c642cec19f1d9": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Why Donald Trump’s new tariffs pose a significant threat to 250,000 Toronto jobs - Toronto",
+   "at": ""
+  },
+  "t:9cacd2b5101c46e6": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "Lady health workers protest for job security - The Express Tribune",
+   "at": ""
+  },
+  "t:6c1e88a46838634c": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "No govt jobs for Karachi’s youth, even their quota is not provided: Mustafa Kamal Breaking",
+   "at": ""
+  },
+  "t:14ad91d76de40610": {
+   "s": "legacy",
+   "n": "jobs",
+   "t": "'Lake America' change highlights Canada's reliance on U.S. tech - CBC",
+   "at": ""
+  },
+  "t:1f68b1024c4a9032": {
+   "s": "thin",
+   "n": "jobs",
+   "t": "Shutdown in India's Ladakh marks anniversary of deadly autonomy protests",
+   "at": "2026-09-25T12:11:50+00:00"
+  },
+  "u:902ae7a7d0535adc": {
+   "s": "thin",
+   "n": "jobs",
+   "t": "Shutdown in India's Ladakh marks anniversary of deadly autonomy protests",
+   "at": "2026-09-25T12:11:50+00:00"
+  },
+  "t:7834e97006e817d4": {
+   "s": "thin",
+   "n": "jobs",
+   "t": "Taliban govt says Pakistan strikes kill 4 civilians in Afghanistan",
+   "at": "2026-09-25T12:11:51+00:00"
+  },
+  "u:638f13a860e8fd9b": {
+   "s": "thin",
+   "n": "jobs",
+   "t": "Taliban govt says Pakistan strikes kill 4 civilians in Afghanistan",
+   "at": "2026-09-25T12:11:51+00:00"
+  },
+  "t:d2ca26be09703998": {
+   "s": "thin",
+   "n": "jobs",
+   "t": "IFC, World Bank Renew Pledge for Pakistan Development",
+   "at": "2026-09-25T12:11:52+00:00"
+  },
+  "u:7d4078649385e642": {
+   "s": "thin",
+   "n": "jobs",
+   "t": "IFC, World Bank Renew Pledge for Pakistan Development",
+   "at": "2026-09-25T12:11:52+00:00"
+  },
+  "t:c38008663ae1f7b7": {
+   "s": "thin",
+   "n": "jobs",
+   "t": "Forestry, Wildlife and Fisheries Department Announces Jobs With Salaries Up to Rs. 350,000",
+   "at": "2026-09-25T12:11:54+00:00"
+  },
+  "u:ca4740add875ed17": {
+   "s": "thin",
+   "n": "jobs",
+   "t": "Forestry, Wildlife and Fisheries Department Announces Jobs With Salaries Up to Rs. 350,000",
+   "at": "2026-09-25T12:11:54+00:00"
+  },
+  "t:0844ce0a86389b73": {
+   "s": "thin",
+   "n": "jobs",
+   "t": "Govt Takes Step Toward Local Telecom Hardware Repairs With Huawei Centre",
+   "at": "2026-09-25T12:11:55+00:00"
+  },
+  "u:75d251fad3c2a0c1": {
+   "s": "thin",
+   "n": "jobs",
+   "t": "Govt Takes Step Toward Local Telecom Hardware Repairs With Huawei Centre",
+   "at": "2026-09-25T12:11:55+00:00"
+  },
+  "t:d5be0e24b13b3aeb": {
+   "s": "thin",
+   "n": "jobs",
+   "t": "FPSC Postpones PIMS Professor Tests Over Low Applications",
+   "at": "2026-09-25T12:11:56+00:00"
+  },
+  "u:15f07c0a8979249f": {
+   "s": "thin",
+   "n": "jobs",
+   "t": "FPSC Postpones PIMS Professor Tests Over Low Applications",
+   "at": "2026-09-25T12:11:56+00:00"
+  },
+  "t:2e3eed2a52f7807c": {
+   "s": "thin",
+   "n": "jobs",
+   "t": "Islamabad Road Closures force postponement of FPSC Interviews",
+   "at": "2026-09-25T12:11:58+00:00"
+  },
+  "u:0f8918bd8934e160": {
+   "s": "thin",
+   "n": "jobs",
+   "t": "Islamabad Road Closures force postponement of FPSC Interviews",
+   "at": "2026-09-25T12:11:58+00:00"
+  },
+  "t:278730f3605af528": {
+   "s": "thin",
+   "n": "jobs",
+   "t": "FPSC Postpones CSS 2026 Psychological Assessment",
+   "at": "2026-09-25T12:11:59+00:00"
+  },
+  "u:c1a3d20e6872f48f": {
+   "s": "thin",
+   "n": "jobs",
+   "t": "FPSC Postpones CSS 2026 Psychological Assessment",
+   "at": "2026-09-25T12:11:59+00:00"
+  }
+ }
+}
