@@ -204,3 +204,4 @@
 [2026-09-25 12:52:45 AM] [DRAMAS_BOT] [SUCCESS] Drama Published: Netflix Drops Main Trailer for Koji Yakusho’s Wildly Offbeat New Comedy ‘Did Someone Happen to Mention Me?’ - About Netflix
 [2026-09-25 03:21:50 AM] [NEWS_BOT] [SUCCESS] Published: Can a Chinese AI weather system help Pakistan manage the impacts of a changing climate? - Eco-Business
 [2026-09-25 03:22:25 AM] [HEALTH_BOT] [SUCCESS] Health Post Published: Battle of Hospital A.I. vs. Insurer A.I. Is Pushing Medical Costs Higher
+[2026-09-25 04:47:55 AM] [HISTORY_BOT] [ERROR] generate_ai_article() missing 1 required positional argument: 'source_link'
