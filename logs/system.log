@@ -378,3 +378,12 @@
 [2026-09-25 04:04:59 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-09-25 04:05:29 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-09-25 04:05:59 PM] [NEWS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
+[2026-09-25 04:06:04 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 73 chars): FPSC Recommends Alternate Candidates for FIA Inspector Posts
+[2026-09-25 04:06:07 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 78 chars): Appointment of Sindh Public Service Commission chairman declared unlaw
+[2026-09-25 04:06:09 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 88 chars): Pakistan plans Karachi apparel hub targeting $2.2 billion in annual ex
+[2026-09-25 04:06:10 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 96 chars): As Pakistanis head to Gulf jobs, private firms step in to teach cultur
+[2026-09-25 04:06:11 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 73 chars): Pakistan must create 30m jobs over next decade: World Bank president
+[2026-09-25 04:06:13 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 111 chars): 'Pakistan cannot provide jobs to 240m people' : Aurangzeb urges need f
+[2026-09-25 04:06:14 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 102 chars): World Bank chief urges Pakistan to create 30m jobs over next decade to
+[2026-09-25 04:06:16 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 77 chars): AI adoption may hit Pakistan’s job market, World Bank warns
+[2026-09-25 04:06:16 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 27, 'tried': 8, 'thin': 8}
