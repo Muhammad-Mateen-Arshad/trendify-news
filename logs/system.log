@@ -415,3 +415,6 @@
 [2026-09-25 10:53:58 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 46 chars): FAPUASA takes faculty issues to HEC
 [2026-09-25 10:54:00 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 70 chars): DAAD scholarship Germany: eligibility, funding, and deadlines
 [2026-09-25 10:54:00 PM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'already_seen': 18, 'tried': 2, 'thin': 2}
+[2026-09-25 10:54:03 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 253 chars): A Randomized Controlled Trial to Evaluate the Effects of Full-Fat and 
+[2026-09-25 10:54:04 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 82 chars): Sodium Carbonate | Na2CO3 | CID 10340
+[2026-09-25 10:54:04 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 9, 'tried': 2, 'thin': 2}
