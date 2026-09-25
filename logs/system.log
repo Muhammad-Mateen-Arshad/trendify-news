@@ -395,3 +395,7 @@
 [2026-09-25 04:06:28 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 103 chars): Found On Newcastle Ranch, 'Rex Jr.' Could Be Most Important T. Rex Eve
 [2026-09-25 04:06:30 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 120 chars): Researchers shined UV light on this 125-million-year-old crocodile. Wh
 [2026-09-25 04:06:30 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'already_seen': 18, 'tried': 2, 'thin': 2}
+[2026-09-25 10:53:09 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-25 10:53:14 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-25 10:53:34 PM] [NEWS_BOT] [SUCCESS] Published: Any attempt to divert Pakistan’s water to be treated as act of war, India ‘must make no mistake about it’: PM at UNGA
+[2026-09-25 10:53:34 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1549 in / 510 out tokens
