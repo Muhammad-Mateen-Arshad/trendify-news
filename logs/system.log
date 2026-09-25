@@ -338,3 +338,12 @@
 [2026-09-25 03:15:45 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-09-25 03:16:16 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-09-25 03:16:46 PM] [NEWS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
+[2026-09-25 03:16:52 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 89 chars): PPSC announces results of vacancies of various departments
+[2026-09-25 03:16:53 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 85 chars): PPSC chairman unfazed by allegations over lecturers' recruitment issue
+[2026-09-25 03:16:54 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 86 chars): Wear the badge: Punjab Police to recruit hundreds of young sub inspect
+[2026-09-25 03:16:56 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 91 chars): PPSC recommends 7,458 candidates for government jobs in 2024
+[2026-09-25 03:16:57 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 83 chars): Explainer: Why jobseekers are protesting results of a major civil serv
+[2026-09-25 03:16:58 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 64 chars): SPSC moves FCC against SHC recruitment order
+[2026-09-25 03:17:00 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 76 chars): In setback for SPSC, Sindh High Court suspends competitive exam result
+[2026-09-25 03:17:01 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 79 chars): SPSC announces result of CCE 2025 Screening Test
+[2026-09-25 03:17:01 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 18, 'tried': 8, 'thin': 8}
