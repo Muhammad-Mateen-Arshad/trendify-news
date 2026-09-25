@@ -11,6 +11,7 @@ from functools import lru_cache
 import feedparser
 import requests
 from bs4 import BeautifulSoup
+import trafilatura  # <--- NAYI ADVANCE LIBRARY
 
 from . import config, notify
 from .textutil import html_to_text
@@ -139,7 +140,6 @@ def _get_robot_parser(base_url):
         if resp.status_code == 200:
             parser.parse(resp.text.splitlines())
         elif resp.status_code in (401, 403):
-            # Parse a generic rule that blocks all access instead of using undocumented attributes
             parser.parse(["User-agent: *", "Disallow: /"])
     except Exception:
         pass
@@ -156,10 +156,20 @@ def robots_allows(url):
 
 # ------------------------------------------------------------------ page text
 def extract_text(url):
-    """Main readable text of a page (paragraphs and list items), or '' if not allowed / not possible."""
+    """Main readable text of a page using Trafilatura for high accuracy, with a BeautifulSoup fallback."""
     try:
         if not robots_allows(url):
             return ""
+        
+        # 1. Advanced Extraction: Trafilatura
+        downloaded = trafilatura.fetch_url(url)
+        if downloaded:
+            # Sirf main article text nikalta hai, links/menus ignore karta hai
+            text = trafilatura.extract(downloaded, include_links=False, include_images=False, include_tables=False)
+            if text and len(text) > 100:
+                return text[: config.SOURCE_TEXT_LIMIT]
+
+        # 2. Fallback: Agar Trafilatura kaam na kare to purana BeautifulSoup ka tarika use karein
         resp = _get(url)
         if resp.status_code != 200 or "html" not in resp.headers.get("Content-Type", "").lower():
             return ""

@@ -3,3 +3,4 @@ feedparser
 beautifulsoup4
 google-genai
 googlenewsdecoder
+trafilatura
