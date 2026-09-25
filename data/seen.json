@@ -2,7 +2,8 @@
  "version": 1,
  "imported": [
   "jobs",
-  "news"
+  "news",
+  "dramas"
  ],
  "items": {
   "t:f155598725349bc0": {
@@ -694,6 +695,456 @@
    "n": "jobs",
    "t": "NADRA Announces IT Jobs for Graduates Across Pakistan",
    "at": "2026-09-25T12:15:39+00:00"
+  },
+  "t:424b12f35f314aa5": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Sons Of Anarchy Was Inspired By One Of Shakespeare's Most Popular Plays",
+   "at": ""
+  },
+  "t:81493c68bf568b62": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "10 Saddest Character Deaths On ER, Ranked",
+   "at": ""
+  },
+  "t:40ac3ff23520c7b6": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "BritBox Reveals First Look At ‘The Other Bennet Sister’ Christmas Special",
+   "at": ""
+  },
+  "t:0f1482961e378728": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "The Weekend Read: Rock ‘N’ Roll ‘Resident Evil’, Inside Taylor Swift’s Emmys Cameo, Rosali",
+   "at": ""
+  },
+  "t:ebcbd3e1031ab964": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "CNN, MS NOW And Politico Journalists Denied White House Entry; Colleagues Condemn Trump’s ",
+   "at": ""
+  },
+  "t:f05752712c4d328a": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "10 Best HBO Max TV Shows Of 2026 (So Far)",
+   "at": ""
+  },
+  "t:8afdccb2068b2737": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "5 Creepy Friends Storylines That 100% Don't Hold Up Today",
+   "at": ""
+  },
+  "t:66d19a255935c4dc": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Anthony Page Dies: Tony-Winning, Emmy-Nominated Director Of Stage & Screen Was 90",
+   "at": ""
+  },
+  "t:d19c1559406ad7de": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "‘Sweet Magnolias’ Creator Bids Farewell To Serenity, S.C. After Netflix Show Ends: “Keep P",
+   "at": ""
+  },
+  "t:ac3f97e951d3580a": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "‘Ride Or Die’ Canceled By Prime Video After One Season, Being Shopped By Paramount TV Stud",
+   "at": ""
+  },
+  "t:2f2ed33660e1c812": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Gerrit Graham Dies: ‘Star Trek’ & ‘Phantom Of The Paradise’ Actor Was 76",
+   "at": ""
+  },
+  "t:08aced98d8a6adce": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Star Wars' Carrie Fisher Wrote A Young Indiana Jones Episode (And Fought With George Lucas",
+   "at": ""
+  },
+  "t:c7ea3ed9cfc12946": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Kohner Agency Lays Off Its Talent Agents Due To “Profound & Unprecedented Economic Pressur",
+   "at": ""
+  },
+  "t:40b69c4da1492bfd": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Ride Or Die Canceled At Prime Video After 1 Season",
+   "at": ""
+  },
+  "t:6308d8b787031da1": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "William Shatner's First Starring TV Role Was On A Short-Lived '60s Legal Drama",
+   "at": ""
+  },
+  "t:1fcd05960f4da5b0": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Alan Ritchson On The ‘Reacher’ Season That Was Canceled After “Someone Got Re-Elected”",
+   "at": ""
+  },
+  "t:2f8c14ec99cd7e5a": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "‘VisionQuest’ Creator Terry Matalas Says No GenAI Was Used In Making Of Show: “There Hasn’",
+   "at": ""
+  },
+  "t:657e0e37513aeb9b": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Princess Di Returns To ‘SNL UK’ As “Deeply Intelligent, Autonomous, Neurokinetic Android” ",
+   "at": ""
+  },
+  "t:b9a8b8baf852e387": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Quote Of The Day By Andrew Garfield: 'Where We Are Most Deeply Wounded Is Where We Are Mos",
+   "at": ""
+  },
+  "t:444b0cc4cc53329d": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Why James Gandolfini Thought HBO Wouldn't Cast Him In The Sopranos",
+   "at": ""
+  },
+  "t:7a2ac46e62d1187e": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "What Happened To Thomas Gibson After His Criminal Minds Firing?",
+   "at": ""
+  },
+  "t:afd5cfb38913d508": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Leonard Nimoy Appeared On A Hit Historical Drama The Same Year Star Trek Premiered",
+   "at": ""
+  },
+  "t:b1b08c87eeff684d": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "5 Creepiest Episodes Of The X-Files, Ranked",
+   "at": ""
+  },
+  "t:9d4225e405bec2d6": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "10 Best TV Shows Like The Gentlemen",
+   "at": ""
+  },
+  "t:69520672d5749e79": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Why Wyck From Widow's Bay Looks So Familiar",
+   "at": ""
+  },
+  "t:0be00891998f674b": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Why Lawrence Cole From Neagley Looks So Familiar",
+   "at": ""
+  },
+  "t:3dfc95edf55a3f8e": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "10 TV Shows To Watch If You Like Dark Matter",
+   "at": ""
+  },
+  "t:8fbaf30f2ec326fa": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "10 Best TV Shows About High School, Ranked",
+   "at": ""
+  },
+  "t:a9a75e328d67a705": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "James Gandolfini's Sopranos Co-Stars Say HBO Paid Millions To Block Him From A Classic Sit",
+   "at": ""
+  },
+  "t:7cd4b7d9746f335c": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Sci-Fi Author Harlan Ellison Guest-Starred In A Classic Scooby-Doo Episode",
+   "at": ""
+  },
+  "t:0679adeb5b1870b8": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "JoAnna Garcia Swisher Thanks ‘Sweet Magnolias’ Team For Giving Her “Somewhere To Belong”",
+   "at": ""
+  },
+  "t:de7df0b7aa407995": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "NCIS: 5 Gibbs Rules That Are Just Great Life Advice",
+   "at": ""
+  },
+  "t:44b7ddc10f39de36": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Jessica Chastain Thriller ‘The Savant’ Getting 2027 Release On Apple TV After Year On Hold",
+   "at": ""
+  },
+  "t:69e002977df42066": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Lanterns Episode 6 Recap: Guy Gardner Has Entered The Chat",
+   "at": ""
+  },
+  "t:afbe8c3679dc0062": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Why Detective Hudson Riley From Neagley Looks So Familiar",
+   "at": ""
+  },
+  "t:ae526c3bb8a4d3af": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Jake & Logan Paul Address Troops At The Pentagon",
+   "at": ""
+  },
+  "t:4a4a987975af98cf": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "What To Watch Monday: Voice, Name That Tune, And Weakest Link Return, Line Of Fire Premier",
+   "at": ""
+  },
+  "t:9dc1ef0106fa9841": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Done! Paramount Settles Antitrust Suit, Set To Seal Deal For Warner Bros. Discovery",
+   "at": ""
+  },
+  "t:10458756cbdf2222": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Jeff Probst Says Survivor 51 'Blows Up The Evolution' Of The Game — Watch",
+   "at": ""
+  },
+  "t:b9596b54099d049d": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Casting News: Javier Bardem's HBO Drama, Another Mormon Wives Star Exits, And More",
+   "at": ""
+  },
+  "t:2131259e44065f12": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Gilligan's Island Actor Jim Backus Starred In Another Popular Sitcom Nobody Remembers Toda",
+   "at": ""
+  },
+  "t:30664c886d987091": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Before Lioness, Ian Bohen Played A Villain On A Hit Supernatural Drama",
+   "at": ""
+  },
+  "t:6b91a917604457c7": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Bethlehem Kudumba Unit Crosses ₹150 Cr In Kerala, A Number No Film Has Ever Touched",
+   "at": ""
+  },
+  "t:6cce07f3220fef0c": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Line Of Fire Review: NBC's New Crime Thriller Aims To Change The TV Game",
+   "at": ""
+  },
+  "t:ddc86cacfaecd86d": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Sweet Magnolias author just gave Annie and Ty fans a way to get closure",
+   "at": ""
+  },
+  "t:d58b87562335b257": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Line Of Fire Show Boss Joshua Safran Promises 'All The Answers' About That Premiere Twist ",
+   "at": ""
+  },
+  "t:e96816f92bb55535": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Quote Of The Day By Benedict Cumberbatch: 'Everything Is Not Necessarily In Decay, But Cha",
+   "at": ""
+  },
+  "t:1943fc820dacc446": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Beyond Hal Jordan: Five Other Hated Heroes the DCU Could Rehabilitate",
+   "at": ""
+  },
+  "t:327ec47182db80f4": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Crunchyroll Winter 2023 Simulcast Slate Offers Largest Line-Up Yet",
+   "at": ""
+  },
+  "t:d2dfb9cdea7528f0": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Netflix’s ‘A Different World’ Revival Release Date, Time, Plot, Cast and Trailer - Comic B",
+   "at": ""
+  },
+  "t:985be0783eb0d3f3": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Norm Macdonald’s Story Told by Norm Himself in New Judd Apatow Doc: Watch the Trailer - Co",
+   "at": ""
+  },
+  "t:d7a7a484418f1623": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Netflix drops trailer & release date for Judd Apatow’s Norm Macdonald documentary - JoBlo",
+   "at": ""
+  },
+  "t:264abef0739405f5": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Brad Bird’s ‘Ray Gunn’ Gets First Trailer and a Limited 70mm Theatrical Release - What's o",
+   "at": ""
+  },
+  "t:9da8526951b69966": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Gary Glitter Doc Postponed at Netflix After ‘New Legal Information,’ Trailer Pulled From Y",
+   "at": ""
+  },
+  "t:049747c5a416c171": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "‘Cyberpunk: Edgerunners’ gears up for the premiere of Season 2 with a trailer packed with ",
+   "at": ""
+  },
+  "t:2616bd1954444abc": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "'The Four Seasons' Begins Season 3 Filming — See the Cast on Set - TV Insider",
+   "at": ""
+  },
+  "t:ba9cbaab0b23c5b0": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Netflix Drops ‘Outer Banks’ Season 5 Teaser Trailer & First Look Images, Set to Release in",
+   "at": ""
+  },
+  "t:6a3e686a71ad2765": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Black Doves Season 2 Trailer: Keira Knightley and Ben Whishaw Are Back in Action - Netflix",
+   "at": ""
+  },
+  "t:7504e60f4c5ad57f": {
+   "s": "legacy",
+   "n": "dramas",
+   "t": "Netflix Drops Main Trailer for Koji Yakusho’s Wildly Offbeat New Comedy ‘Did Someone Happe",
+   "at": ""
+  },
+  "t:36a0888ed5c15b22": {
+   "s": "thin",
+   "n": "dramas",
+   "t": "In Not a Stranger , a Mother Hires the Perfect Nanny — or So She Thinks",
+   "at": "2026-09-25T12:15:41+00:00"
+  },
+  "u:0833015df1a35a2b": {
+   "s": "thin",
+   "n": "dramas",
+   "t": "In Not a Stranger , a Mother Hires the Perfect Nanny — or So She Thinks",
+   "at": "2026-09-25T12:15:41+00:00"
+  },
+  "t:948e8fd7593a20ca": {
+   "s": "thin",
+   "n": "dramas",
+   "t": "47 Best Shows on Netflix Right Now (September 2026): ‘Party Down’ and More",
+   "at": "2026-09-25T12:15:43+00:00"
+  },
+  "u:2652df0187df151f": {
+   "s": "thin",
+   "n": "dramas",
+   "t": "47 Best Shows on Netflix Right Now (September 2026): ‘Party Down’ and More",
+   "at": "2026-09-25T12:15:43+00:00"
+  },
+  "t:69ff4035e6848126": {
+   "s": "thin",
+   "n": "dramas",
+   "t": "Can Bangladesh turn its OTT industry into global soft power?",
+   "at": "2026-09-25T12:15:44+00:00"
+  },
+  "u:65440f76cca20eb5": {
+   "s": "thin",
+   "n": "dramas",
+   "t": "Can Bangladesh turn its OTT industry into global soft power?",
+   "at": "2026-09-25T12:15:44+00:00"
+  },
+  "t:46faf0d32272492b": {
+   "s": "thin",
+   "n": "dramas",
+   "t": "What happened to Hearts of Iron IV? Atatürk profile picture Discord ban controversy sparks",
+   "at": "2026-09-25T12:15:46+00:00"
+  },
+  "u:19b69af0872c29a7": {
+   "s": "thin",
+   "n": "dramas",
+   "t": "What happened to Hearts of Iron IV? Atatürk profile picture Discord ban controversy sparks",
+   "at": "2026-09-25T12:15:46+00:00"
+  },
+  "t:a023eeacba716f41": {
+   "s": "thin",
+   "n": "dramas",
+   "t": "Wednesday’s U&Drama Lineup: From Classic Hospital Drama to Mystery Thrills",
+   "at": "2026-09-25T12:15:47+00:00"
+  },
+  "u:90f37d8d471b8221": {
+   "s": "thin",
+   "n": "dramas",
+   "t": "Wednesday’s U&Drama Lineup: From Classic Hospital Drama to Mystery Thrills",
+   "at": "2026-09-25T12:15:47+00:00"
+  },
+  "t:2f81782855f8ce6e": {
+   "s": "thin",
+   "n": "dramas",
+   "t": "The Beast in Me Will Return for Season 2",
+   "at": "2026-09-25T12:15:49+00:00"
+  },
+  "u:c2991ef0c65d9130": {
+   "s": "thin",
+   "n": "dramas",
+   "t": "The Beast in Me Will Return for Season 2",
+   "at": "2026-09-25T12:15:49+00:00"
+  },
+  "t:75cf0926faca1dbd": {
+   "s": "thin",
+   "n": "dramas",
+   "t": "The 8 Best New Movies and Shows to Stream This Weekend on Netflix, Apple and More",
+   "at": "2026-09-25T12:15:51+00:00"
+  },
+  "u:cc96631ef254a38d": {
+   "s": "thin",
+   "n": "dramas",
+   "t": "The 8 Best New Movies and Shows to Stream This Weekend on Netflix, Apple and More",
+   "at": "2026-09-25T12:15:51+00:00"
+  },
+  "t:c533d7474d2f4f0a": {
+   "s": "thin",
+   "n": "dramas",
+   "t": "What to watch on streaming: what's new today on Netflix, Prime Video, Disney+ and more",
+   "at": "2026-09-25T12:15:52+00:00"
+  },
+  "u:83bb36b4c14bbb04": {
+   "s": "thin",
+   "n": "dramas",
+   "t": "What to watch on streaming: what's new today on Netflix, Prime Video, Disney+ and more",
+   "at": "2026-09-25T12:15:52+00:00"
   }
  }
 }
