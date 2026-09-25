@@ -4,7 +4,8 @@
   "jobs",
   "news",
   "dramas",
-  "scholarships"
+  "scholarships",
+  "health"
  ],
  "items": {
   "t:f155598725349bc0": {
@@ -1458,6 +1459,258 @@
    "n": "scholarships",
    "t": "42 Bangladeshi students leave for Pakistan under scholarship program",
    "at": "2026-09-25T12:16:05+00:00"
+  },
+  "t:d2aee4818bcb7638": {
+   "s": "legacy",
+   "n": "health",
+   "t": "FDA Staff Find No Major Concerns With Galleri Multicancer Early Detection Test",
+   "at": ""
+  },
+  "t:2d52ffd23420a4a3": {
+   "s": "legacy",
+   "n": "health",
+   "t": "Telehealth companies keep exposing their customers' medical data. What should they do?",
+   "at": ""
+  },
+  "t:265d45a23b26045f": {
+   "s": "legacy",
+   "n": "health",
+   "t": "Porsha Williams reveals health emergency: \"It all happened so fast\"",
+   "at": ""
+  },
+  "t:81c75dfe5557a0c8": {
+   "s": "legacy",
+   "n": "health",
+   "t": "RSV hospitalization rate for seniors is 10 times higher than usual for this point in the s",
+   "at": ""
+  },
+  "t:b55e3c498b8c1497": {
+   "s": "legacy",
+   "n": "health",
+   "t": "1 in 3 Americans with health insurance have medical debt, survey finds",
+   "at": ""
+  },
+  "t:e430921ccbb04a22": {
+   "s": "legacy",
+   "n": "health",
+   "t": "Covid-19 boosters could keep thousands of kids out of hospitals, but uptake remains low",
+   "at": ""
+  },
+  "t:a5a5c48c60b9e55d": {
+   "s": "legacy",
+   "n": "health",
+   "t": "Insurance Coverage Lags as Cancer Science, Treatment Move Forward",
+   "at": ""
+  },
+  "t:0f5f4a6ca8b2bb72": {
+   "s": "legacy",
+   "n": "health",
+   "t": "Experimental therapy gantenerumab fails to slow or improve Alzheimer's memory loss in clin",
+   "at": ""
+  },
+  "t:92537e82ff20c302": {
+   "s": "legacy",
+   "n": "health",
+   "t": "US gets D+ grade for rising preterm birth rates, new report finds",
+   "at": ""
+  },
+  "t:72806265bcdf7e11": {
+   "s": "legacy",
+   "n": "health",
+   "t": "Popular weight-loss drugs face numerous lawsuits over rare ‘eye stroke’ linked to vision l",
+   "at": ""
+  },
+  "t:7b99c2fbeb8606f8": {
+   "s": "legacy",
+   "n": "health",
+   "t": "Is produce from a home garden safer than store bought? 'It depends'",
+   "at": ""
+  },
+  "t:c9a5960437767ed9": {
+   "s": "legacy",
+   "n": "health",
+   "t": "Pediatric Acute Kidney Injury Cases Increased Tenfold Over Past 25 Years",
+   "at": ""
+  },
+  "t:4244de5aa120a4ea": {
+   "s": "legacy",
+   "n": "health",
+   "t": "As Health Insurance Costs Soar, Healthcare Workers Also Feel the Pinch",
+   "at": ""
+  },
+  "t:da57837edfaa738e": {
+   "s": "legacy",
+   "n": "health",
+   "t": "Economic Frustration Tests Trump’s Standing With Rural Voters, New KFF-AP Poll Finds",
+   "at": ""
+  },
+  "t:f1bb111bc83538fa": {
+   "s": "legacy",
+   "n": "health",
+   "t": "Man goes to doctor to prove he’s 'in perfect shape,' test reveals shocking diagnosis",
+   "at": ""
+  },
+  "t:074e1518091ee090": {
+   "s": "legacy",
+   "n": "health",
+   "t": "‘Miracle on the Hudson’ hero Sully Sullenberger reveals Alzheimer’s warning signs he misse",
+   "at": ""
+  },
+  "t:193177282fcb6bee": {
+   "s": "legacy",
+   "n": "health",
+   "t": "What is kratom? Risks of popular substance revealed after college students' deaths",
+   "at": ""
+  },
+  "t:361119fae10a7a81": {
+   "s": "legacy",
+   "n": "health",
+   "t": "Doctors successfully separate twin girls conjoined at the head",
+   "at": ""
+  },
+  "t:375bcbec96c6d244": {
+   "s": "legacy",
+   "n": "health",
+   "t": "Hospitals Shut Youth Gender Clinics in Deal with Trump Administration",
+   "at": ""
+  },
+  "t:9307264e2fddeb1c": {
+   "s": "legacy",
+   "n": "health",
+   "t": "OpenAI's breach of Australian health department website prompts rebuke from Albanese",
+   "at": ""
+  },
+  "t:d9a62d413c986535": {
+   "s": "legacy",
+   "n": "health",
+   "t": "Abortion Pills, Vaccines and Food Safety: F.D.A. Nominee Heidi Overton Faces Senate Confir",
+   "at": ""
+  },
+  "t:79f6b47c549e7775": {
+   "s": "legacy",
+   "n": "health",
+   "t": "FDA Approves New Option for Previously Treated Bile Duct Cancer",
+   "at": ""
+  },
+  "t:43ce9937f2780d6d": {
+   "s": "legacy",
+   "n": "health",
+   "t": "Pennsylvania woman dies of measles complications, coroner reports",
+   "at": ""
+  },
+  "t:c48020b13f633b51": {
+   "s": "legacy",
+   "n": "health",
+   "t": "Battle of Hospital A.I. vs. Insurer A.I. Is Pushing Medical Costs Higher",
+   "at": ""
+  },
+  "t:e2b01be2a1c71e72": {
+   "s": "legacy",
+   "n": "health",
+   "t": "Listen to the Latest ‘KFF Health News Minute’",
+   "at": ""
+  },
+  "t:3fc3e26c4859af77": {
+   "s": "legacy",
+   "n": "health",
+   "t": "Trump admin. to send $500 checks to nearly 1 million ACA enrollees",
+   "at": ""
+  },
+  "t:8fbca17216741545": {
+   "s": "thin",
+   "n": "health",
+   "t": "National Vital Statistics Reports Volume 75, Number 7 September 22, 2026",
+   "at": "2026-09-25T12:16:08+00:00"
+  },
+  "u:380d2e504d883e89": {
+   "s": "thin",
+   "n": "health",
+   "t": "National Vital Statistics Reports Volume 75, Number 7 September 22, 2026",
+   "at": "2026-09-25T12:16:08+00:00"
+  },
+  "t:e8635ff4115cc781": {
+   "s": "thin",
+   "n": "health",
+   "t": "Reassortment of Highly Pathogenic Avian Influenza as a Driver for Zoonotic Spillover, Asia",
+   "at": "2026-09-25T12:16:09+00:00"
+  },
+  "u:f58faae2f668b1c2": {
+   "s": "thin",
+   "n": "health",
+   "t": "Reassortment of Highly Pathogenic Avian Influenza as a Driver for Zoonotic Spillover, Asia",
+   "at": "2026-09-25T12:16:09+00:00"
+  },
+  "t:c38d2acf2ea77d4f": {
+   "s": "thin",
+   "n": "health",
+   "t": "Amitriptyline - StatPearls",
+   "at": "2026-09-25T12:16:10+00:00"
+  },
+  "u:a6af643e10bd6279": {
+   "s": "thin",
+   "n": "health",
+   "t": "Amitriptyline - StatPearls",
+   "at": "2026-09-25T12:16:10+00:00"
+  },
+  "t:a1b498f3c4b95f2c": {
+   "s": "thin",
+   "n": "health",
+   "t": "Intramuscular Injection - StatPearls",
+   "at": "2026-09-25T12:16:12+00:00"
+  },
+  "u:9b022078c202b036": {
+   "s": "thin",
+   "n": "health",
+   "t": "Intramuscular Injection - StatPearls",
+   "at": "2026-09-25T12:16:12+00:00"
+  },
+  "t:2ede479f45ea6fbb": {
+   "s": "thin",
+   "n": "health",
+   "t": "Formaldehyde | H2CO | CID 712",
+   "at": "2026-09-25T12:16:14+00:00"
+  },
+  "u:9ee13d54f8e6105f": {
+   "s": "thin",
+   "n": "health",
+   "t": "Formaldehyde | H2CO | CID 712",
+   "at": "2026-09-25T12:16:14+00:00"
+  },
+  "t:19f39f22b91df253": {
+   "s": "thin",
+   "n": "health",
+   "t": "Healthy eating, diets & weight loss",
+   "at": "2026-09-25T12:16:15+00:00"
+  },
+  "u:5dccafa99d06889c": {
+   "s": "thin",
+   "n": "health",
+   "t": "Healthy eating, diets & weight loss",
+   "at": "2026-09-25T12:16:15+00:00"
+  },
+  "t:df3f957b20aa60d4": {
+   "s": "thin",
+   "n": "health",
+   "t": "The 5 Stages of Addiction Recovery",
+   "at": "2026-09-25T12:16:17+00:00"
+  },
+  "u:869a8f661c160294": {
+   "s": "thin",
+   "n": "health",
+   "t": "The 5 Stages of Addiction Recovery",
+   "at": "2026-09-25T12:16:17+00:00"
+  },
+  "t:a49efb552e622b4a": {
+   "s": "thin",
+   "n": "health",
+   "t": "A Blood Test Could Help Transform the Alzheimer’s Diagnostic Pathway",
+   "at": "2026-09-25T12:16:19+00:00"
+  },
+  "u:52d0484c759f4a30": {
+   "s": "thin",
+   "n": "health",
+   "t": "A Blood Test Could Help Transform the Alzheimer’s Diagnostic Pathway",
+   "at": "2026-09-25T12:16:19+00:00"
   }
  }
 }

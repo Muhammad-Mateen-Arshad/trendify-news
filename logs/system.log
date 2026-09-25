@@ -259,3 +259,13 @@
 [2026-09-25 12:16:04 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 53 chars): University Of Melbourne Scholarship 2027
 [2026-09-25 12:16:05 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 91 chars): 42 Bangladeshi students leave for Pakistan under scholarship program
 [2026-09-25 12:16:05 PM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8}
+[2026-09-25 12:16:05 PM] [HEALTH_BOT] [INFO] Imported 26 old titles from posted_health.txt
+[2026-09-25 12:16:08 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 128 chars): National Vital Statistics Reports Volume 75, Number 7 September 22, 20
+[2026-09-25 12:16:09 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 146 chars): Reassortment of Highly Pathogenic Avian Influenza as a Driver for Zoon
+[2026-09-25 12:16:10 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 71 chars): Amitriptyline - StatPearls
+[2026-09-25 12:16:12 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 81 chars): Intramuscular Injection - StatPearls
+[2026-09-25 12:16:14 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 74 chars): Formaldehyde | H2CO | CID 712
+[2026-09-25 12:16:15 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 50 chars): Healthy eating, diets & weight loss
+[2026-09-25 12:16:17 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 61 chars): The 5 Stages of Addiction Recovery
+[2026-09-25 12:16:19 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 98 chars): A Blood Test Could Help Transform the Alzheimer’s Diagnostic Pathway
+[2026-09-25 12:16:19 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8}
