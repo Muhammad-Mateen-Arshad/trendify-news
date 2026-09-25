@@ -5,7 +5,8 @@
   "news",
   "dramas",
   "scholarships",
-  "health"
+  "health",
+  "history"
  ],
  "items": {
   "t:f155598725349bc0": {
@@ -1711,6 +1712,552 @@
    "n": "health",
    "t": "A Blood Test Could Help Transform the Alzheimer’s Diagnostic Pathway",
    "at": "2026-09-25T12:16:19+00:00"
+  },
+  "t:58202c1b3cc1ef23": {
+   "s": "legacy",
+   "n": "history",
+   "t": "gta-6-the-album-soundtrack-will-get-vinyl-and-cd-release.html",
+   "at": ""
+  },
+  "t:86e780b761e49250": {
+   "s": "legacy",
+   "n": "history",
+   "t": "techcrunch-disrupt-2026-side-events-schedule-nmi-backblaze-peakxv-partners-augment-and-mor",
+   "at": ""
+  },
+  "t:5b30a7aa73b5def3": {
+   "s": "legacy",
+   "n": "history",
+   "t": "claude-codes-revised-projects-adds-ai-orchestration-but-local-developers-must-wait.html",
+   "at": ""
+  },
+  "t:36a78f381d9f75d1": {
+   "s": "legacy",
+   "n": "history",
+   "t": "the-brilliantly-budget-corsair-tc100-relaxed-drops-in-price-at-amazon--and-its-one-of-our-",
+   "at": ""
+  },
+  "t:429c0b15fbf1cb99": {
+   "s": "legacy",
+   "n": "history",
+   "t": "meet-lofi-house-where-the-lofi-girl-universe-goes-after-hours.html",
+   "at": ""
+  },
+  "t:454b524f3981ad73": {
+   "s": "legacy",
+   "n": "history",
+   "t": "even-the-king-of-england-has-his-hesitations-about-ai.html",
+   "at": ""
+  },
+  "t:154ecfbbebc1ccd7": {
+   "s": "legacy",
+   "n": "history",
+   "t": "bose-just-dropped-new-sport-open-earbuds-and-ultra-open-earbuds-2nd-gen.html",
+   "at": ""
+  },
+  "t:1e86f9612777863f": {
+   "s": "legacy",
+   "n": "history",
+   "t": "gyazo-breach-exposes-2362-million-user-records-and-490-million-image-records--pii-and-meta",
+   "at": ""
+  },
+  "t:eca56cb1da82bfd6": {
+   "s": "legacy",
+   "n": "history",
+   "t": "base-labs-launches-an-openweight-ai-safety-partnership-with-hugging-face-and-goodfire.html",
+   "at": ""
+  },
+  "t:84039c9ab0aff921": {
+   "s": "legacy",
+   "n": "history",
+   "t": "openais-experimental-ai-agents-caught-teaching-future-versions-of-itself-to-cheat.html",
+   "at": ""
+  },
+  "t:0e79108debc2ca2d": {
+   "s": "legacy",
+   "n": "history",
+   "t": "The monsters that weren't: Dinosaur and tusked-beast claims in San rock art unravel",
+   "at": ""
+  },
+  "t:50193c1f0006711e": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Rethinking how we assess students could improve their well-being",
+   "at": ""
+  },
+  "t:c3bc32142d563b3a": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Kids involved with child protective services miss much more school than their peers",
+   "at": ""
+  },
+  "t:0999e578befc202b": {
+   "s": "legacy",
+   "n": "history",
+   "t": "How rural policing gaps can make escaping domestic violence harder",
+   "at": ""
+  },
+  "t:6de3332b0f68964a": {
+   "s": "legacy",
+   "n": "history",
+   "t": "The Founders of the 'New York Times' Pledged to Cover 'Every Subject of Public Importance.",
+   "at": ""
+  },
+  "t:fd51800c2b5a27f1": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Peer sexual harassment emerges early, highlighting need for prevention before Grade 4",
+   "at": ""
+  },
+  "t:1eb7d54fecbf681b": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Medieval Chinese skeleton may reveal first evidence of a brutal punishment",
+   "at": ""
+  },
+  "t:981cfe74e8e9cd4f": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Six Ways That People of the Past Used Magic to Protect Their Homes, From Witch Bottles to ",
+   "at": ""
+  },
+  "t:c285f66d0c2c9e2d": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Workplace AI adoption remains slow, informal and uneven, survey finds",
+   "at": ""
+  },
+  "t:f74ea19db8d9cdd8": {
+   "s": "legacy",
+   "n": "history",
+   "t": "To read 2,000-year-old burned scrolls, scientists burn their own",
+   "at": ""
+  },
+  "t:47468d9779adfbf1": {
+   "s": "legacy",
+   "n": "history",
+   "t": "The Real Story Behind 'The Uprising' and the 1381 Peasants' Revolt, When Thousands Marched",
+   "at": ""
+  },
+  "t:c4feac6cd1fa4428": {
+   "s": "legacy",
+   "n": "history",
+   "t": "How Did the Nation Get Its Name? Other Suggestions Included the United Colonies, Columbia ",
+   "at": ""
+  },
+  "t:f16121f90e22784d": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Scientists build a DNA computer that can perform calculations in a drop of water",
+   "at": ""
+  },
+  "t:defd2a4fdcc66e98": {
+   "s": "legacy",
+   "n": "history",
+   "t": "To Defeat the Royal Navy During the American Revolution, a Rebel Inventor Designed a Secre",
+   "at": ""
+  },
+  "t:ab380c29c6b674f4": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Some of the Earliest Automobile Enthusiasts Signed Up to Help the Allies in WWI. They Also",
+   "at": ""
+  },
+  "t:c96432e76f059fc4": {
+   "s": "legacy",
+   "n": "history",
+   "t": "An 'impossible' black hole merger may finally be solved thanks to Einstein's relativity — ",
+   "at": ""
+  },
+  "t:648c4ff2903a0860": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Power breeds suspicion: In cases of wrongdoing, people point to leaders more quickly",
+   "at": ""
+  },
+  "t:27c42f9f7c26a8f6": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Why does blond hair tend to darken with age?",
+   "at": ""
+  },
+  "t:4d6589a40b6a113c": {
+   "s": "legacy",
+   "n": "history",
+   "t": "This American Commando Parachuted Behind Enemy Lines in Both the European and Pacific Thea",
+   "at": ""
+  },
+  "t:d2d28fca05e1ab33": {
+   "s": "legacy",
+   "n": "history",
+   "t": "'We are on our way to groundbreaking science': Stars turn neon-green in first test image f",
+   "at": ""
+  },
+  "t:b2393038b2c98492": {
+   "s": "legacy",
+   "n": "history",
+   "t": "The Prehistoric Paintings on the Walls of Caves Have Always Been Moving. But With the Righ",
+   "at": ""
+  },
+  "t:142f544a37ac88cd": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Europe can lower emissions without deindustrializing, say researchers",
+   "at": ""
+  },
+  "t:f41f70c516ebbe90": {
+   "s": "legacy",
+   "n": "history",
+   "t": "To Dismantle the Concept of Separate but Equal, Thurgood Marshall Methodically Devised a W",
+   "at": ""
+  },
+  "t:05b6c202558b54dd": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Did the Vikings really shoot fiery arrows at funeral boats?",
+   "at": ""
+  },
+  "t:ff6210a1546b8583": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Longitudinal survey finds little evidence that social tech predicts life satisfaction in a",
+   "at": ""
+  },
+  "t:8e68d776ac4ac8a1": {
+   "s": "legacy",
+   "n": "history",
+   "t": "This 18th-Century British Queen Turned King Arthur Into a P.R. Strategy, Drawing on Myth t",
+   "at": ""
+  },
+  "t:7b0c961df6e76fb8": {
+   "s": "legacy",
+   "n": "history",
+   "t": "'Of course I am worried': Live Science readers react to US weapons in space",
+   "at": ""
+  },
+  "t:16abd5c733417532": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Climate change will harm our health. Here's what could protect us.",
+   "at": ""
+  },
+  "t:b9d85a55ee40fc68": {
+   "s": "legacy",
+   "n": "history",
+   "t": "How firelight may have shaped the origins of spoken language",
+   "at": ""
+  },
+  "t:1664f669f2a7fb02": {
+   "s": "legacy",
+   "n": "history",
+   "t": "'Rusty treasure' find revealed as Europe's largest assemblage of prehistoric iron bars",
+   "at": ""
+  },
+  "t:6f85cc2d9f893e84": {
+   "s": "legacy",
+   "n": "history",
+   "t": "'Nothing short of a minor miracle': 'Rusty treasure' found in the Danube is full of 2,000-",
+   "at": ""
+  },
+  "t:b8ed645838dafab1": {
+   "s": "legacy",
+   "n": "history",
+   "t": "AI agents resorted to crime and self-destruction to survive in a simulated world — but doe",
+   "at": ""
+  },
+  "t:748a740132ff6563": {
+   "s": "legacy",
+   "n": "history",
+   "t": "A space shark, 'royal' auroras and a 'Venusian pearl': See the winners of the 2026 ZWO Ast",
+   "at": ""
+  },
+  "t:3680e17385ec65f3": {
+   "s": "legacy",
+   "n": "history",
+   "t": "British food was complex, multicultural and flavorful in the 18th century—despite what you",
+   "at": ""
+  },
+  "t:a60491c816fd74f4": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Administrative assistance and advocacy help Mumbai communities get essential services",
+   "at": ""
+  },
+  "t:89843c293a10d2ff": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Funeral mask: A 2,000-year-old gold face covering designed to confuse the deceased's spiri",
+   "at": ""
+  },
+  "t:71e21d2fa3984ef9": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Does Tutankhamen's tomb hold his stepmother Queen Nefertiti's remains? New study offers ta",
+   "at": ""
+  },
+  "t:25dc5b52d6652f50": {
+   "s": "legacy",
+   "n": "history",
+   "t": "STEM activities with family and educators expose students to diverse career paths",
+   "at": ""
+  },
+  "t:8bfdd50aff1908c9": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Developing lower-performing employees may annoy the go-getters",
+   "at": ""
+  },
+  "t:2783bd19d5bb4c8e": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Inclusion is central to England's education policy—but what it means is changing",
+   "at": ""
+  },
+  "t:27b76e4f8c655998": {
+   "s": "legacy",
+   "n": "history",
+   "t": "‘Spectacular’ Viking coin hoard discovery is likely the largest in history - Scientific Am",
+   "at": ""
+  },
+  "t:39f3e7433a590621": {
+   "s": "legacy",
+   "n": "history",
+   "t": "The Middle Ages Are No Panacea - Crisis Magazine",
+   "at": ""
+  },
+  "t:feb07c4a27dca4bb": {
+   "s": "legacy",
+   "n": "history",
+   "t": "WAMU's Week Ahead: Postpartum mental health, week two of the Trayon White trial, National ",
+   "at": ""
+  },
+  "t:4a33015fb0d31b79": {
+   "s": "legacy",
+   "n": "history",
+   "t": "We’ve Only Seen Them in Photos—Now a New Doc Brings Harlem Renaissance Icons to Life - The",
+   "at": ""
+  },
+  "t:0c4bd4282508c2d2": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Brittany Hunt on bringing Native stories to the screen - Virginia Tech News",
+   "at": ""
+  },
+  "t:073318cf869e1920": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Italy - Roman Empire, Renaissance, Unification - Britannica",
+   "at": ""
+  },
+  "t:e45d8979f5a9c1c6": {
+   "s": "legacy",
+   "n": "history",
+   "t": "3,000-year-old horse burial and Ramesses II stela found at ancient Egyptian fortress - Arc",
+   "at": ""
+  },
+  "t:7e965d37997f363f": {
+   "s": "legacy",
+   "n": "history",
+   "t": "10 Best TV Shows About The Roman Empire - TVLine",
+   "at": ""
+  },
+  "t:478084042d5f710a": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Aksumite–Persian wars — History is Now | History is Now - historyisnowmagazine.com",
+   "at": ""
+  },
+  "t:84b65261a27bc76a": {
+   "s": "legacy",
+   "n": "history",
+   "t": "See it: Archeologists uncover residential city from Byzantine Empire in Egypt - FOX Weathe",
+   "at": ""
+  },
+  "t:6949fc1011cc325c": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Ferdinand Marcos - Britannica",
+   "at": ""
+  },
+  "t:6650b3dd63ad04b6": {
+   "s": "legacy",
+   "n": "history",
+   "t": "‘We are still here’: Evanston History Center talk explores Native Americans’ past and pres",
+   "at": ""
+  },
+  "t:f79c62d5ef430516": {
+   "s": "legacy",
+   "n": "history",
+   "t": "University of Leicester historian shortlisted for UK's most prestigious history book prize",
+   "at": ""
+  },
+  "t:a3da99b63edc1278": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Tomes That Teach: Jonelle Patrick on Learning the Past Through Historical Fiction - crimer",
+   "at": ""
+  },
+  "t:3d6f72bbef24968a": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Nobel Laureate John Clauser: Science Should Not Fear Questioning, and AI Should Not Be Fol",
+   "at": ""
+  },
+  "t:82fcd6e53f3c1eef": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Battle of Thermopylae | Date, Location, and Facts - Britannica",
+   "at": ""
+  },
+  "t:25267977ae298da8": {
+   "s": "legacy",
+   "n": "history",
+   "t": "5 ways ancient Persia shaped our modern world - Big Think",
+   "at": ""
+  },
+  "t:9cd7b8b1dd169e9a": {
+   "s": "legacy",
+   "n": "history",
+   "t": "World War II Weekend - nps.gov",
+   "at": ""
+  },
+  "t:491e84063afb0415": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Middle East | Map, Countries, West Asia, History, Conflict, & Facts - Britannica",
+   "at": ""
+  },
+  "t:e4c700d27dbe0dbf": {
+   "s": "legacy",
+   "n": "history",
+   "t": "History of Mongolia - Mongolia since 1990 - Britannica",
+   "at": ""
+  },
+  "t:b64af36ce5bb0799": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Can East Germany’s Cold War History Explain the Rise of the AfD? - The New Yorker",
+   "at": ""
+  },
+  "t:bc991b8639dd9897": {
+   "s": "legacy",
+   "n": "history",
+   "t": "A 3,000-Year-Old Warhorse Burial and a Ramses II Tablet, Among Other Relics, Have Been Dis",
+   "at": ""
+  },
+  "t:d7eeff0677deb2c6": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Workers Dredging a River Found Lost Iron Age Cargo Meant for an Ancient Army - Popular Mec",
+   "at": ""
+  },
+  "t:f231c178f412d762": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Perrysburg dedicates Native American burial monument - Sent-trib",
+   "at": ""
+  },
+  "t:df2c6a05cd41080b": {
+   "s": "legacy",
+   "n": "history",
+   "t": "Historic artifacts located in Texas, returned to Battleship Cove - WJAR",
+   "at": ""
+  },
+  "t:871ca9f88dc7d9b1": {
+   "s": "thin",
+   "n": "history",
+   "t": "Scientists discover the first diplodocus ever found outside North America",
+   "at": "2026-09-25T12:16:21+00:00"
+  },
+  "u:e1b72b1b26991ca0": {
+   "s": "thin",
+   "n": "history",
+   "t": "Scientists discover the first diplodocus ever found outside North America",
+   "at": "2026-09-25T12:16:21+00:00"
+  },
+  "t:c69075f07e361d16": {
+   "s": "thin",
+   "n": "history",
+   "t": "Scientists discover new dinosaur species deep in the Sahara Desert",
+   "at": "2026-09-25T12:16:23+00:00"
+  },
+  "u:2ef4654e54b30ab8": {
+   "s": "thin",
+   "n": "history",
+   "t": "Scientists discover new dinosaur species deep in the Sahara Desert",
+   "at": "2026-09-25T12:16:23+00:00"
+  },
+  "t:fbe32d4da9227d0e": {
+   "s": "thin",
+   "n": "history",
+   "t": "240-Million-Year-Old Fossil Discovery Challenges the Story of the First Dinosaurs",
+   "at": "2026-09-25T12:16:24+00:00"
+  },
+  "u:7661080c85cf0e31": {
+   "s": "thin",
+   "n": "history",
+   "t": "240-Million-Year-Old Fossil Discovery Challenges the Story of the First Dinosaurs",
+   "at": "2026-09-25T12:16:24+00:00"
+  },
+  "t:a8e51564934ced22": {
+   "s": "thin",
+   "n": "history",
+   "t": "Remarkable 40 Million Year Old Discovery in Oceanside",
+   "at": "2026-09-25T12:16:26+00:00"
+  },
+  "u:846868b389b3d0af": {
+   "s": "thin",
+   "n": "history",
+   "t": "Remarkable 40 Million Year Old Discovery in Oceanside",
+   "at": "2026-09-25T12:16:26+00:00"
+  },
+  "t:431f05f485f2be03": {
+   "s": "thin",
+   "n": "history",
+   "t": "New Fossil Discovery Challenges Timeline of Tanzania’s Oldest Dinosaur Fossils",
+   "at": "2026-09-25T12:16:28+00:00"
+  },
+  "u:21af54ad2db96bb0": {
+   "s": "thin",
+   "n": "history",
+   "t": "New Fossil Discovery Challenges Timeline of Tanzania’s Oldest Dinosaur Fossils",
+   "at": "2026-09-25T12:16:28+00:00"
+  },
+  "t:e3d8ec5ff74251a1": {
+   "s": "thin",
+   "n": "history",
+   "t": "First series of adult T. rex footprints hints at its walking speed",
+   "at": "2026-09-25T12:16:30+00:00"
+  },
+  "u:df1963b89ea3c801": {
+   "s": "thin",
+   "n": "history",
+   "t": "First series of adult T. rex footprints hints at its walking speed",
+   "at": "2026-09-25T12:16:30+00:00"
+  },
+  "t:c993dca9086a4d0c": {
+   "s": "thin",
+   "n": "history",
+   "t": "A broken rib from the world’s largest T. rex hid a 66-million-year-old secret",
+   "at": "2026-09-25T12:16:31+00:00"
+  },
+  "u:33f39f1aed9c6d12": {
+   "s": "thin",
+   "n": "history",
+   "t": "A broken rib from the world’s largest T. rex hid a 66-million-year-old secret",
+   "at": "2026-09-25T12:16:31+00:00"
+  },
+  "t:cecdda22d8ce4956": {
+   "s": "thin",
+   "n": "history",
+   "t": "A high school teacher stumbled across two giant footprints — and marked a first for scienc",
+   "at": "2026-09-25T12:16:33+00:00"
+  },
+  "u:5bea517e362a7c4b": {
+   "s": "thin",
+   "n": "history",
+   "t": "A high school teacher stumbled across two giant footprints — and marked a first for scienc",
+   "at": "2026-09-25T12:16:33+00:00"
   }
  }
 }
