@@ -391,3 +391,4 @@
 [2026-09-25 04:06:19 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 14, 'tried': 1, 'thin': 1}
 [2026-09-25 04:06:22 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 104 chars): Fully Funded Scholarships for Indian Students: Study Abroad Without Mo
 [2026-09-25 04:06:23 PM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'already_seen': 19, 'tried': 1, 'thin': 1}
+[2026-09-25 04:06:25 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 11}
