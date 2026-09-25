@@ -323,3 +323,18 @@
 [2026-09-25 02:48:46 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 71 chars): Archaeologists Uncover 2500-year-old Civilization in Russia
 [2026-09-25 02:48:47 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 68 chars): The Treasures Emerging From Turkey’s Dying Lakes
 [2026-09-25 02:48:47 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'already_seen': 7, 'tried': 8, 'thin': 8}
+[2026-09-25 03:10:51 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-25 03:11:02 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-25 03:11:12 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-25 03:11:25 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-09-25 03:11:45 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-09-25 03:12:11 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-25 03:12:41 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-25 03:13:13 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-25 03:13:44 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-25 03:14:14 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-25 03:14:44 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-25 03:15:15 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-25 03:15:45 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-25 03:16:16 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-25 03:16:46 PM] [NEWS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
