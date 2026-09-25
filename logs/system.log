@@ -347,3 +347,5 @@
 [2026-09-25 03:17:00 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 76 chars): In setback for SPSC, Sindh High Court suspends competitive exam result
 [2026-09-25 03:17:01 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 79 chars): SPSC announces result of CCE 2025 Screening Test
 [2026-09-25 03:17:01 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 18, 'tried': 8, 'thin': 8}
+[2026-09-25 03:17:04 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 70 chars): 58 of the Best TV Shows on Netflix That Will Keep You Entertained
+[2026-09-25 03:17:04 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 14, 'tried': 1, 'thin': 1}
