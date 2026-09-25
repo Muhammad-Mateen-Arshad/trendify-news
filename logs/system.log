@@ -279,3 +279,7 @@
 [2026-09-25 12:16:31 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 90 chars): A broken rib from the world’s largest T. rex hid a 66-million-year-old
 [2026-09-25 12:16:33 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 95 chars): A high school teacher stumbled across two giant footprints — and marke
 [2026-09-25 12:16:33 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8}
+[2026-09-25 02:47:22 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-25 02:47:28 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-25 02:47:52 PM] [NEWS_BOT] [SUCCESS] Published: Info ministry dismisses Afghan claims of destroying Pakistani post near border in Balochistan as 'fake'
+[2026-09-25 02:47:52 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1477 in / 572 out tokens
