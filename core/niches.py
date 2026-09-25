@@ -88,7 +88,7 @@ JOBS = Niche(
 
 NEWS = Niche(
     name="news", label="NEWS", emoji="📰",
-    folder="news", page="news.html", rss_file="rss_news.xml", legacy_file="posted_news.txt",
+    folder="news", page="index.html", rss_file="rss_news.xml", legacy_file="posted_news.txt",
     feeds=[
         "https://www.dawn.com/feeds/home",
         "https://feeds.bbci.co.uk/news/world/rss.xml",
