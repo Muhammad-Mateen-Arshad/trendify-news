@@ -283,3 +283,12 @@
 [2026-09-25 02:47:28 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-09-25 02:47:52 PM] [NEWS_BOT] [SUCCESS] Published: Info ministry dismisses Afghan claims of destroying Pakistani post near border in Balochistan as 'fake'
 [2026-09-25 02:47:52 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1477 in / 572 out tokens
+[2026-09-25 02:47:54 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 95 chars): Solar manufacturing can create millions of jobs: Punjab governor
+[2026-09-25 02:47:56 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 110 chars): 'BrahMos missiles manufactured in UP giving sleepless nights to Pakist
+[2026-09-25 02:47:57 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 89 chars): Police verification draws criticism over government job recruitment
+[2026-09-25 02:47:58 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 85 chars): Solar manufacturing policy needed to unlock jobs, exports: Punjab gove
+[2026-09-25 02:48:01 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 63 chars): NADRA announces new job opportunities for 2026
+[2026-09-25 02:48:02 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 79 chars): Pakistanis in Saudi Arabia Get New NADRA, Passport Appointment System
+[2026-09-25 02:48:03 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 72 chars): Punjab Health Department Announces Jobs in Lahore Hospitals
+[2026-09-25 02:48:05 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 80 chars): LHC upholds PPSC policy of candidates’ shortlisting under ministerial 
+[2026-09-25 02:48:05 PM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 10}
