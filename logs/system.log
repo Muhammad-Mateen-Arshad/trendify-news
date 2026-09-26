@@ -623,3 +623,4 @@
 [2026-09-26 08:47:03 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
 [2026-09-26 08:47:30 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Swimmer Ivan Snowden departs Accra for Bahrain to begin World Aquatics scholarship
 [2026-09-26 08:47:30 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 888 in / 533 out tokens
+[2026-09-26 08:47:32 PM] [HEALTH_BOT] [INFO] Nothing published this run: {}
