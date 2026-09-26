@@ -175,13 +175,10 @@ HEALTH = Niche(
     name="health", label="HEALTH", emoji="🩺",
     folder="health", page="health.html", rss_file="rss_health.xml", legacy_file="posted_health.txt",
     feeds=[
-        bing_news("senior health nutrition over 60 site:nih.gov"),
-        bing_news("senior health nutrition site:cdc.gov"),
-        bing_news("healthy aging exercise seniors site:nia.nih.gov"),
-        bing_news("older adults wellness site:health.harvard.edu"),
-        bing_news("older adults wellness site:hopkinsmedicine.org"),
-        bing_news("senior health site:clevelandclinic.org"),
-        bing_news("senior health site:mayoclinic.org"),
+        "https://www.nih.gov/news-releases/feed.xml",
+        "https://www.health.harvard.edu/authors/harvard-health-publishing-staff/feed/rss",
+        bing_news("senior health nutrition wellness study"),
+        bing_news("healthy aging exercise older adults"),
     ],
     role="a careful health writer producing general wellness information for adults over 60",
     instructions=(
