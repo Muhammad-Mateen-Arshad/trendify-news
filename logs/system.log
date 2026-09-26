@@ -487,3 +487,12 @@
 [2026-09-26 03:13:43 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'already_seen': 19, 'tried': 1, 'thin': 1}
 [2026-09-26 06:46:01 PM] [NEWS_BOT] [SUCCESS] Published: Iran proposes Hormuz plan, Trump refuses
 [2026-09-26 06:46:02 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1549 in / 459 out tokens
+[2026-09-26 06:46:05 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 105 chars): Pakistan govt puts Islamabad on lockdown as Imran Khan’s party pushes 
+[2026-09-26 06:46:07 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 111 chars): India tears into Pakistan at UN, accusing Islamabad of terror, deceit 
+[2026-09-26 06:46:12 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 60 chars): 21 Remote-First Companies Hiring Software Engineers
+[2026-09-26 06:46:13 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 81 chars): Remote work — not AI — has sidelined recent college graduates, researc
+[2026-09-26 06:46:15 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 89 chars): Remote AI Jobs: Navigating Work-from-Home Careers in Artificial Intell
+[2026-09-26 06:46:16 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 88 chars): Want to join Dubai Police? Meet the recruitment team at Ru’ya Careers 
+[2026-09-26 06:46:18 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 111 chars): UAE's four-and-a-half-day week brings happier staff despite hectic wor
+[2026-09-26 06:46:19 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 118 chars): Dubai-based Indian businesswoman arrested in Kerala for overseas job s
+[2026-09-26 06:46:19 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 41, 'tried': 8, 'thin': 8}
