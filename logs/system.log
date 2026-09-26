@@ -485,3 +485,5 @@
 [2026-09-26 03:13:39 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 11}
 [2026-09-26 03:13:43 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 58 chars): Adaptations: Australia’s ancient animals
 [2026-09-26 03:13:43 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'already_seen': 19, 'tried': 1, 'thin': 1}
+[2026-09-26 06:46:01 PM] [NEWS_BOT] [SUCCESS] Published: Iran proposes Hormuz plan, Trump refuses
+[2026-09-26 06:46:02 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1549 in / 459 out tokens
