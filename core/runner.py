@@ -37,8 +37,13 @@ def _process(niche, candidate, ai, seen):
     source = sources.gather(candidate)
 
     if len(source.text) < niche.min_source_chars:
-        notify.log(niche.label, "INFO", f"Skipped (source text too thin, {len(source.text)} chars): {candidate.title[:70]}")
-        seen.mark(candidate.title, candidate.link, "thin", niche.name)
+        notify.log(
+            niche.label, "INFO",
+            f"Skipped (source text too thin, {len(source.text)}/{niche.min_source_chars} chars, "
+            f"resolved={source.resolved}): {candidate.title[:70]}"
+        )
+        # Not marked as seen: link resolution can fail for reasons that clear up on
+        # their own (a slow site, a temporary block), so let a later run try again.
         return "thin"
 
     body = ai.write_article(niche, candidate.title, source.publisher, source.text)

@@ -6,25 +6,17 @@ it from inventing salaries, deadlines and qualifications.
 import urllib.robotparser
 from dataclasses import dataclass
 from urllib.parse import urlparse
-from functools import lru_cache
 
 import feedparser
 import requests
 from bs4 import BeautifulSoup
-import trafilatura  # <--- NAYI ADVANCE LIBRARY
 
 from . import config, notify
 from .textutil import html_to_text
 
-# Check for googlenewsdecoder once at module load
-try:
-    from googlenewsdecoder import gnewsdecoder
-    HAS_GNEWS_DECODER = True
-except ImportError:
-    HAS_GNEWS_DECODER = False
-
 _session = requests.Session()
 _session.headers.update({"User-Agent": config.USER_AGENT})
+_robots_cache = {}
 
 
 @dataclass
@@ -101,75 +93,54 @@ def resolve_link(link):
     """Google News links point to Google, not to the publisher. Try to find the real URL."""
     if "news.google.com" not in link:
         return link
+    try:
+        from googlenewsdecoder import gnewsdecoder
 
-    # Attempt 1: gnewsdecoder
-    if HAS_GNEWS_DECODER:
-        try:
-            result = gnewsdecoder(link, interval=1)
-            if result.get("status") and result.get("decoded_url"):
-                return result["decoded_url"]
-        except Exception:
-            pass
-
-    # Attempt 2: HTML meta refresh fallback
+        result = gnewsdecoder(link, interval=1)
+        if result.get("status") and result.get("decoded_url"):
+            return result["decoded_url"]
+        notify.log("SOURCES", "WARN", f"gnewsdecoder could not decode: {link[:90]}")
+    except ImportError:
+        notify.log("SOURCES", "ERROR", "googlenewsdecoder is not installed - Google News links cannot be resolved")
+    except Exception as e:
+        notify.log("SOURCES", "WARN", f"gnewsdecoder failed ({type(e).__name__}): {link[:90]}")
     try:
         resp = _get(link)
         if "news.google.com" not in resp.url:
             return resp.url
-            
-        soup = BeautifulSoup(resp.content, "html.parser")
-        meta = soup.find("meta", attrs={"http-equiv": lambda x: x and x.lower() == "refresh"})
-        if meta and meta.get("content"):
-            content = meta["content"]
-            if "url=" in content.lower():
-                actual_url = content.lower().split("url=")[-1].strip("'\"")
-                if actual_url:
-                    return actual_url
     except Exception:
         pass
-        
     return link
-
-
-@lru_cache(maxsize=1000)
-def _get_robot_parser(base_url):
-    """Cached helper to fetch and parse robots.txt for a given base domain."""
-    parser = urllib.robotparser.RobotFileParser()
-    try:
-        resp = _get(base_url + "/robots.txt", timeout=8)
-        if resp.status_code == 200:
-            parser.parse(resp.text.splitlines())
-        elif resp.status_code in (401, 403):
-            parser.parse(["User-agent: *", "Disallow: /"])
-    except Exception:
-        pass
-    return parser
 
 
 def robots_allows(url):
     """Respect robots.txt before downloading a page."""
     parts = urlparse(url)
     base = f"{parts.scheme}://{parts.netloc}"
-    parser = _get_robot_parser(base)
+    parser = _robots_cache.get(base)
+    if parser is None:
+        parser = urllib.robotparser.RobotFileParser()
+        try:
+            resp = _get(base + "/robots.txt", timeout=8)
+            if resp.status_code == 200:
+                parser.parse(resp.text.splitlines())
+            elif resp.status_code in (401, 403):
+                parser.disallow_all = True
+            else:
+                parser.allow_all = True
+        except Exception:
+            parser.allow_all = True
+        parser.modified()
+        _robots_cache[base] = parser
     return parser.can_fetch(config.ROBOTS_TOKEN, url)
 
 
 # ------------------------------------------------------------------ page text
 def extract_text(url):
-    """Main readable text of a page using Trafilatura for high accuracy, with a BeautifulSoup fallback."""
+    """Main readable text of a page (paragraphs and list items), or '' if not allowed / not possible."""
     try:
         if not robots_allows(url):
             return ""
-        
-        # 1. Advanced Extraction: Trafilatura
-        downloaded = trafilatura.fetch_url(url)
-        if downloaded:
-            # Sirf main article text nikalta hai, links/menus ignore karta hai
-            text = trafilatura.extract(downloaded, include_links=False, include_images=False, include_tables=False)
-            if text and len(text) > 100:
-                return text[: config.SOURCE_TEXT_LIMIT]
-
-        # 2. Fallback: Agar Trafilatura kaam na kare to purana BeautifulSoup ka tarika use karein
         resp = _get(url)
         if resp.status_code != 200 or "html" not in resp.headers.get("Content-Type", "").lower():
             return ""
@@ -189,12 +160,12 @@ def gather(candidate):
     link = resolve_link(candidate.link)
     resolved = "news.google.com" not in link
     page_text = extract_text(link) if resolved else ""
+    if resolved and not page_text:
+        notify.log("SOURCES", "WARN", f"Resolved but could not extract page text: {link[:90]}")
     summary = html_to_text(candidate.summary)
-    
     if len(page_text) >= len(summary):
         text = page_text
     else:
         text = (summary + "\n" + page_text).strip()
-        
     publisher = candidate.publisher or (urlparse(link).netloc.replace("www.", "") if resolved else "the source")
     return SourceInfo(link=link, resolved=resolved, text=text[: config.SOURCE_TEXT_LIMIT], publisher=publisher)

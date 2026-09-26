@@ -34,9 +34,7 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
-          pip install googlenewsdecoder || echo "googlenewsdecoder not installed (optional)"
+        run: pip install -r requirements.txt
 
       - name: Run bots one after another
         env:
