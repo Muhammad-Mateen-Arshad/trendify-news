@@ -592,3 +592,20 @@
 [2026-09-26 08:32:17 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUm92Y0UtakFqUVpGWGR3RFAtOUwxTjFtbWdWR
 [2026-09-26 08:32:17 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 98/800 chars, resolved=False): A Blood Test Could Help Transform the Alzheimer’s Diagnostic Pathway
 [2026-09-26 08:32:17 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8}
+[2026-09-26 08:32:19 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMisgFBVV95cUxOTmJsWk01Sko4WjhxWGN5U0pOQUdCZ0xPWDU3d
+[2026-09-26 08:32:19 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 115/400 chars, resolved=False): Scientists discover new dinosaur species deep in the Sahara Desert
+[2026-09-26 08:32:21 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMnN4NE4zcmN3VHpneXRlQzFRSHVoR0N0bF9mY
+[2026-09-26 08:32:21 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 94/400 chars, resolved=False): 240-Million-Year-Old Fossil Discovery Challenges the Story of the Firs
+[2026-09-26 08:32:22 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMickFVX3lxTFBKcU1sRThMWElZbmlKQnpHekEzcUdNV2VhSWNkW
+[2026-09-26 08:32:22 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 75/400 chars, resolved=False): Remarkable 40 Million Year Old Discovery in Oceanside
+[2026-09-26 08:32:24 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMingFBVV95cUxNMTZ3RG1CaklVU3dMWVZpa1JpTnJIUHBNeWk0W
+[2026-09-26 08:32:24 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 82/400 chars, resolved=False): New Dinosaur with Huge Claws and ‘Bizarre’ Features Discovered in Chin
+[2026-09-26 08:32:25 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMid0FVX3lxTE1WXzd6Zncyd2UzWTd3U1VzWlZYZ2p5cUQ1LVVjT
+[2026-09-26 08:32:25 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 94/400 chars, resolved=False): New Fossil Discovery Challenges Timeline of Tanzania’s Oldest Dinosaur
+[2026-09-26 08:32:27 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMif0FVX3lxTFBuUGM5Z0lnU0FfN0g1aEwtTGE3bngyWFdSYU1Fd
+[2026-09-26 08:32:27 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 79/400 chars, resolved=False): First series of adult T. rex footprints hints at its walking speed
+[2026-09-26 08:32:28 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMib0FVX3lxTFA5a3VCeDc5SF81ZTRSQUFpZE85bnRtVEdRY3Nya
+[2026-09-26 08:32:28 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 90/400 chars, resolved=False): A broken rib from the world’s largest T. rex hid a 66-million-year-old
+[2026-09-26 08:32:30 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTnlfV3JHOFlqTWd4Nko3U3dyV2padHFVc19GR
+[2026-09-26 08:32:30 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 95/400 chars, resolved=False): A high school teacher stumbled across two giant footprints — and marke
+[2026-09-26 08:32:30 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8}
