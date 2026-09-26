@@ -660,3 +660,17 @@
 [2026-09-26 10:14:41 PM] [NEWS_BOT] [WARN] news.html not found - card not added
 [2026-09-26 10:14:41 PM] [NEWS_BOT] [SUCCESS] Published: Naqvi assails PTI's 'version of equality before law' after KP IG told to ensure speaker's approval for any MPA's arrest
 [2026-09-26 10:14:42 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1592 in / 506 out tokens
+[2026-09-26 10:14:53 PM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (114 words, need 150)): Pakistan Cannot Underpass Its Way To Prosperity
+[2026-09-26 10:14:54 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab843d232d4488ea5a650303db2cca
+[2026-09-26 10:14:54 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): UNGA day 4: Lebanon calls for peacekeepers to replace UNIFIL
+[2026-09-26 10:14:54 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab843de638a484ea36c72cffb09704
+[2026-09-26 10:14:54 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): Pakistan Railways Headquarters Office Lahore Jobs 2026 for Carriage & 
+[2026-09-26 10:14:54 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab843de638a484ea36c72cffb09704
+[2026-09-26 10:14:54 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 183/400 chars, resolved=True): Institute of Public Health Lahore Jobs 2026 for Teaching Faculty
+[2026-09-26 10:14:55 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab843de638a484ea36c72cffb09704
+[2026-09-26 10:14:55 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 130/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-09-26 10:14:55 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab843de638a484ea36c72cffb09704
+[2026-09-26 10:14:55 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 182/400 chars, resolved=True): Prayer Times in Pakistan
+[2026-09-26 10:14:57 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-26 10:15:14 PM] [JOBS_BOT] [SUCCESS] Published: Vedanta group announces Rs 1 lakh crore investment drive in Odisha; targets 50,000 jobs
+[2026-09-26 10:15:15 PM] [JOBS_BOT] [INFO] AI usage: 2 calls, 2480 in / 816 out tokens
