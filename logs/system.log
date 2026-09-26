@@ -504,3 +504,6 @@
 [2026-09-26 06:46:30 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 10, 'tried': 1, 'thin': 1}
 [2026-09-26 06:46:33 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 87 chars): Skeletons Thought to Be Prehistoric Are Actually Medieval, Study Finds
 [2026-09-26 06:46:33 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'already_seen': 19, 'tried': 1, 'thin': 1}
+[2026-09-26 08:09:20 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-26 08:09:39 PM] [NEWS_BOT] [SUCCESS] Published: Suicide blast targeting DI Khan checkpost claims 12 lives, injures 30
+[2026-09-26 08:09:40 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1539 in / 482 out tokens
