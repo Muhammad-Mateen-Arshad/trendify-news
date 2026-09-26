@@ -456,3 +456,6 @@
 [2026-09-26 08:53:27 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 103 chars): East Of Eden, The Arena, Unabomber: What's New to Watch on Netflix the
 [2026-09-26 08:53:29 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 92 chars): ‘Love’ Trailer Explores Chemistry And Compatibility In Modern Relation
 [2026-09-26 08:53:29 AM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 12, 'tried': 2, 'thin': 2}
+[2026-09-26 08:53:31 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 92 chars): Chevening Scholarship for South Caucasus: Fully Funded Master’s Study 
+[2026-09-26 08:53:33 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 66 chars): More Bangladeshi Scholars Join Pakistani Universities
+[2026-09-26 08:53:33 AM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'already_seen': 18, 'tried': 2, 'thin': 2}
