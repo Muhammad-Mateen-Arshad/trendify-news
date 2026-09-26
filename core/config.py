@@ -60,4 +60,11 @@ DRAFTS_DIR = "_drafts"      # folders starting with "_" are not published by Jek
 LOG_FILE = "logs/system.log"
 DASHBOARD_FILE = "system-logs.html"
 SITEMAP_FILE = "sitemap.xml"
-RSS_MAX_ITEMS = 20
+RSS_MAX_ITEMS = 20          # items kept in each niche's own rss_<niche>.xml
+
+# Combined feeds across ALL niches, for tools (dlvr.it, IFTTT) that need one
+# feed to post everything to a single social account (e.g. one Instagram page
+# covering Jobs + News + Scholarships + ...).
+MASTER_RSS_FILE = "rss.xml"
+INSTAGRAM_RSS_FILE = "rss_instagram.xml"
+MASTER_RSS_MAX_ITEMS = 40

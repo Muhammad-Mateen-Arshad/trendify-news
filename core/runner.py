@@ -64,6 +64,7 @@ def _process(niche, candidate, ai, seen):
 
     _safe(niche, "Category card", publish.add_card, niche, candidate.title, image_url, filename, body)
     _safe(niche, "RSS update", publish.update_rss, niche, candidate.title, url, image_url)
+    _safe(niche, "Master/Instagram RSS", publish.update_master_feeds)
     _safe(niche, "Sitemap update", publish.update_sitemap)
     notify.log(niche.label, "SUCCESS", f"Published: {candidate.title}")
     notify.dashboard(niche, "SUCCESS", f"Published: {candidate.title}")

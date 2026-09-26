@@ -4,7 +4,7 @@ import json
 import re
 import unicodedata
 from datetime import datetime, timezone
-from email.utils import format_datetime
+from email.utils import format_datetime, parsedate_to_datetime
 from pathlib import Path
 from xml.sax.saxutils import escape as xml_escape
 from xml.sax.saxutils import quoteattr
@@ -107,15 +107,49 @@ def add_card(niche, title, image_url, filename, body_html):
 
 
 # ------------------------------------------------------------------ RSS (last 20 items)
+def _rss_item_xml(item):
+    return (
+        "  <item>\n"
+        f"    <title>{xml_escape(item['title'])}</title>\n"
+        f"    <description>{xml_escape(item['caption'])}</description>\n"
+        f"    <link>{xml_escape(item['url'])}</link>\n"
+        f"    <guid isPermaLink=\"true\">{xml_escape(item['url'])}</guid>\n"
+        f"    <pubDate>{item['date']}</pubDate>\n"
+        f"    <enclosure url={quoteattr(item['image'])} type=\"image/jpeg\" length=\"0\" />\n"
+        "  </item>\n"
+    )
+
+
+def _write_rss_file(path, title, link, description, items):
+    entries = "".join(_rss_item_xml(i) for i in items)
+    xml = (
+        '<?xml version="1.0" encoding="UTF-8" ?>\n<rss version="2.0">\n<channel>\n'
+        f"  <title>{xml_escape(title)}</title>\n"
+        f"  <link>{xml_escape(link)}</link>\n"
+        f"  <description>{xml_escape(description)}</description>\n"
+        f"{entries}</channel>\n</rss>\n"
+    )
+    Path(path).write_text(xml, encoding="utf-8")
+
+
+def _niche_feed_path(niche_name):
+    return Path(config.FEEDS_DIR) / f"{niche_name}.json"
+
+
+def _read_feed_store(path):
+    if not path.exists():
+        return []
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+
+
 def update_rss(niche, title, url, image_url):
-    store = Path(config.FEEDS_DIR) / f"{niche.name}.json"
+    """Update this niche's own rss_<niche>.xml (last RSS_MAX_ITEMS items)."""
+    store = _niche_feed_path(niche.name)
     store.parent.mkdir(parents=True, exist_ok=True)
-    items = []
-    if store.exists():
-        try:
-            items = json.loads(store.read_text(encoding="utf-8"))
-        except Exception:
-            items = []
+    items = _read_feed_store(store)
     caption = f"{niche.emoji} {niche.rss_heading}: {title}\n\n👇 Read full details here:\n{url}"
     items.insert(0, {
         "title": title, "url": url, "image": image_url, "caption": caption,
@@ -123,26 +157,38 @@ def update_rss(niche, title, url, image_url):
     })
     items = items[: config.RSS_MAX_ITEMS]
     store.write_text(json.dumps(items, ensure_ascii=False, indent=1), encoding="utf-8")
+    _write_rss_file(niche.rss_file, niche.rss_title, f"{config.SITE_URL}/", niche.rss_description, items)
 
-    entries = "".join(
-        "  <item>\n"
-        f"    <title>{xml_escape(i['title'])}</title>\n"
-        f"    <description>{xml_escape(i['caption'])}</description>\n"
-        f"    <link>{xml_escape(i['url'])}</link>\n"
-        f"    <guid isPermaLink=\"true\">{xml_escape(i['url'])}</guid>\n"
-        f"    <pubDate>{i['date']}</pubDate>\n"
-        f"    <enclosure url={quoteattr(i['image'])} type=\"image/jpeg\" length=\"0\" />\n"
-        "  </item>\n"
-        for i in items
+
+def update_master_feeds():
+    """Combine the latest items across EVERY niche into two feeds that carry
+    everything at once: rss.xml (a general 'everything' feed, e.g. for an X
+    auto-poster) and rss_instagram.xml (same items, for dlvr.it/IFTTT-style
+    tools that post images to one Instagram account for the whole site).
+    Reads the same per-niche stores update_rss() already writes, so this
+    never re-scans HTML files and costs no extra AI or network calls.
+    """
+    all_items = []
+    for niche in NICHES.values():
+        all_items.extend(_read_feed_store(_niche_feed_path(niche.name)))
+
+    def _sort_key(item):
+        try:
+            return parsedate_to_datetime(item["date"])
+        except Exception:
+            return datetime.min.replace(tzinfo=timezone.utc)
+
+    all_items.sort(key=_sort_key, reverse=True)
+    all_items = all_items[: config.MASTER_RSS_MAX_ITEMS]
+
+    _write_rss_file(
+        config.MASTER_RSS_FILE, f"{config.SITE_NAME} - Everything",
+        f"{config.SITE_URL}/", "Latest updates from every category", all_items,
     )
-    xml = (
-        '<?xml version="1.0" encoding="UTF-8" ?>\n<rss version="2.0">\n<channel>\n'
-        f"  <title>{xml_escape(niche.rss_title)}</title>\n"
-        f"  <link>{xml_escape(config.SITE_URL)}/</link>\n"
-        f"  <description>{xml_escape(niche.rss_description)}</description>\n"
-        f"{entries}</channel>\n</rss>\n"
+    _write_rss_file(
+        config.INSTAGRAM_RSS_FILE, f"{config.SITE_NAME} - Instagram Feed",
+        f"{config.SITE_URL}/", "Latest updates with images, for Instagram auto-posting", all_items,
     )
-    Path(niche.rss_file).write_text(xml, encoding="utf-8")
 
 
 # ------------------------------------------------------------------ sitemap
