@@ -496,3 +496,5 @@
 [2026-09-26 06:46:18 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 111 chars): UAE's four-and-a-half-day week brings happier staff despite hectic wor
 [2026-09-26 06:46:19 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 118 chars): Dubai-based Indian businesswoman arrested in Kerala for overseas job s
 [2026-09-26 06:46:19 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 41, 'tried': 8, 'thin': 8}
+[2026-09-26 06:46:23 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 100 chars): Everything New on Netflix This Week and Top 10 Movies & Series: Septem
+[2026-09-26 06:46:23 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 12, 'tried': 1, 'thin': 1}
