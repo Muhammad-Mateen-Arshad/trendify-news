@@ -432,3 +432,7 @@
 [2026-09-26 02:13:13 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 83 chars): Around 3.3 million jobs may have been affected by 2025 floods in Pakis
 [2026-09-26 02:13:14 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 66 chars): This Week in Immigration: September 25, 2026
 [2026-09-26 02:13:14 AM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 34}
+[2026-09-26 02:13:17 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 114 chars): What To Watch This Weekend: New Shows And Movies To Stream On Netflix,
+[2026-09-26 02:13:19 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 74 chars): The 49 Best New Shows of 2026 (and 10 More We Can't Wait For)
+[2026-09-26 02:13:20 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 95 chars): 8 New TV Shows to Watch This Weekend on Netflix, FX, and Apple TV (Sep
+[2026-09-26 02:13:20 AM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 12, 'tried': 3, 'thin': 3}
