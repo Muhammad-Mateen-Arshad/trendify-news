@@ -478,3 +478,7 @@
 [2026-09-26 03:13:29 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 98 chars): New on Netflix October 2026: 5 best movies and shows to stream, plus f
 [2026-09-26 03:13:30 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 72 chars): Full list of Netflix shows confirmed for release in 2026
 [2026-09-26 03:13:31 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 11, 'tried': 2, 'thin': 2}
+[2026-09-26 03:13:33 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 75 chars): Submit Applications for Chevening Scholarship Program (Russia)
+[2026-09-26 03:13:35 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 47 chars): Swiss Government Scholarships 2027
+[2026-09-26 03:13:37 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 130 chars): Fulbright U.S. Student Program 2027–2028: Fully Funded Graduate Study 
+[2026-09-26 03:13:37 PM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'already_seen': 17, 'tried': 3, 'thin': 3}
