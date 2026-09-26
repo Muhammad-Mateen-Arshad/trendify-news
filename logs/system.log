@@ -439,3 +439,8 @@
 [2026-09-26 02:13:22 AM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'already_seen': 20}
 [2026-09-26 02:13:24 AM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 11}
 [2026-09-26 02:13:26 AM] [HISTORY_BOT] [INFO] Nothing published this run: {'already_seen': 20}
+[2026-09-26 08:52:17 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-26 08:52:28 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-26 08:52:42 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-09-26 08:53:09 AM] [NEWS_BOT] [SUCCESS] Published: Makkah alliance military chiefs vow to ‘immediately’ translate commitments into effective military cooperation: ISPR
+[2026-09-26 08:53:09 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1419 in / 509 out tokens
