@@ -655,3 +655,8 @@
 [2026-09-26 09:21:19 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-09-26 09:21:35 PM] [HISTORY_BOT] [SUCCESS] Published: Dinodontosaurus isiyavamanda fossils in Tanzania alter the dinosaur timeline
 [2026-09-26 09:21:35 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 766 in / 473 out tokens
+[2026-09-26 10:14:08 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-26 10:14:18 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-26 10:14:41 PM] [NEWS_BOT] [WARN] news.html not found - card not added
+[2026-09-26 10:14:41 PM] [NEWS_BOT] [SUCCESS] Published: Naqvi assails PTI's 'version of equality before law' after KP IG told to ensure speaker's approval for any MPA's arrest
+[2026-09-26 10:14:42 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1592 in / 506 out tokens
