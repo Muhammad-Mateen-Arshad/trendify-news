@@ -674,3 +674,10 @@
 [2026-09-26 10:14:57 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-09-26 10:15:14 PM] [JOBS_BOT] [SUCCESS] Published: Vedanta group announces Rs 1 lakh crore investment drive in Odisha; targets 50,000 jobs
 [2026-09-26 10:15:15 PM] [JOBS_BOT] [INFO] AI usage: 2 calls, 2480 in / 816 out tokens
+[2026-09-26 10:15:17 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab843f30f3248ed9bc9a9c45a286a1
+[2026-09-26 10:15:17 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 157/300 chars, resolved=True): Can Bangladesh turn its OTT industry into global soft power?
+[2026-09-26 10:15:17 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab843f30f3248ed9bc9a9c45a286a1
+[2026-09-26 10:15:17 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 181/300 chars, resolved=True): 'Good often does evil': JRR Tolkien on 'the most tragic moment' in The
+[2026-09-26 10:15:19 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-26 10:15:37 PM] [DRAMAS_BOT] [SUCCESS] Published: [Nagasaki Trip] Gourmet, Sightseeing, and Great Travel Tips! | I will never forget this view. To Nagasaki to see the new world's top three night views
+[2026-09-26 10:15:38 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1747 in / 526 out tokens
