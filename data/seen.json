@@ -3304,10 +3304,10 @@
    "at": "2026-09-26T02:12:59+00:00"
   },
   "t:f494ee49e75adffa": {
-   "s": "thin",
+   "s": "posted",
    "n": "jobs",
    "t": "Solar system manufacturing urged",
-   "at": "2026-09-26T02:13:02+00:00"
+   "at": "2026-09-26T20:45:57+00:00"
   },
   "u:bc18c979f9b23766": {
    "s": "thin",
@@ -3962,6 +3962,12 @@
    "n": "news",
    "t": "Trump rejects Iran's Hormuz plan, asserts US has imposed 'greatest blockade in military hi",
    "at": "2026-09-26T20:45:15+00:00"
+  },
+  "u:058bcce10b6608bf": {
+   "s": "posted",
+   "n": "jobs",
+   "t": "Solar system manufacturing urged",
+   "at": "2026-09-26T20:45:57+00:00"
   }
  }
 }

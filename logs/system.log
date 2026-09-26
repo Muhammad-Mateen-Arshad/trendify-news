@@ -612,3 +612,7 @@
 [2026-09-26 08:45:15 PM] [NEWS_BOT] [WARN] news.html not found - card not added
 [2026-09-26 08:45:15 PM] [NEWS_BOT] [SUCCESS] Published: Trump rejects Iran's Hormuz plan, asserts US has imposed 'greatest blockade in military history'
 [2026-09-26 08:45:15 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1561 in / 540 out tokens
+[2026-09-26 08:45:20 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-26 08:45:34 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-26 08:45:57 PM] [JOBS_BOT] [SUCCESS] Published: Solar system manufacturing urged
+[2026-09-26 08:45:57 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1328 in / 443 out tokens
