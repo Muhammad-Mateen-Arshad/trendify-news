@@ -558,3 +558,20 @@
 [2026-09-26 08:31:51 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWTJ6V0FLOGszZWV0ak1xNTNheXlIenhpRFF0R
 [2026-09-26 08:31:52 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 114/300 chars, resolved=False): What To Watch This Weekend: New Shows And Movies To Stream On Netflix,
 [2026-09-26 08:31:52 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8}
+[2026-09-26 08:31:54 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMibEFVX3lxTFBBS3ZwZ1l0b01KaGxRWC1CYWVyZ1NXMDJqNHBNc
+[2026-09-26 08:31:54 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 166/400 chars, resolved=False): Application Guide for the Gates Cambridge Fully Funded International S
+[2026-09-26 08:31:55 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMipAFBVV95cUxPYzItSDB3MlJCSlFkMTg3ZjhJMnRrQmttNzFHe
+[2026-09-26 08:31:55 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 75/400 chars, resolved=False): Submit Applications for Chevening Scholarship Program (Russia)
+[2026-09-26 08:31:57 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMinAFBVV95cUxOc2FDWGljU2dhQ25KcWI2WDlYdV9fcmx3RFBZU
+[2026-09-26 08:31:57 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 75/400 chars, resolved=False): Top Humanities Scholarships to Study Abroad in 2027 and 2028
+[2026-09-26 08:31:58 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWpjNkNuQmZMMzJ0UzE0LVMxdXZ6V0FBcXdrU
+[2026-09-26 08:31:58 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 76/400 chars, resolved=False): Request for Applications: Chevening Scholarship Program (Samoa)
+[2026-09-26 08:31:59 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMibEFVX3lxTE0wc2tGY0lIQXpyX3lqeGh5MXFwZFhDOEtqMzgwU
+[2026-09-26 08:32:00 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 102/400 chars, resolved=False): SENSS ESRC Studentships 2027/28 – Fully Funded PhD Scholarships in the
+[2026-09-26 08:32:01 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMifEFVX3lxTE55cEJQbDBEcFVzU1VKYVZaS184ZjRlb3J1VEZfW
+[2026-09-26 08:32:02 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 47/400 chars, resolved=False): Swiss Government Scholarships 2027
+[2026-09-26 08:32:03 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ1ZNejFtMXkxRUtGMUhLTzJQNmZUb2hDanRoa
+[2026-09-26 08:32:03 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 70/400 chars, resolved=False): Pak students invited to vie for Russian scholarships
+[2026-09-26 08:32:04 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZHBnbFFZZnFjYUQxYzRKbzBDOE1qMlhXbU1FM
+[2026-09-26 08:32:04 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 66/400 chars, resolved=False): More Bangladeshi Scholars Join Pakistani Universities
+[2026-09-26 08:32:04 PM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8}
