@@ -466,3 +466,12 @@
 [2026-09-26 03:12:39 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
 [2026-09-26 03:13:09 PM] [NEWS_BOT] [SUCCESS] Published: Suicide blast targeting DI Khan police checkpost claims 12 lives, injures 30
 [2026-09-26 03:13:10 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1527 in / 501 out tokens
+[2026-09-26 03:13:12 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 80 chars): India news: New Delhi, Islamabad trade accusations at UN General Assem
+[2026-09-26 03:13:14 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 133 chars): "Same old speech for domestic audience": Foreign affairs expert Robind
+[2026-09-26 03:13:16 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 87 chars): Sheikh Hasina Wazed | Biography, Resignation, Father, Death Penalty, &
+[2026-09-26 03:13:17 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 82 chars): Karakoram Highway to Get Major Route Change Between Thakot and Raikot
+[2026-09-26 03:13:20 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 90 chars): UAE’s Mashreq launches Shariah-compliant digital banking services in P
+[2026-09-26 03:13:23 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 47 chars): How to find jobs in Canada as an expat
+[2026-09-26 03:13:25 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 75 chars): 20 Companies Hiring for Permanent Work-From-Home Roles Now
+[2026-09-26 03:13:26 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 64 chars): 11 Remote Entry-Level Jobs That Pay at Least $60 an Hour
+[2026-09-26 03:13:26 PM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 39}
