@@ -687,3 +687,11 @@
 [2026-09-26 10:15:55 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-09-26 10:16:12 PM] [HEALTH_BOT] [SUCCESS] Published: Modified HIV drug reverses vision loss and paralysis in multiple sclerosis model
 [2026-09-26 10:16:12 PM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1560 in / 550 out tokens
+[2026-09-26 10:16:13 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab8442dcc4143e7b5c8a05801b5fad
+[2026-09-26 10:16:13 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 82/400 chars, resolved=True): New 11-Foot Dinosaur Species With Giant Claws Discovered In China
+[2026-09-26 10:16:14 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab8442dcc4143e7b5c8a05801b5fad
+[2026-09-26 10:16:14 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 132/400 chars, resolved=True): Man Finds Rare, Massive Mastodon Tooth the Size of a Human Fist Near L
+[2026-09-26 10:16:15 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-26 10:16:21 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-26 10:16:53 PM] [HISTORY_BOT] [SUCCESS] Published: A mysterious animal that lived 240 million years ago: its remains lay in a museum for 60 years
+[2026-09-26 10:16:54 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 546 in / 377 out tokens
