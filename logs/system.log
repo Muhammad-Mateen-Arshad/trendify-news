@@ -421,3 +421,5 @@
 [2026-09-25 10:54:07 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 82 chars): New Dinosaur with Huge Claws and ‘Bizarre’ Features Discovered in Chin
 [2026-09-25 10:54:09 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 42 chars): South Table Mountain Park
 [2026-09-25 10:54:09 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'already_seen': 18, 'tried': 2, 'thin': 2}
+[2026-09-26 02:12:59 AM] [NEWS_BOT] [SUCCESS] Published: Petrol price raised by Rs2.02 per litre, high-speed diesel rate reduced by Rs3.59
+[2026-09-26 02:13:00 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1504 in / 595 out tokens
