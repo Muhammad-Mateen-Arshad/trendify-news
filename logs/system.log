@@ -624,3 +624,9 @@
 [2026-09-26 08:47:30 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Swimmer Ivan Snowden departs Accra for Bahrain to begin World Aquatics scholarship
 [2026-09-26 08:47:30 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 888 in / 533 out tokens
 [2026-09-26 08:47:32 PM] [HEALTH_BOT] [INFO] Nothing published this run: {}
+[2026-09-26 08:47:32 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab82f64238a4f5ba3050ccbc5cae24
+[2026-09-26 08:47:32 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 82/400 chars, resolved=True): New 11-Foot Dinosaur Species With Giant Claws Discovered In China
+[2026-09-26 08:47:33 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-26 08:47:41 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-26 08:48:04 PM] [HISTORY_BOT] [SUCCESS] Published: Wyoming's Newest Fossils Are Chunky Jurassic Squids And Named After Ten Sleep Man
+[2026-09-26 08:48:05 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1731 in / 504 out tokens
