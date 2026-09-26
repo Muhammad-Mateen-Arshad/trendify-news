@@ -618,3 +618,8 @@
 [2026-09-26 08:45:57 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1328 in / 443 out tokens
 [2026-09-26 08:46:11 PM] [DRAMAS_BOT] [SUCCESS] Published: What happened to Hearts of Iron IV? Atatürk profile picture Discord ban controversy sparks Steam review bombing and backlash from Turkish players
 [2026-09-26 08:46:12 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 602 in / 301 out tokens
+[2026-09-26 08:46:27 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-26 08:46:48 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-26 08:47:03 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-09-26 08:47:30 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Swimmer Ivan Snowden departs Accra for Bahrain to begin World Aquatics scholarship
+[2026-09-26 08:47:30 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 888 in / 533 out tokens
