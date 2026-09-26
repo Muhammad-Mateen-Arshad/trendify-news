@@ -524,3 +524,20 @@
 [2026-09-26 08:10:00 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'already_seen': 19, 'tried': 1, 'thin': 1}
 [2026-09-26 08:31:25 PM] [NEWS_BOT] [SUCCESS] Published: 'Protest everyone's right but minus Islamabad': Sanaullah says 'practice' of marches to capital should end
 [2026-09-26 08:31:25 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1587 in / 586 out tokens
+[2026-09-26 08:31:27 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcnBsRk9WalNoYmdRZW44emU1SFNTU1pPalB5T
+[2026-09-26 08:31:28 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 80/400 chars, resolved=False): India news: New Delhi, Islamabad trade accusations at UN General Assem
+[2026-09-26 08:31:29 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMi9AFBVV95cUxQeDlOV3daOXg3RVRVb3g1UHhTbkkwU3hOT0FpU
+[2026-09-26 08:31:29 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 105/400 chars, resolved=False): Pakistan govt puts Islamabad on lockdown as Imran Khan’s party pushes 
+[2026-09-26 08:31:31 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMieEFVX3lxTE1MQXV3LWt0Mk9oMXlzd2pDV3BvMlRLRkhoTGJyM
+[2026-09-26 08:31:31 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 47/400 chars, resolved=False): Solar system manufacturing urged
+[2026-09-26 08:31:32 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FajZ6TFpLeWNYMkJqNU54a3VKZHFyYVBPWjVMY
+[2026-09-26 08:31:32 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 78/400 chars, resolved=False): Governor calls for policy to boost local solar manufacturing
+[2026-09-26 08:31:34 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMiSEFVX3lxTFA5ZDRub0lGZHh6MFlfU052blFpMEd5QTBMZy1UQ
+[2026-09-26 08:31:34 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 54/400 chars, resolved=False): CM Bugti for greater investment in human resource
+[2026-09-26 08:31:35 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMinAFBVV95cUxQMktObzlkdk9ueFR3Q2NzTFBDTTJDbThuRncyS
+[2026-09-26 08:31:36 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 73/400 chars, resolved=False): FPSC Recommends Alternate Candidates for FIA Inspector Posts
+[2026-09-26 08:31:37 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMijAFBVV95cUxQQm9OZFJ6X3o4bVdKQ1psWE4zU2JjOXBIekRqT
+[2026-09-26 08:31:37 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 71/400 chars, resolved=False): Pakistan Army Claims 33 Killed for Alleged Links to Militancy
+[2026-09-26 08:31:39 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMi-AFBVV95cUxOUXNyZUxXcGZnc3dOVHg2a3FWY0VyUkVuSXJDU
+[2026-09-26 08:31:39 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 111/400 chars, resolved=False): India tears into Pakistan at UN, accusing Islamabad of terror, deceit 
+[2026-09-26 08:31:39 PM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8}
