@@ -49,9 +49,19 @@ class SeenStore:
         self.data.setdefault("imported", [])
         self.data.setdefault("items", {})
 
+    # "thin" must never permanently block an item: it usually means the link
+    # resolver or the source site failed *that one time*, which can well be a
+    # temporary problem, and blocking it forever silently starves the bot of
+    # candidates. "rejected" (failed the AI quality gate) stays blocking, so
+    # we don't keep spending Gemini calls on a source that is genuinely bad.
+    BLOCKING_STATUSES = {"posted", "legacy", "rejected"}
+
     def is_seen(self, title, link=""):
         items = self.data["items"]
-        return any(k in items for k in _keys(title, link))
+        return any(
+            k in items and items[k].get("s") in self.BLOCKING_STATUSES
+            for k in _keys(title, link)
+        )
 
     def mark(self, title, link, status, niche_name):
         stamp = datetime.now(timezone.utc).isoformat(timespec="seconds")
