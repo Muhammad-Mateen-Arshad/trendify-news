@@ -648,3 +648,10 @@
 [2026-09-26 09:20:51 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
 [2026-09-26 09:21:17 PM] [HEALTH_BOT] [SUCCESS] Published: NIH launches new PubMed tool to strengthen research replication and reproducibility
 [2026-09-26 09:21:17 PM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1138 in / 538 out tokens
+[2026-09-26 09:21:18 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab8374d83a5454da94f9dfd43744e4
+[2026-09-26 09:21:18 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 82/400 chars, resolved=True): New 11-Foot Dinosaur Species With Giant Claws Discovered In China
+[2026-09-26 09:21:18 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab8374d83a5454da94f9dfd43744e4
+[2026-09-26 09:21:18 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 132/400 chars, resolved=True): Man Finds Rare, Massive Mastodon Tooth the Size of a Human Fist Near L
+[2026-09-26 09:21:19 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-26 09:21:35 PM] [HISTORY_BOT] [SUCCESS] Published: Dinodontosaurus isiyavamanda fossils in Tanzania alter the dinosaur timeline
+[2026-09-26 09:21:35 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 766 in / 473 out tokens
