@@ -3580,10 +3580,10 @@
    "at": "2026-09-26T08:53:31+00:00"
   },
   "t:fdee49fce5bdd390": {
-   "s": "thin",
+   "s": "posted",
    "n": "scholarships",
    "t": "More Bangladeshi Scholars Join Pakistani Universities",
-   "at": "2026-09-26T08:53:33+00:00"
+   "at": "2026-09-26T21:20:44+00:00"
   },
   "u:881795b396c24b77": {
    "s": "thin",
@@ -4034,6 +4034,12 @@
    "n": "dramas",
    "t": "‘Lizzie Borden’ might be the best ‘Monster’ yet",
    "at": "2026-09-26T21:20:27+00:00"
+  },
+  "u:75c69ac2d62c01a5": {
+   "s": "posted",
+   "n": "scholarships",
+   "t": "More Bangladeshi Scholars Join Pakistani Universities",
+   "at": "2026-09-26T21:20:44+00:00"
   }
  }
 }
