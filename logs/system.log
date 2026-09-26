@@ -636,3 +636,8 @@
 [2026-09-26 09:19:50 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-09-26 09:20:03 PM] [JOBS_BOT] [SUCCESS] Published: Partition, Bor Porong and the Chakmas’ unfinished struggle for belonging
 [2026-09-26 09:20:03 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1500 in / 409 out tokens
+[2026-09-26 09:20:08 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab83704c8194f0fb1a4a7dab02450e
+[2026-09-26 09:20:08 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 157/300 chars, resolved=True): Can Bangladesh turn its OTT industry into global soft power?
+[2026-09-26 09:20:10 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-26 09:20:27 PM] [DRAMAS_BOT] [SUCCESS] Published: ‘Lizzie Borden’ might be the best ‘Monster’ yet
+[2026-09-26 09:20:27 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1560 in / 475 out tokens
