@@ -575,3 +575,20 @@
 [2026-09-26 08:32:04 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZHBnbFFZZnFjYUQxYzRKbzBDOE1qMlhXbU1FM
 [2026-09-26 08:32:04 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 66/400 chars, resolved=False): More Bangladeshi Scholars Join Pakistani Universities
 [2026-09-26 08:32:04 PM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8}
+[2026-09-26 08:32:06 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMiZkFVX3lxTE1BSWdvenZ6d2ZyRXNpS0F6RnFjdWZIeERhRUR0Q
+[2026-09-26 08:32:07 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 128/800 chars, resolved=False): National Vital Statistics Reports Volume 75, Number 7 September 22, 20
+[2026-09-26 08:32:08 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtRmpEZFV0NG9kaHAtTWhOVEU5Mml1dHVpeVotb
+[2026-09-26 08:32:08 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 81/800 chars, resolved=False): Intramuscular Injection - StatPearls
+[2026-09-26 08:32:09 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMiX0FVX3lxTE9RYURld1I5amFzdGNtZ19yRUljN1JVVXpUN3I1S
+[2026-09-26 08:32:10 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 253/800 chars, resolved=False): A Randomized Controlled Trial to Evaluate the Effects of Full-Fat and 
+[2026-09-26 08:32:11 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMiZEFVX3lxTFBaRDNDQzlIMlIzTGVGM2ExaV9RM2wzZEdUTGdEV
+[2026-09-26 08:32:11 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 74/800 chars, resolved=False): Formaldehyde | H2CO | CID 712
+[2026-09-26 08:32:12 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMiZkFVX3lxTFBQN25PTTRaSHhZOFJxdTg4TE9QVkVCN29YZ01sW
+[2026-09-26 08:32:12 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 77/800 chars, resolved=False): Sulfuric Acid | H2SO4 | CID 1118
+[2026-09-26 08:32:14 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMiYkFVX3lxTE92X2xrS3pIWDVjZzBCa1VhekMtaHF5aWFPdzRub
+[2026-09-26 08:32:14 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 50/800 chars, resolved=False): Healthy eating, diets & weight loss
+[2026-09-26 08:32:16 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMiY0FVX3lxTE5iSjBYVFllN2lGZFZYeTV6dG00WXplVmhXZnc0M
+[2026-09-26 08:32:16 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 69/800 chars, resolved=False): The 5 Stages of Addiction Recovery
+[2026-09-26 08:32:17 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUm92Y0UtakFqUVpGWGR3RFAtOUwxTjFtbWdWR
+[2026-09-26 08:32:17 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 98/800 chars, resolved=False): A Blood Test Could Help Transform the Alzheimer’s Diagnostic Pathway
+[2026-09-26 08:32:17 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8}
