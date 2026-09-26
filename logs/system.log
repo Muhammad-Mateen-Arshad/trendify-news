@@ -500,3 +500,5 @@
 [2026-09-26 06:46:23 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 12, 'tried': 1, 'thin': 1}
 [2026-09-26 06:46:25 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 102 chars): SENSS ESRC Studentships 2027/28 – Fully Funded PhD Scholarships in the
 [2026-09-26 06:46:26 PM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'already_seen': 19, 'tried': 1, 'thin': 1}
+[2026-09-26 06:46:29 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 77 chars): Sulfuric Acid | H2SO4 | CID 1118
+[2026-09-26 06:46:30 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 10, 'tried': 1, 'thin': 1}
