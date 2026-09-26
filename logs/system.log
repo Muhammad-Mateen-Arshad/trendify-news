@@ -519,3 +519,6 @@
 [2026-09-26 08:09:57 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMisgFBVV95cUxNd0pQZlBsWkVUam1ZQTZ1MnU3TTZ5N09MUHBId
 [2026-09-26 08:09:57 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 76/800 chars, resolved=False): 2026–27 Flu, COVID-19 and RSV Vaccine Recommendations
 [2026-09-26 08:09:57 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 10, 'tried': 1, 'thin': 1}
+[2026-09-26 08:09:59 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMidkFVX3lxTE5GRmZUMy14ZlBCRk1uMHVzVDVCV3k1OXBoTWdIc
+[2026-09-26 08:09:59 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 113/400 chars, resolved=False): First-ever T. rex trackway found by high school teacher in North Dakot
+[2026-09-26 08:10:00 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'already_seen': 19, 'tried': 1, 'thin': 1}
