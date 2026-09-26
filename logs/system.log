@@ -453,3 +453,6 @@
 [2026-09-26 08:53:22 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 95 chars): One year, $100K later: Is the H-1B visa fee changing US plans for Indi
 [2026-09-26 08:53:24 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 59 chars): Health and care sector latest developments
 [2026-09-26 08:53:24 AM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 37, 'tried': 8, 'thin': 8}
+[2026-09-26 08:53:27 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 103 chars): East Of Eden, The Arena, Unabomber: What's New to Watch on Netflix the
+[2026-09-26 08:53:29 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 92 chars): ‘Love’ Trailer Explores Chemistry And Compatibility In Modern Relation
+[2026-09-26 08:53:29 AM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 12, 'tried': 2, 'thin': 2}
