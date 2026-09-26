@@ -444,3 +444,12 @@
 [2026-09-26 08:52:42 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
 [2026-09-26 08:53:09 AM] [NEWS_BOT] [SUCCESS] Published: Makkah alliance military chiefs vow to ‘immediately’ translate commitments into effective military cooperation: ISPR
 [2026-09-26 08:53:09 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1419 in / 509 out tokens
+[2026-09-26 08:53:12 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 78 chars): Governor calls for policy to boost local solar manufacturing
+[2026-09-26 08:53:13 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 54 chars): CM Bugti for greater investment in human resource
+[2026-09-26 08:53:15 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 71 chars): Pakistan Army Claims 33 Killed for Alleged Links to Militancy
+[2026-09-26 08:53:16 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 93 chars): Pakistan: Imran Khan Ready to talk to army chief ‘for betterment of co
+[2026-09-26 08:53:18 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 93 chars): Saudi Arabia, Pakistan and Turkey reaffirm joint defence pact under Me
+[2026-09-26 08:53:19 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 116 chars): 200th Gunners Day: Ludhianas close-knit community of Army veterans set
+[2026-09-26 08:53:22 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 95 chars): One year, $100K later: Is the H-1B visa fee changing US plans for Indi
+[2026-09-26 08:53:24 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 59 chars): Health and care sector latest developments
+[2026-09-26 08:53:24 AM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 37, 'tried': 8, 'thin': 8}
