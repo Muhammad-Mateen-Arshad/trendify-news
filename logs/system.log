@@ -482,3 +482,4 @@
 [2026-09-26 03:13:35 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 47 chars): Swiss Government Scholarships 2027
 [2026-09-26 03:13:37 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 130 chars): Fulbright U.S. Student Program 2027–2028: Fully Funded Graduate Study 
 [2026-09-26 03:13:37 PM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'already_seen': 17, 'tried': 3, 'thin': 3}
+[2026-09-26 03:13:39 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 11}
