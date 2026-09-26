@@ -498,3 +498,5 @@
 [2026-09-26 06:46:19 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 41, 'tried': 8, 'thin': 8}
 [2026-09-26 06:46:23 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 100 chars): Everything New on Netflix This Week and Top 10 Movies & Series: Septem
 [2026-09-26 06:46:23 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 12, 'tried': 1, 'thin': 1}
+[2026-09-26 06:46:25 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 102 chars): SENSS ESRC Studentships 2027/28 – Fully Funded PhD Scholarships in the
+[2026-09-26 06:46:26 PM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'already_seen': 19, 'tried': 1, 'thin': 1}
