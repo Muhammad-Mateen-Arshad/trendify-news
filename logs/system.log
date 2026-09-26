@@ -461,3 +461,8 @@
 [2026-09-26 08:53:33 AM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'already_seen': 18, 'tried': 2, 'thin': 2}
 [2026-09-26 08:53:35 AM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 11}
 [2026-09-26 08:53:37 AM] [HISTORY_BOT] [INFO] Nothing published this run: {'already_seen': 20}
+[2026-09-26 03:12:23 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-26 03:12:29 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-26 03:12:39 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-09-26 03:13:09 PM] [NEWS_BOT] [SUCCESS] Published: Suicide blast targeting DI Khan police checkpost claims 12 lives, injures 30
+[2026-09-26 03:13:10 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1527 in / 501 out tokens
