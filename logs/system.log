@@ -515,3 +515,4 @@
 [2026-09-26 08:09:51 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 79/400 chars, resolved=False): Finance, AI and Executive MBAs among top choices at Gulf News LevelUP
 [2026-09-26 08:09:51 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 48, 'tried': 3, 'thin': 3}
 [2026-09-26 08:09:52 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 13}
+[2026-09-26 08:09:54 PM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'already_seen': 20}
