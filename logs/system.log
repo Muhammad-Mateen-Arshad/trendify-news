@@ -609,3 +609,6 @@
 [2026-09-26 08:32:30 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTnlfV3JHOFlqTWd4Nko3U3dyV2padHFVc19GR
 [2026-09-26 08:32:30 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 95/400 chars, resolved=False): A high school teacher stumbled across two giant footprints — and marke
 [2026-09-26 08:32:30 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8}
+[2026-09-26 08:45:15 PM] [NEWS_BOT] [WARN] news.html not found - card not added
+[2026-09-26 08:45:15 PM] [NEWS_BOT] [SUCCESS] Published: Trump rejects Iran's Hormuz plan, asserts US has imposed 'greatest blockade in military history'
+[2026-09-26 08:45:15 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1561 in / 540 out tokens
