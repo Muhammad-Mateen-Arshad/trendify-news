@@ -541,3 +541,20 @@
 [2026-09-26 08:31:39 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMi-AFBVV95cUxOUXNyZUxXcGZnc3dOVHg2a3FWY0VyUkVuSXJDU
 [2026-09-26 08:31:39 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 111/400 chars, resolved=False): India tears into Pakistan at UN, accusing Islamabad of terror, deceit 
 [2026-09-26 08:31:39 PM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8}
+[2026-09-26 08:31:41 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMie0FVX3lxTE1icW5ldE1sb3FlS0NLS2xZNmdaUC16eHJUaDRYd
+[2026-09-26 08:31:41 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 83/300 chars, resolved=False): In Not a Stranger , a Mother Hires the Perfect Nanny — or So She Think
+[2026-09-26 08:31:42 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZGhWTjZ1S0c5cG5zejlfZ3Q2eU1Tb21hZ3N1Y
+[2026-09-26 08:31:43 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 99/300 chars, resolved=False): With ethnic and historical considerations, rebranding nations is harde
+[2026-09-26 08:31:44 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMihAFBVV95cUxPTEFraGZrZkprdG55NlFZbzhmQVVDME1vWHJuM
+[2026-09-26 08:31:44 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 84/300 chars, resolved=False): 47 Best Shows on Netflix Right Now (September 2026): ‘Party Down’ and 
+[2026-09-26 08:31:45 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMirwJBVV95cUxQVmxybGlSNVNwaHZITGNrSHVjSllDNVZnWWlId
+[2026-09-26 08:31:46 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 156/300 chars, resolved=False): What happened to Hearts of Iron IV? Atatürk profile picture Discord ba
+[2026-09-26 08:31:47 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMiZEFVX3lxTFBwWkZFdEtteUdRa0RxUjUwWW1JMkwwTXM3cWE1c
+[2026-09-26 08:31:47 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 84/300 chars, resolved=False): Wednesday’s U&Drama Lineup: From Classic Hospital Drama to Mystery Thr
+[2026-09-26 08:31:49 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMivwFBVV95cUxNbkgxcFVTbC1GYnNFeVg0WmowMUZ4UnV1UjVKZ
+[2026-09-26 08:31:49 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 100/300 chars, resolved=False): Everything New on Netflix This Week and Top 10 Movies & Series: Septem
+[2026-09-26 08:31:50 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMizAFBVV95cUxONDEtb19mTUtrSXJFYm13TV9IU0xHNHlVemZuU
+[2026-09-26 08:31:50 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 98/300 chars, resolved=False): New on Netflix October 2026: 5 best movies and shows to stream, plus f
+[2026-09-26 08:31:51 PM] [SOURCES_BOT] [WARN] gnewsdecoder could not decode: https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWTJ6V0FLOGszZWV0ak1xNTNheXlIenhpRFF0R
+[2026-09-26 08:31:52 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 114/300 chars, resolved=False): What To Watch This Weekend: New Shows And Movies To Stream On Netflix,
+[2026-09-26 08:31:52 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8}
