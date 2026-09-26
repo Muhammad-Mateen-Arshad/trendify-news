@@ -2,18 +2,24 @@
 and copy one of the files in scripts/. No other code needs to change.
 
 Feeds are checked in order, top to bottom (first = highest priority).
+
+Feeds use Bing News search instead of Google News search. Google News wraps
+every link through a redirect that needs a decode step, and that decode
+step is frequently blocked from shared cloud IPs (GitHub Actions included).
+Bing News gives the real publisher link directly, so no decode step is
+needed and articles stop being skipped as "too thin".
 """
 from dataclasses import dataclass
 from urllib.parse import quote
 
 
-def gnews(query, region="PK"):
-    """Build a Google News RSS search URL, e.g. gnews('fpsc jobs when:2d', 'PK')."""
-    q = quote("+".join(query.split()), safe="+:()")
-    return (
-        f"https://news.google.com/rss/search?q={q}"
-        f"&hl=en-{region}&gl={region}&ceid={region}:en"
-    )
+def bing_news(query, freshness="week", market="en-US"):
+    """Build a Bing News RSS search URL. freshness: 'day', 'week' or None."""
+    codes = {"day": '"7"', "week": '"8"'}
+    url = f"https://www.bing.com/news/search?q={quote(query)}&format=RSS&mkt={market}"
+    if freshness in codes:
+        url += f"&qft=interval%3d{codes[freshness]}"
+    return url
 
 
 @dataclass(frozen=True)
@@ -50,23 +56,23 @@ JOBS = Niche(
     folder="jobs", page="jobs.html", rss_file="rss_jobs.xml", legacy_file="posted_jobs.txt",
     feeds=[
         # Pakistan govt and high demand
-        gnews("government jobs pakistan when:1d"),
-        gnews("fpsc jobs pakistan when:2d"),
-        gnews("pakistan army jobs when:2d"),
-        gnews("wapda jobs pakistan when:2d"),
-        gnews("nadra jobs pakistan when:2d"),
+        bing_news("government jobs pakistan", "day"),
+        bing_news("fpsc jobs pakistan", "day"),
+        bing_news("pakistan army jobs", "day"),
+        bing_news("wapda jobs pakistan", "day"),
+        bing_news("nadra jobs pakistan", "day"),
         # Pakistan provincial and general
-        gnews("ppsc jobs lahore"),
-        gnews("spsc jobs sindh"),
-        gnews("private jobs pakistan"),
-        gnews("banking jobs pakistan"),
-        gnews("it jobs pakistan"),
+        bing_news("ppsc jobs lahore"),
+        bing_news("spsc jobs sindh"),
+        bing_news("private jobs pakistan"),
+        bing_news("banking jobs pakistan"),
+        bing_news("it jobs pakistan"),
         # International and remote
-        gnews("jobs in usa visa sponsorship when:2d", "US"),
-        gnews("tier 2 visa jobs uk when:2d", "GB"),
-        gnews("lmia jobs canada when:2d", "CA"),
-        gnews("remote software engineer jobs", "US"),
-        gnews("jobs in dubai uae when:1d", "AE"),
+        bing_news("jobs in usa visa sponsorship", "day"),
+        bing_news("tier 2 visa jobs uk", "day"),
+        bing_news("lmia jobs canada", "day"),
+        bing_news("remote software engineer jobs"),
+        bing_news("jobs in dubai uae", "day"),
     ],
     role="an expert career consultant who writes accurate, easy-to-read job alerts",
     instructions=(
@@ -88,13 +94,12 @@ JOBS = Niche(
 
 NEWS = Niche(
     name="news", label="NEWS", emoji="📰",
-    folder="news", page="index.html", rss_file="rss_news.xml", legacy_file="posted_news.txt",
+    folder="news", page="news.html", rss_file="rss_news.xml", legacy_file="posted_news.txt",
     feeds=[
         "https://www.dawn.com/feeds/home",
         "https://feeds.bbci.co.uk/news/world/rss.xml",
         "https://www.aljazeera.com/xml/rss/all.xml",
-        "https://news.google.com/rss?hl=en-PK&gl=PK&ceid=PK:en",
-        gnews("pakistan breaking news when:1d"),
+        bing_news("pakistan breaking news", "day"),
     ],
     role="a careful news editor who summarises reports accurately and neutrally",
     instructions=(
@@ -117,10 +122,10 @@ DRAMAS = Niche(
     name="dramas", label="DRAMAS", emoji="🎭",
     folder="dramas", page="dramas.html", rss_file="rss_dramas.xml", legacy_file="posted_dramas.txt",
     feeds=[
-        gnews("kurulus osman OR mehmed fetihler sultani when:7d", "US"),
-        gnews("turkish historical drama when:5d", "US"),
-        gnews("netflix new series release when:2d", "US"),
-        gnews("turkish drama series trailer when:5d", "US"),
+        bing_news("kurulus osman mehmed fetihler sultani"),
+        bing_news("turkish historical drama"),
+        bing_news("netflix new series release", "day"),
+        bing_news("turkish drama series trailer"),
     ],
     role="an entertainment writer covering Turkish historical dramas and streaming series",
     instructions=(
@@ -143,10 +148,10 @@ SCHOLARSHIPS = Niche(
     folder="scholarships", page="scholarships.html", rss_file="rss_scholarships.xml",
     legacy_file="posted_scholarships.txt",
     feeds=[
-        gnews("fully funded scholarships when:3d", "US"),
-        gnews("scholarships for pakistani students when:3d"),
-        gnews("hec scholarship pakistan when:7d"),
-        gnews("chevening OR fulbright OR daad OR erasmus scholarship when:7d", "US"),
+        bing_news("fully funded scholarships 2026", "day"),
+        bing_news("scholarships for pakistani students", "day"),
+        bing_news("hec scholarship pakistan"),
+        bing_news("chevening fulbright daad erasmus scholarship"),
     ],
     role="an education advisor who writes accurate scholarship guides",
     instructions=(
@@ -170,9 +175,13 @@ HEALTH = Niche(
     name="health", label="HEALTH", emoji="🩺",
     folder="health", page="health.html", rss_file="rss_health.xml", legacy_file="posted_health.txt",
     feeds=[
-        gnews("senior health nutrition over 60 (site:nih.gov OR site:cdc.gov OR site:mayoclinic.org) when:14d", "US"),
-        gnews("healthy aging exercise seniors (site:nia.nih.gov OR site:health.harvard.edu) when:14d", "US"),
-        gnews("older adults wellness (site:hopkinsmedicine.org OR site:clevelandclinic.org) when:14d", "US"),
+        bing_news("senior health nutrition over 60 site:nih.gov"),
+        bing_news("senior health nutrition site:cdc.gov"),
+        bing_news("healthy aging exercise seniors site:nia.nih.gov"),
+        bing_news("older adults wellness site:health.harvard.edu"),
+        bing_news("older adults wellness site:hopkinsmedicine.org"),
+        bing_news("senior health site:clevelandclinic.org"),
+        bing_news("senior health site:mayoclinic.org"),
     ],
     role="a careful health writer producing general wellness information for adults over 60",
     instructions=(
@@ -198,10 +207,10 @@ HISTORY = Niche(
     name="history", label="HISTORY", emoji="🦖",
     folder="history", page="history.html", rss_file="rss_history.xml", legacy_file="posted_history.txt",
     feeds=[
-        gnews("dinosaur fossil discovery when:7d", "US"),
-        gnews("t rex OR brachiosaurus OR paleontology when:7d", "US"),
-        gnews("ancient civilization archaeology discovery when:7d", "US"),
-        gnews("prehistoric animals new study when:7d", "US"),
+        bing_news("dinosaur fossil discovery", "day"),
+        bing_news("t rex brachiosaurus paleontology"),
+        bing_news("ancient civilization archaeology discovery"),
+        bing_news("prehistoric animals new study"),
     ],
     role="a science and history writer who explains discoveries about prehistoric life and the ancient world",
     instructions=(
