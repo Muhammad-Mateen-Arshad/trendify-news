@@ -809,3 +809,18 @@
 [2026-09-27 03:56:12 PM] [NEWS_BOT] [WARN] news.html not found - card not added
 [2026-09-27 03:56:12 PM] [NEWS_BOT] [SUCCESS] Published: Info ministry rejects Afghan Taliban's 'frivolous' claims linking Pakistan to reported Nuristan violence
 [2026-09-27 03:56:13 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1415 in / 486 out tokens
+[2026-09-27 03:56:14 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-27 03:56:19 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-27 03:56:37 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-09-27 03:56:55 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-09-27 03:57:19 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-09-27 03:58:00 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-27 03:58:34 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-27 03:59:16 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-27 03:59:53 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-27 04:00:29 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-27 04:01:04 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-27 04:01:42 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-27 04:02:14 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-27 04:02:53 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-27 04:03:23 PM] [JOBS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
