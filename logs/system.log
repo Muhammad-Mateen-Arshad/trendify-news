@@ -749,3 +749,6 @@
 [2026-09-27 02:08:34 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-09-27 02:08:51 AM] [HISTORY_BOT] [SUCCESS] Published: Scientists Found 15,000-Year-Old Fingerprints from a Lost Civilization
 [2026-09-27 02:08:51 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1291 in / 510 out tokens
+[2026-09-27 09:35:32 AM] [NEWS_BOT] [WARN] news.html not found - card not added
+[2026-09-27 09:35:32 AM] [NEWS_BOT] [SUCCESS] Published: Newly inducted Hangor-class submarine conducts maiden live weapon firing in Arabian Sea: ISPR
+[2026-09-27 09:35:33 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 922 in / 495 out tokens
