@@ -824,3 +824,14 @@
 [2026-09-27 04:02:14 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-09-27 04:02:53 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-09-27 04:03:23 PM] [JOBS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
+[2026-09-27 04:03:26 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab93e4ca3fd4cee93967c74b00d24e
+[2026-09-27 04:03:26 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 157/300 chars, resolved=True): Can Bangladesh turn its OTT industry into global soft power?
+[2026-09-27 04:03:26 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab93e4ca3fd4cee93967c74b00d24e
+[2026-09-27 04:03:26 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 181/300 chars, resolved=True): 'Good often does evil': JRR Tolkien on 'the most tragic moment' in The
+[2026-09-27 04:03:27 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab93e4e6de54c0b8670e02f23749da
+[2026-09-27 04:03:27 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 147/300 chars, resolved=True): Sydney Sweeney's One Piece replacement officially confirms a new era f
+[2026-09-27 04:03:27 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-27 04:03:35 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-27 04:03:47 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-09-27 04:04:18 PM] [DRAMAS_BOT] [SUCCESS] Published: Four Hands Two Sonatas Episode 10 Release Time Today: When Will New Ep Premiere? What To Expect From Kdrama?
+[2026-09-27 04:04:19 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 979 in / 409 out tokens
