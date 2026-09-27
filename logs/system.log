@@ -896,3 +896,20 @@
 [2026-09-27 10:37:55 PM] [NEWS_BOT] [WARN] news.html not found - card not added
 [2026-09-27 10:37:55 PM] [NEWS_BOT] [SUCCESS] Published: In second letter to KP police chief, assembly speaker Swati seeks details of 'detained' lawmakers, ministers
 [2026-09-27 10:37:55 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1272 in / 501 out tokens
+[2026-09-27 10:37:56 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab99ac4b120474081727bdb0ccc470
+[2026-09-27 10:37:56 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): Pakistan Infrastructure Development Company Ltd Jobs 2026 PIDCL Apply 
+[2026-09-27 10:37:57 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab99ac4b120474081727bdb0ccc470
+[2026-09-27 10:37:57 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 146/400 chars, resolved=True): Heathrow Airport warns third runway could be delayed by four years
+[2026-09-27 10:37:57 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab99ac50ad846149741ccfe223153b
+[2026-09-27 10:37:57 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): Pakistan Infrastructure Development Company Ltd Jobs 2026 PIDCL Apply 
+[2026-09-27 10:37:58 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab99ac50ad846149741ccfe223153b
+[2026-09-27 10:37:58 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): National Bank of Pakistan Jobs 2026 NBP Apply Online for Relationship 
+[2026-09-27 10:37:58 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab99ac615a24346b6fc3ce81d9b11d
+[2026-09-27 10:37:58 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 198/400 chars, resolved=True): Afghanistan says 28 fighters killed, 32 captured in Nuristan; Pakistan
+[2026-09-27 10:37:58 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab99ac615a24346b6fc3ce81d9b11d
+[2026-09-27 10:37:58 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NDTV Defence Summit 2026: 'Chips To Ships - India Must Be Self-Reliant
+[2026-09-27 10:38:09 PM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (135 words, need 150)): AAP failed to end drug menace in Punjab: Rajasthan CM Bhajanlal
+[2026-09-27 10:38:09 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab99ac615a24346b6fc3ce81d9b11d
+[2026-09-27 10:38:09 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 196/400 chars, resolved=True): Major incident declared near UK air base used by US forcesPublished on
+[2026-09-27 10:38:09 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 939 in / 310 out tokens
+[2026-09-27 10:38:09 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 4, 'tried': 8, 'thin': 7, 'rejected': 1}
