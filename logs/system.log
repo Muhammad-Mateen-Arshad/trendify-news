@@ -913,3 +913,13 @@
 [2026-09-27 10:38:09 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 196/400 chars, resolved=True): Major incident declared near UK air base used by US forcesPublished on
 [2026-09-27 10:38:09 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 939 in / 310 out tokens
 [2026-09-27 10:38:09 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 4, 'tried': 8, 'thin': 7, 'rejected': 1}
+[2026-09-27 10:38:11 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab99ad2bbf848409d79abc11bbabf1
+[2026-09-27 10:38:11 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 157/300 chars, resolved=True): Can Bangladesh turn its OTT industry into global soft power?
+[2026-09-27 10:38:11 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab99ad2bbf848409d79abc11bbabf1
+[2026-09-27 10:38:11 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 181/300 chars, resolved=True): 'Good often does evil': JRR Tolkien on 'the most tragic moment' in The
+[2026-09-27 10:38:12 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab99ad4ea424564a0ac2bf884a0efe
+[2026-09-27 10:38:12 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 204/300 chars, resolved=True): 5 new Netflix movies and shows coming in October 2026
+[2026-09-27 10:38:12 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab99ad4ea424564a0ac2bf884a0efe
+[2026-09-27 10:38:12 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 197/300 chars, resolved=True): Roadies Rebirth OTT Release: When And Where To Watch Season 21 Hosted 
+[2026-09-27 10:38:28 PM] [DRAMAS_BOT] [SUCCESS] Published: ‘Daredevil: Born Again’ Season 3 Is the End. Who Finishes It?
+[2026-09-27 10:38:28 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1523 in / 524 out tokens
