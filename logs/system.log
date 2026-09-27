@@ -784,3 +784,19 @@
 [2026-09-27 09:36:46 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
 [2026-09-27 09:37:13 AM] [HEALTH_BOT] [SUCCESS] Published: NIH makes major investments to advance human-based research infrastructure and technologies
 [2026-09-27 09:37:13 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1420 in / 577 out tokens
+[2026-09-27 09:37:14 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab8e3ca00b94ee8973fd2ae5849e9f
+[2026-09-27 09:37:14 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 132/400 chars, resolved=True): Man Finds Rare, Massive Mastodon Tooth the Size of a Human Fist Near L
+[2026-09-27 09:37:15 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab8e3ca9d114369a74a0991cca7105
+[2026-09-27 09:37:15 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): Scientists finally took T rex’s temperature, and it was almost exactly
+[2026-09-27 09:37:15 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab8e3ca9d114369a74a0991cca7105
+[2026-09-27 09:37:15 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 149/400 chars, resolved=True): Recent Release, "Chores for Dinosaurs," from Page Publishing Author Je
+[2026-09-27 09:37:15 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab8e3ca9d114369a74a0991cca7105
+[2026-09-27 09:37:15 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long BMNR Daily Target ETF
+[2026-09-27 09:37:16 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab8e3cca49f498dba99c4711461212
+[2026-09-27 09:37:16 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 159/400 chars, resolved=True): Pyramids of Nubia: unearthing ancient Kush's unique wonders
+[2026-09-27 09:37:16 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab8e3cca49f498dba99c4711461212
+[2026-09-27 09:37:16 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 159/400 chars, resolved=True): Ancient maya water management: engineering a civilization's
+[2026-09-27 09:37:31 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-27 09:37:50 AM] [HISTORY_BOT] [INFO] Rejected by quality gate (too short (137 words, need 150)): China's STAR Composite Index closes lower Thursday
+[2026-09-27 09:38:08 AM] [HISTORY_BOT] [SUCCESS] Published: China conducts 800-bln-yuan MLF operation to sustain banking liquidity
+[2026-09-27 09:38:08 AM] [HISTORY_BOT] [INFO] AI usage: 2 calls, 1385 in / 738 out tokens
