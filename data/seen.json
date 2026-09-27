@@ -3700,10 +3700,10 @@
    "at": "2026-09-26T15:13:26+00:00"
   },
   "t:90b604dd710289b8": {
-   "s": "thin",
+   "s": "posted",
    "n": "dramas",
    "t": "New on Netflix October 2026: 5 best movies and shows to stream, plus full release list",
-   "at": "2026-09-26T15:13:29+00:00"
+   "at": "2026-09-27T02:07:10+00:00"
   },
   "u:435baf8df8bdb12e": {
    "s": "thin",
@@ -4184,6 +4184,12 @@
    "n": "jobs",
    "t": "Trump rejects 7-day plan to reopen Strait of Hormuz",
    "at": "2026-09-27T02:06:48+00:00"
+  },
+  "u:114fef30fe2156cb": {
+   "s": "posted",
+   "n": "dramas",
+   "t": "New on Netflix October 2026: 5 best movies and shows to stream, plus full release list",
+   "at": "2026-09-27T02:07:10+00:00"
   }
  }
 }

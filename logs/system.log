@@ -716,3 +716,9 @@
 [2026-09-27 02:06:49 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): Pakistan News | Latest Headlines & Stories | Reuters
 [2026-09-27 02:06:49 AM] [JOBS_BOT] [INFO] AI usage: 2 calls, 2730 in / 663 out tokens
 [2026-09-27 02:06:49 AM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 3, 'tried': 8, 'thin': 6, 'rejected': 2}
+[2026-09-27 02:06:51 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab87a396c144dd1a3b8a07a6330229
+[2026-09-27 02:06:51 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 157/300 chars, resolved=True): Can Bangladesh turn its OTT industry into global soft power?
+[2026-09-27 02:06:51 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab87a396c144dd1a3b8a07a6330229
+[2026-09-27 02:06:51 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 181/300 chars, resolved=True): 'Good often does evil': JRR Tolkien on 'the most tragic moment' in The
+[2026-09-27 02:07:10 AM] [DRAMAS_BOT] [SUCCESS] Published: New on Netflix October 2026: 5 best movies and shows to stream, plus full release list
+[2026-09-27 02:07:11 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1748 in / 552 out tokens
