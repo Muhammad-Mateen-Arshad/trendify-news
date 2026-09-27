@@ -726,3 +726,7 @@
 [2026-09-27 02:07:24 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-09-27 02:07:43 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Kenya Lecturers Set to Strike as Universities Report US$770 Million Hole
 [2026-09-27 02:07:44 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1682 in / 513 out tokens
+[2026-09-27 02:07:45 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-27 02:07:47 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-27 02:08:13 AM] [HEALTH_BOT] [SUCCESS] Published: Scientists develop high-resolution molecular maps of Alzheimer’s and related brain disorders
+[2026-09-27 02:08:13 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1408 in / 514 out tokens
