@@ -893,3 +893,6 @@
 [2026-09-27 07:28:07 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-09-27 07:28:26 PM] [HISTORY_BOT] [SUCCESS] Published: Mr. Morioka, is it true that 'dinosaurs are immortal'?—Thinking about how to use dinosaurs as content at Junglia
 [2026-09-27 07:28:26 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1645 in / 570 out tokens
+[2026-09-27 10:37:55 PM] [NEWS_BOT] [WARN] news.html not found - card not added
+[2026-09-27 10:37:55 PM] [NEWS_BOT] [SUCCESS] Published: In second letter to KP police chief, assembly speaker Swati seeks details of 'detained' lawmakers, ministers
+[2026-09-27 10:37:55 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1272 in / 501 out tokens
