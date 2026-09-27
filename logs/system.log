@@ -923,3 +923,7 @@
 [2026-09-27 10:38:12 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 197/300 chars, resolved=True): Roadies Rebirth OTT Release: When And Where To Watch Season 21 Hosted 
 [2026-09-27 10:38:28 PM] [DRAMAS_BOT] [SUCCESS] Published: ‘Daredevil: Born Again’ Season 3 Is the End. Who Finishes It?
 [2026-09-27 10:38:28 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1523 in / 524 out tokens
+[2026-09-27 10:38:34 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-27 10:38:43 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-27 10:39:06 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Health Ministry to announce intern agreement in October
+[2026-09-27 10:39:07 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1404 in / 489 out tokens
