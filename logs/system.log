@@ -698,3 +698,21 @@
 [2026-09-27 02:05:56 AM] [NEWS_BOT] [WARN] news.html not found - card not added
 [2026-09-27 02:05:56 AM] [NEWS_BOT] [SUCCESS] Published: IHC voids law allowing agencies to curb travel
 [2026-09-27 02:05:57 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1568 in / 579 out tokens
+[2026-09-27 02:05:57 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab87a05bf544d638e4a37b4fdd8afc
+[2026-09-27 02:05:57 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): UNGA day 4: Lebanon calls for peacekeepers to replace UNIFIL
+[2026-09-27 02:05:58 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab87a05d9a44b389c2d66ab34752a3
+[2026-09-27 02:05:58 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 130/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-09-27 02:05:58 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab87a05d9a44b389c2d66ab34752a3
+[2026-09-27 02:05:58 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 182/400 chars, resolved=True): Prayer Times in Pakistan
+[2026-09-27 02:06:00 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-27 02:06:18 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (144 words, need 150)): Nayab Saini accuses AAP of using Bhagat Singh’s name to make ‘false pr
+[2026-09-27 02:06:18 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab87a06779f400888f43b493594151
+[2026-09-27 02:06:18 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 115/400 chars, resolved=True): Iran, Ukraine and AI dominate turbulent week at UN
+[2026-09-27 02:06:33 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-27 02:06:48 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too many 'not specified' (source too thin)): Trump rejects 7-day plan to reopen Strait of Hormuz
+[2026-09-27 02:06:48 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab87a06779f400888f43b493594151
+[2026-09-27 02:06:48 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 184/400 chars, resolved=True): Engines, Armour and Time: What the Tejas and Zorawar Delays Have Cost 
+[2026-09-27 02:06:49 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab87a387f0e45c2b93fd6e2e398504
+[2026-09-27 02:06:49 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): Pakistan News | Latest Headlines & Stories | Reuters
+[2026-09-27 02:06:49 AM] [JOBS_BOT] [INFO] AI usage: 2 calls, 2730 in / 663 out tokens
+[2026-09-27 02:06:49 AM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 3, 'tried': 8, 'thin': 6, 'rejected': 2}
