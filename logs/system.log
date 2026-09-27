@@ -885,3 +885,11 @@
 [2026-09-27 07:27:44 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-09-27 07:28:02 PM] [HEALTH_BOT] [SUCCESS] Published: Finding balance: 3 simple exercises to steady your steps
 [2026-09-27 07:28:03 PM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1353 in / 487 out tokens
+[2026-09-27 07:28:03 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab96e43458b4776b78baf05c892ced
+[2026-09-27 07:28:03 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): A scientist studied old museum collections, and his 1994 hunch about a
+[2026-09-27 07:28:04 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab96e43458b4776b78baf05c892ced
+[2026-09-27 07:28:04 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): Giant‑clawed dinosaur discovery in China rewrites therizinosaur record
+[2026-09-27 07:28:05 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-27 07:28:07 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-09-27 07:28:26 PM] [HISTORY_BOT] [SUCCESS] Published: Mr. Morioka, is it true that 'dinosaurs are immortal'?—Thinking about how to use dinosaurs as content at Junglia
+[2026-09-27 07:28:26 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1645 in / 570 out tokens
