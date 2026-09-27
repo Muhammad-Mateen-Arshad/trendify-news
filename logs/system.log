@@ -879,3 +879,9 @@
 [2026-09-27 07:26:44 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-09-27 07:27:23 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: John C. Fremont Hospital Foundation Celebrates Growth and Strengthens Partnership with Healthcare District
 [2026-09-27 07:27:24 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1270 in / 336 out tokens
+[2026-09-27 07:27:25 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-09-27 07:27:25 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-09-27 07:27:39 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-27 07:27:44 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-27 07:28:02 PM] [HEALTH_BOT] [SUCCESS] Published: Finding balance: 3 simple exercises to steady your steps
+[2026-09-27 07:28:03 PM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1353 in / 487 out tokens
