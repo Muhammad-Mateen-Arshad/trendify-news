@@ -857,3 +857,6 @@
 [2026-09-27 07:21:48 PM] [NEWS_BOT] [WARN] news.html not found - card not added
 [2026-09-27 07:21:48 PM] [NEWS_BOT] [SUCCESS] Published: No govt financing, sovereign-guaranteed loans for new PIA aircraft: adviser to finmin
 [2026-09-27 07:21:48 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 934 in / 432 out tokens
+[2026-09-27 07:21:50 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-27 07:22:13 PM] [JOBS_BOT] [SUCCESS] Published: Pakistan-supported armed groups heavily defeated in Nuristan’s Kamdesh: MoD
+[2026-09-27 07:22:13 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 926 in / 556 out tokens
