@@ -2644,10 +2644,10 @@
    "at": "2026-09-25T14:48:42+00:00"
   },
   "t:e885956257d75a13": {
-   "s": "thin",
+   "s": "posted",
    "n": "history",
    "t": "Scientists Found 15,000-Year-Old Fingerprints from a Lost Civilization",
-   "at": "2026-09-25T14:48:43+00:00"
+   "at": "2026-09-27T02:08:51+00:00"
   },
   "u:dc38fc5946596d7e": {
    "s": "thin",
@@ -4214,6 +4214,12 @@
    "n": "health",
    "t": "Scientists develop high-resolution molecular maps of Alzheimer’s and related brain disorde",
    "at": "2026-09-27T02:08:13+00:00"
+  },
+  "u:02dbfed5c4340598": {
+   "s": "posted",
+   "n": "history",
+   "t": "Scientists Found 15,000-Year-Old Fingerprints from a Lost Civilization",
+   "at": "2026-09-27T02:08:51+00:00"
   }
  }
 }
