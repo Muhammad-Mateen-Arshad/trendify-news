@@ -860,3 +860,10 @@
 [2026-09-27 07:21:50 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
 [2026-09-27 07:22:13 PM] [JOBS_BOT] [SUCCESS] Published: Pakistan-supported armed groups heavily defeated in Nuristan’s Kamdesh: MoD
 [2026-09-27 07:22:13 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 926 in / 556 out tokens
+[2026-09-27 07:22:15 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-27 07:22:17 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-27 07:22:31 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-09-27 07:22:46 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-09-27 07:22:49 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-09-27 07:23:29 PM] [DRAMAS_BOT] [SUCCESS] Published: The Depths of the World's Four Great Cuisines: Why These Four Reign at the Pinnacle of Global Gastronomy
+[2026-09-27 07:23:29 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 977 in / 483 out tokens
