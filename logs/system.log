@@ -780,3 +780,7 @@
 [2026-09-27 09:36:13 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1396 in / 447 out tokens
 [2026-09-27 09:36:27 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: $54.6 million awarded in rural health grants
 [2026-09-27 09:36:28 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1491 in / 670 out tokens
+[2026-09-27 09:36:29 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-27 09:36:46 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-27 09:37:13 AM] [HEALTH_BOT] [SUCCESS] Published: NIH makes major investments to advance human-based research infrastructure and technologies
+[2026-09-27 09:37:13 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1420 in / 577 out tokens
