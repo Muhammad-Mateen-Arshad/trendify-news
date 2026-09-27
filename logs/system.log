@@ -695,3 +695,6 @@
 [2026-09-26 10:16:21 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
 [2026-09-26 10:16:53 PM] [HISTORY_BOT] [SUCCESS] Published: A mysterious animal that lived 240 million years ago: its remains lay in a museum for 60 years
 [2026-09-26 10:16:54 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 546 in / 377 out tokens
+[2026-09-27 02:05:56 AM] [NEWS_BOT] [WARN] news.html not found - card not added
+[2026-09-27 02:05:56 AM] [NEWS_BOT] [SUCCESS] Published: IHC voids law allowing agencies to curb travel
+[2026-09-27 02:05:57 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1568 in / 579 out tokens
