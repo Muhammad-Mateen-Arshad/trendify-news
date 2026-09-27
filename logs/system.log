@@ -752,3 +752,20 @@
 [2026-09-27 09:35:32 AM] [NEWS_BOT] [WARN] news.html not found - card not added
 [2026-09-27 09:35:32 AM] [NEWS_BOT] [SUCCESS] Published: Newly inducted Hangor-class submarine conducts maiden live weapon firing in Arabian Sea: ISPR
 [2026-09-27 09:35:33 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 922 in / 495 out tokens
+[2026-09-27 09:35:42 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (126 words, need 150); too many 'not specified' (source too thin)): STEPHEN COHEN: Our oxen are being gored
+[2026-09-27 09:35:43 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab8e3651c7348dfa9797d2bc8b84d8
+[2026-09-27 09:35:43 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 146/400 chars, resolved=True): Heathrow Airport warns third runway could be delayed by four years
+[2026-09-27 09:35:43 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab8e36f8964416a8bf84d0f9b130fb
+[2026-09-27 09:35:43 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 130/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-09-27 09:35:44 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab8e36f8964416a8bf84d0f9b130fb
+[2026-09-27 09:35:44 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 182/400 chars, resolved=True): Prayer Times in Pakistan
+[2026-09-27 09:35:44 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab8e370e4464912b043ad9d8f03947
+[2026-09-27 09:35:44 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NDTV Defence Summit 2026: 'Chips To Ships - India Must Be Self-Reliant
+[2026-09-27 09:35:44 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab8e370e4464912b043ad9d8f03947
+[2026-09-27 09:35:44 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 87/400 chars, resolved=True): Air India pilot fails breathalyser test before Zurich-Delhi flight, su
+[2026-09-27 09:35:44 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab8e370e4464912b043ad9d8f03947
+[2026-09-27 09:35:44 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 115/400 chars, resolved=True): Iran, Ukraine and AI dominate turbulent week at UN
+[2026-09-27 09:35:45 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab8e3700af643e19b3fcdaa6b76990
+[2026-09-27 09:35:45 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): Pakistan News | Latest Headlines & Stories | Reuters
+[2026-09-27 09:35:45 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1557 in / 301 out tokens
+[2026-09-27 09:35:45 AM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 4, 'tried': 8, 'rejected': 1, 'thin': 7}
