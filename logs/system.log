@@ -932,3 +932,14 @@
 [2026-09-27 10:39:08 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-09-27 10:39:28 PM] [HEALTH_BOT] [SUCCESS] Published: Extreme heat: Staying safe if you have health issues
 [2026-09-27 10:39:28 PM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1434 in / 548 out tokens
+[2026-09-27 10:39:29 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab99b21d78c4255af1c8074d13f458
+[2026-09-27 10:39:29 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): A scientist studied old museum collections, and his 1994 hunch about a
+[2026-09-27 10:39:29 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab99b21d78c4255af1c8074d13f458
+[2026-09-27 10:39:29 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): Giant‑clawed dinosaur discovery in China rewrites therizinosaur record
+[2026-09-27 10:39:33 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-27 10:39:38 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-27 10:39:41 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-09-27 10:39:58 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-09-27 10:40:26 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-09-27 10:41:06 PM] [HISTORY_BOT] [SUCCESS] Published: Rare thoracosaurus tooth discovered in Grasslands National Park
+[2026-09-27 10:41:06 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1156 in / 438 out tokens
