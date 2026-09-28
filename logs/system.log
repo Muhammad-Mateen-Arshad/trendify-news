@@ -961,3 +961,16 @@
 [2026-09-28 02:11:07 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-09-28 02:11:22 AM] [JOBS_BOT] [SUCCESS] Published: Punjab Health Department Announces Jobs in Lahore Hospitals
 [2026-09-28 02:11:22 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 888 in / 535 out tokens
+[2026-09-28 02:11:23 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab9cccb70944b15a39d50f64bd1eb1
+[2026-09-28 02:11:23 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 181/300 chars, resolved=True): 'Good often does evil': JRR Tolkien on 'the most tragic moment' in The
+[2026-09-28 02:11:24 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab9cccb06424e8dbb1cb8c080be420
+[2026-09-28 02:11:24 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 165/300 chars, resolved=True): ‘Lanterns’ Episode 7 Release Time And Preview: ‘The Jordan Boys Legacy
+[2026-09-28 02:11:24 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab9cccb06424e8dbb1cb8c080be420
+[2026-09-28 02:11:24 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 204/300 chars, resolved=True): 5 new Netflix movies and shows coming in October 2026
+[2026-09-28 02:11:24 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab9cccb06424e8dbb1cb8c080be420
+[2026-09-28 02:11:24 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 197/300 chars, resolved=True): Roadies Rebirth OTT Release: When And Where To Watch Season 21 Hosted 
+[2026-09-28 02:11:24 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab9cccb06424e8dbb1cb8c080be420
+[2026-09-28 02:11:24 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 155/300 chars, resolved=True): Is there going to be Not a Stranger Season 2? Renewal status and more 
+[2026-09-28 02:11:26 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-28 02:11:42 AM] [DRAMAS_BOT] [SUCCESS] Published: Netflix Is Officially Bringing Back This 21-Year-Old Crime Franchise
+[2026-09-28 02:11:43 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1241 in / 578 out tokens
