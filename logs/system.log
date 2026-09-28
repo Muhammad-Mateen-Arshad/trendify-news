@@ -1017,3 +1017,6 @@
 [2026-09-28 10:14:53 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 197/300 chars, resolved=True): Roadies Rebirth OTT Release: When And Where To Watch Season 21 Hosted 
 [2026-09-28 10:15:07 AM] [DRAMAS_BOT] [SUCCESS] Published: Netflix’s ‘Not a Stranger’ Release Date and Time, Trailer, Plot, and Cast Explained
 [2026-09-28 10:15:08 AM] [DRAMAS_BOT] [INFO] AI usage: 2 calls, 2122 in / 688 out tokens
+[2026-09-28 10:15:20 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-28 10:15:40 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Pakistanis Can Apply for Fully-Funded PhD Scholarship in US With $30,000 Annual Stipend
+[2026-09-28 10:15:40 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1210 in / 555 out tokens
