@@ -1027,3 +1027,5 @@
 [2026-09-28 10:16:13 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
 [2026-09-28 10:16:46 AM] [HEALTH_BOT] [SUCCESS] Published: Preventing falls in older adults: Multiple strategies are better
 [2026-09-28 10:16:46 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1314 in / 565 out tokens
+[2026-09-28 10:17:02 AM] [HISTORY_BOT] [SUCCESS] Published: How a New Dinosaur Species Reached Japan 100 Million Years Ago
+[2026-09-28 10:17:02 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 903 in / 522 out tokens
