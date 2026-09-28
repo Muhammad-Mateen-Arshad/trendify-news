@@ -1029,3 +1029,18 @@
 [2026-09-28 10:16:46 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1314 in / 565 out tokens
 [2026-09-28 10:17:02 AM] [HISTORY_BOT] [SUCCESS] Published: How a New Dinosaur Species Reached Japan 100 Million Years Ago
 [2026-09-28 10:17:02 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 903 in / 522 out tokens
+[2026-09-28 06:50:02 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-28 06:50:08 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-28 06:50:19 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-09-28 06:50:43 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-09-28 06:51:03 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-09-28 06:51:28 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-28 06:52:00 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-28 06:52:30 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-28 06:53:04 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-28 06:53:34 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-28 06:53:36 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-28 06:54:07 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-28 06:54:37 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-28 06:55:09 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-28 06:55:39 PM] [NEWS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
