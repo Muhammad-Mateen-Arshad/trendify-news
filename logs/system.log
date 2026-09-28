@@ -992,3 +992,7 @@
 [2026-09-28 02:13:25 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-09-28 02:13:44 AM] [HISTORY_BOT] [SUCCESS] Published: Musings of a Former Archaeological Curator 16
 [2026-09-28 02:13:45 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 955 in / 503 out tokens
+[2026-09-28 10:14:03 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-28 10:14:24 AM] [NEWS_BOT] [WARN] news.html not found - card not added
+[2026-09-28 10:14:24 AM] [NEWS_BOT] [SUCCESS] Published: Minister slams KP govt’s ‘flaws’ in leadership, resources and authority in counter-terror fight
+[2026-09-28 10:14:24 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1555 in / 559 out tokens
