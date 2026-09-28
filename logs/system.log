@@ -1044,3 +1044,28 @@
 [2026-09-28 06:54:37 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-09-28 06:55:09 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-09-28 06:55:39 PM] [NEWS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
+[2026-09-28 06:55:42 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abab82c1b4143a2b6c862a2f6284c1
+[2026-09-28 06:55:42 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 147/400 chars, resolved=True): Solar manufacturing policy needed to unlock jobs, exports: Punjab gove
+[2026-09-28 06:55:42 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abab82c1b4143a2b6c862a2f6284c1
+[2026-09-28 06:55:42 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): Protests in Pakistan lead to business disruptions and labor losses
+[2026-09-28 06:55:42 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abab82c1b4143a2b6c862a2f6284c1
+[2026-09-28 06:55:42 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 187/400 chars, resolved=True): Mahmood announces new legal routes for refugees in speech - latest
+[2026-09-28 06:55:57 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abab82c1b4143a2b6c862a2f6284c1
+[2026-09-28 06:55:57 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 199/400 chars, resolved=True): FinMin Aurangzeb’s US Exim talks covered financing for Boeing aircraft
+[2026-09-28 06:55:58 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-28 06:56:00 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-28 06:56:16 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-09-28 06:56:32 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-09-28 06:57:06 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-09-28 06:57:32 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-28 06:58:02 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-28 06:58:32 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-28 06:59:18 PM] [JOBS_BOT] [INFO] Rejected by quality gate (too many 'not specified' (source too thin)): Sazgar Plans ARCFOX EV Launch in Pakistan, but Local Assembly Depends 
+[2026-09-28 06:59:18 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abab906e0d741e5a57326366760548
+[2026-09-28 06:59:18 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 130/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-09-28 06:59:19 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abab906e0d741e5a57326366760548
+[2026-09-28 06:59:19 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 182/400 chars, resolved=True): Prayer Times in Pakistan
+[2026-09-28 06:59:19 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abab907965d44a48e8aadb2681d2d9
+[2026-09-28 06:59:19 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 192/400 chars, resolved=True): Why the Emmy-nominated Real Kashmir Football Club is more than a sport
+[2026-09-28 06:59:19 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1279 in / 420 out tokens
+[2026-09-28 06:59:19 PM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 7, 'rejected': 1}
