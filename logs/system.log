@@ -1006,3 +1006,14 @@
 [2026-09-28 10:14:27 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 192/400 chars, resolved=True): Why the Emmy-nominated Real Kashmir Football Club is more than a sport
 [2026-09-28 10:14:41 AM] [JOBS_BOT] [SUCCESS] Published: Asian Games kabaddi glory rooted in Haryana's ‘mitti ka khel’
 [2026-09-28 10:14:41 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1725 in / 456 out tokens
+[2026-09-28 10:14:42 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aba3e12d07745ddba686571fbdbcfe
+[2026-09-28 10:14:42 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 192/300 chars, resolved=True): Saudi students abroad bring National Day celebrations to campus
+[2026-09-28 10:14:43 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aba3e12287e4df5ba2e6691cd15116
+[2026-09-28 10:14:43 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 165/300 chars, resolved=True): ‘Lanterns’ Episode 7 Release Time And Preview: ‘The Jordan Boys Legacy
+[2026-09-28 10:14:43 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aba3e12287e4df5ba2e6691cd15116
+[2026-09-28 10:14:43 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 204/300 chars, resolved=True): 5 new Netflix movies and shows coming in October 2026
+[2026-09-28 10:14:53 AM] [DRAMAS_BOT] [INFO] Rejected by quality gate (too short (102 words, need 150)): New OTT releases of the week (September 28 - October 4): 10 new movies
+[2026-09-28 10:14:53 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aba3e12287e4df5ba2e6691cd15116
+[2026-09-28 10:14:53 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 197/300 chars, resolved=True): Roadies Rebirth OTT Release: When And Where To Watch Season 21 Hosted 
+[2026-09-28 10:15:07 AM] [DRAMAS_BOT] [SUCCESS] Published: Netflix’s ‘Not a Stranger’ Release Date and Time, Trailer, Plot, and Cast Explained
+[2026-09-28 10:15:08 AM] [DRAMAS_BOT] [INFO] AI usage: 2 calls, 2122 in / 688 out tokens
