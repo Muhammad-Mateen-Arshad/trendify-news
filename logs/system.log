@@ -946,3 +946,18 @@
 [2026-09-28 02:11:02 AM] [NEWS_BOT] [WARN] news.html not found - card not added
 [2026-09-28 02:11:02 AM] [NEWS_BOT] [SUCCESS] Published: Bill Gates joins calls for AI safeguards, including legislation
 [2026-09-28 02:11:02 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1396 in / 533 out tokens
+[2026-09-28 02:11:04 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab9ccb76738471aa47d626410dbb59
+[2026-09-28 02:11:04 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 146/400 chars, resolved=True): Heathrow Airport warns third runway could be delayed by four years
+[2026-09-28 02:11:05 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab9ccb82ce441c6801a373ffcb42a1
+[2026-09-28 02:11:05 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 198/400 chars, resolved=True): Afghanistan says 28 fighters killed, 32 captured in Nuristan; Pakistan
+[2026-09-28 02:11:05 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab9ccb82ce441c6801a373ffcb42a1
+[2026-09-28 02:11:05 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NDTV Defence Summit 2026: 'Chips To Ships - India Must Be Self-Reliant
+[2026-09-28 02:11:05 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab9ccb82ce441c6801a373ffcb42a1
+[2026-09-28 02:11:05 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 121/400 chars, resolved=True): Less doomsday, more charm: How Mark Zuckerberg got his mojo back
+[2026-09-28 02:11:06 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab9ccb9535c43b6841b17e4b124cc0
+[2026-09-28 02:11:06 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 199/400 chars, resolved=True): Pakistan News | Latest Headlines & Stories | Reuters
+[2026-09-28 02:11:06 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab9ccbac9ac4bf8baafd889fea5fdd
+[2026-09-28 02:11:06 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 199/400 chars, resolved=True): Pakistan News | Latest Headlines & Stories | Reuters
+[2026-09-28 02:11:07 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-28 02:11:22 AM] [JOBS_BOT] [SUCCESS] Published: Punjab Health Department Announces Jobs in Lahore Hospitals
+[2026-09-28 02:11:22 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 888 in / 535 out tokens

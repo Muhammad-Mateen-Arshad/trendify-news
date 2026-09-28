@@ -2344,10 +2344,10 @@
    "at": "2026-09-25T14:48:02+00:00"
   },
   "t:978f71d9789f58a0": {
-   "s": "thin",
+   "s": "posted",
    "n": "jobs",
    "t": "Punjab Health Department Announces Jobs in Lahore Hospitals",
-   "at": "2026-09-25T14:48:03+00:00"
+   "at": "2026-09-28T02:11:22+00:00"
   },
   "u:e0143ad581919efb": {
    "s": "thin",
@@ -4520,6 +4520,12 @@
    "n": "news",
    "t": "Bill Gates joins calls for AI safeguards, including legislation",
    "at": "2026-09-28T02:11:02+00:00"
+  },
+  "u:782d3f85446c6100": {
+   "s": "posted",
+   "n": "jobs",
+   "t": "Punjab Health Department Announces Jobs in Lahore Hospitals",
+   "at": "2026-09-28T02:11:22+00:00"
   }
  }
 }
