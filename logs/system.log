@@ -996,3 +996,13 @@
 [2026-09-28 10:14:24 AM] [NEWS_BOT] [WARN] news.html not found - card not added
 [2026-09-28 10:14:24 AM] [NEWS_BOT] [SUCCESS] Published: Minister slams KP govt’s ‘flaws’ in leadership, resources and authority in counter-terror fight
 [2026-09-28 10:14:24 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1555 in / 559 out tokens
+[2026-09-28 10:14:26 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aba3e0128f043d296a7179a8ce54f5
+[2026-09-28 10:14:26 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 147/400 chars, resolved=True): Solar manufacturing policy needed to unlock jobs, exports: Punjab gove
+[2026-09-28 10:14:26 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aba3e0128f043d296a7179a8ce54f5
+[2026-09-28 10:14:26 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): No govt financing, sovereign-guaranteed loans for new PIA aircraft: PM
+[2026-09-28 10:14:26 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aba3e02de554908ab15a1a649614a0
+[2026-09-28 10:14:26 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 198/400 chars, resolved=True): Afghanistan says 28 fighters killed, 32 captured in Nuristan; Pakistan
+[2026-09-28 10:14:27 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aba3e02de554908ab15a1a649614a0
+[2026-09-28 10:14:27 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 192/400 chars, resolved=True): Why the Emmy-nominated Real Kashmir Football Club is more than a sport
+[2026-09-28 10:14:41 AM] [JOBS_BOT] [SUCCESS] Published: Asian Games kabaddi glory rooted in Haryana's ‘mitti ka khel’
+[2026-09-28 10:14:41 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1725 in / 456 out tokens
