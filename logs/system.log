@@ -1020,3 +1020,10 @@
 [2026-09-28 10:15:20 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
 [2026-09-28 10:15:40 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Pakistanis Can Apply for Fully-Funded PhD Scholarship in US With $30,000 Annual Stipend
 [2026-09-28 10:15:40 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1210 in / 555 out tokens
+[2026-09-28 10:15:41 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-09-28 10:15:41 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-09-28 10:15:45 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-28 10:15:55 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-28 10:16:13 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-09-28 10:16:46 AM] [HEALTH_BOT] [SUCCESS] Published: Preventing falls in older adults: Multiple strategies are better
+[2026-09-28 10:16:46 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1314 in / 565 out tokens
