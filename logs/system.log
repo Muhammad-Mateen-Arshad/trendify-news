@@ -1084,3 +1084,11 @@
 [2026-09-28 07:03:49 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-09-28 07:04:19 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-09-28 07:04:49 PM] [DRAMAS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
+[2026-09-28 07:04:52 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ababa534aea4b539241f09f8dcfa3a
+[2026-09-28 07:04:52 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): Rwandans Can Apply for These Scholarships, Fellowships Before 2026 End
+[2026-09-28 07:04:53 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-28 07:04:55 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-09-28 07:05:00 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-09-28 07:05:17 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-09-28 07:05:57 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: 3 Fully Funded PhD Scholarships in the US Close September 30
+[2026-09-28 07:05:58 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1071 in / 686 out tokens
