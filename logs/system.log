@@ -1353,3 +1353,10 @@
 [2026-09-29 05:35:50 PM] [AI_BOT] [WARN] All keys rate-limited, waiting 40s once
 [2026-09-29 05:36:30 PM] [AI_BOT] [INFO] Switched to Gemini key 5 of 5
 [2026-09-29 05:36:32 PM] [SCHOLARSHIPS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
+[2026-09-29 05:36:34 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-09-29 05:36:34 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-09-29 05:36:36 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-29 05:36:38 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-09-29 05:36:40 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-09-29 05:36:57 PM] [HEALTH_BOT] [SUCCESS] Published: Rooted Owl® Names Dr. Barbara Royal, DVM, Senior Veterinary Advisor and Head of Nutrition
+[2026-09-29 05:36:58 PM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1155 in / 537 out tokens
