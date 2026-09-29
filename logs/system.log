@@ -1135,3 +1135,23 @@
 [2026-09-29 12:00:42 AM] [NEWS_BOT] [WARN] news.html not found - card not added
 [2026-09-29 12:00:42 AM] [NEWS_BOT] [SUCCESS] Published: Govt reduces petrol price by Rs2.27 per litre, high-speed diesel rate by Rs3.56
 [2026-09-29 12:00:42 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 909 in / 545 out tokens
+[2026-09-29 12:00:45 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abaffab62d245349ee820280617cce
+[2026-09-29 12:00:45 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 147/400 chars, resolved=True): Solar manufacturing policy needed to unlock jobs, exports: Punjab gove
+[2026-09-29 12:00:45 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abaffab62d245349ee820280617cce
+[2026-09-29 12:00:45 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): Protests in Pakistan lead to business disruptions and labor losses
+[2026-09-29 12:00:45 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abaffad247741f4a2e216de5b0acb2
+[2026-09-29 12:00:45 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 130/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-09-29 12:00:45 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abaffad247741f4a2e216de5b0acb2
+[2026-09-29 12:00:45 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 182/400 chars, resolved=True): Prayer Times in Pakistan
+[2026-09-29 12:00:46 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abaffad3728489b94b32392152814f
+[2026-09-29 12:00:46 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 192/400 chars, resolved=True): Why the Emmy-nominated Real Kashmir Football Club is more than a sport
+[2026-09-29 12:00:47 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abaffad3728489b94b32392152814f
+[2026-09-29 12:00:47 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): Language and Quest for Identity in Assam
+[2026-09-29 12:00:57 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (117 words, need 150); too many 'not specified' (source too thin)): LPU founder Mittal targeted for switching sides, alleges Opposition in
+[2026-09-29 12:00:57 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-29 12:01:00 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-29 12:01:10 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-09-29 12:01:29 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-09-29 12:02:02 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (107 words, need 150)): China Challenges Germany’s Industrial Edge As Exports Fall, Carmakers 
+[2026-09-29 12:02:02 AM] [JOBS_BOT] [INFO] AI usage: 2 calls, 2417 in / 541 out tokens
+[2026-09-29 12:02:02 AM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 6, 'rejected': 2}
