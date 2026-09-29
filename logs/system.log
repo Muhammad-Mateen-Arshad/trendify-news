@@ -1132,3 +1132,6 @@
 [2026-09-28 07:15:57 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-09-28 07:16:28 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-09-28 07:16:58 PM] [HISTORY_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
+[2026-09-29 12:00:42 AM] [NEWS_BOT] [WARN] news.html not found - card not added
+[2026-09-29 12:00:42 AM] [NEWS_BOT] [SUCCESS] Published: Govt reduces petrol price by Rs2.27 per litre, high-speed diesel rate by Rs3.56
+[2026-09-29 12:00:42 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 909 in / 545 out tokens
