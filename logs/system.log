@@ -1380,3 +1380,6 @@
 [2026-09-29 11:15:01 PM] [NEWS_BOT] [WARN] news.html not found - card not added
 [2026-09-29 11:15:01 PM] [NEWS_BOT] [SUCCESS] Published: Somali forces recover oil tanker carrying Pakistani crewmen over 5 months after hijacking by pirates
 [2026-09-29 11:15:01 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1593 in / 487 out tokens
+[2026-09-29 11:15:03 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-29 11:15:16 PM] [JOBS_BOT] [SUCCESS] Published: Security-development nexus
+[2026-09-29 11:15:16 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1407 in / 373 out tokens
