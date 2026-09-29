@@ -1184,3 +1184,18 @@
 [2026-09-29 12:04:30 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 127/400 chars, resolved=True): Amateur paleontologist finds nearly complete 70-million-year-old massi
 [2026-09-29 12:04:46 AM] [HISTORY_BOT] [SUCCESS] Published: Ancient Bird Feathers Found in Fossilized Dinosaur Poop May Help Explain Why the Species Went Extinct
 [2026-09-29 12:04:46 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 947 in / 480 out tokens
+[2026-09-29 10:11:14 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-29 10:11:19 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-29 10:11:30 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-09-29 10:11:45 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-09-29 10:12:06 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-09-29 10:12:34 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-29 10:13:05 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-29 10:13:36 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-29 10:14:10 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-29 10:14:41 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-29 10:15:16 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-29 10:15:53 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-29 10:16:24 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-29 10:16:54 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-29 10:17:24 AM] [NEWS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
