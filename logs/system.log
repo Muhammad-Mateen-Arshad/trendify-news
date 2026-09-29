@@ -1161,3 +1161,11 @@
 [2026-09-29 12:02:33 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
 [2026-09-29 12:03:08 AM] [DRAMAS_BOT] [SUCCESS] Published: Why Ramadan Is Quietly One of the Biggest TV Premiere Seasons on the Planet
 [2026-09-29 12:03:09 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1110 in / 469 out tokens
+[2026-09-29 12:03:09 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abb003df78844f7989fe96bac612d1
+[2026-09-29 12:03:09 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): Rwandans Can Apply for These Scholarships, Fellowships Before 2026 End
+[2026-09-29 12:03:11 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-29 12:03:24 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-29 12:03:34 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-09-29 12:03:36 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-09-29 12:03:53 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: 11 Fully-Funded PhD Scholarships in Australia Closing in September 2026
+[2026-09-29 12:03:53 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1478 in / 666 out tokens
