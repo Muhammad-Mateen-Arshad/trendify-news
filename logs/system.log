@@ -1169,3 +1169,14 @@
 [2026-09-29 12:03:36 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-09-29 12:03:53 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: 11 Fully-Funded PhD Scholarships in Australia Closing in September 2026
 [2026-09-29 12:03:53 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1478 in / 666 out tokens
+[2026-09-29 12:03:54 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-09-29 12:03:54 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-09-29 12:03:54 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abb006ac2be4e7c87df2a55aef7d45
+[2026-09-29 12:03:54 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): AAFT Online opens admissions for its online diploma in nutrition and w
+[2026-09-29 12:03:54 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abb006ac2be4e7c87df2a55aef7d45
+[2026-09-29 12:03:54 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): What is Decision Fatigue? Expert Shares 7 Signs You Are Tired Of Makin
+[2026-09-29 12:04:01 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-29 12:04:06 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-29 12:04:09 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-09-29 12:04:29 AM] [HEALTH_BOT] [SUCCESS] Published: St. Kate’s awarded grant for supporting student parents
+[2026-09-29 12:04:30 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1028 in / 568 out tokens
