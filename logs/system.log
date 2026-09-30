@@ -1479,3 +1479,7 @@
 [2026-09-30 10:03:20 AM] [NEWS_BOT] [WARN] news.html not found - card not added
 [2026-09-30 10:03:21 AM] [NEWS_BOT] [SUCCESS] Published: Tarar warns India's unilateral actions on IWT may have implications for water governance globally
 [2026-09-30 10:03:21 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1291 in / 506 out tokens
+[2026-09-30 10:03:22 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abcde6a6f584389a405ba2b11a42e1
+[2026-09-30 10:03:22 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 192/400 chars, resolved=True): The Latest: Trump says top tech firms have signed accord to ‘self-poli
+[2026-09-30 10:03:36 AM] [JOBS_BOT] [SUCCESS] Published: Parliament fast-tracks GCC Bill
+[2026-09-30 10:03:37 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 649 in / 433 out tokens
