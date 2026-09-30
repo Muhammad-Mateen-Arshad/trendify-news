@@ -1578,3 +1578,20 @@
 [2026-09-30 05:24:25 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-09-30 05:25:12 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Fully-Funded Master’s Scholarship in Portugal Closing in September 2026
 [2026-09-30 05:25:12 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1368 in / 647 out tokens
+[2026-09-30 05:25:13 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-09-30 05:25:13 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-09-30 05:25:14 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-30 05:25:16 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-09-30 05:25:22 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-09-30 05:25:39 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-09-30 05:26:10 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-09-30 05:26:39 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:27:19 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:27:49 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:28:26 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:28:57 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:29:28 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:30:02 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:30:32 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-09-30 05:30:34 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:31:04 PM] [HEALTH_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
