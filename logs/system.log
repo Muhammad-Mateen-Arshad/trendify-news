@@ -1612,3 +1612,6 @@
 [2026-09-30 05:31:08 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abd475cf03f4464aa3b4bf396728a5
 [2026-09-30 05:31:08 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 93/400 chars, resolved=True): Archaeologists Opened a Tomb Sealed for 600 Years—and Found Gold, Bone
 [2026-09-30 05:31:08 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8}
+[2026-09-30 11:16:00 PM] [NEWS_BOT] [WARN] news.html not found - card not added
+[2026-09-30 11:16:00 PM] [NEWS_BOT] [SUCCESS] Published: Pakistan will be there to defend Saudi Arabia in any conflict: Khawaja Asif
+[2026-09-30 11:16:00 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 948 in / 460 out tokens
