@@ -1435,3 +1435,8 @@
 [2026-09-30 02:40:03 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-09-30 02:40:48 AM] [DRAMAS_BOT] [SUCCESS] Published: Oscars International Feature Category Nears 90 Films: Complete List of Entries (So Far)
 [2026-09-30 02:40:48 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1718 in / 518 out tokens
+[2026-09-30 02:40:49 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abc76b18dfc4065bfa591809866283
+[2026-09-30 02:40:49 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 156/400 chars, resolved=True): Kenyan nurse wins fully funded scholarship to Oxford University after 
+[2026-09-30 02:40:50 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-30 02:41:14 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: 3 Fully-Funded PhD Scholarships in the Netherlands Closing in September 2026
+[2026-09-30 02:41:14 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1530 in / 569 out tokens
