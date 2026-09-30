@@ -1621,3 +1621,18 @@
 [2026-09-30 11:16:25 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1574 in / 613 out tokens
 [2026-09-30 11:16:42 PM] [DRAMAS_BOT] [SUCCESS] Published: Pro-Japan Turkey: Is the memory faint because it wasn't on the exam?
 [2026-09-30 11:16:42 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1545 in / 564 out tokens
+[2026-09-30 11:16:43 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abd985b8912465a8bf127d50036202
+[2026-09-30 11:16:43 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 192/400 chars, resolved=True): Youth Action Summit 2027 to be held in Berlin, applications open till 
+[2026-09-30 11:16:44 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-30 11:16:50 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-30 11:17:00 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-09-30 11:17:16 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-09-30 11:17:36 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-09-30 11:17:38 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 11:18:09 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-09-30 11:18:11 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 11:18:41 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 11:19:11 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 11:19:42 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 11:20:23 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Youth Action Summit 2027 In Berlin: Applications Open Till October 5, Check Eligibility, Scholarships
+[2026-09-30 11:20:24 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 982 in / 527 out tokens
