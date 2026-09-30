@@ -1649,3 +1649,7 @@
 [2026-09-30 11:21:38 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-09-30 11:22:22 PM] [HEALTH_BOT] [SUCCESS] Published: Scientists find unexpected mental health benefit of lifting weights – and you don't have to go heavy
 [2026-09-30 11:22:23 PM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1526 in / 603 out tokens
+[2026-09-30 11:22:24 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-30 11:22:27 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-09-30 11:22:43 PM] [HISTORY_BOT] [SUCCESS] Published: Archaeologists Spot Strange Stones in a German Forest Belonging to a Lost Roman Temple
+[2026-09-30 11:22:43 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1031 in / 421 out tokens
