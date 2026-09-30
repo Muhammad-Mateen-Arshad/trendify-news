@@ -1422,3 +1422,8 @@
 [2026-09-30 02:38:24 AM] [NEWS_BOT] [WARN] news.html not found - card not added
 [2026-09-30 02:38:24 AM] [NEWS_BOT] [SUCCESS] Published: IMF-linked plan to boost local currency bond market unveiled
 [2026-09-30 02:38:25 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1440 in / 524 out tokens
+[2026-09-30 02:38:33 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-30 02:38:47 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-30 02:38:58 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-30 02:39:11 AM] [JOBS_BOT] [SUCCESS] Published: People now ask why jobs couldn’t be secured during Cong rule without paying money: Himanta
+[2026-09-30 02:39:11 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1662 in / 466 out tokens
