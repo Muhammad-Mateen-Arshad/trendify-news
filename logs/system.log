@@ -1595,3 +1595,20 @@
 [2026-09-30 05:30:32 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-09-30 05:30:34 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-09-30 05:31:04 PM] [HEALTH_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
+[2026-09-30 05:31:07 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abd475ab5d849868206c37b31278b9
+[2026-09-30 05:31:07 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 91/400 chars, resolved=True): Could a human outrun a T. rex? New evidence offers an answer
+[2026-09-30 05:31:07 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abd475ab5d849868206c37b31278b9
+[2026-09-30 05:31:07 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): Scientists confirmed a scorpion over 3 feet long... its claws were twi
+[2026-09-30 05:31:07 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abd475ab5d849868206c37b31278b9
+[2026-09-30 05:31:07 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 123/400 chars, resolved=True): Stomach, liver and intestines of 245 million year old marine reptile u
+[2026-09-30 05:31:07 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abd475b39f64feab1fb6a90278212e
+[2026-09-30 05:31:07 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-Rex 2X Long HOOD Daily Target ETF
+[2026-09-30 05:31:08 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abd475b39f64feab1fb6a90278212e
+[2026-09-30 05:31:08 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long SNDK Daily Target ETF
+[2026-09-30 05:31:08 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abd475cf03f4464aa3b4bf396728a5
+[2026-09-30 05:31:08 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 159/400 chars, resolved=True): Indus Valley Civilization: Harappan mysteries unveiled
+[2026-09-30 05:31:08 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abd475cf03f4464aa3b4bf396728a5
+[2026-09-30 05:31:08 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 159/400 chars, resolved=True): Morocco reveals africa's oldest 4,000-year-old defensive wal
+[2026-09-30 05:31:08 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abd475cf03f4464aa3b4bf396728a5
+[2026-09-30 05:31:08 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 93/400 chars, resolved=True): Archaeologists Opened a Tomb Sealed for 600 Years—and Found Gold, Bone
+[2026-09-30 05:31:08 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8}
