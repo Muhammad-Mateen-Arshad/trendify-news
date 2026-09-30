@@ -1487,3 +1487,7 @@
 [2026-09-30 10:03:53 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1383 in / 375 out tokens
 [2026-09-30 10:04:08 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Two Fully Funded PhD Scholarships in UK Closing This Week
 [2026-09-30 10:04:09 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 989 in / 677 out tokens
+[2026-09-30 10:04:10 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-09-30 10:04:10 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-09-30 10:04:27 AM] [HEALTH_BOT] [SUCCESS] Published: Does Your Brain Actually Shrink During Pregnancy? Gynaecologist Answers
+[2026-09-30 10:04:28 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1483 in / 477 out tokens
