@@ -1491,3 +1491,20 @@
 [2026-09-30 10:04:10 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
 [2026-09-30 10:04:27 AM] [HEALTH_BOT] [SUCCESS] Published: Does Your Brain Actually Shrink During Pregnancy? Gynaecologist Answers
 [2026-09-30 10:04:28 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1483 in / 477 out tokens
+[2026-09-30 10:04:29 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abcdeac2c0a4ffe8cfcaddc1bc13ec
+[2026-09-30 10:04:29 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): Frozen in stone for 150 million years, dinosaur eggs found almost exac
+[2026-09-30 10:04:29 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abcdeac2c0a4ffe8cfcaddc1bc13ec
+[2026-09-30 10:04:29 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 91/400 chars, resolved=True): Could a human outrun a T. rex? New evidence offers an answer
+[2026-09-30 10:04:29 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abcdeac2c0a4ffe8cfcaddc1bc13ec
+[2026-09-30 10:04:29 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Rare dinosaur exhibition makes American debut at Perot Museum in Dalla
+[2026-09-30 10:04:30 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abcdeade88344db9d658afd172a7f5
+[2026-09-30 10:04:30 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long BMNR Daily Target ETF
+[2026-09-30 10:04:30 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abcdeade88344db9d658afd172a7f5
+[2026-09-30 10:04:30 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long SNDK Daily Target ETF
+[2026-09-30 10:04:30 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abcdeaec33d40c9938eb50733fc27e
+[2026-09-30 10:04:30 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 159/400 chars, resolved=True): Indus Valley Civilization: Harappan mysteries unveiled
+[2026-09-30 10:04:30 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abcdeaec33d40c9938eb50733fc27e
+[2026-09-30 10:04:30 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 159/400 chars, resolved=True): Ancient maya water management: engineering a civilization's
+[2026-09-30 10:04:32 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-30 10:05:16 AM] [HISTORY_BOT] [SUCCESS] Published: The Great Mystery of Small Seals: The Indus Script Records
+[2026-09-30 10:05:17 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1472 in / 539 out tokens
