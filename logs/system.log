@@ -1475,3 +1475,7 @@
 [2026-09-30 02:43:00 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abc7732618a402fa68dd2d16bd7640
 [2026-09-30 02:43:00 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long SNDK Daily Target ETF
 [2026-09-30 02:43:00 AM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8}
+[2026-09-30 10:02:58 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-30 10:03:20 AM] [NEWS_BOT] [WARN] news.html not found - card not added
+[2026-09-30 10:03:21 AM] [NEWS_BOT] [SUCCESS] Published: Tarar warns India's unilateral actions on IWT may have implications for water governance globally
+[2026-09-30 10:03:21 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1291 in / 506 out tokens
