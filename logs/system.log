@@ -1419,3 +1419,6 @@
 [2026-09-29 11:18:39 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-09-29 11:18:41 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-09-29 11:18:43 PM] [HISTORY_BOT] [ERROR] AI unavailable: All Gemini keys are rate-limited (429)
+[2026-09-30 02:38:24 AM] [NEWS_BOT] [WARN] news.html not found - card not added
+[2026-09-30 02:38:24 AM] [NEWS_BOT] [SUCCESS] Published: IMF-linked plan to boost local currency bond market unveiled
+[2026-09-30 02:38:25 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1440 in / 524 out tokens
