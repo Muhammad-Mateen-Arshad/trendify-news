@@ -1523,3 +1523,41 @@
 [2026-09-30 05:10:07 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-09-30 05:10:37 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-09-30 05:10:39 PM] [NEWS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
+[2026-09-30 05:10:43 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abd4292317e47e9b24b2c31b37a857
+[2026-09-30 05:10:43 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 197/400 chars, resolved=True): Chhattisgarh cabinet clears recruitment rules for 10 PC quota for form
+[2026-09-30 05:10:43 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abd4293471847948343ae16b29a765
+[2026-09-30 05:10:43 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-09-30 05:10:44 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abd4294533d4164be4504a61167c80
+[2026-09-30 05:10:44 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): The latest: Trump says top tech firms have signed accord to ‘self-poli
+[2026-09-30 05:10:46 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-30 05:10:51 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-09-30 05:10:53 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-09-30 05:11:08 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-09-30 05:11:30 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-09-30 05:11:55 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:12:26 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:12:56 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:13:27 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:13:57 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:14:27 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:14:59 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:15:39 PM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (131 words, need 150); too many 'not specified' (source too thin)): US forces exit Iraq after more than 2 decades of war
+[2026-09-30 05:15:39 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abd4294533d4164be4504a61167c80
+[2026-09-30 05:15:39 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 143/400 chars, resolved=True): ‘No one will give your kids drugs after December 31, 2029’: Amit Shah’
+[2026-09-30 05:15:39 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abd4294533d4164be4504a61167c80
+[2026-09-30 05:15:39 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 118/400 chars, resolved=True): Hegseth plans 20% cut to general, admiral positions: Reports
+[2026-09-30 05:15:44 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-09-30 05:15:50 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-09-30 05:16:00 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-09-30 05:16:22 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-09-30 05:16:46 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-09-30 05:17:11 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:17:42 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:18:13 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:18:44 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:19:14 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:19:44 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:20:14 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-09-30 05:20:23 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:20:54 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-09-30 05:21:24 PM] [JOBS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
