@@ -1458,3 +1458,20 @@
 [2026-09-30 02:42:37 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-09-30 02:42:56 AM] [HEALTH_BOT] [SUCCESS] Published: Decades of aerobic exercise may help older adults age with more resilience
 [2026-09-30 02:42:57 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1515 in / 481 out tokens
+[2026-09-30 02:42:57 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abc7731129340f6a481db00d7df5a5
+[2026-09-30 02:42:57 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 197/400 chars, resolved=True): New China Dinosaur Species Sets Tooth Record; Hints at Niche-Splitting
+[2026-09-30 02:42:57 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abc7731129340f6a481db00d7df5a5
+[2026-09-30 02:42:57 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): Frozen in stone for 150 million years, dinosaur eggs found almost exac
+[2026-09-30 02:42:58 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abc7731129340f6a481db00d7df5a5
+[2026-09-30 02:42:58 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): Could a human outrun a T. rex? New evidence offers an answer
+[2026-09-30 02:42:58 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abc7731129340f6a481db00d7df5a5
+[2026-09-30 02:42:58 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Rare dinosaur exhibition makes American debut at Perot Museum in Dalla
+[2026-09-30 02:42:58 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abc7731129340f6a481db00d7df5a5
+[2026-09-30 02:42:58 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 195/400 chars, resolved=True): Ancient bird becomes second Australian species to be named from the Cr
+[2026-09-30 02:42:59 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abc7732618a402fa68dd2d16bd7640
+[2026-09-30 02:42:59 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 149/400 chars, resolved=True): Recent Release, "Chores for Dinosaurs," from Page Publishing Author Je
+[2026-09-30 02:42:59 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abc7732618a402fa68dd2d16bd7640
+[2026-09-30 02:42:59 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long BMNR Daily Target ETF
+[2026-09-30 02:43:00 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abc7732618a402fa68dd2d16bd7640
+[2026-09-30 02:43:00 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long SNDK Daily Target ETF
+[2026-09-30 02:43:00 AM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8}
