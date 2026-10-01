@@ -1852,3 +1852,19 @@
 [2026-10-01 11:32:15 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 197/400 chars, resolved=True): Number of Deborah Rowland Scholarship recipients rises for 2026
 [2026-10-01 11:32:29 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Diocese launches Church Management program through Villanova for business managers, priests
 [2026-10-01 11:32:29 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1289 in / 471 out tokens
+[2026-10-01 11:32:30 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-01 11:32:30 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-01 11:32:31 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abeed8e161a48dcba955c776d4e735
+[2026-10-01 11:32:31 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): AAFT Online opens admissions for its online diploma in nutrition and w
+[2026-10-01 11:32:31 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abeed8e161a48dcba955c776d4e735
+[2026-10-01 11:32:31 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 38/800 chars, resolved=True): The new rules of good, deep sleep, according to experts
+[2026-10-01 11:32:32 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abeed8fcf674a95a635715d196f0f8
+[2026-10-01 11:32:32 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 87/800 chars, resolved=True): The simple exercise Al Roker does every day for healthy aging
+[2026-10-01 11:32:32 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abeed8fcf674a95a635715d196f0f8
+[2026-10-01 11:32:32 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 152/800 chars, resolved=True): The Way You Talk May Reveal Clues About How Well You’re Aging
+[2026-10-01 11:32:47 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abeed8fcf674a95a635715d196f0f8
+[2026-10-01 11:32:47 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Feeling Younger, Moving More: How Aging Attitudes Drive Exercise Habit
+[2026-10-01 11:32:48 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-01 11:32:50 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-01 11:33:07 PM] [HEALTH_BOT] [SUCCESS] Published: Cellular recycling changes with age, but not how we expected
+[2026-10-01 11:33:08 PM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1489 in / 451 out tokens
