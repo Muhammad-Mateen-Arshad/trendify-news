@@ -1760,3 +1760,17 @@
 [2026-10-01 10:40:08 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abe3881c3634d3789183d88d32f31d
 [2026-10-01 10:40:08 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 150/800 chars, resolved=True): Want to Feel Better in Middle Age? A New Study Points to This 30-Minut
 [2026-10-01 10:40:08 AM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 12, 'tried': 8, 'thin': 8}
+[2026-10-01 10:40:10 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-01 10:40:13 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-01 10:40:24 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-01 10:40:40 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-01 10:41:04 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-01 10:41:31 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 10:42:06 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 10:42:36 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 10:43:09 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 10:43:46 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 10:44:18 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 10:44:49 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 10:45:34 AM] [HISTORY_BOT] [SUCCESS] Published: October has two birthstones for the price of one: opal and tourmaline
+[2026-10-01 10:45:35 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1408 in / 406 out tokens
