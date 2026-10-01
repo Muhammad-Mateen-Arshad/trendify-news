@@ -1662,3 +1662,15 @@
 [2026-10-01 02:43:02 AM] [NEWS_BOT] [WARN] news.html not found - card not added
 [2026-10-01 02:43:02 AM] [NEWS_BOT] [SUCCESS] Published: PM to gather allies as tensions with PTI mount
 [2026-10-01 02:43:03 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1530 in / 534 out tokens
+[2026-10-01 02:43:04 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abdc8b7f82c472c85fc480c77439aa
+[2026-10-01 02:43:04 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 197/400 chars, resolved=True): Chhattisgarh cabinet clears recruitment rules for 10 PC quota for form
+[2026-10-01 02:43:04 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abdc8b85e8c448192510670b751ac5
+[2026-10-01 02:43:04 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-01 02:43:07 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-01 02:43:09 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-01 02:43:12 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-01 02:43:18 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-01 02:43:39 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-01 02:44:04 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 02:44:49 AM] [JOBS_BOT] [SUCCESS] Published: Cabinet nod to Green Energy Corridor Phase-III will give a push to India’s non-fossil capacity, help create more jobs: PM Modi
+[2026-10-01 02:44:49 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1222 in / 480 out tokens
