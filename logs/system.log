@@ -1704,3 +1704,9 @@
 [2026-10-01 02:45:54 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-01 02:46:12 AM] [HEALTH_BOT] [SUCCESS] Published: Lifelong Aerobic Exercise Linked to Healthier Aging
 [2026-10-01 02:46:13 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 943 in / 586 out tokens
+[2026-10-01 02:46:15 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-01 02:46:17 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-01 02:46:20 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-01 02:46:22 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-01 02:46:56 AM] [HISTORY_BOT] [SUCCESS] Published: Bring The Whole Family To Wisconsin’s Most Famous Interactive Museum For An Unforgettable Day Out
+[2026-10-01 02:46:57 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1545 in / 398 out tokens
