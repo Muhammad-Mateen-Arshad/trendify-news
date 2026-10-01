@@ -1777,3 +1777,18 @@
 [2026-10-01 05:35:45 PM] [NEWS_BOT] [WARN] news.html not found - card not added
 [2026-10-01 05:35:45 PM] [NEWS_BOT] [SUCCESS] Published: ‘Why the need for all this drama’: DG ISPR lampoons India's 'neutralised Pakistani terrorist' claims, presents him before media
 [2026-10-01 05:35:45 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1731 in / 503 out tokens
+[2026-10-01 05:35:50 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-01 05:35:59 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-01 05:36:09 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-01 05:36:11 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-01 05:36:32 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-01 05:37:05 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 05:37:36 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 05:38:06 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-01 05:38:09 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 05:38:40 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 05:39:10 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 05:39:41 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 05:40:11 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 05:40:42 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 05:41:12 PM] [JOBS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
