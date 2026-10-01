@@ -1717,3 +1717,9 @@
 [2026-10-01 10:32:15 AM] [NEWS_BOT] [WARN] news.html not found - card not added
 [2026-10-01 10:32:15 AM] [NEWS_BOT] [SUCCESS] Published: ‘Calibrated’ air strikes target terrorist hideouts at two locations in Afghanistan: info ministry
 [2026-10-01 10:32:15 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1520 in / 495 out tokens
+[2026-10-01 10:32:25 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-01 10:32:30 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-01 10:32:41 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-01 10:32:56 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-01 10:33:38 AM] [JOBS_BOT] [SUCCESS] Published: HEC Announces Jobs With 6-Figure Salaries
+[2026-10-01 10:33:38 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1443 in / 755 out tokens
