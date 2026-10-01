@@ -1677,3 +1677,15 @@
 [2026-10-01 02:44:51 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-10-01 02:45:09 AM] [DRAMAS_BOT] [SUCCESS] Published: All the Movies Leaving Netflix in October 2026
 [2026-10-01 02:45:09 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1601 in / 673 out tokens
+[2026-10-01 02:45:10 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abdc936e44143778e17aa768bda323
+[2026-10-01 02:45:10 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 192/400 chars, resolved=True): Youth Action Summit 2027 to be held in Berlin, applications open till 
+[2026-10-01 02:45:10 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abdc936e44143778e17aa768bda323
+[2026-10-01 02:45:10 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 140/400 chars, resolved=True): Youth Action Summit 2027 to be held in Berlin; apply before October 5,
+[2026-10-01 02:45:14 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-01 02:45:16 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-01 02:45:18 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-01 02:45:29 AM] [SCHOLARSHIPS_BOT] [INFO] Rejected by quality gate (too short (90 words, need 150)): Explore Fully Funded PhD Opportunities at World #18 CUHK
+[2026-10-01 02:45:29 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abdc936e44143778e17aa768bda323
+[2026-10-01 02:45:29 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 157/400 chars, resolved=True): Youth Action Summit 2027 in Berlin: Applications Open, Check Eligibili
+[2026-10-01 02:45:45 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Admissions Announced for Aircraft Maintenance Course With Scholarships
+[2026-10-01 02:45:45 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 2 calls, 1687 in / 860 out tokens
