@@ -1674,3 +1674,6 @@
 [2026-10-01 02:44:04 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-01 02:44:49 AM] [JOBS_BOT] [SUCCESS] Published: Cabinet nod to Green Energy Corridor Phase-III will give a push to India’s non-fossil capacity, help create more jobs: PM Modi
 [2026-10-01 02:44:49 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1222 in / 480 out tokens
+[2026-10-01 02:44:51 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-01 02:45:09 AM] [DRAMAS_BOT] [SUCCESS] Published: All the Movies Leaving Netflix in October 2026
+[2026-10-01 02:45:09 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1601 in / 673 out tokens
