@@ -1848,3 +1848,7 @@
 [2026-10-01 11:31:58 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-10-01 11:32:14 PM] [DRAMAS_BOT] [SUCCESS] Published: Virgin River Season 8: Expected Netflix Release Date & Everything We Know So Far
 [2026-10-01 11:32:15 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1645 in / 480 out tokens
+[2026-10-01 11:32:15 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abeed7fa7e1437e8bb3fd0247c974a
+[2026-10-01 11:32:15 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 197/400 chars, resolved=True): Number of Deborah Rowland Scholarship recipients rises for 2026
+[2026-10-01 11:32:29 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Diocese launches Church Management program through Villanova for business managers, priests
+[2026-10-01 11:32:29 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1289 in / 471 out tokens
