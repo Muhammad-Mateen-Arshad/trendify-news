@@ -1792,3 +1792,8 @@
 [2026-10-01 05:40:11 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-01 05:40:42 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-01 05:41:12 PM] [JOBS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
+[2026-10-01 05:41:24 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-01 05:41:29 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-01 05:41:36 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-01 05:42:06 PM] [DRAMAS_BOT] [SUCCESS] Published: Netflix’s ‘Not a Stranger’ Cast (with Pictures)
+[2026-10-01 05:42:06 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 960 in / 516 out tokens
