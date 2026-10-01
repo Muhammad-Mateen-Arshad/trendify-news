@@ -1774,3 +1774,6 @@
 [2026-10-01 10:44:49 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-01 10:45:34 AM] [HISTORY_BOT] [SUCCESS] Published: October has two birthstones for the price of one: opal and tourmaline
 [2026-10-01 10:45:35 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1408 in / 406 out tokens
+[2026-10-01 05:35:45 PM] [NEWS_BOT] [WARN] news.html not found - card not added
+[2026-10-01 05:35:45 PM] [NEWS_BOT] [SUCCESS] Published: ‘Why the need for all this drama’: DG ISPR lampoons India's 'neutralised Pakistani terrorist' claims, presents him before media
+[2026-10-01 05:35:45 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1731 in / 503 out tokens
