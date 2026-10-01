@@ -1723,3 +1723,6 @@
 [2026-10-01 10:32:56 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
 [2026-10-01 10:33:38 AM] [JOBS_BOT] [SUCCESS] Published: HEC Announces Jobs With 6-Figure Salaries
 [2026-10-01 10:33:38 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1443 in / 755 out tokens
+[2026-10-01 10:33:42 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-01 10:34:03 AM] [DRAMAS_BOT] [SUCCESS] Published: Propaganda Kultural Turki: Glorifikasi Utsmani dan Pengaruhnya di Asia Selatan
+[2026-10-01 10:34:03 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1495 in / 407 out tokens
