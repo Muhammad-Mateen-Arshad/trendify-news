@@ -1710,3 +1710,10 @@
 [2026-10-01 02:46:22 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
 [2026-10-01 02:46:56 AM] [HISTORY_BOT] [SUCCESS] Published: Bring The Whole Family To Wisconsin’s Most Famous Interactive Museum For An Unforgettable Day Out
 [2026-10-01 02:46:57 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1545 in / 398 out tokens
+[2026-10-01 10:31:02 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-01 10:31:14 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-01 10:31:25 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-01 10:31:40 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-01 10:32:15 AM] [NEWS_BOT] [WARN] news.html not found - card not added
+[2026-10-01 10:32:15 AM] [NEWS_BOT] [SUCCESS] Published: ‘Calibrated’ air strikes target terrorist hideouts at two locations in Afghanistan: info ministry
+[2026-10-01 10:32:15 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1520 in / 495 out tokens
