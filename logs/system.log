@@ -1802,3 +1802,17 @@
 [2026-10-01 05:42:29 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-01 05:42:45 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Middlebury to become tuition free for students with family income up to $175,000
 [2026-10-01 05:42:46 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1517 in / 485 out tokens
+[2026-10-01 05:42:47 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-01 05:42:47 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-01 05:42:50 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-01 05:42:52 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-01 05:43:01 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-01 05:43:18 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-01 05:43:42 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-01 05:44:08 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 05:44:41 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 05:45:17 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 05:45:59 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 05:46:31 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 05:47:16 PM] [HEALTH_BOT] [SUCCESS] Published: Too Much Screen Time May Affect Children’s Health: What a New Study Reveals
+[2026-10-01 05:47:17 PM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1337 in / 472 out tokens
