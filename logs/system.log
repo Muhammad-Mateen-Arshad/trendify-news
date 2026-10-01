@@ -1868,3 +1868,12 @@
 [2026-10-01 11:32:50 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-01 11:33:07 PM] [HEALTH_BOT] [SUCCESS] Published: Cellular recycling changes with age, but not how we expected
 [2026-10-01 11:33:08 PM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1489 in / 451 out tokens
+[2026-10-01 11:33:09 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-01 11:33:16 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-01 11:33:27 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-01 11:33:39 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-01 11:33:59 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-01 11:34:13 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 11:35:00 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 11:35:45 PM] [HISTORY_BOT] [SUCCESS] Published: Four-Winged Dinosaur Discovery in China Suggests Flight Evolved Separately From Birds
+[2026-10-01 11:35:45 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 900 in / 528 out tokens
