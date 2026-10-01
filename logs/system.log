@@ -1843,3 +1843,8 @@
 [2026-10-01 11:31:38 PM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (133 words, need 150); too many 'not specified' (source too thin)): Pakistani airstrikes in Afghanistan kill 10 civilians, Kabul and UN sa
 [2026-10-01 11:31:56 PM] [JOBS_BOT] [SUCCESS] Published: Okta: Fake IT workers are getting stealthier than ever
 [2026-10-01 11:31:57 PM] [JOBS_BOT] [INFO] AI usage: 2 calls, 3021 in / 869 out tokens
+[2026-10-01 11:31:58 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abeed6d82004fbebdf2b1b4c9ae3de
+[2026-10-01 11:31:58 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 196/300 chars, resolved=True): October 2026 OTT releases: Dupahiya season 2 to Nobody Wants This seas
+[2026-10-01 11:31:58 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-01 11:32:14 PM] [DRAMAS_BOT] [SUCCESS] Published: Virgin River Season 8: Expected Netflix Release Date & Everything We Know So Far
+[2026-10-01 11:32:15 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1645 in / 480 out tokens
