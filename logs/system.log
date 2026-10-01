@@ -1838,3 +1838,8 @@
 [2026-10-01 11:31:26 PM] [NEWS_BOT] [WARN] news.html not found - card not added
 [2026-10-01 11:31:26 PM] [NEWS_BOT] [SUCCESS] Published: PM Shehbaz met Trump at reception banquet on UNGA sidelines
 [2026-10-01 11:31:27 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 831 in / 533 out tokens
+[2026-10-01 11:31:27 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abeed4fc61d4e6ca986651b931ee33
+[2026-10-01 11:31:27 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): PM vows to turn economic stability into jobs, business opportunities
+[2026-10-01 11:31:38 PM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (133 words, need 150); too many 'not specified' (source too thin)): Pakistani airstrikes in Afghanistan kill 10 civilians, Kabul and UN sa
+[2026-10-01 11:31:56 PM] [JOBS_BOT] [SUCCESS] Published: Okta: Fake IT workers are getting stealthier than ever
+[2026-10-01 11:31:57 PM] [JOBS_BOT] [INFO] AI usage: 2 calls, 3021 in / 869 out tokens
