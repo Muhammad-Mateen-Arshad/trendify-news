@@ -1833,3 +1833,8 @@
 [2026-10-01 05:52:08 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-01 05:52:47 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-01 05:53:17 PM] [HISTORY_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
+[2026-10-01 11:31:05 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-01 11:31:11 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-01 11:31:26 PM] [NEWS_BOT] [WARN] news.html not found - card not added
+[2026-10-01 11:31:26 PM] [NEWS_BOT] [SUCCESS] Published: PM Shehbaz met Trump at reception banquet on UNGA sidelines
+[2026-10-01 11:31:27 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 831 in / 533 out tokens
