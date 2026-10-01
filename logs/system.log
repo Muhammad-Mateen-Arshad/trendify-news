@@ -1726,3 +1726,20 @@
 [2026-10-01 10:33:42 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
 [2026-10-01 10:34:03 AM] [DRAMAS_BOT] [SUCCESS] Published: Propaganda Kultural Turki: Glorifikasi Utsmani dan Pengaruhnya di Asia Selatan
 [2026-10-01 10:34:03 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1495 in / 407 out tokens
+[2026-10-01 10:34:04 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abe371c3b3f41ed89fbfb8eef94fae
+[2026-10-01 10:34:04 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 157/400 chars, resolved=True): Youth Action Summit 2027 in Berlin: Applications Open, Check Eligibili
+[2026-10-01 10:34:14 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-01 10:34:20 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-01 10:34:31 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-01 10:35:00 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-01 10:35:21 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-01 10:35:53 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 10:36:24 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 10:36:55 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 10:37:25 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 10:37:55 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-01 10:38:03 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 10:38:35 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 10:39:06 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-01 10:39:58 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Phish Fans Launch Scholarship for Undergraduate Music Students in Vermont
+[2026-10-01 10:39:58 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 806 in / 506 out tokens
