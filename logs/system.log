@@ -2228,3 +2228,5 @@
 [2026-10-02 09:36:59 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-02 09:37:01 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-02 09:37:03 PM] [HISTORY_BOT] [ERROR] AI unavailable: All Gemini keys are rate-limited (429)
+[2026-10-02 11:21:17 PM] [NEWS_BOT] [SUCCESS] Published: 2 civilians martyred in firing by Indian forces near Kasur border: state media
+[2026-10-02 11:21:18 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 632 in / 430 out tokens
