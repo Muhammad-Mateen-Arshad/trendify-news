@@ -2275,3 +2275,20 @@
 [2026-10-02 11:28:11 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-02 11:28:31 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: HEC Opens Overseas Research Fellowship With Up to $1,500 Monthly Allowance for Pakistanis
 [2026-10-02 11:28:31 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 3 calls, 4104 in / 1185 out tokens
+[2026-10-02 11:28:32 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-02 11:28:32 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-02 11:28:33 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac03e213e184cf88a90ffdca9f68d3
+[2026-10-02 11:28:33 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 74/800 chars, resolved=True): Supplements for longevity are everywhere, but do they actually work? E
+[2026-10-02 11:28:33 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac03e213e184cf88a90ffdca9f68d3
+[2026-10-02 11:28:33 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 195/800 chars, resolved=True): Senior Pet Care Guide: What Changes After Age 7
+[2026-10-02 11:28:33 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac03e213e184cf88a90ffdca9f68d3
+[2026-10-02 11:28:33 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 29/800 chars, resolved=True): Nearly Half of Women Face This Workout Challenge Before They Even Star
+[2026-10-02 11:28:34 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac03e2141d847b8a846e2cd4e553f8
+[2026-10-02 11:28:34 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 87/800 chars, resolved=True): The simple exercise Al Roker does every day for healthy aging
+[2026-10-02 11:28:49 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac03e2141d847b8a846e2cd4e553f8
+[2026-10-02 11:28:49 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Feeling Younger, Moving More: How Aging Attitudes Drive Exercise Habit
+[2026-10-02 11:28:49 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac03e2141d847b8a846e2cd4e553f8
+[2026-10-02 11:28:49 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Exercise May Reduce Cellular Recycling Rates to More Youthful Levels
+[2026-10-02 11:28:49 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac03e2141d847b8a846e2cd4e553f8
+[2026-10-02 11:28:49 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 204/800 chars, resolved=True): Sticking to one diet matched 2.5 years of delayed brain aging in 1,647
+[2026-10-02 11:28:49 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 12, 'tried': 8, 'thin': 8}
