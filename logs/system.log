@@ -1900,3 +1900,10 @@
 [2026-10-02 02:48:20 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-02 02:48:38 AM] [DRAMAS_BOT] [SUCCESS] Published: New K-Dramas on Netflix in November 2026
 [2026-10-02 02:48:39 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1289 in / 625 out tokens
+[2026-10-02 02:48:39 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf1b872789436ebf26382c204f4ff
+[2026-10-02 02:48:39 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 197/400 chars, resolved=True): Number of Deborah Rowland Scholarship recipients rises for 2026
+[2026-10-02 02:48:40 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-02 02:48:43 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-02 02:48:45 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-02 02:49:01 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: IRS proposes rule for groundbreaking school choice program
+[2026-10-02 02:49:01 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1512 in / 553 out tokens
