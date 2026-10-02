@@ -1936,3 +1936,27 @@
 [2026-10-02 10:11:47 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-02 10:12:22 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-02 10:12:52 AM] [NEWS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
+[2026-10-02 10:12:54 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf83a635854f528de8362ff3ea578
+[2026-10-02 10:12:54 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): PM vows to turn economic stability into jobs, business opportunities
+[2026-10-02 10:12:55 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf83a635854f528de8362ff3ea578
+[2026-10-02 10:12:55 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): India-China flights: The route to Hotan passes via South Block
+[2026-10-02 10:12:55 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf83a75caf40769c3d12bf2e5eaeb
+[2026-10-02 10:12:55 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 130/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-02 10:12:55 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf83a74c29491eb14209f87f949df
+[2026-10-02 10:12:55 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 194/400 chars, resolved=True): Give BJP 'ek mauka', will make Punjab drug-free by Dec 2029: Shah
+[2026-10-02 10:13:11 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (146 words, need 150); too many 'not specified' (source too thin)): Effective altruism is this century’s biggest idea
+[2026-10-02 10:13:19 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-02 10:13:30 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-02 10:13:52 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (128 words, need 150)): The Times & The Sunday Times Homepage
+[2026-10-02 10:13:58 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-02 10:14:22 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (125 words, need 150); too many 'not specified' (source too thin)): Manchester City case, English Federation: "Verdict has repercussions o
+[2026-10-02 10:14:24 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-02 10:14:30 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-02 10:14:42 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-02 10:15:26 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-02 10:15:53 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-02 10:16:25 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 10:16:59 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 10:17:29 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 10:18:11 AM] [JOBS_BOT] [SUCCESS] Published: SPSC Announces Government Jobs Across Sindh
+[2026-10-02 10:18:11 AM] [JOBS_BOT] [INFO] AI usage: 4 calls, 6121 in / 1559 out tokens
