@@ -1960,3 +1960,9 @@
 [2026-10-02 10:17:29 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-02 10:18:11 AM] [JOBS_BOT] [SUCCESS] Published: SPSC Announces Government Jobs Across Sindh
 [2026-10-02 10:18:11 AM] [JOBS_BOT] [INFO] AI usage: 4 calls, 6121 in / 1559 out tokens
+[2026-10-02 10:18:13 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf84e492234ce5a3604eed2b6ed2b
+[2026-10-02 10:18:13 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 196/300 chars, resolved=True): October 2026 OTT releases: Dupahiya season 2 to Nobody Wants This seas
+[2026-10-02 10:18:13 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf84e492234ce5a3604eed2b6ed2b
+[2026-10-02 10:18:13 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 173/300 chars, resolved=True): Amelia Dimoldenberg’s 'Chicken Shop Date' gets a Netflix release date 
+[2026-10-02 10:18:28 AM] [DRAMAS_BOT] [SUCCESS] Published: ‘East of Eden’ Episode Release Date, Cast, Characters and Where to Watch
+[2026-10-02 10:18:28 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1214 in / 540 out tokens
