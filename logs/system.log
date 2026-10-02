@@ -2094,3 +2094,27 @@
 [2026-10-02 05:04:04 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-02 05:04:46 PM] [JOBS_BOT] [SUCCESS] Published: Aurangzeb reviews economic reforms, trade and investment with World Bank, UK envoy
 [2026-10-02 05:04:46 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1356 in / 400 out tokens
+[2026-10-02 05:04:47 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 289/300 chars, resolved=True): The Apothecary Diaries season 3 release schedule: When are new episode
+[2026-10-02 05:04:47 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abfe42f22a0476ab1cb2e7b889f5b7
+[2026-10-02 05:04:47 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 196/300 chars, resolved=True): October 2026 OTT releases: Dupahiya season 2 to Nobody Wants This seas
+[2026-10-02 05:04:48 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abfe42f22a0476ab1cb2e7b889f5b7
+[2026-10-02 05:04:48 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 126/300 chars, resolved=True): Major update revealed for long-delayed The Watcher season 2 at Netflix
+[2026-10-02 05:04:48 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abfe42f22a0476ab1cb2e7b889f5b7
+[2026-10-02 05:04:48 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 135/300 chars, resolved=True): The Gentlemen Season 3: Release Date and Everything You Need to Know
+[2026-10-02 05:04:48 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abfe4306ba84e588b48dbdd6d177ba
+[2026-10-02 05:04:48 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 203/300 chars, resolved=True): Kuma - The other wife | show | 2025 | official trailer
+[2026-10-02 05:04:49 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-02 05:05:07 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-02 05:05:17 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-02 05:05:19 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-02 05:05:30 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-02 05:06:12 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 05:06:46 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 05:07:16 PM] [AI_BOT] [INFO] Switched to Gemini key 5 of 5
+[2026-10-02 05:07:32 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 05:08:23 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 05:09:41 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 05:10:39 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 05:11:16 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 05:12:26 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 05:12:56 PM] [DRAMAS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
