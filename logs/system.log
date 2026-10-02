@@ -1877,3 +1877,6 @@
 [2026-10-01 11:35:00 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-01 11:35:45 PM] [HISTORY_BOT] [SUCCESS] Published: Four-Winged Dinosaur Discovery in China Suggests Flight Evolved Separately From Birds
 [2026-10-01 11:35:45 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 900 in / 528 out tokens
+[2026-10-02 02:47:00 AM] [NEWS_BOT] [WARN] news.html not found - card not added
+[2026-10-02 02:47:00 AM] [NEWS_BOT] [SUCCESS] Published: Islamabad hints at cautious shift on US sanctions against Iran
+[2026-10-02 02:47:00 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1323 in / 436 out tokens
