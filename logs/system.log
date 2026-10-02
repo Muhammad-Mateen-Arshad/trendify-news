@@ -2061,3 +2061,8 @@
 [2026-10-02 04:49:53 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-02 04:50:38 PM] [HEALTH_BOT] [SUCCESS] Published: I’m a Geriatrics Doctor—Here Are the 9 Things I Wish More People Understood About Alzheimer’s
 [2026-10-02 04:50:38 PM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1703 in / 563 out tokens
+[2026-10-02 04:50:49 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-02 04:50:54 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-02 04:50:56 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-02 04:51:15 PM] [HISTORY_BOT] [SUCCESS] Published: Scientists Discover New Dinosaur Species from Remarkably Complete Fossil — and Its Feathers Are Still Preserved
+[2026-10-02 04:51:15 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1052 in / 537 out tokens
