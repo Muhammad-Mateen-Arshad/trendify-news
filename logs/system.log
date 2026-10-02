@@ -1986,3 +1986,6 @@
 [2026-10-02 10:19:24 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Feeling Younger, Moving More: How Aging Attitudes Drive Exercise Habit
 [2026-10-02 10:19:24 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1572 in / 635 out tokens
 [2026-10-02 10:19:24 AM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 13, 'tried': 7, 'thin': 6, 'rejected': 1}
+[2026-10-02 10:19:27 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-02 10:19:43 AM] [HISTORY_BOT] [SUCCESS] Published: Stunning fossil shows dinosaurs' distinctive path to flight
+[2026-10-02 10:19:43 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1623 in / 533 out tokens
