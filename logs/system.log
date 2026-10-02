@@ -1880,3 +1880,12 @@
 [2026-10-02 02:47:00 AM] [NEWS_BOT] [WARN] news.html not found - card not added
 [2026-10-02 02:47:00 AM] [NEWS_BOT] [SUCCESS] Published: Islamabad hints at cautious shift on US sanctions against Iran
 [2026-10-02 02:47:00 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1323 in / 436 out tokens
+[2026-10-02 02:47:01 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf1b24826b4e30bc448d70acc7c1f
+[2026-10-02 02:47:01 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): PM vows to turn economic stability into jobs, business opportunities
+[2026-10-02 02:47:02 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-02 02:47:18 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too many 'not specified' (source too thin)): Over 66,000 Pakistanis travel abroad for jobs in two months
+[2026-10-02 02:47:18 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf1b36ea90459fab3f6cc46ff0441
+[2026-10-02 02:47:18 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 130/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-02 02:47:19 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-02 02:47:37 AM] [JOBS_BOT] [SUCCESS] Published: FC Balochistan Announces Jobs
+[2026-10-02 02:47:37 AM] [JOBS_BOT] [INFO] AI usage: 2 calls, 2316 in / 1233 out tokens
