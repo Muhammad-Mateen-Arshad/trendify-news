@@ -11,7 +11,7 @@ from pathlib import Path
 import requests
 
 from . import config
-from .textutil import esc
+from .textutil import esc, shorten
 
 DASHBOARD_MARKER = "<!-- NEW_LOG_HERE -->"
 
@@ -30,7 +30,7 @@ def log(label, level, message):
         print(f"(could not write log file: {e})")
 
 
-def telegram(niche, title, article_url):
+def telegram(niche, title, article_url, image_url=None):
     if not config.TELEGRAM_TOKEN:
         return
     text = (
@@ -38,6 +38,26 @@ def telegram(niche, title, article_url):
         f"📌 {esc(title)}\n\n"
         f'👇 <a href="{esc(article_url)}">Read full details</a>'
     )
+
+    if image_url:
+        try:
+            resp = requests.post(
+                f"https://api.telegram.org/bot{config.TELEGRAM_TOKEN}/sendPhoto",
+                json={
+                    "chat_id": config.TELEGRAM_CHANNEL,
+                    "photo": image_url,
+                    "caption": shorten(text, 1024),  # Telegram's photo-caption limit
+                    "parse_mode": "HTML",
+                },
+                timeout=20,
+            )
+            if resp.status_code == 200:
+                return
+            log(niche.label, "WARN", f"Telegram sendPhoto {resp.status_code}, falling back to text: {resp.text[:150]}")
+        except Exception as e:
+            log(niche.label, "WARN", f"Telegram sendPhoto failed ({e}), falling back to text")
+
+    # No image, or the photo send failed (e.g. Telegram could not fetch that URL)
     payload = {
         "chat_id": config.TELEGRAM_CHANNEL,
         "text": text,

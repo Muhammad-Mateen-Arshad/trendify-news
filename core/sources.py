@@ -5,7 +5,7 @@ it from inventing salaries, deadlines and qualifications.
 """
 import urllib.robotparser
 from dataclasses import dataclass
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
 
 import feedparser
 import requests
@@ -34,6 +34,7 @@ class SourceInfo:
     resolved: bool     # True when the link is the publisher's own page
     text: str          # text the AI may use
     publisher: str
+    image_url: str = ""  # the publisher's own social-share image (og:image), if found
 
 
 def _get(url, timeout=None):
@@ -135,31 +136,48 @@ def robots_allows(url):
     return parser.can_fetch(config.ROBOTS_TOKEN, url)
 
 
-# ------------------------------------------------------------------ page text
-def extract_text(url):
-    """Main readable text of a page (paragraphs and list items), or '' if not allowed / not possible."""
+# ------------------------------------------------------------------ page text + image
+def _meta_image(soup, base_url):
+    """The image the publisher itself uses when the page is shared on social media."""
+    for attrs in (
+        {"property": "og:image:secure_url"},
+        {"property": "og:image"},
+        {"name": "twitter:image"},
+        {"name": "twitter:image:src"},
+    ):
+        tag = soup.find("meta", attrs=attrs)
+        content = tag.get("content", "").strip() if tag else ""
+        if content:
+            return urljoin(base_url, content)
+    return ""
+
+
+def extract_page(url):
+    """Main readable text (paragraphs and list items) and the page's share
+    image, in one fetch. Returns ("", "") if not allowed or not possible."""
     try:
         if not robots_allows(url):
-            return ""
+            return "", ""
         resp = _get(url)
         if resp.status_code != 200 or "html" not in resp.headers.get("Content-Type", "").lower():
-            return ""
+            return "", ""
         soup = BeautifulSoup(resp.content, "html.parser")
+        image_url = _meta_image(soup, url)
         for tag in soup(["script", "style", "nav", "header", "footer", "aside", "form", "noscript", "iframe"]):
             tag.decompose()
         container = soup.find("article") or soup.find("main") or soup.body or soup
         parts = [p.get_text(" ", strip=True) for p in container.find_all(["p", "li"])]
         text = "\n".join(p for p in parts if len(p) > 40)
-        return text[: config.SOURCE_TEXT_LIMIT]
+        return text[: config.SOURCE_TEXT_LIMIT], image_url
     except Exception:
-        return ""
+        return "", ""
 
 
 def gather(candidate):
-    """Resolve the link and collect the text the AI will be allowed to use."""
+    """Resolve the link and collect the text (and image) the AI / publisher is allowed to use."""
     link = resolve_link(candidate.link)
     resolved = "news.google.com" not in link
-    page_text = extract_text(link) if resolved else ""
+    page_text, page_image = extract_page(link) if resolved else ("", "")
     if resolved and not page_text:
         notify.log("SOURCES", "WARN", f"Resolved but could not extract page text: {link[:90]}")
     summary = html_to_text(candidate.summary)
@@ -168,4 +186,7 @@ def gather(candidate):
     else:
         text = (summary + "\n" + page_text).strip()
     publisher = candidate.publisher or (urlparse(link).netloc.replace("www.", "") if resolved else "the source")
-    return SourceInfo(link=link, resolved=resolved, text=text[: config.SOURCE_TEXT_LIMIT], publisher=publisher)
+    return SourceInfo(
+        link=link, resolved=resolved, text=text[: config.SOURCE_TEXT_LIMIT],
+        publisher=publisher, image_url=page_image,
+    )

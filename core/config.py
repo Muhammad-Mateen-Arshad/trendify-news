@@ -40,9 +40,13 @@ TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN") or ""
 
 # ---------------------------------------------------------------- images
 UNSPLASH_ACCESS_KEY = os.environ.get("UNSPLASH_ACCESS_KEY") or ""
-# Images found inside news RSS feeds belong to the publishers.
-# Leave this False unless you have permission to reuse them.
-USE_SOURCE_IMAGES = (os.environ.get("USE_SOURCE_IMAGES") or "").lower() in ("1", "true", "yes")
+# When True (the default): use the publisher's own share-image (og:image)
+# from the real article page, with a credit line linking back to them.
+# This is the same "hotlink + credit" approach most news aggregators use,
+# but it is still their image, not a license to it - it carries some
+# copyright risk. Set the GitHub secret USE_SOURCE_IMAGES=false to turn
+# this off and fall back to Unsplash / AI-generated images only.
+USE_SOURCE_IMAGES = (os.environ.get("USE_SOURCE_IMAGES") or "true").lower() in ("1", "true", "yes")
 
 # ---------------------------------------------------------------- scraping behaviour
 USER_AGENT = f"Mozilla/5.0 (compatible; TrendifyBot/1.0; +{SITE_URL})"
