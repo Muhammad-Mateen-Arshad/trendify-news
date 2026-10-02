@@ -1971,3 +1971,18 @@
 [2026-10-02 10:18:30 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-10-02 10:18:50 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: International schools in Asia where young talent is recognised and supported
 [2026-10-02 10:18:50 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1484 in / 531 out tokens
+[2026-10-02 10:18:52 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-02 10:18:52 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-02 10:18:52 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf850c1d7f4351bb5ec6b957e831a
+[2026-10-02 10:18:52 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Why Do Your Ears Feel Blocked and Hurt After a Flight? ENT Explains
+[2026-10-02 10:18:53 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf850c1d7f4351bb5ec6b957e831a
+[2026-10-02 10:18:53 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 38/800 chars, resolved=True): The new rules of good, deep sleep, according to experts
+[2026-10-02 10:18:53 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf850d8df8476ebac1b9c6510f988
+[2026-10-02 10:18:53 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 87/800 chars, resolved=True): The simple exercise Al Roker does every day for healthy aging
+[2026-10-02 10:18:53 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf850d8df8476ebac1b9c6510f988
+[2026-10-02 10:18:53 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Exercise May Reduce Cellular Recycling Rates to More Youthful Levels
+[2026-10-02 10:19:09 AM] [HEALTH_BOT] [INFO] Rejected by quality gate (numbers not found in source: 4500): Susan Young Browne Is 108: What Helps People Stay Healthy Into Their 1
+[2026-10-02 10:19:24 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf850d8df8476ebac1b9c6510f988
+[2026-10-02 10:19:24 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Feeling Younger, Moving More: How Aging Attitudes Drive Exercise Habit
+[2026-10-02 10:19:24 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1572 in / 635 out tokens
+[2026-10-02 10:19:24 AM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 13, 'tried': 7, 'thin': 6, 'rejected': 1}
