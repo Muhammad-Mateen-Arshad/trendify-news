@@ -55,7 +55,7 @@ def _process(niche, candidate, ai, seen):
         seen.mark(candidate.title, candidate.link, "rejected", niche.name)
         return "rejected"
 
-    image_url, credit = images.pick(niche, candidate)
+    image_url, credit = images.pick(niche, candidate, source)
     filename, url = publish.build_article(niche, candidate.title, body, image_url, credit, source)
 
     # The article file exists now: remember it BEFORE the optional steps,
@@ -68,7 +68,7 @@ def _process(niche, candidate, ai, seen):
     _safe(niche, "Sitemap update", publish.update_sitemap)
     notify.log(niche.label, "SUCCESS", f"Published: {candidate.title}")
     notify.dashboard(niche, "SUCCESS", f"Published: {candidate.title}")
-    notify.telegram(niche, candidate.title, url)
+    notify.telegram(niche, candidate.title, url, image_url)
     return "published"
 
 

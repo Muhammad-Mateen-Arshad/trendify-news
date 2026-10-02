@@ -1,6 +1,8 @@
 """Picks an article image.
 
-Order: (optional) source image -> Unsplash (needs UNSPLASH_ACCESS_KEY) -> Pollinations AI image.
+Order: real image from the source article (og:image) -> Unsplash (needs
+UNSPLASH_ACCESS_KEY) -> Pollinations AI image, so the site never ends up
+with no image at all even when scraping fails.
 Returns (image_url, credit_html). credit_html is an attribution line to show under the article.
 """
 import hashlib
@@ -50,9 +52,19 @@ def _pollinations(niche, title, seed):
     return f"https://image.pollinations.ai/prompt/{prompt}?width=800&height=400&nologo=true&seed={seed % 1000}"
 
 
-def pick(niche, candidate):
-    if config.USE_SOURCE_IMAGES and candidate.image_url:
-        return candidate.image_url, ""
+def _source_credit(source):
+    return (
+        f'Image via <a href="{esc(source.link)}" target="_blank" rel="noopener">'
+        f"{esc(source.publisher)}</a>"
+    )
+
+
+def pick(niche, candidate, source=None):
+    if config.USE_SOURCE_IMAGES:
+        if source is not None and source.image_url:
+            return source.image_url, _source_credit(source)
+        if candidate.image_url:  # image carried in the RSS entry itself (rare with Bing)
+            return candidate.image_url, ""
     seed = _seed(candidate.title)
     url, credit = _unsplash(niche.image_query, seed)
     if url:
