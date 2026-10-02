@@ -2013,3 +2013,10 @@
 [2026-10-02 04:36:44 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-02 04:37:23 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-02 04:37:53 PM] [JOBS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
+[2026-10-02 04:37:55 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 289/300 chars, resolved=True): The Apothecary Diaries season 3 release schedule: When are new episode
+[2026-10-02 04:37:55 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abfdde307f04caa880b8d87bda87d5
+[2026-10-02 04:37:55 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 196/300 chars, resolved=True): October 2026 OTT releases: Dupahiya season 2 to Nobody Wants This seas
+[2026-10-02 04:37:57 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-02 04:37:59 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-02 04:38:17 PM] [DRAMAS_BOT] [SUCCESS] Published: New Kannada OTT Release Movies 2026: Latest Kannada Movies & Web Series Streaming Online
+[2026-10-02 04:38:17 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1554 in / 666 out tokens
