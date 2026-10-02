@@ -1996,3 +1996,20 @@
 [2026-10-02 04:31:29 PM] [NEWS_BOT] [WARN] news.html not found - card not added
 [2026-10-02 04:31:29 PM] [NEWS_BOT] [SUCCESS] Published: Dar says Makkah defence pact committee to meet next week on Houthi attacks on Saudi Arabia
 [2026-10-02 04:31:29 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1575 in / 500 out tokens
+[2026-10-02 04:31:30 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abfdc61ea584604856bd2c52a6771b
+[2026-10-02 04:31:30 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): PM vows to turn economic stability into jobs, business opportunities
+[2026-10-02 04:31:31 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-02 04:31:35 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-02 04:32:04 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-02 04:32:20 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-02 04:32:52 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-02 04:33:17 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:33:52 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:34:23 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:34:58 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:35:28 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-02 04:35:34 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:36:10 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:36:44 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:37:23 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:37:53 PM] [JOBS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
