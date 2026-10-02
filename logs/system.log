@@ -2178,3 +2178,7 @@
 [2026-10-02 09:33:41 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-02 09:34:27 PM] [JOBS_BOT] [SUCCESS] Published: Pakistani Entrepreneur Builds AI-Powered Search Tool for All Govt Services
 [2026-10-02 09:34:28 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 939 in / 513 out tokens
+[2026-10-02 09:34:35 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-02 09:34:40 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-02 09:34:59 PM] [DRAMAS_BOT] [SUCCESS] Published: 7 Best Anime Series Coming to Crunchyroll and Netflix in October 2026
+[2026-10-02 09:35:00 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1610 in / 576 out tokens
