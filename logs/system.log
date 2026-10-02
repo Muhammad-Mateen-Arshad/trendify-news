@@ -2020,3 +2020,18 @@
 [2026-10-02 04:37:59 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-02 04:38:17 PM] [DRAMAS_BOT] [SUCCESS] Published: New Kannada OTT Release Movies 2026: Latest Kannada Movies & Web Series Streaming Online
 [2026-10-02 04:38:17 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1554 in / 666 out tokens
+[2026-10-02 04:38:35 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-02 04:38:40 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-02 04:38:42 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-02 04:38:45 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-02 04:39:05 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-02 04:39:32 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:40:02 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:40:32 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:41:05 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:41:35 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:42:15 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:43:02 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:43:37 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:44:09 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:44:39 PM] [SCHOLARSHIPS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
