@@ -1907,3 +1907,15 @@
 [2026-10-02 02:48:45 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-02 02:49:01 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: IRS proposes rule for groundbreaking school choice program
 [2026-10-02 02:49:01 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1512 in / 553 out tokens
+[2026-10-02 02:49:02 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-02 02:49:02 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-02 02:49:03 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf1b9e3044475a83aa1e614c350dc
+[2026-10-02 02:49:03 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 38/800 chars, resolved=True): The new rules of good, deep sleep, according to experts
+[2026-10-02 02:49:03 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf1b9e3044475a83aa1e614c350dc
+[2026-10-02 02:49:03 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 39/800 chars, resolved=True): This Buzzy Supplement Could Increase Your Strength Without Exercise
+[2026-10-02 02:49:03 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf1b9fb73d4d74934a7b05037b93a
+[2026-10-02 02:49:03 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 87/800 chars, resolved=True): The simple exercise Al Roker does every day for healthy aging
+[2026-10-02 02:49:18 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf1b9fb73d4d74934a7b05037b93a
+[2026-10-02 02:49:18 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Feeling Younger, Moving More: How Aging Attitudes Drive Exercise Habit
+[2026-10-02 02:49:33 AM] [HEALTH_BOT] [SUCCESS] Published: How Exercise May Protect Aging Joints
+[2026-10-02 02:49:33 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 982 in / 558 out tokens
