@@ -1921,3 +1921,18 @@
 [2026-10-02 02:49:33 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 982 in / 558 out tokens
 [2026-10-02 02:49:54 AM] [HISTORY_BOT] [SUCCESS] Published: Discovery of Exquisite Feathered Dinosaur in China Could Rewrite The Evolution of Flight
 [2026-10-02 02:49:55 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1161 in / 507 out tokens
+[2026-10-02 10:06:04 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-02 10:06:09 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-02 10:06:19 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-02 10:06:35 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-02 10:06:56 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-02 10:07:22 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 10:07:53 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 10:08:27 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 10:08:58 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 10:09:43 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 10:10:33 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 10:11:16 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 10:11:47 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 10:12:22 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 10:12:52 AM] [NEWS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
