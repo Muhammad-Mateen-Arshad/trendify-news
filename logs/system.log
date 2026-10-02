@@ -2292,3 +2292,31 @@
 [2026-10-02 11:28:49 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac03e2141d847b8a846e2cd4e553f8
 [2026-10-02 11:28:49 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 204/800 chars, resolved=True): Sticking to one diet matched 2.5 years of delayed brain aging in 1,647
 [2026-10-02 11:28:49 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 12, 'tried': 8, 'thin': 8}
+[2026-10-02 11:29:05 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac03e3147c642c6913d43f1da8db0c
+[2026-10-02 11:29:05 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 123/400 chars, resolved=True): A Gobi Desert fossil is changing what scientists thought about early m
+[2026-10-02 11:29:05 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac03e3147c642c6913d43f1da8db0c
+[2026-10-02 11:29:05 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 55/400 chars, resolved=True): Russell Vought and his budgeting cronies are using this sketchy loopho
+[2026-10-02 11:29:05 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac03e3147c642c6913d43f1da8db0c
+[2026-10-02 11:29:05 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): Sleeping giant awakens! Colossal titanosaur bone hidden for 41 years i
+[2026-10-02 11:29:06 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac03e41238f43dc8ceeeace3570312
+[2026-10-02 11:29:06 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-Rex 2X Long HOOD Daily Target ETF
+[2026-10-02 11:29:06 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac03e41238f43dc8ceeeace3570312
+[2026-10-02 11:29:06 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long SNDK Daily Target ETF
+[2026-10-02 11:29:06 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac03e4212af4777873db09f417fa8b
+[2026-10-02 11:29:06 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 159/400 chars, resolved=True): Morocco reveals africa's oldest 4,000-year-old defensive wal
+[2026-10-02 11:29:06 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac03e4212af4777873db09f417fa8b
+[2026-10-02 11:29:06 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 159/400 chars, resolved=True): Indus Valley Civilization: Harappan mysteries unveiled
+[2026-10-02 11:29:08 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-02 11:29:10 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-02 11:29:12 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-02 11:29:20 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-02 11:29:40 PM] [AI_BOT] [INFO] Switched to Gemini key 5 of 5
+[2026-10-02 11:29:42 PM] [AI_BOT] [WARN] All keys rate-limited, waiting 40s once
+[2026-10-02 11:30:22 PM] [AI_BOT] [INFO] Switched to Gemini key 1 of 5
+[2026-10-02 11:30:24 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-02 11:30:27 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-02 11:30:51 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 11:31:21 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 11:31:51 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-02 11:32:07 PM] [HISTORY_BOT] [SUCCESS] Published: Israel: A 2,000-year-old Jewish ritual bath weighing 25 metric tons has been discovered. It was moved using a crane.
+[2026-10-02 11:32:07 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1522 in / 565 out tokens
