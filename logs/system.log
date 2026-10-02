@@ -2066,3 +2066,18 @@
 [2026-10-02 04:50:56 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-02 04:51:15 PM] [HISTORY_BOT] [SUCCESS] Published: Scientists Discover New Dinosaur Species from Remarkably Complete Fossil — and Its Feathers Are Still Preserved
 [2026-10-02 04:51:15 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1052 in / 537 out tokens
+[2026-10-02 04:54:26 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-02 04:54:47 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-02 04:54:57 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-02 04:55:36 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-02 04:55:57 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-02 04:56:30 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:57:00 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-02 04:57:06 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:57:38 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:58:34 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:59:16 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 04:59:59 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 05:01:08 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 05:01:47 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-02 05:02:17 PM] [NEWS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
