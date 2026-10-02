@@ -1989,3 +1989,10 @@
 [2026-10-02 10:19:27 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-10-02 10:19:43 AM] [HISTORY_BOT] [SUCCESS] Published: Stunning fossil shows dinosaurs' distinctive path to flight
 [2026-10-02 10:19:43 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1623 in / 533 out tokens
+[2026-10-02 04:30:21 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-02 04:30:26 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-02 04:30:32 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-02 04:30:55 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-02 04:31:29 PM] [NEWS_BOT] [WARN] news.html not found - card not added
+[2026-10-02 04:31:29 PM] [NEWS_BOT] [SUCCESS] Published: Dar says Makkah defence pact committee to meet next week on Houthi attacks on Saudi Arabia
+[2026-10-02 04:31:29 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1575 in / 500 out tokens
