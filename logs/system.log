@@ -2371,3 +2371,6 @@
 [2026-10-03 02:35:14 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac069d23c7a4b759a60eb78b51a296
 [2026-10-03 02:35:14 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Exercise May Reduce Cellular Recycling Rates to More Youthful Levels
 [2026-10-03 02:35:14 AM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 12, 'tried': 8, 'thin': 8}
+[2026-10-03 02:35:15 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-03 02:35:30 AM] [HISTORY_BOT] [SUCCESS] Published: A Gobi Desert fossil is changing what scientists thought about early mammals
+[2026-10-03 02:35:31 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 766 in / 447 out tokens
