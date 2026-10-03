@@ -2471,3 +2471,14 @@
 [2026-10-03 06:53:29 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-03 06:54:12 PM] [NEWS_BOT] [SUCCESS] Published: Official outcome of govt-opposition talks awaited after hours-long meeting
 [2026-10-03 06:54:14 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1531 in / 466 out tokens
+[2026-10-03 06:54:16 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac14f563b744762bb8ef2b2b49d948
+[2026-10-03 06:54:16 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 147/400 chars, resolved=True): Pakistan, World Bank review economic reforms, growth, investment prior
+[2026-10-03 06:54:17 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac14f583c3c4dfe846b02b9ff615dc
+[2026-10-03 06:54:17 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-03 06:54:17 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac14f5935d14774bcc9caa309066fb
+[2026-10-03 06:54:17 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 125/400 chars, resolved=True): Egypt, Ethiopia expel diplomats in tit-for-tat diplomatic row
+[2026-10-03 06:54:29 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-03 06:54:34 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-03 06:54:53 PM] [JOBS_BOT] [SUCCESS] Published: Center-2026 strategic military exercises ends in Russia's Chelyabinsk
+[2026-10-03 06:54:53 PM] [JOBS_BOT] [WARN] Telegram sendPhoto 400, falling back to text: {"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}
+[2026-10-03 06:54:54 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1546 in / 444 out tokens
