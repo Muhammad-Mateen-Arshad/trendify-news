@@ -2529,3 +2529,18 @@
 [2026-10-03 08:40:14 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-03 08:41:00 PM] [NEWS_BOT] [SUCCESS] Published: Bilawal says Centre was ready to impose emergency in KP but PPP sought 'political solution'
 [2026-10-03 08:41:03 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1545 in / 554 out tokens
+[2026-10-03 08:41:05 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac168600637406f9b528c4f0379963
+[2026-10-03 08:41:05 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 147/400 chars, resolved=True): Pakistan, World Bank review economic reforms, growth, investment prior
+[2026-10-03 08:41:05 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac16861038b4a02a1b12b7b996996e
+[2026-10-03 08:41:05 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-03 08:41:05 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac168614f394af7937f221be9bdd26
+[2026-10-03 08:41:05 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 137/400 chars, resolved=True): Op Sindoor Showcases PM Modi’s Strategic Terror Response
+[2026-10-03 08:41:06 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac168614f394af7937f221be9bdd26
+[2026-10-03 08:41:06 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 125/400 chars, resolved=True): Egypt, Ethiopia expel diplomats in tit-for-tat diplomatic row
+[2026-10-03 08:41:07 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 269/400 chars, resolved=True): Women, Girls Make Up 60 Percent Of Afghans At Risk Of Food Insecurity,
+[2026-10-03 08:41:31 PM] [JOBS_BOT] [INFO] Rejected by quality gate (too many 'not specified' (source too thin)): Kim Jong Un’s ‘Unstoppable’ Missile Unveiled: New Weapon Dodges Enemy 
+[2026-10-03 08:41:31 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1687bf9db4ac3a7863f4dce7a245
+[2026-10-03 08:41:31 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-03 08:41:32 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-03 08:41:49 PM] [JOBS_BOT] [SUCCESS] Published: KP Launches e-Fard Portal For Easy Access to Land Services
+[2026-10-03 08:41:52 PM] [JOBS_BOT] [INFO] AI usage: 2 calls, 2580 in / 1058 out tokens
