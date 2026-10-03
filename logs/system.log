@@ -2482,3 +2482,15 @@
 [2026-10-03 06:54:53 PM] [JOBS_BOT] [SUCCESS] Published: Center-2026 strategic military exercises ends in Russia's Chelyabinsk
 [2026-10-03 06:54:53 PM] [JOBS_BOT] [WARN] Telegram sendPhoto 400, falling back to text: {"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}
 [2026-10-03 06:54:54 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1546 in / 444 out tokens
+[2026-10-03 06:54:55 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac14f7fe3654877a6aa8cdd9290f37
+[2026-10-03 06:54:55 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 86/300 chars, resolved=True): Looking for Your Next Binge? Netflix’s 'East of Eden' Is the Current H
+[2026-10-03 06:54:55 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac14f7fe3654877a6aa8cdd9290f37
+[2026-10-03 06:54:55 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 129/300 chars, resolved=True): Netflix's 7-part East of Eden series fixes the 1955 movie's biggest fl
+[2026-10-03 06:54:55 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac14f7fe3654877a6aa8cdd9290f37
+[2026-10-03 06:54:55 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 146/300 chars, resolved=True): Netflix's exciting new era begins this weekend
+[2026-10-03 06:54:56 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 92/300 chars, resolved=True): Black Clover season 2 release schedule: When are new episodes out on C
+[2026-10-03 06:54:56 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac14f803d2245b49fefacd4cbc105d
+[2026-10-03 06:54:56 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 203/300 chars, resolved=True): Kuma - The other wife | show | 2025 | official trailer
+[2026-10-03 06:54:57 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-03 06:55:13 PM] [DRAMAS_BOT] [SUCCESS] Published: ‘Not a Stranger’ Release Date, Cast, Trailer, Plot and Everything Else You Need to Know About Netflix’s Creepy New Nanny Thriller
+[2026-10-03 06:55:15 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1315 in / 523 out tokens
