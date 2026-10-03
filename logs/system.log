@@ -2704,3 +2704,13 @@
 [2026-10-03 09:20:24 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-03 09:20:39 PM] [DRAMAS_BOT] [SUCCESS] Published: ‘Graveyard’ Season 3 Release Date, Plot, Cast and Everything to Know About Netflix’s Turkish Crime Hit
 [2026-10-03 09:20:40 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1288 in / 478 out tokens
+[2026-10-03 09:20:42 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 350/400 chars, resolved=True): Study in Greece: Bringing Greek Higher Education to the World
+[2026-10-03 09:20:42 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac171a9d30f48728fc453696eea217
+[2026-10-03 09:20:42 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 145/400 chars, resolved=True): Amy Acton outlines education plan for Ohio in one-on-one with 3News' D
+[2026-10-03 09:20:43 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac171aa1c124ccea895797d3996115
+[2026-10-03 09:20:43 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 121/400 chars, resolved=True): Who is Vishal Kumar Metre? Karnataka student arrested for links to Sha
+[2026-10-03 09:20:44 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-03 09:20:46 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-03 09:20:48 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-03 09:21:05 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Step Up for Students scholarships help local homeschool family
+[2026-10-03 09:21:06 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 984 in / 439 out tokens
