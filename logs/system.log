@@ -2463,3 +2463,11 @@
 [2026-10-03 03:22:37 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
 [2026-10-03 03:23:13 PM] [HISTORY_BOT] [SUCCESS] Published: Russell Vought and His Budgeting Cronies Are Using This Sketchy Loophole to Control Government Spending
 [2026-10-03 03:23:13 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1599 in / 328 out tokens
+[2026-10-03 06:51:50 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-03 06:51:55 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-03 06:51:58 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-03 06:52:17 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-03 06:52:50 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-03 06:53:29 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-03 06:54:12 PM] [NEWS_BOT] [SUCCESS] Published: Official outcome of govt-opposition talks awaited after hours-long meeting
+[2026-10-03 06:54:14 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1531 in / 466 out tokens
