@@ -2377,3 +2377,18 @@
 [2026-10-03 09:28:51 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
 [2026-10-03 09:29:09 AM] [NEWS_BOT] [SUCCESS] Published: Pakistan summons Indian envoy over killing of 2 civilians by border troops
 [2026-10-03 09:29:09 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 796 in / 433 out tokens
+[2026-10-03 09:29:11 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac0cae6b4de4df38c23d72346fbd7a
+[2026-10-03 09:29:11 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 147/400 chars, resolved=True): Pakistan, World Bank review economic reforms, growth, investment prior
+[2026-10-03 09:29:12 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac0cae6b4de4df38c23d72346fbd7a
+[2026-10-03 09:29:12 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 137/400 chars, resolved=True): World Bank proposes export-finance products for EXIM Bank to boost tra
+[2026-10-03 09:29:12 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac0cae8343048f08a7edb6437eb069
+[2026-10-03 09:29:12 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 130/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-03 09:29:12 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac0cae8a7f2475db9b79468d907e11
+[2026-10-03 09:29:12 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 187/400 chars, resolved=True): Vladimir Putin attends Russian military drills with troops from Belaru
+[2026-10-03 09:29:21 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (121 words, need 150); too many 'not specified' (source too thin)): COMMENTARY | Spot the illegals — a chilling, sad neighborhood game
+[2026-10-03 09:29:30 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-03 09:29:43 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-03 09:30:03 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-03 09:30:19 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-03 09:31:03 AM] [JOBS_BOT] [SUCCESS] Published: Russia Rehearses Retaking Territory and Creating a Security Zone in Center-2026 Drills Near Kazakhstan
+[2026-10-03 09:31:07 AM] [JOBS_BOT] [INFO] AI usage: 2 calls, 2449 in / 711 out tokens
