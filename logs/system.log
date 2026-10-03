@@ -2354,3 +2354,20 @@
 [2026-10-03 02:34:24 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
 [2026-10-03 02:34:55 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Oct. 2, 2026 | This Week in Government: PSC Approves DTE Special Energy Contracts for Large Google Data Center
 [2026-10-03 02:34:56 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1513 in / 381 out tokens
+[2026-10-03 02:34:57 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-03 02:34:57 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-03 02:34:58 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac069d17cc54f039350e6ed6fded8c
+[2026-10-03 02:34:58 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 74/800 chars, resolved=True): Supplements for longevity are everywhere, but do they actually work? E
+[2026-10-03 02:34:58 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac069d17cc54f039350e6ed6fded8c
+[2026-10-03 02:34:58 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 143/800 chars, resolved=True): Senior Pet Care Guide: What Changes After Age 7
+[2026-10-03 02:34:58 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac069d17cc54f039350e6ed6fded8c
+[2026-10-03 02:34:58 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 29/800 chars, resolved=True): Nearly Half of Women Face This Workout Challenge Before They Even Star
+[2026-10-03 02:34:58 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac069d23c7a4b759a60eb78b51a296
+[2026-10-03 02:34:58 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 61/800 chars, resolved=True): The best late-night drink to support healthy aging, according to dieti
+[2026-10-03 02:34:58 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac069d23c7a4b759a60eb78b51a296
+[2026-10-03 02:34:58 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 87/800 chars, resolved=True): The simple exercise Al Roker does every day for healthy aging
+[2026-10-03 02:35:13 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac069d23c7a4b759a60eb78b51a296
+[2026-10-03 02:35:13 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Feeling Younger, Moving More: How Aging Attitudes Drive Exercise Habit
+[2026-10-03 02:35:14 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac069d23c7a4b759a60eb78b51a296
+[2026-10-03 02:35:14 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Exercise May Reduce Cellular Recycling Rates to More Youthful Levels
+[2026-10-03 02:35:14 AM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 12, 'tried': 8, 'thin': 8}
