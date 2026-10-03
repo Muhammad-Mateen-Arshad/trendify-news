@@ -2548,3 +2548,10 @@
 [2026-10-03 08:41:53 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 86/300 chars, resolved=True): Looking for Your Next Binge? Netflix’s 'East of Eden' Is the Current H
 [2026-10-03 08:42:07 PM] [DRAMAS_BOT] [SUCCESS] Published: Netflix sets The Witcher season 5's fate
 [2026-10-03 08:42:11 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 895 in / 509 out tokens
+[2026-10-03 08:42:13 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 350/400 chars, resolved=True): Study in Greece: Bringing Greek Higher Education to the World
+[2026-10-03 08:42:13 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac168a3e2ca4e78bd03df7cab40675
+[2026-10-03 08:42:13 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 145/400 chars, resolved=True): Amy Acton outlines education plan for Ohio in one-on-one with 3News' D
+[2026-10-03 08:42:14 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-03 08:42:16 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-03 08:42:32 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: MIT Releases Financials And Endowment Figures For 2026
+[2026-10-03 08:42:35 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 926 in / 575 out tokens
