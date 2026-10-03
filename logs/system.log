@@ -2342,3 +2342,7 @@
 [2026-10-03 02:33:17 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac0696da39f49929d5aca8fb48574a
 [2026-10-03 02:33:17 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 130/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
 [2026-10-03 02:33:17 AM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 7}
+[2026-10-03 02:33:29 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-03 02:33:34 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-03 02:33:50 AM] [DRAMAS_BOT] [SUCCESS] Published: Netflix’s New ‘Widow’s Bay’ Replacement Officially Arrives in 1 Week
+[2026-10-03 02:33:51 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1515 in / 406 out tokens
