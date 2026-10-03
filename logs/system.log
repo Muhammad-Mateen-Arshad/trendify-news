@@ -2513,3 +2513,11 @@
 [2026-10-03 06:56:00 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac14fb163114ee3b7fc185e0f906b3
 [2026-10-03 06:56:00 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 87/800 chars, resolved=True): The simple exercise Al Roker does every day for healthy aging
 [2026-10-03 06:56:00 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 14, 'tried': 6, 'thin': 6}
+[2026-10-03 06:56:02 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac14fc01bf74ae98f60688c0695945
+[2026-10-03 06:56:02 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 162/400 chars, resolved=True): 100-Million-Year-Old Spinosaurus Skull Replica Draws El-Sisi's Attenti
+[2026-10-03 06:56:03 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-03 06:56:38 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-03 06:57:16 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-03 06:57:47 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-03 06:58:27 PM] [HISTORY_BOT] [SUCCESS] Published: Just short of its 200th birthday, a landmark natural history museum shuts down
+[2026-10-03 06:58:27 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1605 in / 516 out tokens
