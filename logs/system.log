@@ -2727,3 +2727,20 @@
 [2026-10-03 09:21:16 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac171c4378f420bb2bef45220662c2
 [2026-10-03 09:21:16 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 87/800 chars, resolved=True): The simple exercise Al Roker does every day for healthy aging
 [2026-10-03 09:21:16 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 14, 'tried': 6, 'thin': 6}
+[2026-10-03 09:21:17 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac171cc628e46008714f7cc00281a1
+[2026-10-03 09:21:17 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 162/400 chars, resolved=True): 100-Million-Year-Old Spinosaurus Skull Replica Draws El-Sisi's Attenti
+[2026-10-03 09:21:17 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac171cdc2924df39354b68dac35349
+[2026-10-03 09:21:17 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long SNDK Daily Target ETF
+[2026-10-03 09:21:17 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac171cdc2924df39354b68dac35349
+[2026-10-03 09:21:17 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long BMNR Daily Target ETF
+[2026-10-03 09:21:18 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac171cdc72d4b7ea2f831300396c87
+[2026-10-03 09:21:18 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 154/400 chars, resolved=True): 8 sci-fi movies to watch if you loved Stargate
+[2026-10-03 09:21:18 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac171cdc72d4b7ea2f831300396c87
+[2026-10-03 09:21:18 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 159/400 chars, resolved=True): Morocco reveals africa's oldest 4,000-year-old defensive wal
+[2026-10-03 09:21:18 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac171cdc72d4b7ea2f831300396c87
+[2026-10-03 09:21:18 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 93/400 chars, resolved=True): Archaeologists Opened a Tomb Sealed for 600 Years—and Found Gold, Bone
+[2026-10-03 09:21:18 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac171ce6a9b48c59514f85005c9e30
+[2026-10-03 09:21:18 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): A new species of dinosaur with four wings was just identified by paleo
+[2026-10-03 09:21:18 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac171ce6a9b48c59514f85005c9e30
+[2026-10-03 09:21:18 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 199/400 chars, resolved=True): 'Lizzie' wasn't an early reptile after all, new study reveals
+[2026-10-03 09:21:18 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 5}
