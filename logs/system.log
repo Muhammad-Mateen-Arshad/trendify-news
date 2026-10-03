@@ -2521,3 +2521,11 @@
 [2026-10-03 06:57:47 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
 [2026-10-03 06:58:27 PM] [HISTORY_BOT] [SUCCESS] Published: Just short of its 200th birthday, a landmark natural history museum shuts down
 [2026-10-03 06:58:27 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1605 in / 516 out tokens
+[2026-10-03 08:38:54 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-03 08:38:59 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-03 08:39:02 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-03 08:39:47 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-03 08:40:07 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-03 08:40:14 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-03 08:41:00 PM] [NEWS_BOT] [SUCCESS] Published: Bilawal says Centre was ready to impose emergency in KP but PPP sought 'political solution'
+[2026-10-03 08:41:03 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1545 in / 554 out tokens
