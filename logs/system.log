@@ -2420,3 +2420,12 @@
 [2026-10-03 03:18:41 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
 [2026-10-03 03:19:04 PM] [NEWS_BOT] [SUCCESS] Published: Second round of talks between govt, opposition underway ahead of PTI's Islamabad march
 [2026-10-03 03:19:05 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1537 in / 482 out tokens
+[2026-10-03 03:19:07 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac11ce90a034d40b5ebf862e0af98e
+[2026-10-03 03:19:07 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 147/400 chars, resolved=True): Pakistan, World Bank review economic reforms, growth, investment prior
+[2026-10-03 03:19:07 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac11ce90a034d40b5ebf862e0af98e
+[2026-10-03 03:19:07 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 137/400 chars, resolved=True): World Bank proposes export-finance products for EXIM Bank to boost tra
+[2026-10-03 03:19:07 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac11ceb63b841988b4874ed5977db3
+[2026-10-03 03:19:07 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-03 03:19:15 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-03 03:19:31 PM] [JOBS_BOT] [SUCCESS] Published: Haryana appoints IAS officer Sudhir Rajpal as Additional Chief Secretary, Finance and Planning
+[2026-10-03 03:19:31 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 810 in / 430 out tokens
