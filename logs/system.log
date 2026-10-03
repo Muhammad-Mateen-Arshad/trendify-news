@@ -2691,3 +2691,16 @@
 [2026-10-03 09:20:17 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): National Bank of Pakistan Jobs 2026 NBP Apply Online for Relationship 
 [2026-10-03 09:20:17 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 501 in / 321 out tokens
 [2026-10-03 09:20:17 PM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 7, 'rejected': 1, 'already_seen': 5}
+[2026-10-03 09:20:18 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac17192ccd14e719b745aafc9620aa
+[2026-10-03 09:20:18 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 86/300 chars, resolved=True): Looking for Your Next Binge? Netflix’s 'East of Eden' Is the Current H
+[2026-10-03 09:20:18 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac17192ccd14e719b745aafc9620aa
+[2026-10-03 09:20:18 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 129/300 chars, resolved=True): Netflix's 7-part East of Eden series fixes the 1955 movie's biggest fl
+[2026-10-03 09:20:18 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac17192ccd14e719b745aafc9620aa
+[2026-10-03 09:20:18 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 146/300 chars, resolved=True): Netflix's exciting new era begins this weekend
+[2026-10-03 09:20:19 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac17192336f40d7b6443a0e3379ba2
+[2026-10-03 09:20:19 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 203/300 chars, resolved=True): Kuma - The other wife | show | 2025 | official trailer
+[2026-10-03 09:20:19 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-03 09:20:22 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-03 09:20:24 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-03 09:20:39 PM] [DRAMAS_BOT] [SUCCESS] Published: ‘Graveyard’ Season 3 Release Date, Plot, Cast and Everything to Know About Netflix’s Turkish Crime Hit
+[2026-10-03 09:20:40 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1288 in / 478 out tokens
