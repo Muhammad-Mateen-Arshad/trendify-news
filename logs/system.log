@@ -2374,3 +2374,6 @@
 [2026-10-03 02:35:15 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-10-03 02:35:30 AM] [HISTORY_BOT] [SUCCESS] Published: A Gobi Desert fossil is changing what scientists thought about early mammals
 [2026-10-03 02:35:31 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 766 in / 447 out tokens
+[2026-10-03 09:28:51 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-03 09:29:09 AM] [NEWS_BOT] [SUCCESS] Published: Pakistan summons Indian envoy over killing of 2 civilians by border troops
+[2026-10-03 09:29:09 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 796 in / 433 out tokens
