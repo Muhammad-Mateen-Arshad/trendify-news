@@ -2658,3 +2658,18 @@
 [2026-10-03 08:53:33 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-10-03 08:53:50 PM] [HISTORY_BOT] [SUCCESS] Published: Study finds some dinosaurs snacked on seaweed washed ashore
 [2026-10-03 08:53:51 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1547 in / 553 out tokens
+[2026-10-03 09:14:35 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-03 09:14:38 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-03 09:14:40 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-03 09:14:55 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-03 09:15:16 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-03 09:15:41 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-03 09:16:20 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-03 09:16:51 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-03 09:17:25 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-03 09:17:56 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-03 09:18:26 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-03 09:18:56 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-03 09:19:26 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-03 09:19:57 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-03 09:19:59 PM] [NEWS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
