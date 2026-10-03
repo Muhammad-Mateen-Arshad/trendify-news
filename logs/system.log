@@ -2392,3 +2392,7 @@
 [2026-10-03 09:30:19 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
 [2026-10-03 09:31:03 AM] [JOBS_BOT] [SUCCESS] Published: Russia Rehearses Retaking Territory and Creating a Security Zone in Center-2026 Drills Near Kazakhstan
 [2026-10-03 09:31:07 AM] [JOBS_BOT] [INFO] AI usage: 2 calls, 2449 in / 711 out tokens
+[2026-10-03 09:31:08 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac0cb5c880d4849ab742f1c61d95e3
+[2026-10-03 09:31:08 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 86/300 chars, resolved=True): Looking for Your Next Binge? Netflix’s 'East of Eden' Is the Current H
+[2026-10-03 09:31:23 AM] [DRAMAS_BOT] [SUCCESS] Published: 'All of Us Are Dead' Season 2 release: When and what to expect from next chapter of Netflix's Korean zombie series?
+[2026-10-03 09:31:24 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1233 in / 545 out tokens
