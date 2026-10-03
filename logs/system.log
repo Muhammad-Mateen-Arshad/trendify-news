@@ -2399,3 +2399,15 @@
 [2026-10-03 09:31:39 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
 [2026-10-03 09:31:54 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: McGill University Canada Opens Fully Funded MSc and PhD Scholarships for Pakistanis
 [2026-10-03 09:31:55 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1156 in / 536 out tokens
+[2026-10-03 09:31:56 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-03 09:31:56 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-03 09:31:56 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac0cb8cd9a04428928c4de579b10da
+[2026-10-03 09:31:56 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 74/800 chars, resolved=True): Supplements for longevity are everywhere, but do they actually work? E
+[2026-10-03 09:31:57 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac0cb8cd9a04428928c4de579b10da
+[2026-10-03 09:31:57 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 129/800 chars, resolved=True): New study suggests possible connection between GLP-1s and hair loss in
+[2026-10-03 09:31:57 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac0cb8cd9a04428928c4de579b10da
+[2026-10-03 09:31:57 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 143/800 chars, resolved=True): Senior Pet Care Guide: What Changes After Age 7
+[2026-10-03 09:32:31 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-03 09:32:45 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-03 09:33:12 AM] [HEALTH_BOT] [SUCCESS] Published: The Best Late-Night Drink to Support Healthy Aging, According to Dietitians
+[2026-10-03 09:33:13 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1625 in / 607 out tokens
