@@ -2396,3 +2396,6 @@
 [2026-10-03 09:31:08 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 86/300 chars, resolved=True): Looking for Your Next Binge? Netflix’s 'East of Eden' Is the Current H
 [2026-10-03 09:31:23 AM] [DRAMAS_BOT] [SUCCESS] Published: 'All of Us Are Dead' Season 2 release: When and what to expect from next chapter of Netflix's Korean zombie series?
 [2026-10-03 09:31:24 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1233 in / 545 out tokens
+[2026-10-03 09:31:39 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-03 09:31:54 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: McGill University Canada Opens Fully Funded MSc and PhD Scholarships for Pakistanis
+[2026-10-03 09:31:55 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1156 in / 536 out tokens
