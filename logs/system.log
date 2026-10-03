@@ -2411,3 +2411,8 @@
 [2026-10-03 09:32:45 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
 [2026-10-03 09:33:12 AM] [HEALTH_BOT] [SUCCESS] Published: The Best Late-Night Drink to Support Healthy Aging, According to Dietitians
 [2026-10-03 09:33:13 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1625 in / 607 out tokens
+[2026-10-03 09:33:14 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac0cbd9ee984b23a1d547d972f1aaf
+[2026-10-03 09:33:14 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 55/400 chars, resolved=True): Russell Vought and his budgeting cronies are using this sketchy loopho
+[2026-10-03 09:33:48 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-03 09:34:06 AM] [HISTORY_BOT] [SUCCESS] Published: Titanosaur eggs in Patagonia revealed how dinosaurs reproduced near polar latitudes.
+[2026-10-03 09:34:07 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 923 in / 433 out tokens
