@@ -2320,3 +2320,8 @@
 [2026-10-02 11:31:51 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-02 11:32:07 PM] [HISTORY_BOT] [SUCCESS] Published: Israel: A 2,000-year-old Jewish ritual bath weighing 25 metric tons has been discovered. It was moved using a crane.
 [2026-10-02 11:32:07 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1522 in / 565 out tokens
+[2026-10-03 02:32:31 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-03 02:32:36 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-03 02:32:46 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-03 02:33:13 AM] [NEWS_BOT] [SUCCESS] Published: Some institutions have become hurdles to performance: Naqvi
+[2026-10-03 02:33:13 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1295 in / 453 out tokens
