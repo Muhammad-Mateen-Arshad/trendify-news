@@ -2823,3 +2823,11 @@
 [2026-10-03 11:29:32 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
 [2026-10-03 11:29:54 PM] [NEWS_BOT] [SUCCESS] Published: Efforts underway to repatriate remains of 3 Pakistanis killed while recovering hijacked tanker from Somali pirates: PMO
 [2026-10-03 11:29:55 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1567 in / 525 out tokens
+[2026-10-03 11:29:56 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac18ff353a24ac2a632dbba3cd9b8c
+[2026-10-03 11:29:56 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): World Bank proposes export-finance products for Pakistan's EXIM BankPu
+[2026-10-03 11:29:58 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-03 11:30:03 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-03 11:30:05 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-03 11:30:21 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-03 11:30:54 PM] [JOBS_BOT] [SUCCESS] Published: Constitutional Protection and Minorities. By Khalid Shahzad
+[2026-10-03 11:30:55 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1470 in / 428 out tokens
