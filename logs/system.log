@@ -2435,3 +2435,7 @@
 [2026-10-03 03:20:20 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
 [2026-10-03 03:20:53 PM] [DRAMAS_BOT] [SUCCESS] Published: Burak Ozcivit heads to Cannes to present new drama 'Land of the Sun'
 [2026-10-03 03:20:54 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 674 in / 487 out tokens
+[2026-10-03 03:20:56 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-03 03:21:02 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-03 03:21:22 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Oxford University MBA Scholarship Offers £21,805 Annual Stipend
+[2026-10-03 03:21:23 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1162 in / 532 out tokens
