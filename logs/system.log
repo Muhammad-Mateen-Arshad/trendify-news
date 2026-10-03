@@ -2592,3 +2592,19 @@
 [2026-10-03 08:52:05 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-03 08:52:24 PM] [NEWS_BOT] [SUCCESS] Published: Local automakers voice concerns as imports of used cars surge in Sept
 [2026-10-03 08:52:25 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1581 in / 583 out tokens
+[2026-10-03 08:52:26 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac16b09a50e4108a55c0d15ef67a1f
+[2026-10-03 08:52:26 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 147/400 chars, resolved=True): Pakistan, World Bank review economic reforms, growth, investment prior
+[2026-10-03 08:52:27 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac16b0a1d5d4ca5ac4de72d4cd3a7f
+[2026-10-03 08:52:27 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-03 08:52:27 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac16b0b263641c79389ddfa0511ce6
+[2026-10-03 08:52:27 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 125/400 chars, resolved=True): Egypt, Ethiopia expel diplomats in tit-for-tat diplomatic row
+[2026-10-03 08:52:28 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac16b0b263641c79389ddfa0511ce6
+[2026-10-03 08:52:28 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 137/400 chars, resolved=True): Op Sindoor Showcases PM Modi’s Strategic Terror Response
+[2026-10-03 08:52:29 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 269/400 chars, resolved=True): Women, Girls Make Up 60 Percent Of Afghans At Risk Of Food Insecurity,
+[2026-10-03 08:52:29 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac16b0dc956492ea1792e54a58b7bd
+[2026-10-03 08:52:29 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-03 08:52:29 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac16b0d02f74661b3c0e9022669a4d
+[2026-10-03 08:52:29 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-03 08:52:30 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac16b0d02f74661b3c0e9022669a4d
+[2026-10-03 08:52:30 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 146/400 chars, resolved=True): Latest - September 30, 2026
+[2026-10-03 08:52:30 PM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 3}
