@@ -2744,3 +2744,11 @@
 [2026-10-03 09:21:18 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac171ce6a9b48c59514f85005c9e30
 [2026-10-03 09:21:18 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 199/400 chars, resolved=True): 'Lizzie' wasn't an early reptile after all, new study reveals
 [2026-10-03 09:21:18 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 5}
+[2026-10-03 10:29:14 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-03 10:29:19 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-03 10:29:25 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-03 10:29:41 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-03 10:29:50 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-03 10:30:15 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-03 10:30:31 PM] [NEWS_BOT] [SUCCESS] Published: After hours of negotiations, second round of govt-opposition talks ends in a 'deadlock'
+[2026-10-03 10:30:33 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1611 in / 570 out tokens
