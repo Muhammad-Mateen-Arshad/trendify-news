@@ -2770,3 +2770,15 @@
 [2026-10-03 10:34:46 PM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (135 words, need 150); too many 'not specified' (source too thin)): India's Economic Journey: 150 Years Of Ideas, Policies And The Road To
 [2026-10-03 10:34:59 PM] [JOBS_BOT] [SUCCESS] Published: Experts suggest for long-term policy certainty
 [2026-10-03 10:35:00 PM] [JOBS_BOT] [INFO] AI usage: 2 calls, 3051 in / 825 out tokens
+[2026-10-03 10:35:02 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac18315748349fbbc120287f688c6d
+[2026-10-03 10:35:02 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 86/300 chars, resolved=True): Looking for Your Next Binge? Netflix’s 'East of Eden' Is the Current H
+[2026-10-03 10:35:02 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac18315748349fbbc120287f688c6d
+[2026-10-03 10:35:02 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 129/300 chars, resolved=True): Netflix's 7-part East of Eden series fixes the 1955 movie's biggest fl
+[2026-10-03 10:35:02 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 92/300 chars, resolved=True): Black Clover season 2 release schedule: When are new episodes out on C
+[2026-10-03 10:35:02 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac18315748349fbbc120287f688c6d
+[2026-10-03 10:35:02 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 202/300 chars, resolved=True): Anthony Joshua Netflix documentary: Boxer lands £10m four-part deal; r
+[2026-10-03 10:35:02 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac18316070648bcb5921c843b0f351
+[2026-10-03 10:35:02 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 203/300 chars, resolved=True): Kuma - The other wife | show | 2025 | official trailer
+[2026-10-03 10:35:03 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac18316070648bcb5921c843b0f351
+[2026-10-03 10:35:03 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 161/300 chars, resolved=True): The Turkish drama everyone’s talking about: now the third most-watched
+[2026-10-03 10:35:03 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 10, 'tried': 6, 'thin': 6}
