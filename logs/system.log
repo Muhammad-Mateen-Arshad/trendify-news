@@ -2608,3 +2608,13 @@
 [2026-10-03 08:52:30 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac16b0d02f74661b3c0e9022669a4d
 [2026-10-03 08:52:30 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 146/400 chars, resolved=True): Latest - September 30, 2026
 [2026-10-03 08:52:30 PM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 3}
+[2026-10-03 08:52:31 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac16b0f850b4ba98836d97fa1bdb0b
+[2026-10-03 08:52:31 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 86/300 chars, resolved=True): Looking for Your Next Binge? Netflix’s 'East of Eden' Is the Current H
+[2026-10-03 08:52:31 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac16b0f850b4ba98836d97fa1bdb0b
+[2026-10-03 08:52:31 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 129/300 chars, resolved=True): Netflix's 7-part East of Eden series fixes the 1955 movie's biggest fl
+[2026-10-03 08:52:31 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac16b0f850b4ba98836d97fa1bdb0b
+[2026-10-03 08:52:31 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 146/300 chars, resolved=True): Netflix's exciting new era begins this weekend
+[2026-10-03 08:52:32 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-03 08:52:35 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-03 08:52:52 PM] [DRAMAS_BOT] [SUCCESS] Published: 5 best new movies to watch this weekend on Netflix, Hulu, Prime Video, and more (October 3-4)
+[2026-10-03 08:52:52 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1679 in / 545 out tokens
