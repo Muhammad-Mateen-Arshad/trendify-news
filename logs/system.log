@@ -2544,3 +2544,7 @@
 [2026-10-03 08:41:32 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-10-03 08:41:49 PM] [JOBS_BOT] [SUCCESS] Published: KP Launches e-Fard Portal For Easy Access to Land Services
 [2026-10-03 08:41:52 PM] [JOBS_BOT] [INFO] AI usage: 2 calls, 2580 in / 1058 out tokens
+[2026-10-03 08:41:53 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac168907f1e4f04a6d5b788404dc76
+[2026-10-03 08:41:53 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 86/300 chars, resolved=True): Looking for Your Next Binge? Netflix’s 'East of Eden' Is the Current H
+[2026-10-03 08:42:07 PM] [DRAMAS_BOT] [SUCCESS] Published: Netflix sets The Witcher season 5's fate
+[2026-10-03 08:42:11 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 895 in / 509 out tokens
