@@ -2325,3 +2325,20 @@
 [2026-10-03 02:32:46 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
 [2026-10-03 02:33:13 AM] [NEWS_BOT] [SUCCESS] Published: Some institutions have become hurdles to performance: Naqvi
 [2026-10-03 02:33:13 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1295 in / 453 out tokens
+[2026-10-03 02:33:15 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac0696a361546cd98fbe2dd444dee5
+[2026-10-03 02:33:15 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 147/400 chars, resolved=True): Pakistan, World Bank review economic reforms, growth, investment prior
+[2026-10-03 02:33:15 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac0696a361546cd98fbe2dd444dee5
+[2026-10-03 02:33:15 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 137/400 chars, resolved=True): World Bank proposes export-finance products for EXIM Bank to boost tra
+[2026-10-03 02:33:15 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac0696a361546cd98fbe2dd444dee5
+[2026-10-03 02:33:15 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): India-China flights: The route to Hotan passes via South Block
+[2026-10-03 02:33:16 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac0696b402246d399d7137e98f792b
+[2026-10-03 02:33:16 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 130/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-03 02:33:16 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac0696ca3f146c9958b8705273a77e
+[2026-10-03 02:33:16 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 187/400 chars, resolved=True): Vladimir Putin attends Russian military drills with troops from Belaru
+[2026-10-03 02:33:16 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac0696ca3f146c9958b8705273a77e
+[2026-10-03 02:33:16 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 194/400 chars, resolved=True): Glacier work punted as Trump administration prioritizes D.C. projects 
+[2026-10-03 02:33:17 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac0696cf4504a2f9a1752623848e76
+[2026-10-03 02:33:17 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 130/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-03 02:33:17 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac0696da39f49929d5aca8fb48574a
+[2026-10-03 02:33:17 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 130/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-03 02:33:17 AM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 7}
