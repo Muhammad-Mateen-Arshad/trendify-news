@@ -2454,3 +2454,12 @@
 [2026-10-03 03:21:41 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac11d75d314489cbfd08394bc9aa2c
 [2026-10-03 03:21:41 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Exercise May Reduce Cellular Recycling Rates to More Youthful Levels
 [2026-10-03 03:21:41 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 13, 'tried': 7, 'thin': 7}
+[2026-10-03 03:21:42 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac11d85c4394bb798140259011931e
+[2026-10-03 03:21:42 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 162/400 chars, resolved=True): 100-Million-Year-Old Spinosaurus Skull Replica Draws El-Sisi's Attenti
+[2026-10-03 03:21:44 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-03 03:21:59 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-03 03:22:09 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-03 03:22:14 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-03 03:22:37 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-03 03:23:13 PM] [HISTORY_BOT] [SUCCESS] Published: Russell Vought and His Budgeting Cronies Are Using This Sketchy Loophole to Control Government Spending
+[2026-10-03 03:23:13 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1599 in / 328 out tokens
