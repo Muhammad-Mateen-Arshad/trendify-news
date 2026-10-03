@@ -2416,3 +2416,7 @@
 [2026-10-03 09:33:48 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
 [2026-10-03 09:34:06 AM] [HISTORY_BOT] [SUCCESS] Published: Titanosaur eggs in Patagonia revealed how dinosaurs reproduced near polar latitudes.
 [2026-10-03 09:34:07 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 923 in / 433 out tokens
+[2026-10-03 03:18:21 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-03 03:18:41 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-03 03:19:04 PM] [NEWS_BOT] [SUCCESS] Published: Second round of talks between govt, opposition underway ahead of PTI's Islamabad march
+[2026-10-03 03:19:05 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1537 in / 482 out tokens
