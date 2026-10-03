@@ -2626,3 +2626,18 @@
 [2026-10-03 08:53:09 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-03 08:53:23 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Beyond The Berlin Wall: What German Unity Means For Pakistan
 [2026-10-03 08:53:25 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1323 in / 357 out tokens
+[2026-10-03 08:53:26 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-03 08:53:26 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-03 08:53:27 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac16b46e96a463182e5bf868cff11f
+[2026-10-03 08:53:27 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 129/800 chars, resolved=True): New study suggests possible connection between GLP-1s and hair loss in
+[2026-10-03 08:53:27 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac16b46e96a463182e5bf868cff11f
+[2026-10-03 08:53:27 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 143/800 chars, resolved=True): Senior Pet Care Guide: What Changes After Age 7
+[2026-10-03 08:53:27 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac16b46e96a463182e5bf868cff11f
+[2026-10-03 08:53:27 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 38/800 chars, resolved=True): The new rules of good, deep sleep, according to experts
+[2026-10-03 08:53:28 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac16b47111a40908c08dbbc96a9801
+[2026-10-03 08:53:28 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Feeling Younger, Moving More: How Aging Attitudes Drive Exercise Habit
+[2026-10-03 08:53:28 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac16b47111a40908c08dbbc96a9801
+[2026-10-03 08:53:28 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 87/800 chars, resolved=True): The simple exercise Al Roker does every day for healthy aging
+[2026-10-03 08:53:29 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac16b47111a40908c08dbbc96a9801
+[2026-10-03 08:53:29 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Exercise May Reduce Cellular Recycling Rates to More Youthful Levels
+[2026-10-03 08:53:29 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 13, 'tried': 7, 'thin': 7}
