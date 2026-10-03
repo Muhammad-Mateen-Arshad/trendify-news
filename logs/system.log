@@ -2752,3 +2752,21 @@
 [2026-10-03 10:30:15 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-03 10:30:31 PM] [NEWS_BOT] [SUCCESS] Published: After hours of negotiations, second round of govt-opposition talks ends in a 'deadlock'
 [2026-10-03 10:30:33 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1611 in / 570 out tokens
+[2026-10-03 10:30:34 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1820948f34819b60d69433620192
+[2026-10-03 10:30:34 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): World Bank proposes export-finance products for Pakistan's EXIM BankPu
+[2026-10-03 10:30:35 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1820948f34819b60d69433620192
+[2026-10-03 10:30:35 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 147/400 chars, resolved=True): Pakistan, World Bank review economic reforms, growth, investment prior
+[2026-10-03 10:30:35 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1820948f34819b60d69433620192
+[2026-10-03 10:30:35 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 161/400 chars, resolved=True): South Korea Marks National Foundation Day, Pakistan Sends Greetings
+[2026-10-03 10:30:39 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-03 10:30:44 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-03 10:30:46 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-03 10:30:52 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-03 10:31:12 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-03 10:31:25 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-03 10:31:56 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-03 10:32:57 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-03 10:34:06 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-03 10:34:46 PM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (135 words, need 150); too many 'not specified' (source too thin)): India's Economic Journey: 150 Years Of Ideas, Policies And The Road To
+[2026-10-03 10:34:59 PM] [JOBS_BOT] [SUCCESS] Published: Experts suggest for long-term policy certainty
+[2026-10-03 10:35:00 PM] [JOBS_BOT] [INFO] AI usage: 2 calls, 3051 in / 825 out tokens
