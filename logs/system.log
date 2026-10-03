@@ -2843,3 +2843,11 @@
 [2026-10-03 11:30:57 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1903155bf4cf99b7c8428cdddb9e
 [2026-10-03 11:30:57 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 161/300 chars, resolved=True): The Turkish drama everyone’s talking about: now the third most-watched
 [2026-10-03 11:30:57 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 10, 'tried': 6, 'thin': 6}
+[2026-10-03 11:30:59 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 350/400 chars, resolved=True): Study in Greece: Bringing Greek Higher Education to the World
+[2026-10-03 11:30:59 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac19031c77d431eb5f022df519052a
+[2026-10-03 11:30:59 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 145/400 chars, resolved=True): Amy Acton outlines education plan for Ohio in one-on-one with 3News' D
+[2026-10-03 11:30:59 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac19033c38e449eb449cd2431f7c07
+[2026-10-03 11:30:59 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 121/400 chars, resolved=True): Who is Vishal Kumar Metre? Karnataka student arrested for links to Sha
+[2026-10-03 11:31:00 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-03 11:31:18 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Cheapest Countries for a Master’s Degree for Pakistani Students — 2026 Update
+[2026-10-03 11:31:20 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1529 in / 592 out tokens
