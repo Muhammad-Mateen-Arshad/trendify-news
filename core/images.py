@@ -1,8 +1,8 @@
 """Picks an article image.
 
-Order: real image from the source article (og:image) -> Unsplash (needs
-UNSPLASH_ACCESS_KEY) -> Pollinations AI image, so the site never ends up
-with no image at all even when scraping fails.
+Order: Unsplash (needs UNSPLASH_ACCESS_KEY) -> real image from the source article (og:image)
+(only if ALLOW_SOURCE_IMAGES_AS_FALLBACK is True) -> Pollinations AI image, so the site never 
+ends up with no image at all even when scraping fails.
 Returns (image_url, credit_html). credit_html is an attribution line to show under the article.
 """
 import hashlib
@@ -60,13 +60,16 @@ def _source_credit(source):
 
 
 def pick(niche, candidate, source=None):
-    if config.USE_SOURCE_IMAGES:
-        if source is not None and source.image_url:
-            return source.image_url, _source_credit(source)
-        if candidate.image_url:  # image carried in the RSS entry itself (rare with Bing)
-            return candidate.image_url, ""
     seed = _seed(candidate.title)
+    
     url, credit = _unsplash(niche.image_query, seed)
     if url:
         return url, credit
+        
+    if getattr(config, "ALLOW_SOURCE_IMAGES_AS_FALLBACK", False):
+        if source is not None and source.image_url:
+            return source.image_url, _source_credit(source)
+        if candidate.image_url:  
+            return candidate.image_url, ""
+            
     return _pollinations(niche, candidate.title, seed), ""
