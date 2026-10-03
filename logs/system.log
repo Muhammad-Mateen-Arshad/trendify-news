@@ -2494,3 +2494,9 @@
 [2026-10-03 06:54:57 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-10-03 06:55:13 PM] [DRAMAS_BOT] [SUCCESS] Published: ‘Not a Stranger’ Release Date, Cast, Trailer, Plot and Everything Else You Need to Know About Netflix’s Creepy New Nanny Thriller
 [2026-10-03 06:55:15 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1315 in / 523 out tokens
+[2026-10-03 06:55:17 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 350/400 chars, resolved=True): Study in Greece: Bringing Greek Higher Education to the World
+[2026-10-03 06:55:17 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac14f93a2d74cbb96ff64d9567265f
+[2026-10-03 06:55:17 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 145/400 chars, resolved=True): Amy Acton outlines education plan for Ohio in one-on-one with 3News' D
+[2026-10-03 06:55:19 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-03 06:55:42 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Imperial College London PhD Scholarship Opens With £27,036 Annual Stipend
+[2026-10-03 06:55:42 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1261 in / 685 out tokens
