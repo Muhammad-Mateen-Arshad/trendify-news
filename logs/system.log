@@ -2919,3 +2919,19 @@
 [2026-10-04 03:05:31 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1c27a4b8546cb96fb84a3295e4ba
 [2026-10-04 03:05:31 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Exercise May Reduce Cellular Recycling Rates to More Youthful Levels
 [2026-10-04 03:05:31 AM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 13, 'tried': 7, 'thin': 7}
+[2026-10-04 03:05:32 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1c27b45cd4bba9b138e1dd0f64be
+[2026-10-04 03:05:32 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 162/400 chars, resolved=True): 100-Million-Year-Old Spinosaurus Skull Replica Draws El-Sisi's Attenti
+[2026-10-04 03:05:32 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1c27c0c2f4744b65b1bb92338ada
+[2026-10-04 03:05:32 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long SNDK Daily Target ETF
+[2026-10-04 03:05:32 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1c27c0c2f4744b65b1bb92338ada
+[2026-10-04 03:05:32 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long BMNR Daily Target ETF
+[2026-10-04 03:05:32 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1c27ca5b342f8bae45b4d500c908
+[2026-10-04 03:05:32 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 154/400 chars, resolved=True): 8 sci-fi movies to watch if you loved Stargate
+[2026-10-04 03:05:33 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1c27ca5b342f8bae45b4d500c908
+[2026-10-04 03:05:33 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 159/400 chars, resolved=True): Morocco reveals africa's oldest 4,000-year-old defensive wal
+[2026-10-04 03:05:33 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1c27ca5b342f8bae45b4d500c908
+[2026-10-04 03:05:33 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 93/400 chars, resolved=True): Archaeologists Opened a Tomb Sealed for 600 Years—and Found Gold, Bone
+[2026-10-04 03:05:34 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-04 03:05:36 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-04 03:05:51 AM] [HISTORY_BOT] [SUCCESS] Published: Twist in Noah’s Ark mystery as ‘ancient city’ discovered underwater near final resting place
+[2026-10-04 03:05:52 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 844 in / 485 out tokens
