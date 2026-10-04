@@ -2881,3 +2881,12 @@
 [2026-10-04 03:03:47 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
 [2026-10-04 03:04:18 AM] [NEWS_BOT] [SUCCESS] Published: Sanaa, Riyadh rattled by strikes as war widens
 [2026-10-04 03:04:18 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1518 in / 493 out tokens
+[2026-10-04 03:04:19 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1c2335a9b48d5b3c1bbf3af14637
+[2026-10-04 03:04:19 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): World Bank proposes export-finance products for Pakistan's EXIM BankPu
+[2026-10-04 03:04:20 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1c2338ddb42f58fbca31eb218575
+[2026-10-04 03:04:20 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 137/400 chars, resolved=True): Op Sindoor Showcases PM Modi’s Strategic Terror Response
+[2026-10-04 03:04:20 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 269/400 chars, resolved=True): Women, Girls Make Up 60 Percent Of Afghans At Risk Of Food Insecurity,
+[2026-10-04 03:04:29 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (119 words, need 150); too many 'not specified' (source too thin)): ‘Xi’s Huge Health Scare’: 5-hour Rest Break Inside Private WH Room, Lu
+[2026-10-04 03:04:30 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-04 03:04:48 AM] [JOBS_BOT] [SUCCESS] Published: Pakistan Railways is Hiring Retired Employees
+[2026-10-04 03:04:48 AM] [JOBS_BOT] [INFO] AI usage: 2 calls, 2735 in / 971 out tokens
