@@ -3235,3 +3235,20 @@
 [2026-10-04 03:31:35 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 4}
 [2026-10-04 04:02:51 PM] [NEWS_BOT] [SUCCESS] Published: Naqvi says talks with opposition have collapsed, accuses KP CM of 'sabotaging' negotiations
 [2026-10-04 04:02:52 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1554 in / 512 out tokens
+[2026-10-04 04:02:53 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac278acc5cc4d5dacfaddda1a00dda
+[2026-10-04 04:02:53 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 04:02:53 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac278acc5cc4d5dacfaddda1a00dda
+[2026-10-04 04:02:53 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-04 04:02:54 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac278add340443c9d7f216afd8e4ae
+[2026-10-04 04:02:54 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 137/400 chars, resolved=True): Op Sindoor Showcases PM Modi’s Strategic Terror Response
+[2026-10-04 04:02:54 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac278add340443c9d7f216afd8e4ae
+[2026-10-04 04:02:54 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 161/400 chars, resolved=True): Darjeeling’s Gorkhaland loop—four decades of protests, settlements and
+[2026-10-04 04:02:54 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac278add340443c9d7f216afd8e4ae
+[2026-10-04 04:02:54 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): Eight countries including China join military exercises in Russia
+[2026-10-04 04:02:54 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac278add340443c9d7f216afd8e4ae
+[2026-10-04 04:02:54 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 04:02:54 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac278ae12ee44fdb7a30b35a113656
+[2026-10-04 04:02:54 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 04:02:54 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac278ae12ee44fdb7a30b35a113656
+[2026-10-04 04:02:54 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-04 04:02:55 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 2, 'tried': 8, 'thin': 8}
