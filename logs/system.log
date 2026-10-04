@@ -3007,3 +3007,10 @@
 [2026-10-04 07:30:09 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1164 in / 335 out tokens
 [2026-10-04 07:30:27 AM] [DRAMAS_BOT] [SUCCESS] Published: "The Turk in Italy" (2) The sense of satisfaction that comes from "it's Rossini, so it can't be helped"
 [2026-10-04 07:30:28 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1697 in / 525 out tokens
+[2026-10-04 07:30:29 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 350/400 chars, resolved=True): Study in Greece: Bringing Greek Higher Education to the World
+[2026-10-04 07:30:30 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac20094df1c4f15916fcbe40fd4fe0
+[2026-10-04 07:30:30 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): Oshini and Yenuthi excel as SL women strike Chess Olympiad gold
+[2026-10-04 07:30:30 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac200967dff436eb71840e470f8394
+[2026-10-04 07:30:30 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 121/400 chars, resolved=True): Who is Vishal Kumar Metre? Karnataka student arrested for links to Sha
+[2026-10-04 07:30:47 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: A guide to the Chevening Scholarship for Law students
+[2026-10-04 07:30:48 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1450 in / 526 out tokens
