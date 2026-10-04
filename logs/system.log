@@ -3624,3 +3624,20 @@
 [2026-10-04 10:35:27 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 5}
 [2026-10-04 11:29:39 PM] [NEWS_BOT] [SUCCESS] Published: Watch: What we know about Russian strikes on Kyiv bridges
 [2026-10-04 11:29:40 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 632 in / 349 out tokens
+[2026-10-04 11:29:41 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2e1645ed6432ca670888ef3724b3
+[2026-10-04 11:29:41 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 11:29:41 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2e1656f984972ab439b8d71b65a1
+[2026-10-04 11:29:41 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 114/400 chars, resolved=True): It happened today – this day in history – October 5
+[2026-10-04 11:29:41 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2e1656f984972ab439b8d71b65a1
+[2026-10-04 11:29:41 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): Eight countries including China join military exercises in Russia
+[2026-10-04 11:29:41 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2e1656f984972ab439b8d71b65a1
+[2026-10-04 11:29:41 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 11:29:42 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2e1656f984972ab439b8d71b65a1
+[2026-10-04 11:29:42 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 197/400 chars, resolved=True): Pak prisoner dies by suicide in Jammu Jail
+[2026-10-04 11:29:43 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2e1664eb9481eba1363ba2993066
+[2026-10-04 11:29:43 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 11:29:43 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2e167628a48448d04692ee4da9d0
+[2026-10-04 11:29:43 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 11:29:45 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2e167628a48448d04692ee4da9d0
+[2026-10-04 11:29:45 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 146/400 chars, resolved=True): Latest - September 30, 2026
+[2026-10-04 11:29:45 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 4, 'tried': 8, 'thin': 8}
