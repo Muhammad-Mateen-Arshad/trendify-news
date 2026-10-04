@@ -3233,3 +3233,5 @@
 [2026-10-04 03:31:35 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac27157d0fe4aea8b32f464401d642
 [2026-10-04 03:31:35 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 199/400 chars, resolved=True): 'Lizzie' wasn't an early reptile after all, new study reveals
 [2026-10-04 03:31:35 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 4}
+[2026-10-04 04:02:51 PM] [NEWS_BOT] [SUCCESS] Published: Naqvi says talks with opposition have collapsed, accuses KP CM of 'sabotaging' negotiations
+[2026-10-04 04:02:52 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1554 in / 512 out tokens
