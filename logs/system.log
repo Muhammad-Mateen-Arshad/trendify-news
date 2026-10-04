@@ -3466,3 +3466,11 @@
 [2026-10-04 07:30:29 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-04 07:30:46 PM] [DRAMAS_BOT] [SUCCESS] Published: Mark Rober Talks New Netflix Series ‘Schooled’ and Why He Partnered with the Streamer
 [2026-10-04 07:30:47 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1626 in / 456 out tokens
+[2026-10-04 07:30:49 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a968d90b4e46974331badbe5cd5
+[2026-10-04 07:30:49 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): VIT Bhopal University conducts 7th annual convocation, confers degrees
+[2026-10-04 07:30:49 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a968d90b4e46974331badbe5cd5
+[2026-10-04 07:30:49 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 145/400 chars, resolved=True): Ondo Govt Expands Health, Agric, Power Projects, Says Aiyedatiwa
+[2026-10-04 07:30:51 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-04 07:30:53 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-04 07:31:12 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Election 2026: Where Garrity, Shapiro stand on public school funding, vouchers, and other education issues
+[2026-10-04 07:31:13 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1490 in / 543 out tokens
