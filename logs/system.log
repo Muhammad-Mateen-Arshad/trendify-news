@@ -2999,3 +2999,9 @@
 [2026-10-04 07:29:34 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
 [2026-10-04 07:29:55 AM] [NEWS_BOT] [SUCCESS] Published: 4 injured Pakistanis rescued from vessel hijacked in Somalia head to Karachi with remains of 3 colleagues
 [2026-10-04 07:29:55 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 861 in / 514 out tokens
+[2026-10-04 07:29:56 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac20073ebf54c6ba586fb649b777d2
+[2026-10-04 07:29:56 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): World Bank proposes export-finance products for Pakistan's EXIM BankPu
+[2026-10-04 07:29:56 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac20074eb014a4cb84221e924f4cee
+[2026-10-04 07:29:56 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 137/400 chars, resolved=True): Op Sindoor Showcases PM Modi’s Strategic Terror Response
+[2026-10-04 07:30:08 AM] [JOBS_BOT] [SUCCESS] Published: Housing update to show target slipping further away
+[2026-10-04 07:30:09 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1164 in / 335 out tokens
