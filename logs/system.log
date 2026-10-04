@@ -2890,3 +2890,10 @@
 [2026-10-04 03:04:30 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-10-04 03:04:48 AM] [JOBS_BOT] [SUCCESS] Published: Pakistan Railways is Hiring Retired Employees
 [2026-10-04 03:04:48 AM] [JOBS_BOT] [INFO] AI usage: 2 calls, 2735 in / 971 out tokens
+[2026-10-04 03:04:50 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1c2515a9f440cb94f94d7e1274e6
+[2026-10-04 03:04:50 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 86/300 chars, resolved=True): Looking for Your Next Binge? Netflix’s 'East of Eden' Is the Current H
+[2026-10-04 03:04:50 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 92/300 chars, resolved=True): Black Clover season 2 release schedule: When are new episodes out on C
+[2026-10-04 03:04:51 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-04 03:04:53 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-04 03:05:09 AM] [DRAMAS_BOT] [SUCCESS] Published: ‘Black Clover’ Season 2 Episode 2 Release Date, Time, Where to Watch and Preview
+[2026-10-04 03:05:10 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1262 in / 544 out tokens
