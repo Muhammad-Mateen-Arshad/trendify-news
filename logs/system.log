@@ -3388,3 +3388,12 @@
 [2026-10-04 07:07:59 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
 [2026-10-04 07:08:00 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 2110 in / 305 out tokens
 [2026-10-04 07:08:00 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 2, 'tried': 8, 'thin': 7, 'rejected': 1}
+[2026-10-04 07:08:02 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a410e4c942d388fc78643e0a3e6
+[2026-10-04 07:08:02 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 137/300 chars, resolved=True): Be2Can brings Cannes and Berlinale highlights to Prague cinemas this w
+[2026-10-04 07:08:02 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a412a21a41c29def10244d68012
+[2026-10-04 07:08:02 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 154/300 chars, resolved=True): Netflix shifts focus away from prestige content
+[2026-10-04 07:08:03 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a4129a29423b8ecc6273e5200a0
+[2026-10-04 07:08:03 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 203/300 chars, resolved=True): Kuma - The other wife | show | 2025 | official trailer
+[2026-10-04 07:08:03 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a4129a29423b8ecc6273e5200a0
+[2026-10-04 07:08:03 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 161/300 chars, resolved=True): The Turkish drama everyone’s talking about: now the third most-watched
+[2026-10-04 07:08:03 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 12, 'tried': 4, 'thin': 4}
