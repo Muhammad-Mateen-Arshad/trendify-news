@@ -3320,3 +3320,12 @@
 [2026-10-04 06:26:05 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac29a3cd8d644ecb11cf814dfaef33
 [2026-10-04 06:26:05 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 146/400 chars, resolved=True): Latest - September 30, 2026
 [2026-10-04 06:26:05 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 4, 'tried': 8, 'thin': 8}
+[2026-10-04 06:26:07 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac29a3d1c6243f097da08da8f208fc
+[2026-10-04 06:26:07 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 137/300 chars, resolved=True): Be2Can brings Cannes and Berlinale highlights to Prague cinemas this w
+[2026-10-04 06:26:09 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-04 06:26:14 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-04 06:26:23 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-04 06:26:42 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-04 06:27:07 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-04 06:27:49 PM] [DRAMAS_BOT] [SUCCESS] Published: ‘Real Men’ Season 2 Release Date, Time, Trailer and Where to Watch as the Series Returns with a Bigger Cast and Messier Friendships
+[2026-10-04 06:27:50 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1166 in / 543 out tokens
