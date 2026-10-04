@@ -3509,3 +3509,8 @@
 [2026-10-04 07:42:23 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
 [2026-10-04 07:42:51 PM] [NEWS_BOT] [SUCCESS] Published: Australia probes flydubai co-pilot's links to the country, police say
 [2026-10-04 07:42:52 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1519 in / 467 out tokens
+[2026-10-04 07:42:54 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-04 07:42:56 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-04 07:43:18 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-04 07:43:45 PM] [JOBS_BOT] [SUCCESS] Published: PPP to contest LG polls with full preparation: ex-governor
+[2026-10-04 07:43:46 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 954 in / 377 out tokens
