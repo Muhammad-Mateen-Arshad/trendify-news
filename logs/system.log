@@ -3268,3 +3268,18 @@
 [2026-10-04 04:03:44 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
 [2026-10-04 04:04:14 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Fully funded Gates Cambridge Scholarship 2027, UK
 [2026-10-04 04:04:15 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1344 in / 558 out tokens
+[2026-10-04 04:04:17 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-04 04:04:17 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-04 04:04:17 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac279016891427b8adcc7243ca048c
+[2026-10-04 04:04:17 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 159/800 chars, resolved=True): Why your dog needs a simple preventive care schedule by age
+[2026-10-04 04:04:17 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac279016891427b8adcc7243ca048c
+[2026-10-04 04:04:17 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 129/800 chars, resolved=True): New study suggests possible connection between GLP-1s and hair loss in
+[2026-10-04 04:04:18 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac279016891427b8adcc7243ca048c
+[2026-10-04 04:04:18 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 125/800 chars, resolved=True): The Dwelling Place brings coffee, conversation and faith to downtown M
+[2026-10-04 04:04:18 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2790245b946b89afab74633b5c6c
+[2026-10-04 04:04:18 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 87/800 chars, resolved=True): The simple exercise Al Roker does every day for healthy aging
+[2026-10-04 04:04:18 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2790245b946b89afab74633b5c6c
+[2026-10-04 04:04:18 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Exercise May Reduce Cellular Recycling Rates to More Youthful Levels
+[2026-10-04 04:04:18 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2790245b946b89afab74633b5c6c
+[2026-10-04 04:04:18 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 199/800 chars, resolved=True): Eating More Protein Might Not Be as Healthy as You Think
+[2026-10-04 04:04:18 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 13, 'tried': 7, 'thin': 7}
