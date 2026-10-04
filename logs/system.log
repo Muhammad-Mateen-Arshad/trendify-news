@@ -3370,3 +3370,21 @@
 [2026-10-04 07:06:55 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-04 07:07:42 PM] [NEWS_BOT] [SUCCESS] Published: PTI terms access to Imran 'principal point of deadlock', claims Centre refused to include it in agreement
 [2026-10-04 07:07:43 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1396 in / 500 out tokens
+[2026-10-04 07:07:45 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a40066af4277b8c5374e9a4ffd6
+[2026-10-04 07:07:45 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 07:07:45 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a40066af4277b8c5374e9a4ffd6
+[2026-10-04 07:07:45 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-04 07:07:45 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a4015f94464585650aeb4677a76
+[2026-10-04 07:07:45 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 137/400 chars, resolved=True): Op Sindoor Showcases PM Modi’s Strategic Terror Response
+[2026-10-04 07:07:45 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a4015f94464585650aeb4677a76
+[2026-10-04 07:07:45 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): Eight countries including China join military exercises in Russia
+[2026-10-04 07:07:46 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a4015f94464585650aeb4677a76
+[2026-10-04 07:07:46 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 07:07:49 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-04 07:07:59 PM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (130 words, need 150); too many 'not specified' (source too thin)): National Civil Economy Festival, the noise of culture: how much does a
+[2026-10-04 07:07:59 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a40f0c8341ecabb3fe355c4a736
+[2026-10-04 07:07:59 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 07:07:59 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a40f0c8341ecabb3fe355c4a736
+[2026-10-04 07:07:59 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-04 07:08:00 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 2110 in / 305 out tokens
+[2026-10-04 07:08:00 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 2, 'tried': 8, 'thin': 7, 'rejected': 1}
