@@ -3257,3 +3257,14 @@
 [2026-10-04 04:02:58 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-10-04 04:03:11 PM] [DRAMAS_BOT] [SUCCESS] Published: Stephen King’s New 8-Part Horror Series Officially Hits Prime Video This Week
 [2026-10-04 04:03:12 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1608 in / 458 out tokens
+[2026-10-04 04:03:13 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac278c1992f46f28966cc1c7e01c36
+[2026-10-04 04:03:13 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 145/400 chars, resolved=True): Ondo Govt Expands Health, Agric, Power Projects, Says Aiyedatiwa
+[2026-10-04 04:03:14 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac278c1992f46f28966cc1c7e01c36
+[2026-10-04 04:03:14 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): Oshini and Yenuthi excel as SL women strike Chess Olympiad gold
+[2026-10-04 04:03:15 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac278c29ccd4eb5822370694a7fda9
+[2026-10-04 04:03:15 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 121/400 chars, resolved=True): Who is Vishal Kumar Metre? Karnataka student arrested for links to Sha
+[2026-10-04 04:03:19 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-04 04:03:25 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-04 04:03:44 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-04 04:04:14 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Fully funded Gates Cambridge Scholarship 2027, UK
+[2026-10-04 04:04:15 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1344 in / 558 out tokens
