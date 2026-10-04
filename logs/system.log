@@ -2967,3 +2967,12 @@
 [2026-10-04 03:30:42 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1c862a6374c5baaf173f161bce61
 [2026-10-04 03:30:42 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 161/300 chars, resolved=True): The Turkish drama everyone’s talking about: now the third most-watched
 [2026-10-04 03:30:42 AM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 11, 'tried': 5, 'thin': 5}
+[2026-10-04 03:30:44 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 350/400 chars, resolved=True): Study in Greece: Bringing Greek Higher Education to the World
+[2026-10-04 03:30:45 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1c86326ba48d199b33fba0fdbde5
+[2026-10-04 03:30:45 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): Oshini and Yenuthi excel as SL women strike Chess Olympiad gold
+[2026-10-04 03:30:45 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1c8657eb84149b85b0a767421806
+[2026-10-04 03:30:45 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 121/400 chars, resolved=True): Who is Vishal Kumar Metre? Karnataka student arrested for links to Sha
+[2026-10-04 03:30:46 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-04 03:30:48 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-04 03:31:03 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: PMDC adds 1,400 New Medical and Dental Seats
+[2026-10-04 03:31:03 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 648 in / 518 out tokens
