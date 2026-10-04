@@ -3641,3 +3641,10 @@
 [2026-10-04 11:29:45 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2e167628a48448d04692ee4da9d0
 [2026-10-04 11:29:45 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 146/400 chars, resolved=True): Latest - September 30, 2026
 [2026-10-04 11:29:45 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 4, 'tried': 8, 'thin': 8}
+[2026-10-04 11:29:47 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2e169cc7443febba824efef168bc
+[2026-10-04 11:29:47 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 137/300 chars, resolved=True): Be2Can brings Cannes and Berlinale highlights to Prague cinemas this w
+[2026-10-04 11:29:47 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2e16b981942a486f82af1ae3aaa4
+[2026-10-04 11:29:47 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 203/300 chars, resolved=True): Kuma - The other wife | show | 2025 | official trailer
+[2026-10-04 11:29:47 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2e16b981942a486f82af1ae3aaa4
+[2026-10-04 11:29:47 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 161/300 chars, resolved=True): The Turkish drama everyone’s talking about: now the third most-watched
+[2026-10-04 11:29:47 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 13, 'tried': 3, 'thin': 3}
