@@ -3561,3 +3561,20 @@
 [2026-10-04 07:44:24 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 4}
 [2026-10-04 10:34:58 PM] [NEWS_BOT] [SUCCESS] Published: Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit
 [2026-10-04 10:34:59 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1607 in / 587 out tokens
+[2026-10-04 10:35:00 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2d4939366455e8b667ddce44496b
+[2026-10-04 10:35:00 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 10:35:01 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2d4946cae48d18fecd9d3d41a913
+[2026-10-04 10:35:01 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 161/400 chars, resolved=True): Darjeeling’s Gorkhaland loop—four decades of protests, settlements and
+[2026-10-04 10:35:01 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2d4946cae48d18fecd9d3d41a913
+[2026-10-04 10:35:01 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): Eight countries including China join military exercises in Russia
+[2026-10-04 10:35:01 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2d4946cae48d18fecd9d3d41a913
+[2026-10-04 10:35:01 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 10:35:02 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2d4946cae48d18fecd9d3d41a913
+[2026-10-04 10:35:02 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 197/400 chars, resolved=True): Pak prisoner dies by suicide in Jammu Jail
+[2026-10-04 10:35:02 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2d496b0f74982b718ed169796ac6
+[2026-10-04 10:35:02 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 10:35:03 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2d496287f4ec7b61345ad4d6f7ee
+[2026-10-04 10:35:03 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 10:35:03 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2d496287f4ec7b61345ad4d6f7ee
+[2026-10-04 10:35:03 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 146/400 chars, resolved=True): Latest - September 30, 2026
+[2026-10-04 10:35:04 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 4, 'tried': 8, 'thin': 8}
