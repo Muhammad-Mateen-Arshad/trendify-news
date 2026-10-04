@@ -3460,3 +3460,9 @@
 [2026-10-04 07:30:24 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a94f03c8470aa679bbe0667b79c
 [2026-10-04 07:30:24 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
 [2026-10-04 07:30:24 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 2, 'tried': 8, 'thin': 8}
+[2026-10-04 07:30:26 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a950b20c46af8af721150196c88
+[2026-10-04 07:30:26 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 137/300 chars, resolved=True): Be2Can brings Cannes and Berlinale highlights to Prague cinemas this w
+[2026-10-04 07:30:27 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-04 07:30:29 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-04 07:30:46 PM] [DRAMAS_BOT] [SUCCESS] Published: Mark Rober Talks New Netflix Series ‘Schooled’ and Why He Partnered with the Streamer
+[2026-10-04 07:30:47 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1626 in / 456 out tokens
