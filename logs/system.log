@@ -3046,3 +3046,5 @@
 [2026-10-04 07:30:52 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac200ac7ea44f6796929c2c5bf8f09
 [2026-10-04 07:30:52 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 199/400 chars, resolved=True): 'Lizzie' wasn't an early reptile after all, new study reveals
 [2026-10-04 07:30:52 AM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 5}
+[2026-10-04 10:15:47 AM] [NEWS_BOT] [SUCCESS] Published: Naqvi accuses KP govt of backing out of counterterrorism commitments during Centre-opposition talks
+[2026-10-04 10:15:48 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1384 in / 542 out tokens
