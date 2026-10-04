@@ -3514,3 +3514,10 @@
 [2026-10-04 07:43:18 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
 [2026-10-04 07:43:45 PM] [JOBS_BOT] [SUCCESS] Published: PPP to contest LG polls with full preparation: ex-governor
 [2026-10-04 07:43:46 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 954 in / 377 out tokens
+[2026-10-04 07:43:48 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2ac73bf2343ddb928dd319fb63ad
+[2026-10-04 07:43:48 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 137/300 chars, resolved=True): Be2Can brings Cannes and Berlinale highlights to Prague cinemas this w
+[2026-10-04 07:43:49 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2ac74b5af44d1b294c07cc0f98d0
+[2026-10-04 07:43:49 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 203/300 chars, resolved=True): Kuma - The other wife | show | 2025 | official trailer
+[2026-10-04 07:43:49 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2ac74b5af44d1b294c07cc0f98d0
+[2026-10-04 07:43:49 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 161/300 chars, resolved=True): The Turkish drama everyone’s talking about: now the third most-watched
+[2026-10-04 07:43:49 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 13, 'tried': 3, 'thin': 3}
