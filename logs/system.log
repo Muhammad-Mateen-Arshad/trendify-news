@@ -3064,3 +3064,10 @@
 [2026-10-04 10:16:06 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2275779ef480ca6dfc9e0fe058c0
 [2026-10-04 10:16:06 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): Forest, Wildlife & Fisheries Department Punjab Jobs 2026 Apply Online
 [2026-10-04 10:16:06 AM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 7}
+[2026-10-04 10:16:07 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac22767139448e290935e334564733
+[2026-10-04 10:16:07 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 37/300 chars, resolved=True): Harlan Coben's binge-worthy hit crime thriller series returns with new
+[2026-10-04 10:16:08 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 92/300 chars, resolved=True): Black Clover season 2 release schedule: When are new episodes out on C
+[2026-10-04 10:16:08 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac22767139448e290935e334564733
+[2026-10-04 10:16:08 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 202/300 chars, resolved=True): Anthony Joshua Netflix documentary: Boxer lands £10m four-part deal; r
+[2026-10-04 10:16:22 AM] [DRAMAS_BOT] [SUCCESS] Published: ‘Outer Banks’ Star Madison Bailey Soaks up the Sun in New Leopard-Print Snap
+[2026-10-04 10:16:23 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1050 in / 479 out tokens
