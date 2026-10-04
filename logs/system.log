@@ -3170,3 +3170,6 @@
 [2026-10-04 11:31:43 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2391e81ff4242a888df934d54391
 [2026-10-04 11:31:43 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 199/400 chars, resolved=True): 'Lizzie' wasn't an early reptile after all, new study reveals
 [2026-10-04 11:31:43 AM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 4}
+[2026-10-04 03:29:30 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-04 03:29:47 PM] [NEWS_BOT] [SUCCESS] Published: 'We are not yes-men': CM Afridi launches PTI long march to Islamabad from Lakki Marwat
+[2026-10-04 03:29:48 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1592 in / 507 out tokens
