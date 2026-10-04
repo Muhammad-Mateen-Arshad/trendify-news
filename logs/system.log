@@ -3443,3 +3443,20 @@
 [2026-10-04 07:30:00 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-04 07:30:18 PM] [NEWS_BOT] [SUCCESS] Published: Yemen presidency announces military drive to retake all territory seized by Houthis
 [2026-10-04 07:30:19 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1571 in / 533 out tokens
+[2026-10-04 07:30:21 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a94c825b4664ac25695722e9ebd
+[2026-10-04 07:30:21 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 07:30:21 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a94c825b4664ac25695722e9ebd
+[2026-10-04 07:30:21 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-04 07:30:22 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a94d987a411888e129c18a45e55
+[2026-10-04 07:30:22 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 137/400 chars, resolved=True): Op Sindoor Showcases PM Modi’s Strategic Terror Response
+[2026-10-04 07:30:22 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a94d987a411888e129c18a45e55
+[2026-10-04 07:30:22 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 161/400 chars, resolved=True): Darjeeling’s Gorkhaland loop—four decades of protests, settlements and
+[2026-10-04 07:30:22 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a94d987a411888e129c18a45e55
+[2026-10-04 07:30:22 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): Eight countries including China join military exercises in Russia
+[2026-10-04 07:30:23 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a94d987a411888e129c18a45e55
+[2026-10-04 07:30:23 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 07:30:23 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a94f623843fcab8853b452612d4
+[2026-10-04 07:30:23 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 07:30:24 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a94f03c8470aa679bbe0667b79c
+[2026-10-04 07:30:24 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 07:30:24 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 2, 'tried': 8, 'thin': 8}
