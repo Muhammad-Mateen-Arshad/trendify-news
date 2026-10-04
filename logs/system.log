@@ -3048,3 +3048,19 @@
 [2026-10-04 07:30:52 AM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 5}
 [2026-10-04 10:15:47 AM] [NEWS_BOT] [SUCCESS] Published: Naqvi accuses KP govt of backing out of counterterrorism commitments during Centre-opposition talks
 [2026-10-04 10:15:48 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1384 in / 542 out tokens
+[2026-10-04 10:15:49 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac22754fadf4fb2925229f81819da9
+[2026-10-04 10:15:49 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): World Bank proposes export-finance products for Pakistan's EXIM BankPu
+[2026-10-04 10:15:49 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac227559ee7416a8b0a7ab831acc6b
+[2026-10-04 10:15:49 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 137/400 chars, resolved=True): Op Sindoor Showcases PM Modi’s Strategic Terror Response
+[2026-10-04 10:15:49 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac227559ee7416a8b0a7ab831acc6b
+[2026-10-04 10:15:49 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 161/400 chars, resolved=True): Darjeeling’s Gorkhaland loop—four decades of protests, settlements and
+[2026-10-04 10:15:50 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 269/400 chars, resolved=True): Women, Girls Make Up 60 Percent Of Afghans At Risk Of Food Insecurity,
+[2026-10-04 10:15:50 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac227559ee7416a8b0a7ab831acc6b
+[2026-10-04 10:15:50 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): Russia to take 70,000 Indian skilled workers this year, Jaishankar tel
+[2026-10-04 10:15:51 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2275779ef480ca6dfc9e0fe058c0
+[2026-10-04 10:15:51 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): HEC Jobs 2026 Apply Online for Managers, Office Assistants & Others Hi
+[2026-10-04 10:16:06 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2275779ef480ca6dfc9e0fe058c0
+[2026-10-04 10:16:06 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): The 10 Most Enjoyable Jobs for Older Workers
+[2026-10-04 10:16:06 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2275779ef480ca6dfc9e0fe058c0
+[2026-10-04 10:16:06 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): Forest, Wildlife & Fisheries Department Punjab Jobs 2026 Apply Online
+[2026-10-04 10:16:06 AM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 7}
