@@ -3190,3 +3190,7 @@
 [2026-10-04 03:30:17 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 269/400 chars, resolved=True): Women, Girls Make Up 60 Percent Of Afghans At Risk Of Food Insecurity,
 [2026-10-04 03:30:17 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1879 in / 569 out tokens
 [2026-10-04 03:30:17 PM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'rejected': 1, 'thin': 7}
+[2026-10-04 03:30:18 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2710982834d2582b60c02edfffbb
+[2026-10-04 03:30:18 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 137/300 chars, resolved=True): Be2Can brings Cannes and Berlinale highlights to Prague cinemas this w
+[2026-10-04 03:30:33 PM] [DRAMAS_BOT] [SUCCESS] Published: Netflix’s ‘Inside the Circle’ Release Date, Time, Cast, Trailer and Plot of the Mexcan Thriller That Turns a Leaked Video Into a Friendship-Wrecking Story
+[2026-10-04 03:30:33 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1278 in / 542 out tokens
