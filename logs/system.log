@@ -3303,3 +3303,20 @@
 [2026-10-04 06:26:01 PM] [NEWS_BOT] [WARN] <!-- NEW_CARD_HERE --> not found in index.html - card not added
 [2026-10-04 06:26:01 PM] [NEWS_BOT] [SUCCESS] Published: 'We are not yes-men': CM Afridi launches PTI long march to Islamabad, convoy enters Karak district
 [2026-10-04 06:26:01 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1592 in / 517 out tokens
+[2026-10-04 06:26:03 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac29a3a60054a03b1936e856a65305
+[2026-10-04 06:26:03 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 06:26:03 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac29a3bdfd04e6f88b96b0e51f56c6
+[2026-10-04 06:26:03 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 137/400 chars, resolved=True): Op Sindoor Showcases PM Modi’s Strategic Terror Response
+[2026-10-04 06:26:03 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac29a3bdfd04e6f88b96b0e51f56c6
+[2026-10-04 06:26:03 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 161/400 chars, resolved=True): Darjeeling’s Gorkhaland loop—four decades of protests, settlements and
+[2026-10-04 06:26:03 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac29a3bdfd04e6f88b96b0e51f56c6
+[2026-10-04 06:26:03 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): Eight countries including China join military exercises in Russia
+[2026-10-04 06:26:04 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac29a3bdfd04e6f88b96b0e51f56c6
+[2026-10-04 06:26:04 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 06:26:04 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac29a3c04414a7bb2422b5a9dcfed8
+[2026-10-04 06:26:04 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 06:26:04 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac29a3cd8d644ecb11cf814dfaef33
+[2026-10-04 06:26:04 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-04 06:26:05 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac29a3cd8d644ecb11cf814dfaef33
+[2026-10-04 06:26:05 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 146/400 chars, resolved=True): Latest - September 30, 2026
+[2026-10-04 06:26:05 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 4, 'tried': 8, 'thin': 8}
