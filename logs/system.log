@@ -3349,3 +3349,10 @@
 [2026-10-04 06:28:14 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac29abea2dc4ed49b654972b98885d
 [2026-10-04 06:28:14 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Exercise May Reduce Cellular Recycling Rates to More Youthful Levels
 [2026-10-04 06:28:14 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 14, 'tried': 6, 'thin': 6}
+[2026-10-04 06:28:15 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac29abe784f4b6fb885aa66f51063e
+[2026-10-04 06:28:15 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): At the Nat, a decade of discovery under Judy Gradwohl
+[2026-10-04 06:28:16 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-04 06:28:24 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-04 06:28:37 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-04 06:29:11 PM] [HISTORY_BOT] [SUCCESS] Published: Marathon Man: A Dinosaur named SUE
+[2026-10-04 06:29:12 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 946 in / 536 out tokens
