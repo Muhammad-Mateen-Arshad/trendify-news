@@ -3397,3 +3397,11 @@
 [2026-10-04 07:08:03 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a4129a29423b8ecc6273e5200a0
 [2026-10-04 07:08:03 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 161/300 chars, resolved=True): The Turkish drama everyone’s talking about: now the third most-watched
 [2026-10-04 07:08:03 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 12, 'tried': 4, 'thin': 4}
+[2026-10-04 07:08:03 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a4133d1e497489d562d807d0ec4
+[2026-10-04 07:08:03 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): VIT Bhopal University conducts 7th annual convocation, confers degrees
+[2026-10-04 07:08:04 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2a4133d1e497489d562d807d0ec4
+[2026-10-04 07:08:04 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 145/400 chars, resolved=True): Ondo Govt Expands Health, Agric, Power Projects, Says Aiyedatiwa
+[2026-10-04 07:08:12 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-04 07:08:17 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-04 07:08:30 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Book Launch- Causal Processes and Their Warrant
+[2026-10-04 07:08:31 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1352 in / 378 out tokens
