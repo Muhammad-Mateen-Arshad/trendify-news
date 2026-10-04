@@ -3578,3 +3578,12 @@
 [2026-10-04 10:35:03 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2d496287f4ec7b61345ad4d6f7ee
 [2026-10-04 10:35:03 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 146/400 chars, resolved=True): Latest - September 30, 2026
 [2026-10-04 10:35:04 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 4, 'tried': 8, 'thin': 8}
+[2026-10-04 10:35:06 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2d498baaf4f6bb885c444d5d5452
+[2026-10-04 10:35:06 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 137/300 chars, resolved=True): Be2Can brings Cannes and Berlinale highlights to Prague cinemas this w
+[2026-10-04 10:35:21 PM] [DRAMAS_BOT] [INFO] Rejected by quality gate (too short (144 words, need 150)): John Steinbeck’s 'East of Eden' returns to top of book charts after Ne
+[2026-10-04 10:35:21 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2d4a9044b4d1fa1adaa4347a7927
+[2026-10-04 10:35:21 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 203/300 chars, resolved=True): Kuma - The other wife | show | 2025 | official trailer
+[2026-10-04 10:35:22 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2d4a9044b4d1fa1adaa4347a7927
+[2026-10-04 10:35:22 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 161/300 chars, resolved=True): The Turkish drama everyone’s talking about: now the third most-watched
+[2026-10-04 10:35:22 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1603 in / 303 out tokens
+[2026-10-04 10:35:22 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 12, 'tried': 4, 'thin': 3, 'rejected': 1}
