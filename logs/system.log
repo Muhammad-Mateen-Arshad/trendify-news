@@ -3132,3 +3132,9 @@
 [2026-10-04 11:30:37 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
 [2026-10-04 11:31:04 AM] [DRAMAS_BOT] [SUCCESS] Published: Netflix’s ‘Inside the Circle’ Release Date, Trailer, Cast and Plot Explained
 [2026-10-04 11:31:05 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1150 in / 496 out tokens
+[2026-10-04 11:31:15 AM] [SCHOLARSHIPS_BOT] [INFO] Rejected by quality gate (too short (111 words, need 150)): Study in Greece: Bringing Greek Higher Education to the World
+[2026-10-04 11:31:25 AM] [SCHOLARSHIPS_BOT] [INFO] Rejected by quality gate (too short (130 words, need 150)): PM, Mohsin Naqvi review strategy following talks deadlock with opposit
+[2026-10-04 11:31:26 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac238f9b63c459cabab9d59cf4be57
+[2026-10-04 11:31:26 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): Oshini and Yenuthi excel as SL women strike Chess Olympiad gold
+[2026-10-04 11:31:36 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Punjab University to Launch Human-Centered AI Lab
+[2026-10-04 11:31:37 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 3 calls, 1706 in / 923 out tokens
