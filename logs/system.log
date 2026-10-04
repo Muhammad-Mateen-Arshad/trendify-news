@@ -3071,3 +3071,6 @@
 [2026-10-04 10:16:08 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 202/300 chars, resolved=True): Anthony Joshua Netflix documentary: Boxer lands £10m four-part deal; r
 [2026-10-04 10:16:22 AM] [DRAMAS_BOT] [SUCCESS] Published: ‘Outer Banks’ Star Madison Bailey Soaks up the Sun in New Leopard-Print Snap
 [2026-10-04 10:16:23 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1050 in / 479 out tokens
+[2026-10-04 10:16:25 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 353/400 chars, resolved=True): Study in Greece: Bringing Greek Higher Education to the World
+[2026-10-04 10:16:44 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Balochistan announces fully funded foreign PhD scholarships
+[2026-10-04 10:16:45 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 577 in / 508 out tokens
