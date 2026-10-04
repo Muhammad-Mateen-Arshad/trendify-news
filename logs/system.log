@@ -3592,3 +3592,16 @@
 [2026-10-04 10:35:23 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2d4aab4254e7cb17379816f78636
 [2026-10-04 10:35:23 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 145/400 chars, resolved=True): Ondo Govt Expands Health, Agric, Power Projects, Says Aiyedatiwa
 [2026-10-04 10:35:23 PM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'tried': 2, 'thin': 2, 'already_seen': 14}
+[2026-10-04 10:35:24 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-04 10:35:24 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-04 10:35:24 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2d4ac9e6f41fdbce8e425e6e59f2
+[2026-10-04 10:35:24 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 159/800 chars, resolved=True): Why your dog needs a simple preventive care schedule by age
+[2026-10-04 10:35:25 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2d4ac9e6f41fdbce8e425e6e59f2
+[2026-10-04 10:35:25 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 129/800 chars, resolved=True): New study suggests possible connection between GLP-1s and hair loss in
+[2026-10-04 10:35:25 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2d4ac9e6f41fdbce8e425e6e59f2
+[2026-10-04 10:35:25 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 29/800 chars, resolved=True): Nearly Half of Women Face This Workout Challenge Before They Even Star
+[2026-10-04 10:35:25 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2d4ad228a41bb89e6748584327c6
+[2026-10-04 10:35:25 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 87/800 chars, resolved=True): The simple exercise Al Roker does every day for healthy aging
+[2026-10-04 10:35:25 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2d4ad228a41bb89e6748584327c6
+[2026-10-04 10:35:25 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Exercise May Reduce Cellular Recycling Rates to More Youthful Levels
+[2026-10-04 10:35:25 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 14, 'tried': 6, 'thin': 6}
