@@ -2876,3 +2876,8 @@
 [2026-10-03 11:31:48 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1906323224a22b60e6600814e923
 [2026-10-03 11:31:48 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 199/400 chars, resolved=True): 'Lizzie' wasn't an early reptile after all, new study reveals
 [2026-10-03 11:31:48 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 5}
+[2026-10-04 03:03:38 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-04 03:03:43 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-04 03:03:47 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-04 03:04:18 AM] [NEWS_BOT] [SUCCESS] Published: Sanaa, Riyadh rattled by strikes as war widens
+[2026-10-04 03:04:18 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1518 in / 493 out tokens
