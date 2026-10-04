@@ -2897,3 +2897,10 @@
 [2026-10-04 03:04:53 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-04 03:05:09 AM] [DRAMAS_BOT] [SUCCESS] Published: ‘Black Clover’ Season 2 Episode 2 Release Date, Time, Where to Watch and Preview
 [2026-10-04 03:05:10 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1262 in / 544 out tokens
+[2026-10-04 03:05:11 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 350/400 chars, resolved=True): Study in Greece: Bringing Greek Higher Education to the World
+[2026-10-04 03:05:12 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1c266e7634b2d8577a273fb2dc6e
+[2026-10-04 03:05:12 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): Oshini and Yenuthi excel as SL women strike Chess Olympiad gold
+[2026-10-04 03:05:12 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1c268d9034e7cba7b80c847ffca3
+[2026-10-04 03:05:12 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 121/400 chars, resolved=True): Who is Vishal Kumar Metre? Karnataka student arrested for links to Sha
+[2026-10-04 03:05:28 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: PHC CJ voices concern over ‘poor’ education standard in KP
+[2026-10-04 03:05:28 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 933 in / 482 out tokens
