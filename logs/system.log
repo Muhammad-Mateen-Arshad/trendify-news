@@ -3194,3 +3194,10 @@
 [2026-10-04 03:30:18 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 137/300 chars, resolved=True): Be2Can brings Cannes and Berlinale highlights to Prague cinemas this w
 [2026-10-04 03:30:33 PM] [DRAMAS_BOT] [SUCCESS] Published: Netflix’s ‘Inside the Circle’ Release Date, Time, Cast, Trailer and Plot of the Mexcan Thriller That Turns a Leaked Video Into a Friendship-Wrecking Story
 [2026-10-04 03:30:33 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1278 in / 542 out tokens
+[2026-10-04 03:30:34 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2711a786a490fa59df0bb61c86ff
+[2026-10-04 03:30:34 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 145/400 chars, resolved=True): Ondo Govt Expands Health, Agric, Power Projects, Says Aiyedatiwa
+[2026-10-04 03:30:36 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-04 03:30:49 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-04 03:31:03 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-04 03:31:29 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Balochistan Govt to Send 10 Students Annually to Top Global Universities on Fully Funded PhD Scholarships
+[2026-10-04 03:31:30 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 778 in / 399 out tokens
