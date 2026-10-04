@@ -108,7 +108,7 @@ NEWS = Niche(
         "and 'Why it matters'. Do not add opinions or predictions."
     ),
     image_style="modern newsroom broadcast studio, abstract world news illustration, no text, no faces",
-    image_query="news world city",
+    image_query="newspaper press abstract",
     button_text="📰 Read the Original Report",
     card_button="Read Full Story",
     telegram_heading="BREAKING NEWS",
