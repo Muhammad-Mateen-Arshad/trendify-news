@@ -3622,3 +3622,5 @@
 [2026-10-04 10:35:27 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2d4afc97140d0a89050eee78c37e
 [2026-10-04 10:35:27 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 93/400 chars, resolved=True): Archaeologists Opened a Tomb Sealed for 600 Years—and Found Gold, Bone
 [2026-10-04 10:35:27 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 5}
+[2026-10-04 11:29:39 PM] [NEWS_BOT] [SUCCESS] Published: Watch: What we know about Russian strikes on Kyiv bridges
+[2026-10-04 11:29:40 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 632 in / 349 out tokens
