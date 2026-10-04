@@ -2996,3 +2996,6 @@
 [2026-10-04 03:31:12 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-04 03:31:30 AM] [HISTORY_BOT] [SUCCESS] Published: The 9 Cheapest Road Trip Destinations In Indiana That Will Make Your Wallet Do A Happy Dance
 [2026-10-04 03:31:31 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1543 in / 461 out tokens
+[2026-10-04 07:29:34 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-04 07:29:55 AM] [NEWS_BOT] [SUCCESS] Published: 4 injured Pakistanis rescued from vessel hijacked in Somalia head to Karachi with remains of 3 colleagues
+[2026-10-04 07:29:55 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 861 in / 514 out tokens
