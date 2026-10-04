@@ -3559,3 +3559,5 @@
 [2026-10-04 07:44:24 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2ac978c5448f2a39e5d21a5796a2
 [2026-10-04 07:44:24 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 93/400 chars, resolved=True): Archaeologists Opened a Tomb Sealed for 600 Years—and Found Gold, Bone
 [2026-10-04 07:44:24 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 4}
+[2026-10-04 10:34:58 PM] [NEWS_BOT] [SUCCESS] Published: Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit
+[2026-10-04 10:34:59 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1607 in / 587 out tokens
