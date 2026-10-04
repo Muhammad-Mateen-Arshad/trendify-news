@@ -3074,3 +3074,18 @@
 [2026-10-04 10:16:25 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 353/400 chars, resolved=True): Study in Greece: Bringing Greek Higher Education to the World
 [2026-10-04 10:16:44 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Balochistan announces fully funded foreign PhD scholarships
 [2026-10-04 10:16:45 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 577 in / 508 out tokens
+[2026-10-04 10:16:46 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-04 10:16:46 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-04 10:16:46 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2278e44424dcca353a029fe93d3d
+[2026-10-04 10:16:46 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 129/800 chars, resolved=True): New study suggests possible connection between GLP-1s and hair loss in
+[2026-10-04 10:16:46 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2278e44424dcca353a029fe93d3d
+[2026-10-04 10:16:46 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 29/800 chars, resolved=True): Nearly Half of Women Face This Workout Challenge Before They Even Star
+[2026-10-04 10:16:46 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2278e44424dcca353a029fe93d3d
+[2026-10-04 10:16:46 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 38/800 chars, resolved=True): The new rules of good, deep sleep, according to experts
+[2026-10-04 10:16:46 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2278e819743c38fd618d256a459f
+[2026-10-04 10:16:46 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 87/800 chars, resolved=True): The simple exercise Al Roker does every day for healthy aging
+[2026-10-04 10:16:47 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2278e819743c38fd618d256a459f
+[2026-10-04 10:16:47 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 199/800 chars, resolved=True): Eating More Protein Might Not Be as Healthy as You Think
+[2026-10-04 10:16:47 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2278e819743c38fd618d256a459f
+[2026-10-04 10:16:47 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Exercise May Reduce Cellular Recycling Rates to More Youthful Levels
+[2026-10-04 10:16:47 AM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 13, 'tried': 7, 'thin': 7}
