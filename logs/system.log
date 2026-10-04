@@ -3329,3 +3329,10 @@
 [2026-10-04 06:27:07 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
 [2026-10-04 06:27:49 PM] [DRAMAS_BOT] [SUCCESS] Published: ‘Real Men’ Season 2 Release Date, Time, Trailer and Where to Watch as the Series Returns with a Bigger Cast and Messier Friendships
 [2026-10-04 06:27:50 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1166 in / 543 out tokens
+[2026-10-04 06:27:52 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac29aa7975f47128ec97d25fe22f79
+[2026-10-04 06:27:52 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): VIT Bhopal University conducts 7th annual convocation, confers degrees
+[2026-10-04 06:27:52 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac29aa7975f47128ec97d25fe22f79
+[2026-10-04 06:27:52 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 145/400 chars, resolved=True): Ondo Govt Expands Health, Agric, Power Projects, Says Aiyedatiwa
+[2026-10-04 06:27:55 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-04 06:28:12 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Chevening Scholarship 2027-2028: Application guide for Bangladeshi students
+[2026-10-04 06:28:12 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 678 in / 540 out tokens
