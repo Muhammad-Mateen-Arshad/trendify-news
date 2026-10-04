@@ -2940,3 +2940,20 @@
 [2026-10-04 03:29:31 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-04 03:29:50 AM] [NEWS_BOT] [SUCCESS] Published: Tight monetary policy likely to continue
 [2026-10-04 03:29:50 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1587 in / 529 out tokens
+[2026-10-04 03:29:51 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1c82e06e24355adef0bb9d836720
+[2026-10-04 03:29:51 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): World Bank proposes export-finance products for Pakistan's EXIM BankPu
+[2026-10-04 03:29:51 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1c82fb62a49aebd49d59569cd24c
+[2026-10-04 03:29:51 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 137/400 chars, resolved=True): Op Sindoor Showcases PM Modi’s Strategic Terror Response
+[2026-10-04 03:29:55 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 269/400 chars, resolved=True): Women, Girls Make Up 60 Percent Of Afghans At Risk Of Food Insecurity,
+[2026-10-04 03:30:10 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1c8330fb54225951070d41793b3f
+[2026-10-04 03:30:10 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): The 10 Most Enjoyable Jobs for Older Workers
+[2026-10-04 03:30:10 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1c8330fb54225951070d41793b3f
+[2026-10-04 03:30:10 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): Forest, Wildlife & Fisheries Department Punjab Jobs 2026 Apply Online
+[2026-10-04 03:30:11 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1c8330fb54225951070d41793b3f
+[2026-10-04 03:30:11 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): Junior Executive Jobs in NADRA 2026 Data Entry Operators Walk in Test 
+[2026-10-04 03:30:12 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-04 03:30:14 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-04 03:30:16 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-04 03:30:27 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (132 words, need 150); too many 'not specified' (source too thin)): LAH vs PES Live Full Scorecard
+[2026-10-04 03:30:40 AM] [JOBS_BOT] [SUCCESS] Published: Goods Transporters Delay Strike After Negotiation
+[2026-10-04 03:30:41 AM] [JOBS_BOT] [INFO] AI usage: 2 calls, 1098 in / 752 out tokens
