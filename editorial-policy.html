@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Health — Beflaz</title>
+    <title>Editorial Policy - Beflaz</title>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,6 +12,16 @@
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .policy-section h3 {
+            color: var(--gold-light);
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
 </head>
 <body>
 
@@ -34,16 +44,28 @@
         </nav>
     </header>
 
-
-    <main>
-        <h1 class="page-title fade-up">🩺 Senior Health & Wellness</h1>
+    <main style="max-width: 800px; margin: 4rem auto; padding: 0 2rem;">
+        <h1 class="page-title fade-up" style="margin-top: 0;">Editorial Policy</h1>
         
-        <!-- Cards Grid Container -->
-        <section style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 2rem; padding: 2rem; max-width: 1200px; margin: 0 auto;">
-            <!-- NEW_CARD_HERE -->
-        </section>
+        <div class="fade-up policy-section" style="font-size: 1.1rem; line-height: 1.8; color: var(--text-primary);">
+            
+            <h3>How We Create Content</h3>
+            <p>Articles on Beflaz are produced with AI assistance, using information drawn only from the cited source for each article. We do not add facts, figures, or details that are not present in the original source material.</p>
+            
+            <h3>Source Attribution</h3>
+            <p>Every article includes a link to its original source at the end of the article, so readers can verify details and read further.</p>
+            
+            <h3>Quality Review</h3>
+            <p>Before publishing, each article passes through an automated quality check for accuracy indicators and completeness. Articles that do not meet this standard are not published.</p>
+            
+            <h3>Health Content</h3>
+            <p>Our Health section provides general wellness information only. It is not medical advice, and is not a substitute for consultation with a qualified healthcare provider. We encourage readers to speak with their doctor before making health-related decisions.</p>
+            
+            <h3>Corrections</h3>
+            <p>If you notice an error in any article, please contact us at <a href="mailto:contact@beflaz.com" style="color: var(--gold);">contact@beflaz.com</a> with the article link and a description of the issue. We will review and correct confirmed errors promptly.</p>
+            
+        </div>
     </main>
-
 
     <!-- Footer -->
     <footer class="site-footer fade-up">
@@ -59,12 +81,7 @@
     <!-- Scroll Reveal Script -->
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const observerOptions = {
-                root: null,
-                rootMargin: '0px',
-                threshold: 0.15
-            };
-
+            const observerOptions = { root: null, rootMargin: '0px', threshold: 0.15 };
             const observer = new IntersectionObserver((entries, observer) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
@@ -73,10 +90,7 @@
                     }
                 });
             }, observerOptions);
-
-            document.querySelectorAll('.fade-up').forEach((el) => {
-                observer.observe(el);
-            });
+            document.querySelectorAll('.fade-up').forEach((el) => observer.observe(el));
         });
     </script>
 </body>

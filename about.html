@@ -3,74 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Trendify Portal</title>
+    <title>About Beflaz</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
-
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KBM6G4521Y"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-KBM6G4521Y');
-</script>
-    <style>
-        /* Specific styles just for About Page content box */
-        .about-container { 
-            max-width: 850px; 
-            margin: 50px auto 80px; 
-            padding: 45px; 
-            background: #0c111d; 
-            border: 1px solid #1e293b; 
-            border-left: 5px solid #00ffcc; 
-            border-radius: 12px; 
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); 
-            animation: fadeIn 0.8s ease-out; 
-        }
-        .about-container h2 { color: #00ffcc; font-size: 2.2em; margin-top: 0; border-bottom: 1px solid #1e293b; padding-bottom: 15px; margin-bottom: 25px;}
-        .about-container p { color: #94a3b8; line-height: 1.8; font-size: 1.15em; margin-bottom: 20px; }
-        .about-container span.highlight { color: #FFD700; font-weight: 700; }
-        
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
-    </style>
 </head>
 <body>
-    <div class="durood-marquee">
-        <div class="marquee-content" dir="rtl">
-            ۞ اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ ۞ اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ ۞
-        </div>
-    </div>
 
-    <header>
-        <h1>Trendify Portal</h1>
-        <p class="subtitle">Empowering Your Daily Life</p>
+    <!-- Background Orbs -->
+    <div class="bg-orb gold"></div>
+    <div class="bg-orb silver"></div>
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <a href="index.html" style="font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; background: var(--accent-gradient); -webkit-background-clip: text; background-clip: text;background-clip: text; color: transparent; text-decoration: none; letter-spacing: 0.05em;">
+            Beflaz
+        </a>
+        <nav class="site-nav">
+            <a href="news.html">News</a>
+            <a href="jobs.html">Jobs</a>
+            <a href="scholarships.html">Scholarships</a>
+            <a href="dramas.html">Dramas</a>
+            <a href="health.html">Health</a>
+            <a href="history.html">History</a>
+        </nav>
     </header>
-    
-    <nav>
-        <a href="index.html">News</a>
-        <a href="jobs.html">Jobs</a>
-        <a href="scholarships.html">Scholarships</a>
-        <a href="dramas.html">Dramas</a>
-        <a href="health.html">Senior Health</a>
-        <a href="history.html">History & Docs</a>
-        <a href="about.html" class="active">About</a>
-    </nav>
-    
-    <div class="about-container">
-        <h2>Empowering You with What Matters</h2>
-        
-        <p>At <span class="highlight">Trendify</span>, our mission is simple: we work around the clock to bring the world's most valuable opportunities and information directly to your screen.</p>
-        
-        <p>We understand that your time is precious. That's why our dedicated team filters through the global noise to deliver only what truly matters—whether it's breaking global news, life-changing remote career opportunities, fully-funded scholarships, or deep dives into history and wellness.</p>
-        
-        <p>Developed with passion by <span class="highlight">Muhammad Mateen Arshad</span>, this platform is designed entirely around <strong>you</strong>. Our core goal is to empower your daily decisions, broaden your horizons, and keep you steps ahead of the curve, all in one seamless experience.</p>
-        
-        <p>No clutter, no fake news—just pure, high-quality knowledge tailored for your personal growth and entertainment.</p>
-    </div>
 
-    <footer>
-        <p>&copy; 2026 Trendify Media Pipeline. Built & Automated by <span>Arshad Iqbal</span>.</p>
+    <main style="max-width: 800px; margin: 4rem auto; padding: 0 2rem;">
+        <h1 class="page-title fade-up" style="margin-top: 0;">About Beflaz</h1>
+        
+        <div class="fade-up" style="font-size: 1.15rem; line-height: 1.8; color: var(--text-primary);">
+            <p style="margin-bottom: 1.5rem;">
+                Beflaz is a multi-category information portal covering News, Jobs, Scholarships, Dramas, Health, and History. Our content is gathered from publicly available sources and summarized with AI assistance, strictly grounded in the facts reported by the original source. Every article links back to its original source so readers can verify details themselves.
+            </p>
+            <p style="margin-bottom: 1.5rem;">
+                Our goal is to make useful, time-sensitive information - job openings, scholarship deadlines, breaking news, and general wellness information - easy to find in one place.
+            </p>
+            <p style="margin-bottom: 1.5rem;">
+                Beflaz does not claim ownership of the underlying facts or events reported; we summarize and organize publicly reported information for our readers' convenience.
+            </p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer fade-up">
+        <div class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="editorial-policy.html">Editorial Policy</a>
+        </div>
+        <p style="color: var(--text-muted); font-size: 0.95rem;">&copy; 2026 Beflaz. All rights reserved.</p>
     </footer>
+
+    <!-- Scroll Reveal Script -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observerOptions = { root: null, rootMargin: '0px', threshold: 0.15 };
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+            document.querySelectorAll('.fade-up').forEach((el) => observer.observe(el));
+        });
+    </script>
 </body>
 </html>

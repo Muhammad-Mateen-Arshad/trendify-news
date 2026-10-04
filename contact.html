@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Health — Beflaz</title>
+    <title>Contact Us - Beflaz</title>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,16 +34,21 @@
         </nav>
     </header>
 
-
-    <main>
-        <h1 class="page-title fade-up">🩺 Senior Health & Wellness</h1>
+    <main style="max-width: 800px; margin: 4rem auto; padding: 0 2rem; min-height: 40vh;">
+        <h1 class="page-title fade-up" style="margin-top: 0;">Contact Us</h1>
         
-        <!-- Cards Grid Container -->
-        <section style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 2rem; padding: 2rem; max-width: 1200px; margin: 0 auto;">
-            <!-- NEW_CARD_HERE -->
-        </section>
+        <div class="fade-up" style="font-size: 1.15rem; line-height: 1.8; color: var(--text-primary); text-align: center;">
+            <p style="margin-bottom: 1.5rem;">
+                Have a question, correction, or a tip? Reach out to us:
+            </p>
+            <p style="margin-bottom: 2rem; font-size: 1.3rem;">
+                <strong>Email:</strong> <a href="mailto:contact@beflaz.com" style="color: var(--gold-light);">contact@beflaz.com</a>
+            </p>
+            <p style="margin-bottom: 1.5rem; color: var(--text-muted); font-size: 1rem;">
+                We aim to respond within 2-3 business days. If you are reporting an error in an article, please include the article link and a brief description of the issue.
+            </p>
+        </div>
     </main>
-
 
     <!-- Footer -->
     <footer class="site-footer fade-up">
@@ -59,12 +64,7 @@
     <!-- Scroll Reveal Script -->
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const observerOptions = {
-                root: null,
-                rootMargin: '0px',
-                threshold: 0.15
-            };
-
+            const observerOptions = { root: null, rootMargin: '0px', threshold: 0.15 };
             const observer = new IntersectionObserver((entries, observer) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
@@ -73,10 +73,7 @@
                     }
                 });
             }, observerOptions);
-
-            document.querySelectorAll('.fade-up').forEach((el) => {
-                observer.observe(el);
-            });
+            document.querySelectorAll('.fade-up').forEach((el) => observer.observe(el));
         });
     </script>
 </body>
