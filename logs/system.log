@@ -3356,3 +3356,17 @@
 [2026-10-04 06:28:37 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
 [2026-10-04 06:29:11 PM] [HISTORY_BOT] [SUCCESS] Published: Marathon Man: A Dinosaur named SUE
 [2026-10-04 06:29:12 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 946 in / 536 out tokens
+[2026-10-04 07:01:45 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-04 07:01:50 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-04 07:02:00 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-04 07:02:17 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-04 07:02:43 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-04 07:03:13 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-04 07:04:07 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-04 07:04:43 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-04 07:05:13 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-04 07:05:41 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-04 07:06:13 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-04 07:06:55 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-04 07:07:42 PM] [NEWS_BOT] [SUCCESS] Published: PTI terms access to Imran 'principal point of deadlock', claims Centre refused to include it in agreement
+[2026-10-04 07:07:43 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1396 in / 500 out tokens
