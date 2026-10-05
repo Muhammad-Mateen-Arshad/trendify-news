@@ -3691,3 +3691,20 @@
 [2026-10-05 02:37:17 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
 [2026-10-05 02:37:49 AM] [NEWS_BOT] [SUCCESS] Published: Train engine derails near Balochistan's Kuchlak
 [2026-10-05 02:37:50 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 701 in / 366 out tokens
+[2026-10-05 02:37:51 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac30d7e0b1a4bb1a01eade54314a7a
+[2026-10-05 02:37:51 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 114/400 chars, resolved=True): It happened today – this day in history – October 5
+[2026-10-05 02:37:51 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac30d7e0b1a4bb1a01eade54314a7a
+[2026-10-05 02:37:51 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): Eight countries including China join military exercises in Russia
+[2026-10-05 02:37:51 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac30d7e0b1a4bb1a01eade54314a7a
+[2026-10-05 02:37:51 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 157/400 chars, resolved=True): Pakistani prisoner dies by suspected suicide in Jammu jail
+[2026-10-05 02:37:52 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac30d7e0b1a4bb1a01eade54314a7a
+[2026-10-05 02:37:52 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 92/400 chars, resolved=True): Army and Tulane meet in AAC play
+[2026-10-05 02:37:52 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac30d802a324558ae343e9071523a1
+[2026-10-05 02:37:52 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 146/400 chars, resolved=True): Latest - September 30, 2026
+[2026-10-05 02:37:53 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac30d8026e043f5bf551780112ab1f
+[2026-10-05 02:37:53 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): HEC Jobs 2026 Apply Online for Managers, Office Assistants & Others Hi
+[2026-10-05 02:37:53 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac30d8026e043f5bf551780112ab1f
+[2026-10-05 02:37:53 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-05 02:38:08 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac30d8026e043f5bf551780112ab1f
+[2026-10-05 02:38:08 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): The 10 Most Enjoyable Jobs for Older Workers
+[2026-10-05 02:38:08 AM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 7, 'tried': 8, 'thin': 8}
