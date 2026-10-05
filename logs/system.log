@@ -4140,3 +4140,12 @@
 [2026-10-05 07:58:13 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-05 07:58:43 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-05 07:59:13 PM] [DRAMAS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
+[2026-10-05 07:59:15 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac401933ff449bda6620482f1f5125
+[2026-10-05 07:59:15 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 74/400 chars, resolved=True): Communications breakdown may have contributed to 418% hike in refusals
+[2026-10-05 07:59:15 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac401933ff449bda6620482f1f5125
+[2026-10-05 07:59:15 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 165/400 chars, resolved=True): WSF routes facing cancelled, reduced service due to crew shortages
+[2026-10-05 07:59:16 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-05 07:59:24 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-05 07:59:34 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-05 07:59:58 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Scholarships for Pakistani Students in Germany: Funding, Eligibility and How to Apply
+[2026-10-05 07:59:58 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 886 in / 676 out tokens
