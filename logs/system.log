@@ -4187,3 +4187,15 @@
 [2026-10-05 08:03:55 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-05 08:04:25 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-05 08:04:55 PM] [HISTORY_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
+[2026-10-05 11:29:35 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-05 11:29:40 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-05 11:29:51 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-05 11:30:07 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-05 11:30:27 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-05 11:30:37 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 11:31:08 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 11:31:38 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 11:32:09 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 11:32:39 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-05 11:32:57 PM] [NEWS_BOT] [SUCCESS] Published: PTI long march: KP CM's convoy halts in Kohat for the night, heads for Peshawar on Tuesday
+[2026-10-05 11:32:57 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1604 in / 472 out tokens
