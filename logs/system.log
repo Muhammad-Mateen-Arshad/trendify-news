@@ -4040,3 +4040,20 @@
 [2026-10-05 03:41:03 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-05 03:41:51 PM] [JOBS_BOT] [SUCCESS] Published: Aga Khan Foundation launches $500M drive to turn Indian Ocean restoration into economic opportunity
 [2026-10-05 03:41:52 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1352 in / 460 out tokens
+[2026-10-05 03:41:53 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac3c541eabc4f9aafd250b1eeeae07
+[2026-10-05 03:41:53 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 203/300 chars, resolved=True): Mehmed: Fetihler Sultanı Haberleri
+[2026-10-05 03:41:55 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac3c541b0c84891941c8a5d11835be
+[2026-10-05 03:41:55 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 137/300 chars, resolved=True): Be2Can brings Cannes and Berlinale highlights to Prague cinemas this w
+[2026-10-05 03:42:30 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-05 03:42:36 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-05 03:42:38 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-05 03:42:43 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-05 03:43:16 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-05 03:44:05 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 03:44:40 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 03:45:18 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 03:46:02 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 03:46:41 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 03:47:20 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 03:48:03 PM] [DRAMAS_BOT] [SUCCESS] Published: Florence Pugh's ‘East of Eden' gets major reactions from critics
+[2026-10-05 03:48:05 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 605 in / 463 out tokens
