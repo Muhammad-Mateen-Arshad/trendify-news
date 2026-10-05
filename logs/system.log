@@ -3851,3 +3851,20 @@
 [2026-10-05 07:30:13 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 159/800 chars, resolved=True): Why your dog needs a simple preventive care schedule by age
 [2026-10-05 07:30:30 AM] [HEALTH_BOT] [SUCCESS] Published: India’s longevity economy: Why senior healthcare is becoming more than a medical sector
 [2026-10-05 07:30:31 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1498 in / 513 out tokens
+[2026-10-05 07:30:31 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac35217c31c45979eaf28731e6a250
+[2026-10-05 07:30:31 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): At the Nat, a decade of discovery under Judy Gradwohl
+[2026-10-05 07:30:32 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac35217c31c45979eaf28731e6a250
+[2026-10-05 07:30:32 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): A camper thought he found a flip-flop on a Canadian lake shore. It was
+[2026-10-05 07:30:32 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac352183f904a9b85e18ff6f7e533d
+[2026-10-05 07:30:32 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 166/400 chars, resolved=True): Jurassic Park's 'Impossible Cliff' isn't a plot hole, and other Spielb
+[2026-10-05 07:30:32 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac352183f904a9b85e18ff6f7e533d
+[2026-10-05 07:30:32 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long SNDK Daily Target ETF
+[2026-10-05 07:30:32 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac352183f904a9b85e18ff6f7e533d
+[2026-10-05 07:30:32 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long BMNR Daily Target ETF
+[2026-10-05 07:30:32 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac352189d114d51b98623784f20d5d
+[2026-10-05 07:30:32 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 154/400 chars, resolved=True): 8 sci-fi movies to watch if you loved Stargate
+[2026-10-05 07:30:33 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac352189d114d51b98623784f20d5d
+[2026-10-05 07:30:33 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 159/400 chars, resolved=True): Morocco reveals africa's oldest 4,000-year-old defensive wal
+[2026-10-05 07:30:33 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac352189d114d51b98623784f20d5d
+[2026-10-05 07:30:33 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 93/400 chars, resolved=True): Archaeologists Opened a Tomb Sealed for 600 Years—and Found Gold, Bone
+[2026-10-05 07:30:33 AM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 3}
