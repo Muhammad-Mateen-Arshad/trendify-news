@@ -4105,3 +4105,19 @@
 [2026-10-05 07:50:07 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
 [2026-10-05 07:50:42 PM] [NEWS_BOT] [SUCCESS] Published: Pakistan, Turkiye, Saudi Arabia agree to rapid force deployment in the kingdom under Makkah pact
 [2026-10-05 07:50:43 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1473 in / 428 out tokens
+[2026-10-05 07:50:54 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-05 07:50:59 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-05 07:51:02 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-05 07:51:18 PM] [JOBS_BOT] [INFO] Rejected by quality gate (too many 'not specified' (source too thin)): Pakistan Achieved Economic Stability. Now Government Must Deliver Grow
+[2026-10-05 07:51:19 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-05 07:51:30 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-05 07:51:51 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-05 07:52:16 PM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (146 words, need 150); too many 'not specified' (source too thin)): Pakistan’s Tourism Potential: From Political Slogans to a Real Tourism
+[2026-10-05 07:52:25 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-05 07:52:41 PM] [JOBS_BOT] [INFO] Rejected by quality gate (too many 'not specified' (source too thin)): FTSE 100 today: Stocks rise as metals lift miners, weak U.S. jobs cut 
+[2026-10-05 07:52:43 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-05 07:52:48 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-05 07:52:59 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-05 07:53:22 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-05 07:53:55 PM] [JOBS_BOT] [SUCCESS] Published: Bilawal Bhutto inaugurates Thar Coal Phase-III expansion and Pakistan’s first coal drying unit
+[2026-10-05 07:53:55 PM] [JOBS_BOT] [INFO] AI usage: 4 calls, 5315 in / 1736 out tokens
