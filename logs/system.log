@@ -3683,3 +3683,11 @@
 [2026-10-04 11:29:52 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2e16fe3834a8eba45f496a9ee934
 [2026-10-04 11:29:52 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 93/400 chars, resolved=True): Archaeologists Opened a Tomb Sealed for 600 Years—and Found Gold, Bone
 [2026-10-04 11:29:52 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 5}
+[2026-10-05 02:36:37 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.dawn.com/news/2034881/naqvi-kundi-mull-governors-rule-in-kp-discuss-political-
+[2026-10-05 02:36:37 AM] [NEWS_BOT] [INFO] Skipped (source text too thin, 0/400 chars, resolved=True): Naqvi, Kundi mull governor’s rule in KP, discuss political and securit
+[2026-10-05 02:36:48 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-05 02:36:57 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-05 02:37:08 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-05 02:37:17 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-05 02:37:49 AM] [NEWS_BOT] [SUCCESS] Published: Train engine derails near Balochistan's Kuchlak
+[2026-10-05 02:37:50 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 701 in / 366 out tokens
