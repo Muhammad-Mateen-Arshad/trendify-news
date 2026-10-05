@@ -3752,3 +3752,9 @@
 [2026-10-05 02:38:57 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac30dc06d8a4735b50ee64ba54e5c3
 [2026-10-05 02:38:57 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 93/400 chars, resolved=True): Archaeologists Opened a Tomb Sealed for 600 Years—and Found Gold, Bone
 [2026-10-05 02:38:57 AM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 4}
+[2026-10-05 03:29:27 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-05 03:29:34 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-05 03:29:44 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-05 03:29:46 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-05 03:30:21 AM] [NEWS_BOT] [SUCCESS] Published: Naqvi, Kundi mull governor’s rule
+[2026-10-05 03:30:22 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1100 in / 477 out tokens
