@@ -4149,3 +4149,18 @@
 [2026-10-05 07:59:34 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-05 07:59:58 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Scholarships for Pakistani Students in Germany: Funding, Eligibility and How to Apply
 [2026-10-05 07:59:58 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 886 in / 676 out tokens
+[2026-10-05 07:59:59 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-05 07:59:59 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-05 08:00:00 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac401bfbad14c58b7dcfaa0757c2e1
+[2026-10-05 08:00:00 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 29/800 chars, resolved=True): Nearly Half of Women Face This Workout Challenge Before They Even Star
+[2026-10-05 08:00:00 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac401bfbad14c58b7dcfaa0757c2e1
+[2026-10-05 08:00:00 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Mauritius is the first country to show it is reversing the type 2 diab
+[2026-10-05 08:00:00 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac401c06170405eb12d81f2c7cdb3d
+[2026-10-05 08:00:00 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 113/800 chars, resolved=True): Healthy aging should be measured by what we can keep doing | Opinion
+[2026-10-05 08:00:00 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac401c06170405eb12d81f2c7cdb3d
+[2026-10-05 08:00:00 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 192/800 chars, resolved=True): Exercise erases 57% of muscle aging (new human study)
+[2026-10-05 08:00:00 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac401c06170405eb12d81f2c7cdb3d
+[2026-10-05 08:00:00 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 203/800 chars, resolved=True): Exercise Leaves Distinct Protein Fingerprints in Blood That Track Memo
+[2026-10-05 08:00:01 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac401c06170405eb12d81f2c7cdb3d
+[2026-10-05 08:00:01 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Exercise May Reduce Cellular Recycling Rates to More Youthful Levels
+[2026-10-05 08:00:01 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 13, 'tried': 7, 'thin': 7}
