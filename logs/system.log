@@ -3821,3 +3821,5 @@
 [2026-10-05 03:30:44 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac319e3df7b4f3e96568c8314e57c4
 [2026-10-05 03:30:44 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 93/400 chars, resolved=True): Archaeologists Opened a Tomb Sealed for 600 Years—and Found Gold, Bone
 [2026-10-05 03:30:44 AM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 4}
+[2026-10-05 07:29:50 AM] [NEWS_BOT] [SUCCESS] Published: Makkah defence pact meeting to be held today in Riyadh, confirms FO
+[2026-10-05 07:29:50 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 985 in / 591 out tokens
