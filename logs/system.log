@@ -4012,3 +4012,18 @@
 [2026-10-05 11:31:57 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac38aac6d5a450998f707cbd036020
 [2026-10-05 11:31:57 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 93/400 chars, resolved=True): Archaeologists Opened a Tomb Sealed for 600 Years—and Found Gold, Bone
 [2026-10-05 11:31:57 AM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 1}
+[2026-10-05 03:29:42 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-05 03:30:06 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-05 03:30:18 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-05 03:30:34 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-05 03:30:45 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-05 03:31:36 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 03:32:06 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 03:32:38 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 03:33:22 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 03:33:53 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 03:34:23 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 03:34:58 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 03:35:28 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-05 03:35:40 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 03:36:10 PM] [NEWS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
