@@ -4270,3 +4270,7 @@
 [2026-10-05 11:39:35 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-05 11:39:51 PM] [HEALTH_BOT] [SUCCESS] Published: Creatine’s Benefits May Go Beyond the Gym for Older Adults
 [2026-10-05 11:39:52 PM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1499 in / 566 out tokens
+[2026-10-05 11:39:53 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4354972834e70b4f5ba765f4fc0c
+[2026-10-05 11:39:53 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): Rare insect discovery reveals a new species from the dinosaur age
+[2026-10-05 11:40:06 PM] [HISTORY_BOT] [SUCCESS] Published: Newly feathered Dinosaur species unearthed
+[2026-10-05 11:40:07 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 401 in / 283 out tokens
