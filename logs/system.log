@@ -3715,3 +3715,8 @@
 [2026-10-05 02:38:27 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-05 02:38:49 AM] [DRAMAS_BOT] [SUCCESS] Published: What’s New on TV This Week? The Top Premieres for October 5-11, 2026
 [2026-10-05 02:38:50 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1699 in / 774 out tokens
+[2026-10-05 02:38:51 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac30dba86fe464da508fbeceb4af75
+[2026-10-05 02:38:51 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): VIT Bhopal University conducts 7th annual convocation, confers degrees
+[2026-10-05 02:38:51 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac30dba86fe464da508fbeceb4af75
+[2026-10-05 02:38:51 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 145/400 chars, resolved=True): Ondo Govt Expands Health, Agric, Power Projects, Says Aiyedatiwa
+[2026-10-05 02:38:52 AM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'tried': 2, 'thin': 2, 'already_seen': 14}
