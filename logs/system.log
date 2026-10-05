@@ -4083,3 +4083,20 @@
 [2026-10-05 03:54:29 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-05 03:55:25 PM] [HEALTH_BOT] [SUCCESS] Published: Are You Making These 5 Condom Mistakes? An Expert Weighs In on Safe Sex
 [2026-10-05 03:55:26 PM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1481 in / 549 out tokens
+[2026-10-05 03:55:26 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac3c86ee2ea46c492de890d7201518
+[2026-10-05 03:55:26 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 119/400 chars, resolved=True): Meet Jodi the Nanotyrannus, a New Dinosaur With a $9M Price Tag
+[2026-10-05 03:55:27 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac3c86e16ef400284c6028e0631bba
+[2026-10-05 03:55:27 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 166/400 chars, resolved=True): Jurassic Park's 'Impossible Cliff' isn't a plot hole, and other Spielb
+[2026-10-05 03:55:27 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac3c86e16ef400284c6028e0631bba
+[2026-10-05 03:55:27 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long SNDK Daily Target ETF
+[2026-10-05 03:55:27 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac3c86e16ef400284c6028e0631bba
+[2026-10-05 03:55:27 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long BMNR Daily Target ETF
+[2026-10-05 03:55:28 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac3c86fe92d434d90c9f7a56c6d9ca
+[2026-10-05 03:55:28 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 159/400 chars, resolved=True): Lost languages of antiquity: deciphered scripts & ancient ec
+[2026-10-05 03:55:28 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac3c86fe92d434d90c9f7a56c6d9ca
+[2026-10-05 03:55:28 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 159/400 chars, resolved=True): Morocco reveals africa's oldest 4,000-year-old defensive wal
+[2026-10-05 03:55:28 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac3c86fe92d434d90c9f7a56c6d9ca
+[2026-10-05 03:55:28 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 93/400 chars, resolved=True): Archaeologists Opened a Tomb Sealed for 600 Years—and Found Gold, Bone
+[2026-10-05 03:55:28 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac3c86fe92d434d90c9f7a56c6d9ca
+[2026-10-05 03:55:28 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): Peruvian mummies raise questions about Wari conquest of Nasca civiliza
+[2026-10-05 03:55:28 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 1}
