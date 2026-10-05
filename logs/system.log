@@ -3775,3 +3775,14 @@
 [2026-10-05 03:30:34 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 146/400 chars, resolved=True): Latest - September 30, 2026
 [2026-10-05 03:30:34 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 616 in / 359 out tokens
 [2026-10-05 03:30:34 AM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 2, 'tried': 8, 'thin': 7, 'rejected': 1}
+[2026-10-05 03:30:35 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac319db9d0649cca5dbe9ade6830f5
+[2026-10-05 03:30:35 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 203/300 chars, resolved=True): Mehmed: Fetihler Sultanı Haberleri
+[2026-10-05 03:30:37 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac319db1a314d48be0b2a440cbf165
+[2026-10-05 03:30:37 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 137/300 chars, resolved=True): Be2Can brings Cannes and Berlinale highlights to Prague cinemas this w
+[2026-10-05 03:30:38 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac319dd596d48db952ed3e95ed92e8
+[2026-10-05 03:30:38 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 156/300 chars, resolved=True): Love Village season 3: Release Date, trailer and everything to know ab
+[2026-10-05 03:30:38 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac319de8865463a8b456574aa1cede
+[2026-10-05 03:30:38 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 203/300 chars, resolved=True): Kuma - The other wife | show | 2025 | official trailer
+[2026-10-05 03:30:38 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac319de8865463a8b456574aa1cede
+[2026-10-05 03:30:38 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 161/300 chars, resolved=True): The Turkish drama everyone’s talking about: now the third most-watched
+[2026-10-05 03:30:38 AM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 12, 'tried': 5, 'thin': 5}
