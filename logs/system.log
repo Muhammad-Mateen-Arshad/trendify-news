@@ -3843,3 +3843,11 @@
 [2026-10-05 07:30:10 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac352010f274452b362dd459ccd53d
 [2026-10-05 07:30:10 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 145/400 chars, resolved=True): Ondo Govt Expands Health, Agric, Power Projects, Says Aiyedatiwa
 [2026-10-05 07:30:11 AM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'tried': 3, 'thin': 3, 'already_seen': 13}
+[2026-10-05 07:30:12 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-05 07:30:12 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-05 07:30:13 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac35204ff014969b6a41cdd99d2c5d
+[2026-10-05 07:30:13 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 129/800 chars, resolved=True): New study suggests possible connection between GLP-1s and hair loss in
+[2026-10-05 07:30:13 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac35204ff014969b6a41cdd99d2c5d
+[2026-10-05 07:30:13 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 159/800 chars, resolved=True): Why your dog needs a simple preventive care schedule by age
+[2026-10-05 07:30:30 AM] [HEALTH_BOT] [SUCCESS] Published: India’s longevity economy: Why senior healthcare is becoming more than a medical sector
+[2026-10-05 07:30:31 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1498 in / 513 out tokens
