@@ -3868,3 +3868,10 @@
 [2026-10-05 07:30:33 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac352189d114d51b98623784f20d5d
 [2026-10-05 07:30:33 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 93/400 chars, resolved=True): Archaeologists Opened a Tomb Sealed for 600 Years—and Found Gold, Bone
 [2026-10-05 07:30:33 AM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 3}
+[2026-10-05 10:55:05 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-05 10:55:28 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-05 10:55:44 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-05 10:56:07 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-05 10:56:30 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-05 10:57:10 AM] [NEWS_BOT] [SUCCESS] Published: After breakdown of talks with govt, PTI says reconciliation not possible without including Imran
+[2026-10-05 10:57:11 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1003 in / 475 out tokens
