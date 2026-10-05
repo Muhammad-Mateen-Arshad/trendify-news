@@ -3836,3 +3836,10 @@
 [2026-10-05 07:30:09 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac35200bf30445895313ecd1dc8396
 [2026-10-05 07:30:09 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 161/300 chars, resolved=True): The Turkish drama everyone’s talking about: now the third most-watched
 [2026-10-05 07:30:09 AM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 12, 'tried': 5, 'thin': 5}
+[2026-10-05 07:30:10 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac352010f274452b362dd459ccd53d
+[2026-10-05 07:30:10 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 74/400 chars, resolved=True): Communications breakdown may have contributed to 418% hike in refusals
+[2026-10-05 07:30:10 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac352010f274452b362dd459ccd53d
+[2026-10-05 07:30:10 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): VIT Bhopal University conducts 7th annual convocation, confers degrees
+[2026-10-05 07:30:10 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac352010f274452b362dd459ccd53d
+[2026-10-05 07:30:10 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 145/400 chars, resolved=True): Ondo Govt Expands Health, Agric, Power Projects, Says Aiyedatiwa
+[2026-10-05 07:30:11 AM] [SCHOLARSHIPS_BOT] [INFO] Nothing published this run: {'tried': 3, 'thin': 3, 'already_seen': 13}
