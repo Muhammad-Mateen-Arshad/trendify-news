@@ -3758,3 +3758,20 @@
 [2026-10-05 03:29:46 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
 [2026-10-05 03:30:21 AM] [NEWS_BOT] [SUCCESS] Published: Naqvi, Kundi mull governor’s rule
 [2026-10-05 03:30:22 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1100 in / 477 out tokens
+[2026-10-05 03:30:22 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac319cef8c74f4d9a97ce3d110e307
+[2026-10-05 03:30:22 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-05 03:30:23 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac319ce7bcb4d8a9269f3d814674b4
+[2026-10-05 03:30:23 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 114/400 chars, resolved=True): It happened today – this day in history – October 5
+[2026-10-05 03:30:23 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac319ce7bcb4d8a9269f3d814674b4
+[2026-10-05 03:30:23 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): Eight countries including China join military exercises in Russia
+[2026-10-05 03:30:23 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac319ce7bcb4d8a9269f3d814674b4
+[2026-10-05 03:30:23 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 157/400 chars, resolved=True): Pakistani prisoner dies by suspected suicide in Jammu jail
+[2026-10-05 03:30:34 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too many 'not specified' (source too thin)): Army and Tulane meet in AAC play
+[2026-10-05 03:30:34 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac319da9fa240de9095707e72fb184
+[2026-10-05 03:30:34 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 199/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-05 03:30:34 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac319dad5494eb88aa27a523ed7fe5
+[2026-10-05 03:30:34 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 199/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-05 03:30:34 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac319dad5494eb88aa27a523ed7fe5
+[2026-10-05 03:30:34 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 146/400 chars, resolved=True): Latest - September 30, 2026
+[2026-10-05 03:30:34 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 616 in / 359 out tokens
+[2026-10-05 03:30:34 AM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 2, 'tried': 8, 'thin': 7, 'rejected': 1}
