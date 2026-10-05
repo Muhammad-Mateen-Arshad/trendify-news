@@ -4057,3 +4057,14 @@
 [2026-10-05 03:47:20 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-05 03:48:03 PM] [DRAMAS_BOT] [SUCCESS] Published: Florence Pugh's ‘East of Eden' gets major reactions from critics
 [2026-10-05 03:48:05 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 605 in / 463 out tokens
+[2026-10-05 03:48:07 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-05 03:48:09 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-05 03:48:24 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-05 03:48:50 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-05 03:49:18 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-05 03:49:54 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 03:50:34 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 03:51:04 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-05 03:51:13 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 03:51:59 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Balochistan Announces Fully Funded PhD Scholarships Abroad
+[2026-10-05 03:52:00 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 710 in / 485 out tokens
