@@ -3943,3 +3943,21 @@
 [2026-10-05 11:29:53 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-10-05 11:30:11 AM] [NEWS_BOT] [SUCCESS] Published: PTI long march: After Karak address, KP CM's convoy to depart for Kohat
 [2026-10-05 11:30:12 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1606 in / 482 out tokens
+[2026-10-05 11:30:13 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac38a447da645dfb0fc04c78b8ef6a
+[2026-10-05 11:30:13 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 126/400 chars, resolved=True): Gold rises as chances of October Fed rate hike fall
+[2026-10-05 11:30:13 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac38a447da645dfb0fc04c78b8ef6a
+[2026-10-05 11:30:13 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 184/400 chars, resolved=True): Eisenkot, Bennett demand Regev’s ouster over security failures exposed
+[2026-10-05 11:30:13 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac38a4592014e318ca9d79fbbe1488
+[2026-10-05 11:30:13 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): Top 20 UPSC Current Affairs Pointers of the past week | September 28 t
+[2026-10-05 11:30:13 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac38a4592014e318ca9d79fbbe1488
+[2026-10-05 11:30:13 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-05 11:30:14 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac38a4527264c8b951dacf239b6b88
+[2026-10-05 11:30:14 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): The lasting legacy of Sir Anwar Pervez
+[2026-10-05 11:30:14 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac38a4527264c8b951dacf239b6b88
+[2026-10-05 11:30:14 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 114/400 chars, resolved=True): It happened today – this day in history – October 5
+[2026-10-05 11:30:14 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac38a4527264c8b951dacf239b6b88
+[2026-10-05 11:30:14 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): Army insignia replaces painting installed in place of 1971 war surrend
+[2026-10-05 11:30:16 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-05 11:30:26 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (103 words, need 150); too many 'not specified' (source too thin)): ATP Tokyo, Alcaraz flies into final: Munar defeated in three sets
+[2026-10-05 11:30:26 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 2292 in / 274 out tokens
+[2026-10-05 11:30:26 AM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 2, 'tried': 8, 'thin': 7, 'rejected': 1}
