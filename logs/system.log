@@ -3825,3 +3825,14 @@
 [2026-10-05 07:29:50 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 985 in / 591 out tokens
 [2026-10-05 07:30:04 AM] [JOBS_BOT] [SUCCESS] Published: Defending Pakistan’s auto base
 [2026-10-05 07:30:05 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1304 in / 554 out tokens
+[2026-10-05 07:30:06 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac351fdea8847b7bca8bfe2cefabd5
+[2026-10-05 07:30:06 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 203/300 chars, resolved=True): Mehmed: Fetihler Sultanı Haberleri
+[2026-10-05 07:30:08 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac351fefeec413298a3a452b322ddf
+[2026-10-05 07:30:08 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 137/300 chars, resolved=True): Be2Can brings Cannes and Berlinale highlights to Prague cinemas this w
+[2026-10-05 07:30:08 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac35200a5674c9fb9f594f21a4c9ef
+[2026-10-05 07:30:08 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 156/300 chars, resolved=True): Love Village season 3: Release Date, trailer and everything to know ab
+[2026-10-05 07:30:09 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac35200bf30445895313ecd1dc8396
+[2026-10-05 07:30:09 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 203/300 chars, resolved=True): Kuma - The other wife | show | 2025 | official trailer
+[2026-10-05 07:30:09 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac35200bf30445895313ecd1dc8396
+[2026-10-05 07:30:09 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 161/300 chars, resolved=True): The Turkish drama everyone’s talking about: now the third most-watched
+[2026-10-05 07:30:09 AM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 12, 'tried': 5, 'thin': 5}
