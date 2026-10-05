@@ -3961,3 +3961,12 @@
 [2026-10-05 11:30:26 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (103 words, need 150); too many 'not specified' (source too thin)): ATP Tokyo, Alcaraz flies into final: Munar defeated in three sets
 [2026-10-05 11:30:26 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 2292 in / 274 out tokens
 [2026-10-05 11:30:26 AM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 2, 'tried': 8, 'thin': 7, 'rejected': 1}
+[2026-10-05 11:30:27 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac38a52e84e4f7e8c9f9eb4b636b13
+[2026-10-05 11:30:27 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 203/300 chars, resolved=True): Mehmed: Fetihler Sultanı Haberleri
+[2026-10-05 11:30:28 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac38a534f224b339697c9bb1d5b0a8
+[2026-10-05 11:30:28 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 156/300 chars, resolved=True): Love Village season 3: Release Date, trailer and everything to know ab
+[2026-10-05 11:30:28 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac38a54f91a4266ad976728417d6ba
+[2026-10-05 11:30:28 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 203/300 chars, resolved=True): Kuma - The other wife | show | 2025 | official trailer
+[2026-10-05 11:30:28 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac38a54f91a4266ad976728417d6ba
+[2026-10-05 11:30:28 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 161/300 chars, resolved=True): The Turkish drama everyone’s talking about: now the third most-watched
+[2026-10-05 11:30:28 AM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 13, 'tried': 4, 'thin': 4}
