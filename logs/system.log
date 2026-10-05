@@ -3970,3 +3970,13 @@
 [2026-10-05 11:30:28 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac38a54f91a4266ad976728417d6ba
 [2026-10-05 11:30:28 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 161/300 chars, resolved=True): The Turkish drama everyone’s talking about: now the third most-watched
 [2026-10-05 11:30:28 AM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 13, 'tried': 4, 'thin': 4}
+[2026-10-05 11:30:29 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac38a55071a49a09e8b101f8b9dee9
+[2026-10-05 11:30:29 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 74/400 chars, resolved=True): Communications breakdown may have contributed to 418% hike in refusals
+[2026-10-05 11:30:29 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac38a55071a49a09e8b101f8b9dee9
+[2026-10-05 11:30:29 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): VIT Bhopal University conducts 7th annual convocation, confers degrees
+[2026-10-05 11:30:30 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-05 11:30:35 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-05 11:30:48 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-05 11:31:16 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-05 11:31:51 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: National University of Singapore is Offering PhD Scholarships With S$2,200 Monthly Stipend
+[2026-10-05 11:31:52 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1311 in / 644 out tokens
