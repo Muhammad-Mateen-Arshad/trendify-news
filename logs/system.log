@@ -3980,3 +3980,18 @@
 [2026-10-05 11:31:16 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
 [2026-10-05 11:31:51 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: National University of Singapore is Offering PhD Scholarships With S$2,200 Monthly Stipend
 [2026-10-05 11:31:52 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1311 in / 644 out tokens
+[2026-10-05 11:31:53 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-05 11:31:53 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-05 11:31:53 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac38aa988844a95b593ddca95bbaf9
+[2026-10-05 11:31:53 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 129/800 chars, resolved=True): New study suggests possible connection between GLP-1s and hair loss in
+[2026-10-05 11:31:53 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac38aa988844a95b593ddca95bbaf9
+[2026-10-05 11:31:53 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 159/800 chars, resolved=True): Why your dog needs a simple preventive care schedule by age
+[2026-10-05 11:31:54 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac38aa9d92e4198a9d7c224a89f3f4
+[2026-10-05 11:31:54 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 192/800 chars, resolved=True): Exercise erases 57% of muscle aging (new human study)
+[2026-10-05 11:31:54 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac38aa9d92e4198a9d7c224a89f3f4
+[2026-10-05 11:31:54 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 203/800 chars, resolved=True): Exercise Leaves Distinct Protein Fingerprints in Blood That Track Memo
+[2026-10-05 11:31:54 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac38aa9d92e4198a9d7c224a89f3f4
+[2026-10-05 11:31:54 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 87/800 chars, resolved=True): The simple exercise Al Roker does every day for healthy aging
+[2026-10-05 11:31:54 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac38aa9d92e4198a9d7c224a89f3f4
+[2026-10-05 11:31:54 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): Exercise May Reduce Cellular Recycling Rates to More Youthful Levels
+[2026-10-05 11:31:54 AM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 13, 'tried': 7, 'thin': 7}
