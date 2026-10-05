@@ -4199,3 +4199,26 @@
 [2026-10-05 11:32:39 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-05 11:32:57 PM] [NEWS_BOT] [SUCCESS] Published: PTI long march: KP CM's convoy halts in Kohat for the night, heads for Peshawar on Tuesday
 [2026-10-05 11:32:57 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1604 in / 472 out tokens
+[2026-10-05 11:32:58 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac433aa0b654a5389c36c0ae89de82
+[2026-10-05 11:32:58 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): Karnataka plans to introduce AI training in govt schools from class 6
+[2026-10-05 11:32:58 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac433aa0b654a5389c36c0ae89de82
+[2026-10-05 11:32:58 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 126/400 chars, resolved=True): Gold rises as chances of October Fed rate hike fall
+[2026-10-05 11:32:59 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac433aa979645eb86a2cb38f215dd8
+[2026-10-05 11:32:59 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): Top 20 UPSC Current Affairs Pointers of the past week | September 28 t
+[2026-10-05 11:32:59 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac433aa979645eb86a2cb38f215dd8
+[2026-10-05 11:32:59 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 130/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-05 11:32:59 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac433abb0814325ac8ffc9ecfce8e0
+[2026-10-05 11:32:59 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 149/400 chars, resolved=True): Emerging tech has new Army leaders warning troops can't 'AI' their way
+[2026-10-05 11:33:04 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-05 11:33:09 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-05 11:33:12 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-05 11:33:14 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-05 11:33:16 PM] [AI_BOT] [INFO] Switched to Gemini key 5 of 5
+[2026-10-05 11:33:19 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-05 11:34:00 PM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (143 words, need 150); too many 'not specified' (source too thin)): Brazil’s next president will either be a vengeful nepo-baby or a dodde
+[2026-10-05 11:34:00 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac433abb0814325ac8ffc9ecfce8e0
+[2026-10-05 11:34:00 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): Man wanted in Rs 46-lakh job fraud case arrested from Vaishali
+[2026-10-05 11:34:02 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-05 11:34:15 PM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (107 words, need 150)): BJP seeks probe into hiring of 1,208 outsourced sanitation workers in 
+[2026-10-05 11:34:15 PM] [JOBS_BOT] [INFO] AI usage: 2 calls, 2576 in / 596 out tokens
+[2026-10-05 11:34:15 PM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 2, 'tried': 8, 'thin': 6, 'rejected': 2}
