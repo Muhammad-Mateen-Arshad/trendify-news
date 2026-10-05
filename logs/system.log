@@ -3938,3 +3938,8 @@
 [2026-10-05 11:06:21 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac384ad616e40b8a35e92be1b179f4
 [2026-10-05 11:06:21 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 93/400 chars, resolved=True): Archaeologists Opened a Tomb Sealed for 600 Years—and Found Gold, Bone
 [2026-10-05 11:06:21 AM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 1}
+[2026-10-05 11:29:36 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-05 11:29:43 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-05 11:29:53 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-05 11:30:11 AM] [NEWS_BOT] [SUCCESS] Published: PTI long march: After Karak address, KP CM's convoy to depart for Kohat
+[2026-10-05 11:30:12 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1606 in / 482 out tokens
