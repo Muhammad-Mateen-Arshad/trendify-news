@@ -4476,3 +4476,19 @@
 [2026-10-06 07:39:33 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-06 07:40:15 AM] [JOBS_BOT] [SUCCESS] Published: Not due to political disagreement: Keralam on probe against Gyanesh Kumar
 [2026-10-06 07:40:16 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 762 in / 448 out tokens
+[2026-10-06 07:40:18 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4a5e165264579baead23d0752d1d
+[2026-10-06 07:40:18 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 137/300 chars, resolved=True): Be2Can brings Cannes and Berlinale highlights to Prague cinemas this w
+[2026-10-06 07:40:18 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4a5e29ec8413c8e1735707d9a3dc
+[2026-10-06 07:40:18 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 116/300 chars, resolved=True): Mike Faist books new role after ‘East of Eden’ release, will star in ‘
+[2026-10-06 07:40:18 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4a5e29ec8413c8e1735707d9a3dc
+[2026-10-06 07:40:18 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 198/300 chars, resolved=True): New OTT releases this week (October 5 to 9, 2026): Reporting Live, Car
+[2026-10-06 07:40:18 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4a5e29ec8413c8e1735707d9a3dc
+[2026-10-06 07:40:18 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 139/300 chars, resolved=True): Netflix Confirms The Watcher Season 2: Release Date and Everything You
+[2026-10-06 07:40:19 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4a5e255b04c939f186f7c9a6b37e
+[2026-10-06 07:40:19 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 161/300 chars, resolved=True): The Turkish drama everyone’s talking about: now the third most-watched
+[2026-10-06 07:40:20 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-06 07:40:27 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-06 07:40:39 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-06 07:41:01 AM] [DRAMAS_BOT] [INFO] Rejected by quality gate (too short (86 words, need 150)): Little Thomas - Official Trailer
+[2026-10-06 07:41:01 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1635 in / 195 out tokens
+[2026-10-06 07:41:01 AM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 10, 'tried': 6, 'thin': 5, 'rejected': 1}
