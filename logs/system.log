@@ -4446,3 +4446,18 @@
 [2026-10-06 03:37:37 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-06 03:38:16 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-06 03:38:46 AM] [HISTORY_BOT] [ERROR] AI unavailable: All Gemini keys are rate-limited (429)
+[2026-10-06 07:29:34 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-06 07:29:42 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-06 07:29:55 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-06 07:30:15 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-06 07:30:37 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-06 07:31:04 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:31:37 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:32:11 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:32:49 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:33:20 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:33:53 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:34:28 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:34:58 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:35:42 AM] [NEWS_BOT] [SUCCESS] Published: PTI's rally will not be allowed to march past Attock, warns Kundi
+[2026-10-06 07:35:43 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1595 in / 563 out tokens
