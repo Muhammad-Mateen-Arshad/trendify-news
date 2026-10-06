@@ -4355,3 +4355,11 @@
 [2026-10-06 01:07:58 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-06 01:08:00 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-06 01:08:03 AM] [HISTORY_BOT] [ERROR] AI unavailable: All Gemini keys are rate-limited (429)
+[2026-10-06 03:29:31 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-06 03:29:45 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-06 03:29:55 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-06 03:30:03 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-06 03:30:26 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-06 03:30:51 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-06 03:31:13 AM] [NEWS_BOT] [SUCCESS] Published: IMF talks likely to clear way for $1.2bn disbursement
+[2026-10-06 03:31:14 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1538 in / 503 out tokens
