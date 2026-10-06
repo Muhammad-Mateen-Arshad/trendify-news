@@ -4277,3 +4277,19 @@
 [2026-10-06 01:00:23 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-10-06 01:00:51 AM] [NEWS_BOT] [SUCCESS] Published: Govt raises petrol price by Re0.88 per litre, reduces high-speed diesel rate by Rs1.88
 [2026-10-06 01:00:51 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 913 in / 556 out tokens
+[2026-10-06 01:00:52 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4484340c9432e99fb95394d832f7
+[2026-10-06 01:00:52 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): Karnataka plans to introduce AI training in govt schools from class 6
+[2026-10-06 01:00:52 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4484340c9432e99fb95394d832f7
+[2026-10-06 01:00:52 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 126/400 chars, resolved=True): Gold rises as chances of October Fed rate hike fall
+[2026-10-06 01:00:53 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac44844bdd34c81a1b540725fc78c7
+[2026-10-06 01:00:53 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): Top 20 UPSC Current Affairs Pointers of the past week | September 28 t
+[2026-10-06 01:00:53 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac44844bdd34c81a1b540725fc78c7
+[2026-10-06 01:00:53 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 130/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-06 01:00:53 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac44845dafa41478c62fced3203c45
+[2026-10-06 01:00:53 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 149/400 chars, resolved=True): Emerging tech has new Army leaders warning troops can't 'AI' their way
+[2026-10-06 01:00:58 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-06 01:01:04 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-06 01:01:11 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-06 01:01:27 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-06 01:01:40 AM] [JOBS_BOT] [SUCCESS] Published: Wounded US troops say Iran drone threat was underestimated - AP
+[2026-10-06 01:01:41 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 471 in / 329 out tokens
