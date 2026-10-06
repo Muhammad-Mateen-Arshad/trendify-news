@@ -4992,3 +4992,13 @@
 [2026-10-06 07:42:45 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-06 07:42:47 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-06 07:42:49 PM] [HISTORY_BOT] [ERROR] AI unavailable: All Gemini keys are rate-limited (429)
+[2026-10-06 11:23:38 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-06 11:23:47 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-06 11:24:24 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-06 11:24:39 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-06 11:29:34 PM] [NEWS_BOT] [ERROR] Pakistan successfully tests launch of extended-range Fatah-IV cruise m -> RemoteProtocolError: Server disconnected without sending a response.
+[2026-10-06 11:29:49 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.dawn.com/news/2035208/petrol-price-up-by-rs119-per-litre-high-speed-diesels-do
+[2026-10-06 11:30:04 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-06 11:30:09 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-06 11:30:28 PM] [NEWS_BOT] [SUCCESS] Published: Petrol price up by Rs1.19 per litre, high-speed diesel's down by Rs1.91 in latest revision
+[2026-10-06 11:30:30 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 903 in / 583 out tokens
