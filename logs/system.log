@@ -4274,3 +4274,6 @@
 [2026-10-05 11:39:53 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): Rare insect discovery reveals a new species from the dinosaur age
 [2026-10-05 11:40:06 PM] [HISTORY_BOT] [SUCCESS] Published: Newly feathered Dinosaur species unearthed
 [2026-10-05 11:40:07 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 401 in / 283 out tokens
+[2026-10-06 01:00:23 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-06 01:00:51 AM] [NEWS_BOT] [SUCCESS] Published: Govt raises petrol price by Re0.88 per litre, reduces high-speed diesel rate by Rs1.88
+[2026-10-06 01:00:51 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 913 in / 556 out tokens
