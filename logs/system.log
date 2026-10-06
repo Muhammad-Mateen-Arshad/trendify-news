@@ -4526,3 +4526,19 @@
 [2026-10-06 07:52:33 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-06 07:53:17 AM] [HEALTH_BOT] [SUCCESS] Published: Pomegranates Can Boost Heart Function by Up to 80%, New Study Finds
 [2026-10-06 07:53:18 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1448 in / 427 out tokens
+[2026-10-06 07:53:19 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4a8ef6721413dad72f41548d6406
+[2026-10-06 07:53:19 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): Rare insect discovery reveals a new species from the dinosaur age
+[2026-10-06 07:53:20 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4a8ef6721413dad72f41548d6406
+[2026-10-06 07:53:20 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 152/400 chars, resolved=True): Dinosaurs have taken over Heureka – and they may not look quite the wa
+[2026-10-06 07:53:21 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-06 07:53:32 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-06 07:53:43 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-06 07:53:54 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-06 07:54:17 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-06 07:54:43 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:55:14 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:55:53 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:56:24 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:56:55 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:57:38 AM] [HISTORY_BOT] [SUCCESS] Published: Visit This Jaw-Dropping Rock Shop In Missouri That Literally Rocks Harder Than Any Other
+[2026-10-06 07:57:38 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1587 in / 446 out tokens
