@@ -4461,3 +4461,18 @@
 [2026-10-06 07:34:58 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-06 07:35:42 AM] [NEWS_BOT] [SUCCESS] Published: PTI's rally will not be allowed to march past Attock, warns Kundi
 [2026-10-06 07:35:43 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1595 in / 563 out tokens
+[2026-10-06 07:35:44 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4a4d05c484a6d8920c4d23a5d30a
+[2026-10-06 07:35:44 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 152/400 chars, resolved=True): Inside Ulster University’s overseas gamble: Were warning signs missed 
+[2026-10-06 07:35:47 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-06 07:35:53 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-06 07:36:07 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-06 07:36:31 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-06 07:36:52 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-06 07:37:19 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:37:54 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:38:25 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-06 07:38:28 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:39:03 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:39:33 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:40:15 AM] [JOBS_BOT] [SUCCESS] Published: Not due to political disagreement: Keralam on probe against Gyanesh Kumar
+[2026-10-06 07:40:16 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 762 in / 448 out tokens
