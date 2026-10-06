@@ -4507,3 +4507,22 @@
 [2026-10-06 07:46:16 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-06 07:46:58 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-06 07:47:28 AM] [SCHOLARSHIPS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
+[2026-10-06 07:47:31 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-06 07:47:31 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-06 07:47:32 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4a793feef4035bb366ab7d387bca
+[2026-10-06 07:47:32 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 29/800 chars, resolved=True): Nearly Half of Women Face This Workout Challenge Before They Even Star
+[2026-10-06 07:47:34 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-06 07:47:36 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-06 07:47:48 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-06 07:48:03 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-06 07:48:06 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-06 07:48:37 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:49:07 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:49:44 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:50:18 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:50:48 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:51:22 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:52:02 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:52:33 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 07:53:17 AM] [HEALTH_BOT] [SUCCESS] Published: Pomegranates Can Boost Heart Function by Up to 80%, New Study Finds
+[2026-10-06 07:53:18 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1448 in / 427 out tokens
