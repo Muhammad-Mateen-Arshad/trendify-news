@@ -4577,3 +4577,22 @@
 [2026-10-06 10:57:33 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-06 10:57:51 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Germany offers fully funded DAAD EPOS scholarships to Pakistani students
 [2026-10-06 10:57:52 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 860 in / 585 out tokens
+[2026-10-06 10:57:52 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-06 10:57:52 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-06 10:57:53 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4d4312c15446e90db5c41f3fce26
+[2026-10-06 10:57:53 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 136/800 chars, resolved=True): Blood sugar spikes are not necessarily bad for you
+[2026-10-06 10:57:55 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-06 10:57:57 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-06 10:57:59 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-06 10:58:03 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-06 10:58:24 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-06 10:58:51 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 10:59:25 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 11:00:06 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 11:00:37 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 11:01:09 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 11:01:45 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 11:02:20 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 11:02:51 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 11:03:37 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 11:04:07 AM] [HEALTH_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
