@@ -4555,3 +4555,14 @@
 [2026-10-06 10:54:19 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-06 10:54:36 AM] [NEWS_BOT] [SUCCESS] Published: PM Shehbaz urges PTI to call off long march, resolve issues through dialogue
 [2026-10-06 10:54:37 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1581 in / 467 out tokens
+[2026-10-06 10:54:37 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4d36d1984426192e787134c6d963
+[2026-10-06 10:54:37 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 152/400 chars, resolved=True): Inside Ulster University’s overseas gamble: Were warning signs missed 
+[2026-10-06 10:54:42 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-06 10:54:47 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-06 10:54:49 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-06 10:55:03 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-06 10:55:23 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-06 10:55:34 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 10:56:19 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-06 10:57:04 AM] [JOBS_BOT] [SUCCESS] Published: ICC unseals arrest warrants for Afghan Taliban education ministers accused of gender-based persecution
+[2026-10-06 10:57:05 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 866 in / 385 out tokens
