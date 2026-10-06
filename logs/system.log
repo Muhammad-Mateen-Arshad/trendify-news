@@ -5014,3 +5014,12 @@
 [2026-10-06 11:35:32 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-06 11:36:18 PM] [JOBS_BOT] [SUCCESS] Published: Pakistan Wants an AI-Powered Future. But Where Are the Women Building It?
 [2026-10-06 11:36:19 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1517 in / 534 out tokens
+[2026-10-06 11:36:21 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-06 11:36:23 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-06 11:36:45 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-06 11:37:00 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-06 11:37:04 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-06 11:37:29 PM] [AI_BOT] [INFO] Switched to Gemini key 5 of 5
+[2026-10-06 11:37:31 PM] [AI_BOT] [WARN] All keys rate-limited, waiting 40s once
+[2026-10-06 11:38:31 PM] [DRAMAS_BOT] [SUCCESS] Published: Okayama/Kurashiki: A Trip to Visit Bookstores and Art Museums
+[2026-10-06 11:38:32 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1675 in / 438 out tokens
