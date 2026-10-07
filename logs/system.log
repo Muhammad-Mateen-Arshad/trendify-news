@@ -5227,3 +5227,18 @@
 [2026-10-07 07:36:27 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
 [2026-10-07 07:37:01 AM] [HISTORY_BOT] [SUCCESS] Published: Stunning Biblical Discoveries Emerge Near Jerusalem’s Temple Mount
 [2026-10-07 07:37:01 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1356 in / 394 out tokens
+[2026-10-07 10:38:08 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-07 10:38:22 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-07 10:38:40 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-07 10:38:57 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-07 10:39:17 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-07 10:39:26 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 10:39:59 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 10:40:44 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 10:41:20 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 10:41:55 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 10:42:30 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 10:43:02 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 10:43:41 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 10:44:24 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 10:44:54 AM] [NEWS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
