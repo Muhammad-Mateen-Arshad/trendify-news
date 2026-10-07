@@ -5544,3 +5544,19 @@
 [2026-10-07 07:36:27 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-07 07:36:29 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-07 07:36:32 PM] [JOBS_BOT] [ERROR] AI unavailable: All Gemini keys are rate-limited (429)
+[2026-10-07 07:36:34 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 250/300 chars, resolved=True): No grounds for City to be denied a Uefa licence
+[2026-10-07 07:36:36 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac69f422784402da44953a0a2c64bc
+[2026-10-07 07:36:36 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 137/300 chars, resolved=True): Be2Can brings Cannes and Berlinale highlights to Prague cinemas this w
+[2026-10-07 07:36:36 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac69f4493f649c4a8c6913a77ea297
+[2026-10-07 07:36:36 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 203/300 chars, resolved=True): Kim Kardashian-Led 'All's Fair' Sets Season 2 Release Date; Trailer
+[2026-10-07 07:36:36 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac69f4493f649c4a8c6913a77ea297
+[2026-10-07 07:36:36 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 139/300 chars, resolved=True): Dragon Ball Super: Beerus breaks Netflix record ahead of US release da
+[2026-10-07 07:36:36 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac69f4493f649c4a8c6913a77ea297
+[2026-10-07 07:36:36 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 121/300 chars, resolved=True): Wednesday season 3 to debut soon? Release timeline, new cast and other
+[2026-10-07 07:36:38 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac69f445f1e4f8bb55b5de8af9fce3
+[2026-10-07 07:36:38 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 161/300 chars, resolved=True): The Turkish drama everyone’s talking about: now the third most-watched
+[2026-10-07 07:36:38 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac69f445f1e4f8bb55b5de8af9fce3
+[2026-10-07 07:36:38 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 201/300 chars, resolved=True): Where is Daniel Craig's first Bond Girl Eva Green now - 20 years after
+[2026-10-07 07:36:38 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac69f445f1e4f8bb55b5de8af9fce3
+[2026-10-07 07:36:38 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 159/300 chars, resolved=True): Harlan Coben’s Latest Netflix Thriller Shatters Records and Breaks Int
+[2026-10-07 07:36:38 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 8, 'tried': 8, 'thin': 8}
