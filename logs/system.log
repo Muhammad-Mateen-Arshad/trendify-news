@@ -5063,3 +5063,10 @@
 [2026-10-06 11:42:13 PM] [HISTORY_BOT] [ERROR] AI unavailable: All Gemini keys are rate-limited (429)
 [2026-10-07 02:55:49 AM] [NEWS_BOT] [SUCCESS] Published: FBR introduces rules for electronic scrutiny of taxpayers
 [2026-10-07 02:55:50 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1193 in / 464 out tokens
+[2026-10-07 02:55:51 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5b4b75cd845d9841aae86d09fecf
+[2026-10-07 02:55:51 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 146/400 chars, resolved=True): Catholic report documents blasphemy abuse, forced conversions against 
+[2026-10-07 02:55:51 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5b4b75cd845d9841aae86d09fecf
+[2026-10-07 02:55:51 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 152/400 chars, resolved=True): Inside Ulster University’s overseas gamble: Were warning signs missed 
+[2026-10-07 02:55:53 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-07 02:56:07 AM] [JOBS_BOT] [SUCCESS] Published: As some Afghans escape the Taliban, other refugees are forced to return
+[2026-10-07 02:56:08 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1708 in / 403 out tokens
