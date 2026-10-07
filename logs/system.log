@@ -5287,3 +5287,23 @@
 [2026-10-07 10:56:54 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-10-07 10:57:20 AM] [HEALTH_BOT] [SUCCESS] Published: What Is Zombie Scrolling? Psychiatrist Explains Its Impact on Mental Health
 [2026-10-07 10:57:20 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1480 in / 593 out tokens
+[2026-10-07 10:57:21 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6259136714ec982dd471dc99800e
+[2026-10-07 10:57:21 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 166/400 chars, resolved=True): Jurassic Park's 'Impossible Cliff' isn't a plot hole, and other Spielb
+[2026-10-07 10:57:21 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6259136714ec982dd471dc99800e
+[2026-10-07 10:57:21 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long SNDK Daily Target ETF
+[2026-10-07 10:57:21 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6259136714ec982dd471dc99800e
+[2026-10-07 10:57:21 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long BMNR Daily Target ETF
+[2026-10-07 10:57:23 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-07 10:57:25 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-07 10:57:41 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-07 10:57:57 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-07 10:58:18 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-07 10:58:48 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 10:59:26 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 11:00:03 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 11:00:48 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 11:01:18 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-07 11:01:21 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 11:01:56 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 11:02:50 AM] [HISTORY_BOT] [SUCCESS] Published: Minister of Tourism and Antiquities Inspects Excavations by the European Institute for Underwater Archaeology in Alexandria’s Eastern Harbour
+[2026-10-07 11:02:50 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 893 in / 562 out tokens
