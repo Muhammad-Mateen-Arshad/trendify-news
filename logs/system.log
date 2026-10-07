@@ -5458,3 +5458,6 @@
 [2026-10-07 03:46:22 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-07 03:46:24 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-07 03:46:26 PM] [HISTORY_BOT] [ERROR] AI unavailable: All Gemini keys are rate-limited (429)
+[2026-10-07 06:01:32 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-07 06:02:04 PM] [NEWS_BOT] [SUCCESS] Published: DG ISPR says Pakistani troops present in Saudi Arabia 'for decades' across multiple domains
+[2026-10-07 06:02:06 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1073 in / 477 out tokens
