@@ -5070,3 +5070,11 @@
 [2026-10-07 02:55:53 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-10-07 02:56:07 AM] [JOBS_BOT] [SUCCESS] Published: As some Afghans escape the Taliban, other refugees are forced to return
 [2026-10-07 02:56:08 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1708 in / 403 out tokens
+[2026-10-07 02:56:09 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5b4c9d08b4d0fb29b51f755e9380
+[2026-10-07 02:56:09 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 203/300 chars, resolved=True): Mehmed: Fetihler Sultanı Haberleri
+[2026-10-07 02:56:10 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5b4c91ac1452f9e62f8e6a53e6ab
+[2026-10-07 02:56:10 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 137/300 chars, resolved=True): Be2Can brings Cannes and Berlinale highlights to Prague cinemas this w
+[2026-10-07 02:56:12 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-07 02:56:14 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-07 02:56:32 AM] [DRAMAS_BOT] [SUCCESS] Published: 'The Witcher’ Season 5: Netflix Release Date, New Cast, Plot Details and More
+[2026-10-07 02:56:33 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1298 in / 509 out tokens
