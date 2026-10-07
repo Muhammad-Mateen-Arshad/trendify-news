@@ -5078,3 +5078,9 @@
 [2026-10-07 02:56:14 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-07 02:56:32 AM] [DRAMAS_BOT] [SUCCESS] Published: 'The Witcher’ Season 5: Netflix Release Date, New Cast, Plot Details and More
 [2026-10-07 02:56:33 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1298 in / 509 out tokens
+[2026-10-07 02:56:34 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5b4e150fc4abf9d54813b20f4a15
+[2026-10-07 02:56:34 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 159/400 chars, resolved=True): Global organisation announces 250 fully-funded scholarship opportuniti
+[2026-10-07 02:56:38 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-07 02:56:44 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-07 02:56:59 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Pakistanis Can Pursue BS at Binghamton University in US With Up to $30,000 Scholarship
+[2026-10-07 02:57:00 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1430 in / 637 out tokens
