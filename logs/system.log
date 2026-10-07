@@ -5174,3 +5174,7 @@
 [2026-10-07 03:36:30 AM] [AI_BOT] [INFO] Switched to Gemini key 1 of 5
 [2026-10-07 03:36:50 AM] [HISTORY_BOT] [SUCCESS] Published: Sotheby’s Puts “Jodi,” the First Nanotyrannus Ever Offered for Sale, on the Block With a $6M–$9M Estimate
 [2026-10-07 03:36:52 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1668 in / 665 out tokens
+[2026-10-07 07:29:35 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-07 07:29:54 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-07 07:30:19 AM] [NEWS_BOT] [SUCCESS] Published: Islamabad ATC indicts Imaan, Hadi in security breach case despite objection over incomplete legal formalities
+[2026-10-07 07:30:20 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1521 in / 497 out tokens
