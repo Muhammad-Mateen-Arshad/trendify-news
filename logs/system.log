@@ -5265,3 +5265,18 @@
 [2026-10-07 10:51:10 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-07 10:51:43 AM] [DRAMAS_BOT] [SUCCESS] Published: ‘Carrie’ Release Date: How Mike Flanagan’s Remake Differs From the Horror Classic
 [2026-10-07 10:51:45 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1671 in / 588 out tokens
+[2026-10-07 10:51:45 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6244140184049a37707725603f5d
+[2026-10-07 10:51:45 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 159/400 chars, resolved=True): Global organisation announces 250 fully-funded scholarship opportuniti
+[2026-10-07 10:51:46 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-07 10:51:48 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-07 10:51:54 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-07 10:52:13 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-07 10:52:37 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-07 10:53:12 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 10:53:51 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 10:54:21 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 10:55:03 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 10:55:33 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 10:56:05 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 10:56:49 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: In 2020, Jeff Bezos launched Bezos Academy; 6 years later the organisation opened a free preschool in Texas; 20% of the school’s seats are reserved for …
+[2026-10-07 10:56:50 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 887 in / 443 out tokens
