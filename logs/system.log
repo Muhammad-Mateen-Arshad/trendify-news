@@ -5186,3 +5186,13 @@
 [2026-10-07 07:32:13 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
 [2026-10-07 07:32:36 AM] [DRAMAS_BOT] [SUCCESS] Published: [Photographer Introduction #10] Rinko Kawauchi — Weaving the Traces of Light and Life, a Gaze that Makes the World Hold Its Breath
 [2026-10-07 07:32:37 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1599 in / 496 out tokens
+[2026-10-07 07:32:37 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5f595870a41979ddcd744c1e14d7
+[2026-10-07 07:32:37 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 159/400 chars, resolved=True): Global organisation announces 250 fully-funded scholarship opportuniti
+[2026-10-07 07:32:38 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5f595870a41979ddcd744c1e14d7
+[2026-10-07 07:32:38 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 196/400 chars, resolved=True): Intel co-founder Gordon Moore’s $6 million estate now listed for $29.5
+[2026-10-07 07:32:55 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-07 07:33:08 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-07 07:33:32 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-07 07:34:05 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-07 07:34:43 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: PhD Scholarships in UK Open for Pakistanis With £23,805 Annual Stipend
+[2026-10-07 07:34:43 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1462 in / 613 out tokens
