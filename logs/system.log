@@ -5213,3 +5213,17 @@
 [2026-10-07 07:34:46 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5f615a1a54f4e8742cc9303938e8
 [2026-10-07 07:34:46 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 200/800 chars, resolved=True): K-Celeb Jang Yoon Jung Gives Her Father Protein Supplements for Muscle
 [2026-10-07 07:34:46 AM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 11, 'tried': 8, 'thin': 8}
+[2026-10-07 07:34:47 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5f6176bc14ca4abb1a2f35d384d1
+[2026-10-07 07:34:47 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): New dinosaur-era insect found trapped in tree resin
+[2026-10-07 07:34:47 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5f617a8f94f4c983654d28d5f13e
+[2026-10-07 07:34:47 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 166/400 chars, resolved=True): Jurassic Park's 'Impossible Cliff' isn't a plot hole, and other Spielb
+[2026-10-07 07:34:48 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5f617a8f94f4c983654d28d5f13e
+[2026-10-07 07:34:48 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long SNDK Daily Target ETF
+[2026-10-07 07:34:48 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5f617a8f94f4c983654d28d5f13e
+[2026-10-07 07:34:48 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long BMNR Daily Target ETF
+[2026-10-07 07:35:19 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-07 07:35:31 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-07 07:35:51 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-07 07:36:27 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-07 07:37:01 AM] [HISTORY_BOT] [SUCCESS] Published: Stunning Biblical Discoveries Emerge Near Jerusalem’s Temple Mount
+[2026-10-07 07:37:01 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1356 in / 394 out tokens
