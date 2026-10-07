@@ -5621,3 +5621,11 @@
 [2026-10-07 11:33:09 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Five discoveries that changed our understanding of T rex forever, from
 [2026-10-07 11:33:26 PM] [HISTORY_BOT] [SUCCESS] Published: 'Platypus-like' fossil in China is oldest-known semiaquatic mammal-like animal
 [2026-10-07 11:33:28 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1283 in / 508 out tokens
+[2026-10-07 11:54:52 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-07 11:54:57 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-07 11:55:09 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-07 11:56:19 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-07 11:56:39 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-07 11:57:10 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 11:57:52 PM] [NEWS_BOT] [SUCCESS] Published: 3 killed in attacks on Saudi Arabia's King Khalid, Abha airports: civil aviation body
+[2026-10-07 11:57:53 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1310 in / 563 out tokens
