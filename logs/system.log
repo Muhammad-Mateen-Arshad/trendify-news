@@ -5109,3 +5109,9 @@
 [2026-10-07 03:29:45 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
 [2026-10-07 03:30:19 AM] [NEWS_BOT] [SUCCESS] Published: Power loom sector reels under imports, rising costs
 [2026-10-07 03:30:19 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1488 in / 425 out tokens
+[2026-10-07 03:30:20 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5bcccad8f42c68fc90d241d0dd99
+[2026-10-07 03:30:20 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 146/400 chars, resolved=True): Catholic report documents blasphemy abuse, forced conversions against 
+[2026-10-07 03:30:42 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-07 03:30:48 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-07 03:31:00 AM] [JOBS_BOT] [SUCCESS] Published: Inside Ulster University’s overseas gamble: Were warning signs missed in a high stakes bet on international students attending GB campuses?
+[2026-10-07 03:31:01 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1672 in / 379 out tokens
