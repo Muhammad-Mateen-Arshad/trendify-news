@@ -5583,3 +5583,14 @@
 [2026-10-07 07:40:24 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-07 07:40:26 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-07 07:40:29 PM] [HEALTH_BOT] [ERROR] AI unavailable: All Gemini keys are rate-limited (429)
+[2026-10-07 07:40:31 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6a02e984e477687f2b09217f23e0
+[2026-10-07 07:40:31 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 166/400 chars, resolved=True): Jurassic Park's 'Impossible Cliff' isn't a plot hole, and other Spielb
+[2026-10-07 07:40:31 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6a02e984e477687f2b09217f23e0
+[2026-10-07 07:40:31 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long BMNR Daily Target ETF
+[2026-10-07 07:40:32 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6a02e984e477687f2b09217f23e0
+[2026-10-07 07:40:32 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long SNDK Daily Target ETF
+[2026-10-07 07:40:32 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6a030f2984e6caa1b52fceaaabb6
+[2026-10-07 07:40:32 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 160/400 chars, resolved=True): 2,000-year-old ring engraved with a lost wonder of the ancient world u
+[2026-10-07 07:40:34 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-07 07:40:53 PM] [HISTORY_BOT] [SUCCESS] Published: Dan McClellan Tells Joe Rogan the Bible Was Edited for Power, Not Dictated by God
+[2026-10-07 07:40:54 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1582 in / 494 out tokens
