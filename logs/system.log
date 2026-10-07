@@ -5356,3 +5356,24 @@
 [2026-10-07 11:38:18 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
 [2026-10-07 11:39:50 AM] [HEALTH_BOT] [SUCCESS] Published: Wake Up With Saliva On Your Pillow? Why It Happens And When It Could Point To Sleep Apnoea
 [2026-10-07 11:39:51 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1591 in / 560 out tokens
+[2026-10-07 11:39:51 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac62f87e8ac4417aabd45644e05acd
+[2026-10-07 11:39:51 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 166/400 chars, resolved=True): Jurassic Park's 'Impossible Cliff' isn't a plot hole, and other Spielb
+[2026-10-07 11:39:52 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac62f87e8ac4417aabd45644e05acd
+[2026-10-07 11:39:52 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long SNDK Daily Target ETF
+[2026-10-07 11:39:52 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac62f87e8ac4417aabd45644e05acd
+[2026-10-07 11:39:52 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long BMNR Daily Target ETF
+[2026-10-07 11:39:53 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-07 11:39:55 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-07 11:39:58 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-07 11:40:09 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-07 11:40:46 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-07 11:41:13 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 11:41:51 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 11:42:21 AM] [AI_BOT] [INFO] Switched to Gemini key 5 of 5
+[2026-10-07 11:42:37 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 11:43:21 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 11:43:59 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 11:44:33 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 11:45:11 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 11:47:29 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 11:47:59 AM] [HISTORY_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
