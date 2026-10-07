@@ -5196,3 +5196,20 @@
 [2026-10-07 07:34:05 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
 [2026-10-07 07:34:43 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: PhD Scholarships in UK Open for Pakistanis With £23,805 Annual Stipend
 [2026-10-07 07:34:43 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1462 in / 613 out tokens
+[2026-10-07 07:34:44 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-07 07:34:44 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-07 07:34:45 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5f6142d494cf6842c836f5056b89
+[2026-10-07 07:34:45 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 200/800 chars, resolved=True): The business of living longer: Why India’s ageing population is creati
+[2026-10-07 07:34:45 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5f6142d494cf6842c836f5056b89
+[2026-10-07 07:34:45 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 136/800 chars, resolved=True): Blood sugar spikes are not necessarily bad for you
+[2026-10-07 07:34:45 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5f6142d494cf6842c836f5056b89
+[2026-10-07 07:34:45 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 201/800 chars, resolved=True): What Is the MIND Diet? New Study Shows It Can Slow Brain Ageing by 2.5
+[2026-10-07 07:34:46 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5f615a1a54f4e8742cc9303938e8
+[2026-10-07 07:34:46 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 200/800 chars, resolved=True): A simple fall can change your life. Here’s how to prevent one
+[2026-10-07 07:34:46 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5f615a1a54f4e8742cc9303938e8
+[2026-10-07 07:34:46 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 87/800 chars, resolved=True): The simple exercise Al Roker does every day for healthy aging
+[2026-10-07 07:34:46 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5f615a1a54f4e8742cc9303938e8
+[2026-10-07 07:34:46 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 113/800 chars, resolved=True): Healthy aging should be measured by what we can keep doing | Opinion
+[2026-10-07 07:34:46 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5f615a1a54f4e8742cc9303938e8
+[2026-10-07 07:34:46 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 200/800 chars, resolved=True): K-Celeb Jang Yoon Jung Gives Her Father Protein Supplements for Muscle
+[2026-10-07 07:34:46 AM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 11, 'tried': 8, 'thin': 8}
