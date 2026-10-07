@@ -5629,3 +5629,8 @@
 [2026-10-07 11:57:10 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-07 11:57:52 PM] [NEWS_BOT] [SUCCESS] Published: 3 killed in attacks on Saudi Arabia's King Khalid, Abha airports: civil aviation body
 [2026-10-07 11:57:53 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1310 in / 563 out tokens
+[2026-10-07 11:57:55 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-07 11:57:57 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-07 11:57:59 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-07 11:58:15 PM] [JOBS_BOT] [SUCCESS] Published: What happens when the State Department loses its institutional memory?
+[2026-10-07 11:58:16 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1519 in / 503 out tokens
