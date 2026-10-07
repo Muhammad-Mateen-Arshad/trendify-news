@@ -5598,3 +5598,11 @@
 [2026-10-07 11:29:50 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 913 in / 571 out tokens
 [2026-10-07 11:30:06 PM] [JOBS_BOT] [SUCCESS] Published: Punjab Announces Director-Level Jobs With Rs. 750,000 Monthly Salary
 [2026-10-07 11:30:14 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1433 in / 694 out tokens
+[2026-10-07 11:30:15 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6d606261e4f1b86b98d9be2c0694
+[2026-10-07 11:30:15 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 137/300 chars, resolved=True): Be2Can brings Cannes and Berlinale highlights to Prague cinemas this w
+[2026-10-07 11:30:16 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 250/300 chars, resolved=True): No grounds for City to be denied a Uefa licence
+[2026-10-07 11:30:17 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6d6087dcf44019bf4155d5520f3f
+[2026-10-07 11:30:17 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 203/300 chars, resolved=True): Kim Kardashian-Led 'All's Fair' Sets Season 2 Release Date; Trailer
+[2026-10-07 11:30:18 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-07 11:30:36 PM] [DRAMAS_BOT] [SUCCESS] Published: Netflix’s ‘Below’ Release Date, Time, Trailer, Cast, and Plot
+[2026-10-07 11:30:41 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1278 in / 511 out tokens
