@@ -5615,3 +5615,9 @@
 [2026-10-07 11:32:27 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
 [2026-10-07 11:33:06 PM] [HEALTH_BOT] [SUCCESS] Published: Human lung organoids with a built-in immune system could transform respiratory disease research
 [2026-10-07 11:33:08 PM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1395 in / 485 out tokens
+[2026-10-07 11:33:09 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6d6b48863467f9a5990616647658
+[2026-10-07 11:33:09 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): He found 230-million-year-old footprint as a teenager in 1958, and mor
+[2026-10-07 11:33:09 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6d6b48863467f9a5990616647658
+[2026-10-07 11:33:09 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Five discoveries that changed our understanding of T rex forever, from
+[2026-10-07 11:33:26 PM] [HISTORY_BOT] [SUCCESS] Published: 'Platypus-like' fossil in China is oldest-known semiaquatic mammal-like animal
+[2026-10-07 11:33:28 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1283 in / 508 out tokens
