@@ -5307,3 +5307,8 @@
 [2026-10-07 11:01:56 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-07 11:02:50 AM] [HISTORY_BOT] [SUCCESS] Published: Minister of Tourism and Antiquities Inspects Excavations by the European Institute for Underwater Archaeology in Alexandria’s Eastern Harbour
 [2026-10-07 11:02:50 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 893 in / 562 out tokens
+[2026-10-07 11:29:42 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-07 11:29:44 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-07 11:30:18 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-07 11:31:14 AM] [NEWS_BOT] [SUCCESS] Published: PTI cannot force govt to accept its demands by holding state 'hostage', says Sanaullah
+[2026-10-07 11:31:15 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1500 in / 492 out tokens
