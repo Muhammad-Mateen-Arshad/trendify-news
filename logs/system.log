@@ -5280,3 +5280,10 @@
 [2026-10-07 10:56:05 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-07 10:56:49 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: In 2020, Jeff Bezos launched Bezos Academy; 6 years later the organisation opened a free preschool in Texas; 20% of the school’s seats are reserved for …
 [2026-10-07 10:56:50 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 887 in / 443 out tokens
+[2026-10-07 10:56:51 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-07 10:56:51 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-07 10:56:52 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6257332504f0e844596b2dc91a1a
+[2026-10-07 10:56:52 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 200/800 chars, resolved=True): The business of living longer: Why India’s ageing population is creati
+[2026-10-07 10:56:54 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-07 10:57:20 AM] [HEALTH_BOT] [SUCCESS] Published: What Is Zombie Scrolling? Psychiatrist Explains Its Impact on Mental Health
+[2026-10-07 10:57:20 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1480 in / 593 out tokens
