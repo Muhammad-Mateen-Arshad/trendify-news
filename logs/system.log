@@ -5103,3 +5103,9 @@
 [2026-10-07 02:58:18 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-07 02:59:02 AM] [HISTORY_BOT] [SUCCESS] Published: This Ultra-Rare Nanotyrannus Fossil Could Fetch $9 Million at Auction
 [2026-10-07 02:59:03 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1351 in / 530 out tokens
+[2026-10-07 03:29:31 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-07 03:29:34 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-07 03:29:36 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-07 03:29:45 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-07 03:30:19 AM] [NEWS_BOT] [SUCCESS] Published: Power loom sector reels under imports, rising costs
+[2026-10-07 03:30:19 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1488 in / 425 out tokens
