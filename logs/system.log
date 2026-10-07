@@ -5248,3 +5248,20 @@
 [2026-10-07 10:45:35 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
 [2026-10-07 10:46:07 AM] [JOBS_BOT] [SUCCESS] Published: Stalin, Palaniswami condemn govt over arrest of protesting nurses
 [2026-10-07 10:46:07 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1432 in / 363 out tokens
+[2026-10-07 10:46:09 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac622f07c314ac1837b997b2af5547
+[2026-10-07 10:46:09 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 137/300 chars, resolved=True): Be2Can brings Cannes and Berlinale highlights to Prague cinemas this w
+[2026-10-07 10:46:10 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac622f124e545fdac072a18de1b959
+[2026-10-07 10:46:10 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 140/300 chars, resolved=True): Netflix confirms new Pokémon anime series release date with first look
+[2026-10-07 10:46:10 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-07 10:46:16 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-07 10:46:37 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-07 10:47:00 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-07 10:47:29 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-07 10:47:54 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 10:48:30 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 10:49:07 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 10:49:47 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 10:50:40 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 10:51:10 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-07 10:51:43 AM] [DRAMAS_BOT] [SUCCESS] Published: ‘Carrie’ Release Date: How Mike Flanagan’s Remake Differs From the Horror Classic
+[2026-10-07 10:51:45 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1671 in / 588 out tokens
