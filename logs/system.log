@@ -5323,3 +5323,16 @@
 [2026-10-07 11:32:59 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
 [2026-10-07 11:33:22 AM] [JOBS_BOT] [SUCCESS] Published: Balochistan Turns to AI to Transform Public-Sector Recruitment
 [2026-10-07 11:33:23 AM] [JOBS_BOT] [INFO] AI usage: 2 calls, 3660 in / 927 out tokens
+[2026-10-07 11:33:24 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac62e03c2d5495297a9b5ccf21b4d6
+[2026-10-07 11:33:24 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 137/300 chars, resolved=True): Be2Can brings Cannes and Berlinale highlights to Prague cinemas this w
+[2026-10-07 11:33:25 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac62e0456ab442bb5e17eefd5d06c2
+[2026-10-07 11:33:25 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 140/300 chars, resolved=True): Netflix confirms new Pokémon anime series release date with first look
+[2026-10-07 11:33:26 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-07 11:33:28 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-07 11:33:56 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-07 11:34:11 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-07 11:34:28 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-07 11:35:13 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 11:35:52 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-07 11:36:39 AM] [DRAMAS_BOT] [SUCCESS] Published: Michelle Dockery and Jessica Gunning Lead Netflix’s Tropical Survival Drama ‘Feral’
+[2026-10-07 11:36:40 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1317 in / 472 out tokens
