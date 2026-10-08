@@ -6011,3 +6011,25 @@
 [2026-10-08 01:04:05 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac794c4b57342008cbc8c8aa821b11
 [2026-10-08 01:04:05 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 160/400 chars, resolved=True): 2,000-year-old ring engraved with a lost wonder of the ancient world u
 [2026-10-08 01:04:05 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 5}
+[2026-10-08 03:33:31 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-08 03:33:37 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-08 03:35:36 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-08 03:36:19 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-08 03:36:45 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-08 03:37:11 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-08 03:42:19 PM] [NEWS_BOT] [ERROR] 'Fake and fabricated': Info ministry rejects NYT report claiming PAF j -> RemoteProtocolError: Server disconnected without sending a response.
+[2026-10-08 03:42:20 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-08 03:44:12 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-08 03:44:22 PM] [AI_BOT] [INFO] Switched to Gemini key 5 of 5
+[2026-10-08 03:44:25 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-08 03:44:45 PM] [AI_BOT] [INFO] Switched to Gemini key 1 of 5
+[2026-10-08 03:45:28 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-08 03:45:59 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-08 03:50:14 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-08 03:50:44 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-08 03:50:46 PM] [AI_BOT] [WARN] All keys rate-limited, waiting 40s once
+[2026-10-08 03:51:27 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-08 03:51:31 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-08 03:52:01 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-08 03:52:03 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-08 03:52:33 PM] [NEWS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
