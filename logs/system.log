@@ -5755,3 +5755,9 @@
 [2026-10-08 03:31:09 AM] [AI_BOT] [INFO] Switched to Gemini key 5 of 5
 [2026-10-08 03:31:27 AM] [NEWS_BOT] [SUCCESS] Published: KP CM Afridi seeks law to impeach governor, rejects operations
 [2026-10-08 03:31:28 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1529 in / 556 out tokens
+[2026-10-08 03:32:01 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-08 03:32:06 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-08 03:32:09 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-08 03:32:40 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-08 03:33:19 AM] [JOBS_BOT] [SUCCESS] Published: Missing ambassadors, inexperienced appointees – is Washington dropping the diplomatic ball?
+[2026-10-08 03:33:20 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1523 in / 502 out tokens
