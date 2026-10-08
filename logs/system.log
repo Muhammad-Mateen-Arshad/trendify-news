@@ -5650,3 +5650,16 @@
 [2026-10-07 11:58:21 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6dc9c58ec44cbbb386b7dd9f752e
 [2026-10-07 11:58:21 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 159/300 chars, resolved=True): Harlan Coben’s Latest Netflix Thriller Shatters Records and Breaks Int
 [2026-10-07 11:58:21 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 8, 'tried': 8, 'thin': 8}
+[2026-10-07 11:58:23 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-07 11:58:25 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-07 11:58:27 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-07 11:58:36 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-07 11:58:56 PM] [AI_BOT] [INFO] Switched to Gemini key 5 of 5
+[2026-10-07 11:59:07 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-08 12:00:13 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-08 12:00:43 AM] [AI_BOT] [WARN] All keys rate-limited, waiting 40s once
+[2026-10-08 12:01:23 AM] [AI_BOT] [INFO] Switched to Gemini key 1 of 5
+[2026-10-08 12:01:25 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-08 12:01:27 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-08 12:01:29 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-08 12:01:32 AM] [SCHOLARSHIPS_BOT] [ERROR] AI unavailable: All Gemini keys are rate-limited (429)
