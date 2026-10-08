@@ -5815,3 +5815,5 @@
 [2026-10-08 03:37:25 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-08 03:37:27 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-08 03:37:30 AM] [HISTORY_BOT] [ERROR] AI unavailable: All Gemini keys are rate-limited (429)
+[2026-10-08 07:29:50 AM] [NEWS_BOT] [SUCCESS] Published: 9 terrorists killed in North Waziristan IBO: state media
+[2026-10-08 07:29:51 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 929 in / 563 out tokens
