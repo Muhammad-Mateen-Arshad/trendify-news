@@ -5725,3 +5725,10 @@
 [2026-10-08 03:19:27 AM] [AI_BOT] [INFO] Switched to Gemini key 5 of 5
 [2026-10-08 03:19:42 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: ATU Receives $3.15 Million Gift for Scholarships
 [2026-10-08 03:19:42 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 927 in / 540 out tokens
+[2026-10-08 03:19:44 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-08 03:19:46 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-08 03:19:48 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-08 03:19:50 AM] [AI_BOT] [INFO] Switched to Gemini key 5 of 5
+[2026-10-08 03:19:52 AM] [AI_BOT] [WARN] All keys rate-limited, waiting 40s once
+[2026-10-08 03:20:46 AM] [HEALTH_BOT] [SUCCESS] Published: NIH joins effort to build SI-ready data for predictive models of human biology
+[2026-10-08 03:20:47 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1007 in / 499 out tokens
