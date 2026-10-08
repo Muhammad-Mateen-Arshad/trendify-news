@@ -5906,3 +5906,21 @@
 [2026-10-08 11:07:03 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-10-08 11:07:19 AM] [HEALTH_BOT] [SUCCESS] Published: Irregular Periods and Low Sex Drive: Could Stress or Hormonal Imbalance Be the Reason?
 [2026-10-08 11:07:20 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1450 in / 524 out tokens
+[2026-10-08 11:07:21 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac77969c00945b19f636bdb92d491e
+[2026-10-08 11:07:21 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): He found 230-million-year-old footprint as a teenager in 1958, and mor
+[2026-10-08 11:07:21 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac77969c00945b19f636bdb92d491e
+[2026-10-08 11:07:21 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): Incredibly rare 'Jodi' the Nanotyrannus at the center of heated T rex 
+[2026-10-08 11:07:23 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-08 11:07:37 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-08 11:07:54 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-08 11:08:13 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-08 11:08:38 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-08 11:09:09 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-08 11:09:45 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-08 11:10:30 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-08 11:11:09 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-08 11:11:41 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-08 11:12:12 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-08 11:12:20 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-08 11:13:04 AM] [HISTORY_BOT] [SUCCESS] Published: 12-year-old boy discovers dinosaur egg fossil in Heyuan, Guangdong
+[2026-10-08 11:13:05 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 666 in / 445 out tokens
