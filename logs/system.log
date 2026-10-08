@@ -5842,3 +5842,31 @@
 [2026-10-08 07:33:26 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1024 in / 545 out tokens
 [2026-10-08 10:59:23 AM] [NEWS_BOT] [SUCCESS] Published: Bahrain working to 'speed up' approval of Pak-GCC free trade pact, foreign minister says
 [2026-10-08 10:59:24 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1560 in / 559 out tokens
+[2026-10-08 10:59:25 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7778df6964d989bcd84b957fe695
+[2026-10-08 10:59:25 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-08 10:59:29 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-08 10:59:37 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-08 10:59:50 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-08 11:00:12 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-08 11:00:41 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (109 words, need 150)): South Africa trusts someone to step up if Rabada can't face Australia 
+[2026-10-08 11:00:41 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7778d988d4367bc9d7c1e3142f4b
+[2026-10-08 11:00:41 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 199/400 chars, resolved=True): La Crosse enters $1.5M ‘once in a career’ flood protection contract wi
+[2026-10-08 11:00:56 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (128 words, need 150); too many 'not specified' (source too thin)): Pakistan’s flour crisis deepens as prices soar, artificial shortage cl
+[2026-10-08 11:01:10 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-08 11:01:21 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-08 11:02:04 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-08 11:02:19 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-08 11:02:28 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-08 11:03:24 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-08 11:04:07 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too many 'not specified' (source too thin)): Moscow brought the Taliban to the table - a big game begins in Afghani
+[2026-10-08 11:04:12 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-08 11:04:21 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-08 11:05:09 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-08 11:05:34 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-08 11:06:05 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too many 'not specified' (source too thin)): Ad agency alleges illegal flexes on 230 MC unipoles
+[2026-10-08 11:06:06 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7791d2b6f4fd1a8b317631511f32
+[2026-10-08 11:06:06 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): National Bank of Pakistan Jobs 2026 Apply Online Relationship Managers
+[2026-10-08 11:06:06 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7791d2b6f4fd1a8b317631511f32
+[2026-10-08 11:06:06 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-08 11:06:06 AM] [JOBS_BOT] [INFO] AI usage: 4 calls, 5564 in / 1231 out tokens
+[2026-10-08 11:06:06 AM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 9, 'tried': 8, 'thin': 4, 'rejected': 4}
