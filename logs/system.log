@@ -5687,3 +5687,6 @@
 [2026-10-08 12:03:40 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-08 12:03:43 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-08 12:03:45 AM] [HISTORY_BOT] [ERROR] AI unavailable: All Gemini keys are rate-limited (429)
+[2026-10-08 03:12:05 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-08 03:12:23 AM] [NEWS_BOT] [SUCCESS] Published: Pakistan, IMF reach staff-level agreement for $1.2bn tranche
+[2026-10-08 03:12:24 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1449 in / 550 out tokens
