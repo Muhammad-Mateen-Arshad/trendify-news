@@ -5761,3 +5761,18 @@
 [2026-10-08 03:32:40 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
 [2026-10-08 03:33:19 AM] [JOBS_BOT] [SUCCESS] Published: Missing ambassadors, inexperienced appointees – is Washington dropping the diplomatic ball?
 [2026-10-08 03:33:20 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1523 in / 502 out tokens
+[2026-10-08 03:33:22 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac70f00bc054b37a6435b3775b3730
+[2026-10-08 03:33:22 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 137/300 chars, resolved=True): Be2Can brings Cannes and Berlinale highlights to Prague cinemas this w
+[2026-10-08 03:33:24 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac70f00bc054b37a6435b3775b3730
+[2026-10-08 03:33:24 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 150/300 chars, resolved=True): Ghost Song: Fatih Akin's haunting meditation on love, grief and what c
+[2026-10-08 03:33:25 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac70f04f8bc4c5980e794b027e8e57
+[2026-10-08 03:33:25 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 140/300 chars, resolved=True): ‘Doctor X: Age of the White Mafia’ release schedule – When do new epis
+[2026-10-08 03:33:25 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac70f04f8bc4c5980e794b027e8e57
+[2026-10-08 03:33:25 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 139/300 chars, resolved=True): Solo Leveling's next series officially unveils its new cast
+[2026-10-08 03:33:25 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac70f04f8bc4c5980e794b027e8e57
+[2026-10-08 03:33:25 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 203/300 chars, resolved=True): Kim Kardashian-Led 'All's Fair' Sets Season 2 Release Date; Trailer
+[2026-10-08 03:33:25 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac70f053a1845d78ee5e29c9c52004
+[2026-10-08 03:33:25 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 201/300 chars, resolved=True): Where is Daniel Craig's first Bond Girl Eva Green now - 20 years after
+[2026-10-08 03:33:26 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac70f053a1845d78ee5e29c9c52004
+[2026-10-08 03:33:26 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 159/300 chars, resolved=True): Harlan Coben’s Latest Netflix Thriller Shatters Records and Breaks Int
+[2026-10-08 03:33:26 AM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 9, 'tried': 7, 'thin': 7}
