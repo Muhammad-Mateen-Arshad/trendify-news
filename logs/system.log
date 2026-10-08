@@ -5897,3 +5897,12 @@
 [2026-10-08 11:06:36 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
 [2026-10-08 11:07:00 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: UK Govt Hails Lloyd’s Register On Chevening Scholarship Partnership
 [2026-10-08 11:07:01 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 753 in / 437 out tokens
+[2026-10-08 11:07:02 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-08 11:07:02 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-08 11:07:02 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac77956ab2c49399e381ac60338791
+[2026-10-08 11:07:02 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 200/800 chars, resolved=True): The business of living longer: Why India’s ageing population is creati
+[2026-10-08 11:07:02 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac77956ab2c49399e381ac60338791
+[2026-10-08 11:07:02 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 129/800 chars, resolved=True): New study suggests possible connection between GLP-1s and hair loss in
+[2026-10-08 11:07:03 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-08 11:07:19 AM] [HEALTH_BOT] [SUCCESS] Published: Irregular Periods and Low Sex Drive: Could Stress or Hormonal Imbalance Be the Reason?
+[2026-10-08 11:07:20 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1450 in / 524 out tokens
