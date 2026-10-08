@@ -5870,3 +5870,20 @@
 [2026-10-08 11:06:06 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
 [2026-10-08 11:06:06 AM] [JOBS_BOT] [INFO] AI usage: 4 calls, 5564 in / 1231 out tokens
 [2026-10-08 11:06:06 AM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 9, 'tried': 8, 'thin': 4, 'rejected': 4}
+[2026-10-08 11:06:08 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-08 11:06:21 AM] [DRAMAS_BOT] [INFO] Rejected by quality gate (too short (111 words, need 150)): Thiago Silva and Felipe Melo caught up in coaching mafia scandal as Di
+[2026-10-08 11:06:22 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 266/300 chars, resolved=True): Esposito given Italy no.9 shirt as squad numbers for Turkey confirmed
+[2026-10-08 11:06:23 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7792e659b4a0ea375d90a2d4fc59
+[2026-10-08 11:06:23 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 149/300 chars, resolved=True): Netflix's Solo Leveling finally confirms new cast and story details
+[2026-10-08 11:06:23 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7792e659b4a0ea375d90a2d4fc59
+[2026-10-08 11:06:23 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 136/300 chars, resolved=True): Taylor Sheridan officially crowned the king of Netflix with new #1 hit
+[2026-10-08 11:06:23 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7792e659b4a0ea375d90a2d4fc59
+[2026-10-08 11:06:23 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 140/300 chars, resolved=True): ‘Doctor X: Age of the White Mafia’ release schedule – When do new epis
+[2026-10-08 11:06:24 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7792e659b4a0ea375d90a2d4fc59
+[2026-10-08 11:06:24 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 124/300 chars, resolved=True): Widow’s Bay Season 2 Gets Great Update as Matthew Rhys Announces Relea
+[2026-10-08 11:06:24 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac779308b3b4acc8bb9e079b407051
+[2026-10-08 11:06:24 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 201/300 chars, resolved=True): Where is Daniel Craig's first Bond Girl Eva Green now - 20 years after
+[2026-10-08 11:06:24 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac779308b3b4acc8bb9e079b407051
+[2026-10-08 11:06:24 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 159/300 chars, resolved=True): Harlan Coben’s Latest Netflix Thriller Shatters Records and Breaks Int
+[2026-10-08 11:06:24 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 386 in / 237 out tokens
+[2026-10-08 11:06:24 AM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 8, 'tried': 8, 'rejected': 1, 'thin': 7}
