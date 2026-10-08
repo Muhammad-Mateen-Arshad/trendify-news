@@ -6323,3 +6323,7 @@
 [2026-10-08 07:35:32 PM] [HISTORY_BOT] [ERROR] AI unavailable: All Gemini keys are rate-limited (429)
 [2026-10-08 11:29:44 PM] [NEWS_BOT] [SUCCESS] Published: 'Fake and fabricated': Info ministry rejects NYT report claiming PAF jets being used against Yemen's Houthis
 [2026-10-08 11:29:45 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1498 in / 459 out tokens
+[2026-10-08 11:29:46 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac82769cf5048c59d09f6deb15324e
+[2026-10-08 11:29:46 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 130/400 chars, resolved=True): Houthi Attacks on Saudi Airports Kill 3 Amid Escalating War in Yemen
+[2026-10-08 11:30:07 PM] [JOBS_BOT] [SUCCESS] Published: Trump suspends Microsoft from green card programme amid H-1B crackdown
+[2026-10-08 11:30:08 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1546 in / 530 out tokens
