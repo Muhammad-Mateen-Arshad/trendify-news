@@ -5827,3 +5827,9 @@
 [2026-10-08 07:30:57 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
 [2026-10-08 07:31:26 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Rare Scholarship Funds Specialist Inclusive Education Training
 [2026-10-08 07:31:27 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 938 in / 477 out tokens
+[2026-10-08 07:31:28 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-08 07:31:28 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-08 07:31:36 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-08 07:31:50 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-08 07:32:18 AM] [HEALTH_BOT] [SUCCESS] Published: The Health Gap Hawai‘i’s Women Are Talking About
+[2026-10-08 07:32:19 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1618 in / 550 out tokens
