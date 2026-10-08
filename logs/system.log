@@ -5701,3 +5701,20 @@
 [2026-10-08 03:12:38 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
 [2026-10-08 03:12:58 AM] [JOBS_BOT] [SUCCESS] Published: Telangana: Police Suspects Havildar Of Criminal History
 [2026-10-08 03:12:59 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 806 in / 343 out tokens
+[2026-10-08 03:13:00 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac70a3c839343bdb59cdae37116cb9
+[2026-10-08 03:13:00 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 137/300 chars, resolved=True): Be2Can brings Cannes and Berlinale highlights to Prague cinemas this w
+[2026-10-08 03:13:05 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-08 03:13:10 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-08 03:13:21 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-08 03:13:41 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-08 03:14:01 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-08 03:14:25 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-08 03:14:59 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-08 03:15:33 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-08 03:16:17 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-08 03:16:47 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-08 03:17:04 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-08 03:17:35 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-08 03:18:06 AM] [AI_BOT] [INFO] Switched to Gemini key 5 of 5
+[2026-10-08 03:18:15 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-08 03:18:45 AM] [DRAMAS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
