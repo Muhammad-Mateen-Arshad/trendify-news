@@ -6053,3 +6053,12 @@
 [2026-10-08 04:03:47 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
 [2026-10-08 04:04:25 PM] [DRAMAS_BOT] [SUCCESS] Published: Rubio’s Speech at the Pnyx (Video)
 [2026-10-08 04:04:26 PM] [DRAMAS_BOT] [INFO] AI usage: 2 calls, 871 in / 513 out tokens
+[2026-10-08 04:04:27 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7bf0a375b42a09c7997e1cf1b9b9
+[2026-10-08 04:04:27 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 138/400 chars, resolved=True): DAAD Opens Fully Funded Scholarships With KSh58K Monthly Allowance at 
+[2026-10-08 04:04:27 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7bf0a375b42a09c7997e1cf1b9b9
+[2026-10-08 04:04:27 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 134/400 chars, resolved=True): Meet JCPS school board candidates running in 2026 election
+[2026-10-08 04:04:27 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7bf0a375b42a09c7997e1cf1b9b9
+[2026-10-08 04:04:27 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 162/400 chars, resolved=True): Azerbaijan eyes ties to create opportunities for Kenyans, share expert
+[2026-10-08 04:04:29 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-08 04:04:49 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Head to Head: Should Georgia expand the HOPE scholarship?
+[2026-10-08 04:04:50 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1458 in / 542 out tokens
