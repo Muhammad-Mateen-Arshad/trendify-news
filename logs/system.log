@@ -5690,3 +5690,14 @@
 [2026-10-08 03:12:05 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
 [2026-10-08 03:12:23 AM] [NEWS_BOT] [SUCCESS] Published: Pakistan, IMF reach staff-level agreement for $1.2bn tranche
 [2026-10-08 03:12:24 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1449 in / 550 out tokens
+[2026-10-08 03:12:25 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac70a18f42a4964bc1bc3401933bb7
+[2026-10-08 03:12:25 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): Pakistan auto reforms pit cheaper imports against future of protected 
+[2026-10-08 03:12:25 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac70a18f42a4964bc1bc3401933bb7
+[2026-10-08 03:12:25 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 157/400 chars, resolved=True): SIFC accelerates land allocation, approval process in Punjab SEZs
+[2026-10-08 03:12:26 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac70a19429b4fc8b1bceaf2a19a1db
+[2026-10-08 03:12:26 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 130/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-08 03:12:26 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 327/400 chars, resolved=True): Karachi, Sindh, Pakistan Weather Conditionsstar_ratehome
+[2026-10-08 03:12:27 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-08 03:12:38 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-08 03:12:58 AM] [JOBS_BOT] [SUCCESS] Published: Telangana: Police Suspects Havildar Of Criminal History
+[2026-10-08 03:12:59 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 806 in / 343 out tokens
