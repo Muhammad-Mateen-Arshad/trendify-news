@@ -5776,3 +5776,12 @@
 [2026-10-08 03:33:26 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac70f053a1845d78ee5e29c9c52004
 [2026-10-08 03:33:26 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 159/300 chars, resolved=True): Harlan Coben’s Latest Netflix Thriller Shatters Records and Breaks Int
 [2026-10-08 03:33:26 AM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 9, 'tried': 7, 'thin': 7}
+[2026-10-08 03:33:28 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-08 03:33:34 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-08 03:33:44 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-08 03:33:47 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-08 03:33:58 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-08 03:34:23 AM] [AI_BOT] [INFO] Switched to Gemini key 5 of 5
+[2026-10-08 03:34:25 AM] [AI_BOT] [WARN] All keys rate-limited, waiting 40s once
+[2026-10-08 03:35:27 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Beyond board exams: India’s quiet international Olympiad revolution
+[2026-10-08 03:35:28 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1584 in / 584 out tokens
