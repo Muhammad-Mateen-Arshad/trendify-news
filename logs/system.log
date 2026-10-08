@@ -6033,3 +6033,13 @@
 [2026-10-08 03:52:01 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-08 03:52:03 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-08 03:52:33 PM] [NEWS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
+[2026-10-08 03:52:36 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7bc43ccec450d923bc08782b51ad
+[2026-10-08 03:52:36 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 130/400 chars, resolved=True): Houthi Attacks on Saudi Airports Kill 3 Amid Escalating War in Yemen
+[2026-10-08 03:52:36 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7bc4451744115a8c41cc3cc06081
+[2026-10-08 03:52:36 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-08 03:52:37 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-08 03:52:40 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-08 03:52:50 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-08 03:57:59 PM] [JOBS_BOT] [ERROR] La Crosse enters $1.5M ‘once in a career’ flood protection contract wi -> RemoteProtocolError: Server disconnected without sending a response.
+[2026-10-08 04:03:25 PM] [JOBS_BOT] [SUCCESS] Published: Morocco is on track to outperform its peers from Africa to the Middle East despite conflicts in the region
+[2026-10-08 04:03:27 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1124 in / 500 out tokens
