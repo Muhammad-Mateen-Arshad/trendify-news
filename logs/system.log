@@ -5840,3 +5840,5 @@
 [2026-10-08 07:32:37 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
 [2026-10-08 07:33:25 AM] [HISTORY_BOT] [SUCCESS] Published: 112-Million-Year-Old Insects Found in Ecuadorian Amber
 [2026-10-08 07:33:26 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1024 in / 545 out tokens
+[2026-10-08 10:59:23 AM] [NEWS_BOT] [SUCCESS] Published: Bahrain working to 'speed up' approval of Pak-GCC free trade pact, foreign minister says
+[2026-10-08 10:59:24 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1560 in / 559 out tokens
