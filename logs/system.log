@@ -5833,3 +5833,10 @@
 [2026-10-08 07:31:50 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
 [2026-10-08 07:32:18 AM] [HEALTH_BOT] [SUCCESS] Published: The Health Gap Hawai‘i’s Women Are Talking About
 [2026-10-08 07:32:19 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1618 in / 550 out tokens
+[2026-10-08 07:32:20 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac747041be24f24ae44b2039e8c2d6
+[2026-10-08 07:32:20 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): He found 230-million-year-old footprint as a teenager in 1958, and mor
+[2026-10-08 07:32:20 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac747041be24f24ae44b2039e8c2d6
+[2026-10-08 07:32:20 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Five discoveries that changed our understanding of T rex forever, from
+[2026-10-08 07:32:37 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-08 07:33:25 AM] [HISTORY_BOT] [SUCCESS] Published: 112-Million-Year-Old Insects Found in Ecuadorian Amber
+[2026-10-08 07:33:26 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1024 in / 545 out tokens
