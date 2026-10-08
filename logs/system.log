@@ -6043,3 +6043,13 @@
 [2026-10-08 03:57:59 PM] [JOBS_BOT] [ERROR] La Crosse enters $1.5M ‘once in a career’ flood protection contract wi -> RemoteProtocolError: Server disconnected without sending a response.
 [2026-10-08 04:03:25 PM] [JOBS_BOT] [SUCCESS] Published: Morocco is on track to outperform its peers from Africa to the Middle East despite conflicts in the region
 [2026-10-08 04:03:27 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1124 in / 500 out tokens
+[2026-10-08 04:03:37 PM] [DRAMAS_BOT] [INFO] Rejected by quality gate (too short (85 words, need 150)): Mourinho: Roma career was ‘dead’ after Europa League final, Airport fi
+[2026-10-08 04:03:38 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7becf6b5b4f3cac184596a8b8610
+[2026-10-08 04:03:38 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 192/300 chars, resolved=True): Hande Erçel to star in Nader Saeivar's Berlin-set drama 'Diaspora'
+[2026-10-08 04:03:38 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 265/300 chars, resolved=True): Juventus linked with Simone Inzaghi who could return to Serie A
+[2026-10-08 04:03:40 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-08 04:03:42 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-08 04:03:44 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-08 04:03:47 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-08 04:04:25 PM] [DRAMAS_BOT] [SUCCESS] Published: Rubio’s Speech at the Pnyx (Video)
+[2026-10-08 04:04:26 PM] [DRAMAS_BOT] [INFO] AI usage: 2 calls, 871 in / 513 out tokens
