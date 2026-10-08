@@ -5887,3 +5887,13 @@
 [2026-10-08 11:06:24 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 159/300 chars, resolved=True): Harlan Coben’s Latest Netflix Thriller Shatters Records and Breaks Int
 [2026-10-08 11:06:24 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 386 in / 237 out tokens
 [2026-10-08 11:06:24 AM] [DRAMAS_BOT] [INFO] Nothing published this run: {'already_seen': 8, 'tried': 8, 'rejected': 1, 'thin': 7}
+[2026-10-08 11:06:25 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac77931b29445968605f5c1c0da09e
+[2026-10-08 11:06:25 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 162/400 chars, resolved=True): Azerbaijan eyes ties to create opportunities for Kenyans, share expert
+[2026-10-08 11:06:25 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac77931b29445968605f5c1c0da09e
+[2026-10-08 11:06:25 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 134/400 chars, resolved=True): Meet JCPS school board candidates running in 2026 election
+[2026-10-08 11:06:26 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac77931b29445968605f5c1c0da09e
+[2026-10-08 11:06:26 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 136/400 chars, resolved=True): Adweek's agents of change: Leading with purpose to reshape our industr
+[2026-10-08 11:06:27 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-08 11:06:36 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-08 11:07:00 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: UK Govt Hails Lloyd’s Register On Chevening Scholarship Partnership
+[2026-10-08 11:07:01 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 753 in / 437 out tokens
