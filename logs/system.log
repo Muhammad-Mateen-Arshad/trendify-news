@@ -6523,3 +6523,5 @@
 [2026-10-09 03:44:18 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-09 03:44:20 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-09 03:44:22 AM] [HISTORY_BOT] [ERROR] AI unavailable: All Gemini keys are rate-limited (429)
+[2026-10-09 07:29:44 AM] [NEWS_BOT] [SUCCESS] Published: PM Shehbaz condemns fresh Houthi attacks on Saudi Arabia, reiterates commitment to kingdom's security under Makkah pact
+[2026-10-09 07:29:45 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1160 in / 546 out tokens
