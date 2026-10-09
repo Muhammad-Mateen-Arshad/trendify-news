@@ -6594,3 +6594,13 @@
 [2026-10-09 11:00:49 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
 [2026-10-09 11:01:13 AM] [HEALTH_BOT] [SUCCESS] Published: Fi Europe 2026: Discover a world of health and functional ingredients – all in one place
 [2026-10-09 11:01:14 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1176 in / 491 out tokens
+[2026-10-09 11:01:15 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8c97b920d43c39c02e10c07b1b88
+[2026-10-09 11:01:15 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): This 85-foot dinosaur was so enormous that scientists needed four summ
+[2026-10-09 11:01:15 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8c97b920d43c39c02e10c07b1b88
+[2026-10-09 11:01:15 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 193/400 chars, resolved=True): Scientists found two dinosaurs still fighting after 75 million years..
+[2026-10-09 11:01:24 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-09 11:02:00 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-09 11:02:22 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-09 11:02:37 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-09 11:02:59 AM] [HISTORY_BOT] [SUCCESS] Published: Kenosha Paleontologist, Struggling Carthage College Dinosaur Program Take Center Stage In Nationally Premiering Documentary About T. Rex Fossils
+[2026-10-09 11:03:00 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 413 in / 363 out tokens
