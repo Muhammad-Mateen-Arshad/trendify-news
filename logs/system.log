@@ -6725,3 +6725,22 @@
 [2026-10-09 03:39:37 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-09 03:40:40 PM] [DRAMAS_BOT] [SUCCESS] Published: Marvel’s ‘Zodiac’ Sets 2028 Release on Disney+ as New Details Revealed
 [2026-10-09 03:40:41 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1034 in / 540 out tokens
+[2026-10-09 03:40:42 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac90afa81234f35838ae22b0311efb
+[2026-10-09 03:40:42 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 141/400 chars, resolved=True): Young man shares how he has awarded 3 fully funded scholarships for gr
+[2026-10-09 03:40:42 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac90afa81234f35838ae22b0311efb
+[2026-10-09 03:40:42 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 162/400 chars, resolved=True): Russia announces 70 fully-funded scholarships for Kenyan students
+[2026-10-09 03:40:43 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac90afa81234f35838ae22b0311efb
+[2026-10-09 03:40:43 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 161/400 chars, resolved=True): Hafiz Naeem announces nationwide campaign for free education
+[2026-10-09 03:40:44 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-09 03:40:46 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-09 03:40:57 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-09 03:41:13 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-09 03:41:43 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-09 03:42:17 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 03:43:06 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 03:43:37 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 03:44:07 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-09 03:44:24 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 03:45:27 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 03:46:11 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Karachi University Caught Giving Passing Marks to Failed Students
+[2026-10-09 03:46:13 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 792 in / 320 out tokens
