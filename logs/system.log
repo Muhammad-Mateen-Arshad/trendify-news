@@ -6799,3 +6799,27 @@
 [2026-10-09 05:46:58 PM] [AI_BOT] [INFO] Switched to Gemini key 5 of 5
 [2026-10-09 05:47:03 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-09 05:47:33 PM] [JOBS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
+[2026-10-09 05:47:35 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 292/300 chars, resolved=True): Osmanlı Devleti
+[2026-10-09 05:47:36 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 239/300 chars, resolved=True): What Italy need to do to be seeded for the Euro 2028 qualifying draw
+[2026-10-09 05:47:36 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 272/300 chars, resolved=True): Montella: ‘I want to continue as Turkiye coach, we inflated expectatio
+[2026-10-09 05:47:37 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 255/300 chars, resolved=True): Lazio Outcast Could Be Reinstated Ahead of Monza Game
+[2026-10-09 05:47:37 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 270/300 chars, resolved=True): ️ Front pages: Mourinho, the Negreirato and Haal you need is love
+[2026-10-09 05:47:38 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac928b9096847e6b8cac9e2ceec43b
+[2026-10-09 05:47:38 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 92/300 chars, resolved=True): Major Netflix show confirms spin-off series as fans say 'can't believe
+[2026-10-09 05:47:38 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac928b9096847e6b8cac9e2ceec43b
+[2026-10-09 05:47:38 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 182/300 chars, resolved=True): Top 3 new Netflix shows to stream this weekend: Is it cake? Halloween 
+[2026-10-09 05:47:44 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-09 05:47:49 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-09 05:47:58 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-09 05:48:14 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-09 05:48:16 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-09 05:48:18 PM] [AI_BOT] [INFO] Switched to Gemini key 5 of 5
+[2026-10-09 05:48:28 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 05:49:03 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 05:49:44 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 05:50:20 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 05:51:00 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 05:51:35 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 05:52:15 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 05:52:50 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 05:53:20 PM] [DRAMAS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
