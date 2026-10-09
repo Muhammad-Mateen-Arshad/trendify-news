@@ -7026,3 +7026,15 @@
 [2026-10-09 11:38:33 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): PPSC Jobs 2026 Apply Online Advertisement No 11/2026 Latest Vacancies 
 [2026-10-09 11:38:49 PM] [JOBS_BOT] [SUCCESS] Published: Nigeria’s industrial policy needs factories, not paper – Ex-UNIDO chief
 [2026-10-09 11:38:50 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1565 in / 466 out tokens
+[2026-10-09 11:38:52 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 292/300 chars, resolved=True): Osmanlı Devleti
+[2026-10-09 11:38:53 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 274/300 chars, resolved=True): Official: coach sacked after four defeats in the international break
+[2026-10-09 11:38:53 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 270/300 chars, resolved=True): Juric frustrated by Italy call-up for 20-year-old Kouadio: ‘A waste of
+[2026-10-09 11:38:53 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 255/300 chars, resolved=True): Lazio Outcast Could Be Reinstated Ahead of Monza Game
+[2026-10-09 11:38:54 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 270/300 chars, resolved=True): ️ Front pages: Mourinho, the Negreirato and Haal you need is love
+[2026-10-09 11:38:54 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac97b0e27e9496994a5b9036cd0cfe
+[2026-10-09 11:38:54 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 158/300 chars, resolved=True): Disney’s $3 billion franchise rules Netflix’s top 10 rundown ahead of 
+[2026-10-09 11:38:55 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac97b0e27e9496994a5b9036cd0cfe
+[2026-10-09 11:38:55 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 92/300 chars, resolved=True): Major Netflix show confirms spin-off series as fans say 'can't believe
+[2026-10-09 11:38:55 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac97b0e27e9496994a5b9036cd0cfe
+[2026-10-09 11:38:55 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 204/300 chars, resolved=True): Prime Video's ‘Bloodaxe' Sets January 2027 Release, Debuts New Trailer
+[2026-10-09 11:38:55 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 6}
