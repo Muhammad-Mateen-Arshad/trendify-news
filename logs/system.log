@@ -6481,3 +6481,19 @@
 [2026-10-09 03:39:42 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-09 03:39:44 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-09 03:39:46 AM] [DRAMAS_BOT] [ERROR] AI unavailable: All Gemini keys are rate-limited (429)
+[2026-10-09 03:39:48 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac862033e88421aa5a9097e2f4dcae
+[2026-10-09 03:39:48 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 138/400 chars, resolved=True): DAAD Opens Fully Funded Scholarships With KSh58K Monthly Allowance at 
+[2026-10-09 03:39:48 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac862033e88421aa5a9097e2f4dcae
+[2026-10-09 03:39:48 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 162/400 chars, resolved=True): Azerbaijan eyes ties to create opportunities for Kenyans, share expert
+[2026-10-09 03:39:48 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac862033e88421aa5a9097e2f4dcae
+[2026-10-09 03:39:48 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 134/400 chars, resolved=True): Meet JCPS school board candidates running in 2026 election
+[2026-10-09 03:39:48 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac862033e88421aa5a9097e2f4dcae
+[2026-10-09 03:39:48 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 136/400 chars, resolved=True): Adweek's agents of change: Leading with purpose to reshape our industr
+[2026-10-09 03:39:49 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-09 03:40:02 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-09 03:40:13 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-09 03:40:15 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-09 03:40:17 AM] [AI_BOT] [INFO] Switched to Gemini key 5 of 5
+[2026-10-09 03:40:19 AM] [AI_BOT] [WARN] All keys rate-limited, waiting 40s once
+[2026-10-09 03:41:13 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: University College London Offers Fully-Funded PhD on AI-Based Regional Climate Models
+[2026-10-09 03:41:14 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1447 in / 606 out tokens
