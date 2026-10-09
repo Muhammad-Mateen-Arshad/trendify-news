@@ -6590,3 +6590,7 @@
 [2026-10-09 11:00:02 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
 [2026-10-09 11:00:46 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Colorado nonprofit that gives scholarships to kids for private school set to expand to all states
 [2026-10-09 11:00:48 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1483 in / 539 out tokens
+[2026-10-09 11:00:49 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-09 11:00:49 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-09 11:01:13 AM] [HEALTH_BOT] [SUCCESS] Published: Fi Europe 2026: Discover a world of health and functional ingredients – all in one place
+[2026-10-09 11:01:14 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1176 in / 491 out tokens
