@@ -6664,3 +6664,8 @@
 [2026-10-09 11:34:44 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
 [2026-10-09 11:35:18 AM] [HEALTH_BOT] [SUCCESS] Published: Sitting All Day? Here’s How It May Affect Your Sexual Health
 [2026-10-09 11:35:20 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1446 in / 622 out tokens
+[2026-10-09 11:35:21 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8d1785c5346d09ab58f22c388b5e
+[2026-10-09 11:35:21 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): This 85-foot dinosaur was so enormous that scientists needed four summ
+[2026-10-09 11:35:22 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-09 11:35:44 AM] [HISTORY_BOT] [SUCCESS] Published: Halloween Hangouts: FWP to Host Several Spooky Events Across the State
+[2026-10-09 11:35:45 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1403 in / 374 out tokens
