@@ -6653,3 +6653,14 @@
 [2026-10-09 11:33:29 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
 [2026-10-09 11:34:07 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Punjab Announces Laptop Distribution in 3 Districts
 [2026-10-09 11:34:08 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 2 calls, 2187 in / 578 out tokens
+[2026-10-09 11:34:10 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-09 11:34:10 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-09 11:34:10 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8d132ee734d978df11a0ca8828e8
+[2026-10-09 11:34:10 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 72/800 chars, resolved=True): Older Adults Ate Peanuts Every Day and Scientists Found a Surprising B
+[2026-10-09 11:34:10 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8d132ee734d978df11a0ca8828e8
+[2026-10-09 11:34:10 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 200/800 chars, resolved=True): The business of living longer: Why India’s ageing population is creati
+[2026-10-09 11:34:12 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-09 11:34:18 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-09 11:34:44 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-09 11:35:18 AM] [HEALTH_BOT] [SUCCESS] Published: Sitting All Day? Here’s How It May Affect Your Sexual Health
+[2026-10-09 11:35:20 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1446 in / 622 out tokens
