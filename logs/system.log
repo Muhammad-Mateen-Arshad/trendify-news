@@ -7020,3 +7020,9 @@
 [2026-10-09 11:32:34 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 698 in / 384 out tokens
 [2026-10-09 11:38:30 PM] [NEWS_BOT] [SUCCESS] Published: Govt reduces petrol price by Re0.66 per litre, raises high-speed diesel rate by Re0.52
 [2026-10-09 11:38:31 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 921 in / 593 out tokens
+[2026-10-09 11:38:32 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac97af85d1b4e2dba3059309b44e83
+[2026-10-09 11:38:32 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 199/400 chars, resolved=True): Centre of Excellence for Autism Spectrum Disorder Company Jobs 2026 Ap
+[2026-10-09 11:38:33 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac97af85d1b4e2dba3059309b44e83
+[2026-10-09 11:38:33 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): PPSC Jobs 2026 Apply Online Advertisement No 11/2026 Latest Vacancies 
+[2026-10-09 11:38:49 PM] [JOBS_BOT] [SUCCESS] Published: Nigeria’s industrial policy needs factories, not paper – Ex-UNIDO chief
+[2026-10-09 11:38:50 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1565 in / 466 out tokens
