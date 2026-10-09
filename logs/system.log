@@ -6608,3 +6608,21 @@
 [2026-10-09 11:29:48 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-10-09 11:30:07 AM] [NEWS_BOT] [SUCCESS] Published: Pilot among 3 Saudi nationals killed in attacks on Riyadh airport, authorities say
 [2026-10-09 11:30:09 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 973 in / 526 out tokens
+[2026-10-09 11:30:10 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8d041d8f3449f8157bd503e36aaf
+[2026-10-09 11:30:10 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 159/400 chars, resolved=True): US Iran War Live News Updates: Scott Bessent says US will keep targeti
+[2026-10-09 11:30:10 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8d04298e24e27835b53bb66a665b
+[2026-10-09 11:30:10 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-09 11:30:12 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-09 11:30:24 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (146 words, need 150)): Protesters gather to speak out against violence in Palestine, Penn Sta
+[2026-10-09 11:30:24 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8d04202364ee59aa107a1be695d9
+[2026-10-09 11:30:24 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 125/400 chars, resolved=True): 10 dead, 16 injured: Prison riot breaks out in Mexico's Sinaloa state;
+[2026-10-09 11:30:26 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8d0504d3c4386a0672e74b9689a6
+[2026-10-09 11:30:26 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 146/400 chars, resolved=True): Latest - September 30, 2026
+[2026-10-09 11:30:26 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8d052c7d34ed4bbee809230a3f9f
+[2026-10-09 11:30:26 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): National Bank of Pakistan Jobs 2026 Apply Online Relationship Managers
+[2026-10-09 11:30:27 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8d052c7d34ed4bbee809230a3f9f
+[2026-10-09 11:30:27 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): NUMS Jobs 2026 Apply Online for Teaching & Non-Teaching Staff National
+[2026-10-09 11:30:27 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8d053198a40be8bb21e942bfdec8
+[2026-10-09 11:30:27 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): National Bank of Pakistan Jobs 2026 Apply Online Relationship Managers
+[2026-10-09 11:30:27 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1317 in / 334 out tokens
+[2026-10-09 11:30:27 AM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 8, 'tried': 8, 'thin': 7, 'rejected': 1}
