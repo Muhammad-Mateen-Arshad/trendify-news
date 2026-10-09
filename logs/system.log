@@ -6581,3 +6581,12 @@
 [2026-10-09 10:58:53 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
 [2026-10-09 10:59:23 AM] [DRAMAS_BOT] [SUCCESS] Published: Netflix 'captivating' thriller has viewers binge-watching all 6 episodes in 1 day
 [2026-10-09 10:59:23 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 935 in / 490 out tokens
+[2026-10-09 10:59:24 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8c90c260948f5851b2bc0875d495
+[2026-10-09 10:59:24 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): Russia announces 70 fully-funded scholarships for Kenyan students
+[2026-10-09 10:59:24 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8c90c260948f5851b2bc0875d495
+[2026-10-09 10:59:24 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 138/400 chars, resolved=True): DAAD Opens Fully Funded Scholarships With KSh58K Monthly Allowance at 
+[2026-10-09 10:59:32 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-09 10:59:48 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-09 11:00:02 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-09 11:00:46 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Colorado nonprofit that gives scholarships to kids for private school set to expand to all states
+[2026-10-09 11:00:48 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1483 in / 539 out tokens
