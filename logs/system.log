@@ -6570,3 +6570,14 @@
 [2026-10-09 10:58:22 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
 [2026-10-09 10:58:41 AM] [JOBS_BOT] [SUCCESS] Published: 'Stand for justice' | Student groups hold protest in support of Palestine
 [2026-10-09 10:58:42 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1313 in / 407 out tokens
+[2026-10-09 10:58:44 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 292/300 chars, resolved=True): Osmanlı Devleti
+[2026-10-09 10:58:45 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 239/300 chars, resolved=True): What Italy need to do to be seeded for the Euro 2028 qualifying draw
+[2026-10-09 10:58:45 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 278/300 chars, resolved=True): Jose Mourinho revisits Real Madrid return and renews focus on Negreira
+[2026-10-09 10:58:45 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 273/300 chars, resolved=True): Referee Who Denied Lazio Penalty Against AC Milan Appointed for Monza 
+[2026-10-09 10:58:46 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8c8e6f13946ffbf22e9ad76412f3
+[2026-10-09 10:58:46 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 147/300 chars, resolved=True): Netflix’s new Stephen King meets Lovecraft horror series debuts to sol
+[2026-10-09 10:58:46 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8c8e6f13946ffbf22e9ad76412f3
+[2026-10-09 10:58:46 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 67/300 chars, resolved=True): Young Violet 'Bridgerton' Spinoff: Cast, Release Date, and Every Detai
+[2026-10-09 10:58:53 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-09 10:59:23 AM] [DRAMAS_BOT] [SUCCESS] Published: Netflix 'captivating' thriller has viewers binge-watching all 6 episodes in 1 day
+[2026-10-09 10:59:23 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 935 in / 490 out tokens
