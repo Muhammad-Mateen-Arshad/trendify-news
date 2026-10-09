@@ -7038,3 +7038,7 @@
 [2026-10-09 11:38:55 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac97b0e27e9496994a5b9036cd0cfe
 [2026-10-09 11:38:55 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 204/300 chars, resolved=True): Prime Video's ‘Bloodaxe' Sets January 2027 Release, Debuts New Trailer
 [2026-10-09 11:38:55 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 6}
+[2026-10-09 11:38:55 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac97b0f3d24434382b4f647254ef54
+[2026-10-09 11:38:55 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 141/400 chars, resolved=True): Young man shares how he has awarded 3 fully funded scholarships for gr
+[2026-10-09 11:39:16 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Hochul officially opts NY into Trump admin’s ‘Freedom’ scholarships for students
+[2026-10-09 11:39:16 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1403 in / 486 out tokens
