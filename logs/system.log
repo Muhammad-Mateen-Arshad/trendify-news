@@ -6347,3 +6347,10 @@
 [2026-10-08 11:31:12 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-10-08 11:31:32 PM] [HISTORY_BOT] [SUCCESS] Published: Megalosaurus: the first dinosaur to ever be scientifically named
 [2026-10-08 11:31:32 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 860 in / 406 out tokens
+[2026-10-09 12:00:54 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-09 12:00:57 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-09 12:01:01 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-09 12:01:17 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-09 12:01:34 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-09 12:02:16 AM] [NEWS_BOT] [SUCCESS] Published: Govt raises petrol price by Rs2.31 per litre, high-speed diesel rate by Re0.78 per litre
+[2026-10-09 12:02:17 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 912 in / 533 out tokens
