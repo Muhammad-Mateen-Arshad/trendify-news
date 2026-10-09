@@ -6541,3 +6541,12 @@
 [2026-10-09 07:30:12 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 67/300 chars, resolved=True): Young Violet 'Bridgerton' Spinoff: Cast, Release Date, and Every Detai
 [2026-10-09 07:30:29 AM] [DRAMAS_BOT] [SUCCESS] Published: ‘Steel Ball Run’ Episode 5 Release Date, Time and Where to Watch as Johnny and Gyro Are Deep in the Race
 [2026-10-09 07:30:30 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1142 in / 492 out tokens
+[2026-10-09 07:30:31 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac89816066c492ba0b95dc631a292b
+[2026-10-09 07:30:31 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 138/400 chars, resolved=True): DAAD Opens Fully Funded Scholarships With KSh58K Monthly Allowance at 
+[2026-10-09 07:30:31 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac89816066c492ba0b95dc631a292b
+[2026-10-09 07:30:31 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 134/400 chars, resolved=True): Meet JCPS school board candidates running in 2026 election
+[2026-10-09 07:30:31 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac89816066c492ba0b95dc631a292b
+[2026-10-09 07:30:31 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 136/400 chars, resolved=True): Adweek's agents of change: Leading with purpose to reshape our industr
+[2026-10-09 07:30:42 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-09 07:31:00 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Better Opportunities for Youth can Transform Balochistan’s Future
+[2026-10-09 07:31:01 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1461 in / 583 out tokens
