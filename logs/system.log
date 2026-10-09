@@ -6767,3 +6767,18 @@
 [2026-10-09 03:51:11 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-09 03:52:05 PM] [HISTORY_BOT] [SUCCESS] Published: Prehistoric Farm codes (October 2026)
 [2026-10-09 03:52:06 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 721 in / 417 out tokens
+[2026-10-09 05:36:46 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-09 05:36:51 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-09 05:36:59 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-09 05:37:14 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-09 05:37:24 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-09 05:37:53 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 05:38:33 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 05:39:04 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-09 05:39:12 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 05:39:54 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 05:40:26 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 05:41:02 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 05:41:36 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 05:42:14 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 05:42:44 PM] [NEWS_BOT] [ERROR] AI unavailable: Gemini did not answer after several retries
