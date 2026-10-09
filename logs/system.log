@@ -6981,3 +6981,16 @@
 [2026-10-09 11:29:58 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-10-09 11:30:20 PM] [JOBS_BOT] [SUCCESS] Published: PPSC Advertisement No. 11 2026 Announced
 [2026-10-09 11:30:21 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1361 in / 781 out tokens
+[2026-10-09 11:30:23 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 292/300 chars, resolved=True): Osmanlı Devleti
+[2026-10-09 11:30:24 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 274/300 chars, resolved=True): Official: coach sacked after four defeats in the international break
+[2026-10-09 11:30:24 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 270/300 chars, resolved=True): Juric frustrated by Italy call-up for 20-year-old Kouadio: ‘A waste of
+[2026-10-09 11:30:25 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 255/300 chars, resolved=True): Lazio Outcast Could Be Reinstated Ahead of Monza Game
+[2026-10-09 11:30:25 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 270/300 chars, resolved=True): ️ Front pages: Mourinho, the Negreirato and Haal you need is love
+[2026-10-09 11:30:26 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac97911a7d140f1bbef0e7c01531cf
+[2026-10-09 11:30:26 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 158/300 chars, resolved=True): Disney’s $3 billion franchise rules Netflix’s top 10 rundown ahead of 
+[2026-10-09 11:30:26 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac97911a7d140f1bbef0e7c01531cf
+[2026-10-09 11:30:26 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 92/300 chars, resolved=True): Major Netflix show confirms spin-off series as fans say 'can't believe
+[2026-10-09 11:30:27 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-09 11:30:29 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-09 11:30:47 PM] [DRAMAS_BOT] [SUCCESS] Published: 8 new TV shows to watch this weekend on Netflix, Prime Video, and HBO (October 9-11)
+[2026-10-09 11:30:48 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1657 in / 609 out tokens
