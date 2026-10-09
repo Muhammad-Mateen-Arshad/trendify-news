@@ -7008,3 +7008,13 @@
 [2026-10-09 11:31:45 PM] [AI_BOT] [INFO] Switched to Gemini key 5 of 5
 [2026-10-09 11:32:06 PM] [HEALTH_BOT] [SUCCESS] Published: Brain fog isn’t just forgetfulness: What causes it? Is it linked to dementia? When should you worry?
 [2026-10-09 11:32:07 PM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1606 in / 496 out tokens
+[2026-10-09 11:32:08 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac97977792d431e8be67a853e7dc5e
+[2026-10-09 11:32:08 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 145/400 chars, resolved=True): Fossil researchers believe dog-sized raptor may have fed on larger tyr
+[2026-10-09 11:32:08 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac97977792d431e8be67a853e7dc5e
+[2026-10-09 11:32:08 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 195/400 chars, resolved=True): A 330-million-year-old fossil was named after President Joe Biden - th
+[2026-10-09 11:32:09 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-09 11:32:11 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-09 11:32:13 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-09 11:32:16 PM] [AI_BOT] [INFO] Switched to Gemini key 5 of 5
+[2026-10-09 11:32:33 PM] [HISTORY_BOT] [SUCCESS] Published: University of Alberta researchers unearth new dinosaur diet discovery
+[2026-10-09 11:32:34 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 698 in / 384 out tokens
