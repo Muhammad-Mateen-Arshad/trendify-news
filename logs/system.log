@@ -6975,3 +6975,9 @@
 [2026-10-09 07:38:13 PM] [HISTORY_BOT] [ERROR] AI unavailable: All Gemini keys are rate-limited (429)
 [2026-10-09 11:29:43 PM] [NEWS_BOT] [SUCCESS] Published: Afridi invites people from across country to join PTI's long march at Swabi Interchange on Oct 11
 [2026-10-09 11:29:44 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1591 in / 464 out tokens
+[2026-10-09 11:29:45 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac978e84cf6439b91bc0e74763e9a5
+[2026-10-09 11:29:45 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 199/400 chars, resolved=True): Centre of Excellence for Autism Spectrum Disorder Company Jobs 2026 Ap
+[2026-10-09 11:29:53 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-09 11:29:58 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-09 11:30:20 PM] [JOBS_BOT] [SUCCESS] Published: PPSC Advertisement No. 11 2026 Announced
+[2026-10-09 11:30:21 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1361 in / 781 out tokens
