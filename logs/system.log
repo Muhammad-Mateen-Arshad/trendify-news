@@ -7042,3 +7042,12 @@
 [2026-10-09 11:38:55 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 141/400 chars, resolved=True): Young man shares how he has awarded 3 fully funded scholarships for gr
 [2026-10-09 11:39:16 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Hochul officially opts NY into Trump admin’s ‘Freedom’ scholarships for students
 [2026-10-09 11:39:16 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1403 in / 486 out tokens
+[2026-10-09 11:39:18 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-09 11:39:18 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-09 11:39:19 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac97b263d09478d88e56df6a222ea1
+[2026-10-09 11:39:19 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 67/800 chars, resolved=True): Your Favorite Song Might Make Pain Hurt Less
+[2026-10-09 11:39:19 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac97b263d09478d88e56df6a222ea1
+[2026-10-09 11:39:19 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 200/800 chars, resolved=True): The business of living longer: Why India’s ageing population is creati
+[2026-10-09 11:39:20 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-09 11:39:39 PM] [HEALTH_BOT] [SUCCESS] Published: Only one workout helped older adults lose fat and keep muscle
+[2026-10-09 11:39:40 PM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1428 in / 567 out tokens
