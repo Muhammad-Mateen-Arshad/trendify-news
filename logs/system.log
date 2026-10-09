@@ -6973,3 +6973,5 @@
 [2026-10-09 07:38:09 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-09 07:38:11 PM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-09 07:38:13 PM] [HISTORY_BOT] [ERROR] AI unavailable: All Gemini keys are rate-limited (429)
+[2026-10-09 11:29:43 PM] [NEWS_BOT] [SUCCESS] Published: Afridi invites people from across country to join PTI's long march at Swabi Interchange on Oct 11
+[2026-10-09 11:29:44 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1591 in / 464 out tokens
