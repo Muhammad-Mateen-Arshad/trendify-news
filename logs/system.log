@@ -6701,3 +6701,27 @@
 [2026-10-09 03:34:20 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): Afghanistan after five years of Taliban rule: A former advisor’s insig
 [2026-10-09 03:34:20 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1451 in / 265 out tokens
 [2026-10-09 03:34:20 PM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 7, 'rejected': 1, 'already_seen': 4}
+[2026-10-09 03:34:22 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 292/300 chars, resolved=True): Osmanlı Devleti
+[2026-10-09 03:34:22 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 239/300 chars, resolved=True): What Italy need to do to be seeded for the Euro 2028 qualifying draw
+[2026-10-09 03:34:23 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 272/300 chars, resolved=True): Montella: ‘I want to continue as Turkiye coach, we inflated expectatio
+[2026-10-09 03:34:23 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 255/300 chars, resolved=True): Lazio Outcast Could Be Reinstated Ahead of Monza Game
+[2026-10-09 03:34:24 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac909803de54dc1b646883b763df2f
+[2026-10-09 03:34:24 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 92/300 chars, resolved=True): Major Netflix show confirms spin-off series as fans say 'can't believe
+[2026-10-09 03:34:24 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac909803de54dc1b646883b763df2f
+[2026-10-09 03:34:24 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 67/300 chars, resolved=True): Young Violet 'Bridgerton' Spinoff: Cast, Release Date, and Every Detai
+[2026-10-09 03:34:24 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac909803de54dc1b646883b763df2f
+[2026-10-09 03:34:24 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 204/300 chars, resolved=True): Netflix announces new Bridgerton spin-off focusing on Violet, Edmund's
+[2026-10-09 03:34:25 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-09 03:34:27 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-09 03:34:29 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-09 03:34:47 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-09 03:35:07 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-09 03:35:45 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 03:36:15 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 03:36:56 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 03:37:36 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 03:38:07 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 03:38:56 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 03:39:37 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-09 03:40:40 PM] [DRAMAS_BOT] [SUCCESS] Published: Marvel’s ‘Zodiac’ Sets 2028 Release on Disney+ as New Details Revealed
+[2026-10-09 03:40:41 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1034 in / 540 out tokens
