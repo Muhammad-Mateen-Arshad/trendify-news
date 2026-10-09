@@ -6556,3 +6556,7 @@
 [2026-10-09 07:31:03 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 72/800 chars, resolved=True): Older Adults Ate Peanuts Every Day and Scientists Found a Surprising B
 [2026-10-09 07:31:22 AM] [HEALTH_BOT] [SUCCESS] Published: Alzheimer’s risk linked to compound found in popular joint health supplements
 [2026-10-09 07:31:23 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1532 in / 514 out tokens
+[2026-10-09 07:31:23 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8984b006c44939ef7a56a87138be
+[2026-10-09 07:31:23 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 164/400 chars, resolved=True): Alabama’s prehistoric past: Fossils reveal a world that existed millio
+[2026-10-09 07:31:39 AM] [HISTORY_BOT] [SUCCESS] Published: This 160-Million-Year-Old “Squid” Fossil Is Unlike Anything Scientists Have Seen
+[2026-10-09 07:31:41 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1495 in / 540 out tokens
