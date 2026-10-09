@@ -6637,3 +6637,19 @@
 [2026-10-09 11:30:33 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-10-09 11:30:53 AM] [DRAMAS_BOT] [SUCCESS] Published: 10 Addictive Netflix Shows That Are Impossible To Stop Watching
 [2026-10-09 11:30:54 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1480 in / 443 out tokens
+[2026-10-09 11:30:55 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8d06e7820423c960a0fea8894143
+[2026-10-09 11:30:55 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): Russia announces 70 fully-funded scholarships for Kenyan students
+[2026-10-09 11:30:55 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8d06e7820423c960a0fea8894143
+[2026-10-09 11:30:55 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 138/400 chars, resolved=True): DAAD Opens Fully Funded Scholarships With KSh58K Monthly Allowance at 
+[2026-10-09 11:30:56 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-09 11:31:02 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-09 11:31:21 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-09 11:31:45 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-09 11:32:12 AM] [SCHOLARSHIPS_BOT] [INFO] Rejected by quality gate (too short (78 words, need 150)): What to know about Texas’ affordability crisis and how candidates want
+[2026-10-09 11:32:22 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-09 11:32:31 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-09 11:32:45 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-09 11:33:05 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-09 11:33:29 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-09 11:34:07 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Punjab Announces Laptop Distribution in 3 Districts
+[2026-10-09 11:34:08 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 2 calls, 2187 in / 578 out tokens
