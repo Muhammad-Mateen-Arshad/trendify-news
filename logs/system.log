@@ -6562,3 +6562,11 @@
 [2026-10-09 07:31:41 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1495 in / 540 out tokens
 [2026-10-09 10:58:19 AM] [NEWS_BOT] [SUCCESS] Published: DG ISPR says Pakistan acting as an ‘honest broker’ in US-Iran war
 [2026-10-09 10:58:21 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1175 in / 439 out tokens
+[2026-10-09 10:58:21 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8c8cd82394357b6b3f31cbb477dc
+[2026-10-09 10:58:21 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 130/400 chars, resolved=True): Houthi Attacks on Saudi Airports Kill 3 Amid Escalating War in Yemen
+[2026-10-09 10:58:21 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8c8cd82394357b6b3f31cbb477dc
+[2026-10-09 10:58:21 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 159/400 chars, resolved=True): US Iran War Live News Updates: Scott Bessent says US will keep targeti
+[2026-10-09 10:58:22 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8c8cdc6304498b299f3804b7fcf9
+[2026-10-09 10:58:22 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-09 10:58:41 AM] [JOBS_BOT] [SUCCESS] Published: 'Stand for justice' | Student groups hold protest in support of Palestine
+[2026-10-09 10:58:42 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1313 in / 407 out tokens
