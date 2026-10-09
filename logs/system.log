@@ -6604,3 +6604,7 @@
 [2026-10-09 11:02:37 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-10-09 11:02:59 AM] [HISTORY_BOT] [SUCCESS] Published: Kenosha Paleontologist, Struggling Carthage College Dinosaur Program Take Center Stage In Nationally Premiering Documentary About T. Rex Fossils
 [2026-10-09 11:03:00 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 413 in / 363 out tokens
+[2026-10-09 11:29:42 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-09 11:29:48 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-09 11:30:07 AM] [NEWS_BOT] [SUCCESS] Published: Pilot among 3 Saudi nationals killed in attacks on Riyadh airport, authorities say
+[2026-10-09 11:30:09 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 973 in / 526 out tokens
