@@ -7496,3 +7496,15 @@
 [2026-10-10 04:29:39 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca67f2f51349df9fee5257a8dba9f
 [2026-10-10 04:29:39 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 200/300 chars, resolved=True): Symbioz boards Istanbul real estate world drama Sevda, unveils trailer
 [2026-10-10 04:29:39 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 7}
+[2026-10-10 04:29:40 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca67f3cce347bfb964eb266d69c2f
+[2026-10-10 04:29:40 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 197/400 chars, resolved=True): 2026 Trafficking in Persons Report: Zimbabwe
+[2026-10-10 04:29:40 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca67f41f714909b4f4f6b8f9294d4
+[2026-10-10 04:29:40 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 152/400 chars, resolved=True): Pakistan issues new directives for Afghan medical students, doctors
+[2026-10-10 04:29:41 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca67f41f714909b4f4f6b8f9294d4
+[2026-10-10 04:29:41 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 140/400 chars, resolved=True): Minister of Water and Energy travels to Saudi Arabia for World Energy 
+[2026-10-10 04:29:42 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca67f69a52449b9956f94f2740b3e
+[2026-10-10 04:29:42 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 152/400 chars, resolved=True): Pakistan issues new directives for Afghan medical students, doctors
+[2026-10-10 04:29:44 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-10 04:29:46 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-10 04:30:02 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: HEC, British Council discuss measures to strengthen transnational education in Pakistan
+[2026-10-10 04:30:02 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1206 in / 441 out tokens
