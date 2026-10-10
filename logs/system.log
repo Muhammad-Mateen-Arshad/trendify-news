@@ -7597,3 +7597,8 @@
 [2026-10-10 11:00:43 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
 [2026-10-10 11:01:18 PM] [NEWS_BOT] [SUCCESS] Published: At least 12 dead, over 300 wounded in attack on Riyadh airport
 [2026-10-10 11:01:19 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1521 in / 499 out tokens
+[2026-10-10 11:01:32 PM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (138 words, need 150)): BJP sent CBI, ED after me for fighting for Punjab’s rights: Mann
+[2026-10-10 11:01:33 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-10 11:01:37 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-10 11:02:19 PM] [JOBS_BOT] [SUCCESS] Published: Now, Yogi dares Akhilesh to contest from Ayodhya, SP chief responds
+[2026-10-10 11:02:19 PM] [JOBS_BOT] [INFO] AI usage: 2 calls, 3137 in / 659 out tokens
