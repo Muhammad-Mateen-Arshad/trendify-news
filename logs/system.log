@@ -7602,3 +7602,15 @@
 [2026-10-10 11:01:37 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
 [2026-10-10 11:02:19 PM] [JOBS_BOT] [SUCCESS] Published: Now, Yogi dares Akhilesh to contest from Ayodhya, SP chief responds
 [2026-10-10 11:02:19 PM] [JOBS_BOT] [INFO] AI usage: 2 calls, 3137 in / 659 out tokens
+[2026-10-10 11:02:22 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 292/300 chars, resolved=True): Osmanlı Devleti
+[2026-10-10 11:02:22 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac3fe7a2d46c5b1bd1158c30cada
+[2026-10-10 11:02:22 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 198/300 chars, resolved=True): Prime Video Takes Global on Turkish AI-Generated Movie 'Çukur:Vartolu'
+[2026-10-10 11:02:23 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 239/300 chars, resolved=True): What Italy need to do to be seeded for the Euro 2028 qualifying draw
+[2026-10-10 11:02:23 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 272/300 chars, resolved=True): Montella: ‘I want to continue as Turkiye coach, we inflated expectatio
+[2026-10-10 11:02:23 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac3ff2ad8431f8f98d2eab29886d
+[2026-10-10 11:02:23 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 91/300 chars, resolved=True): Netflix release list for November 2026: Every show, movie, and documen
+[2026-10-10 11:02:24 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac3ff2ad8431f8f98d2eab29886d
+[2026-10-10 11:02:24 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 195/300 chars, resolved=True): Dragon Ball Super: Beerus OTT India release date, streaming — all you 
+[2026-10-10 11:02:24 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-10 11:02:41 PM] [DRAMAS_BOT] [SUCCESS] Published: Dragon Ball Super: Beerus Release Schedule: When Does Episode 1 Release?
+[2026-10-10 11:02:42 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1499 in / 521 out tokens
