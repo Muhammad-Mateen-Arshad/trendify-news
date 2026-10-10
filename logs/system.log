@@ -7354,3 +7354,19 @@
 [2026-10-10 11:32:12 AM] [SCHOLARSHIPS_BOT] [INFO] Rejected by quality gate (too short (128 words, need 150)): US Report Details How Kenyan Graduates, Women Are Recruited, Mistreate
 [2026-10-10 11:32:39 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: 95% of US Students Are Using AI to Make Assignments
 [2026-10-10 11:32:40 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 2 calls, 1990 in / 680 out tokens
+[2026-10-10 11:32:41 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-10 11:32:41 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-10 11:32:41 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca2259d83e4410921085606aa7fc6
+[2026-10-10 11:32:41 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 146/800 chars, resolved=True): Stop trying to hack your feelings. Mental health takes work | Opinion
+[2026-10-10 11:32:42 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca2259d83e4410921085606aa7fc6
+[2026-10-10 11:32:42 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 200/800 chars, resolved=True): The business of living longer: Why India’s ageing population is creati
+[2026-10-10 11:32:43 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-10 11:32:48 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-10 11:32:59 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-10 11:33:25 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-10 11:33:45 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-10 11:34:13 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-10 11:34:43 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-10 11:35:14 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-10 11:36:01 AM] [HEALTH_BOT] [SUCCESS] Published: The Aging Brain May Prioritize Wisdom Over Details, Study Finds
+[2026-10-10 11:36:02 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1287 in / 474 out tokens
