@@ -7147,3 +7147,16 @@
 [2026-10-10 03:30:12 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b14286b24aff93002909d5cad40
 [2026-10-10 03:30:12 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 199/400 chars, resolved=True): Centre of Excellence for Autism Spectrum Disorder Company Jobs 2026 Ap
 [2026-10-10 03:30:12 AM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 5, 'tried': 8, 'thin': 8}
+[2026-10-10 03:30:15 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 292/300 chars, resolved=True): Osmanlı Devleti
+[2026-10-10 03:30:18 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 270/300 chars, resolved=True): Juric frustrated by Italy call-up for 20-year-old Kouadio: ‘A waste of
+[2026-10-10 03:30:19 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 274/300 chars, resolved=True): Official: coach sacked after four defeats in the international break
+[2026-10-10 03:30:21 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 255/300 chars, resolved=True): Lazio Outcast Could Be Reinstated Ahead of Monza Game
+[2026-10-10 03:30:22 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b14da46e4764830d37aa9b70a0b
+[2026-10-10 03:30:22 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 158/300 chars, resolved=True): Disney’s $3 billion franchise rules Netflix’s top 10 rundown ahead of 
+[2026-10-10 03:30:22 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b14da46e4764830d37aa9b70a0b
+[2026-10-10 03:30:22 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 92/300 chars, resolved=True): Major Netflix show confirms spin-off series as fans say 'can't believe
+[2026-10-10 03:30:22 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b14da46e4764830d37aa9b70a0b
+[2026-10-10 03:30:22 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 204/300 chars, resolved=True): Prime Video's ‘Bloodaxe' Sets January 2027 Release, Debuts New Trailer
+[2026-10-10 03:30:23 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b14e94ec4b9fb6f235e75105f74
+[2026-10-10 03:30:23 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 200/300 chars, resolved=True): Symbioz boards Istanbul real estate world drama Sevda, unveils trailer
+[2026-10-10 03:30:23 AM] [DRAMAS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 7}
