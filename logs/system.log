@@ -7258,3 +7258,5 @@
 [2026-10-10 07:31:55 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9e9eb00e446f7a63cc61c5064c15
 [2026-10-10 07:31:55 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 160/400 chars, resolved=True): 2,000-year-old ring engraved with a lost wonder of the ancient world u
 [2026-10-10 07:31:55 AM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 1}
+[2026-10-10 10:10:51 AM] [NEWS_BOT] [SUCCESS] Published: Pakistan reaffirms commitment to Saudi security at UN Security Council
+[2026-10-10 10:10:52 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 952 in / 517 out tokens
