@@ -7308,3 +7308,7 @@
 [2026-10-10 10:11:56 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
 [2026-10-10 10:12:19 AM] [HISTORY_BOT] [SUCCESS] Published: A Small Dinosaur May Have Devoured a Huge Predator Related to T. rex: Tooth Marks Reveal an Unusual Scene
 [2026-10-10 10:12:20 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1570 in / 544 out tokens
+[2026-10-10 11:29:32 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-10 11:29:37 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-10 11:30:07 AM] [NEWS_BOT] [SUCCESS] Published: Govt assails PTI over 'lack of governance' in Khyber Pakhtunkhwa
+[2026-10-10 11:30:08 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1393 in / 501 out tokens
