@@ -7410,3 +7410,17 @@
 [2026-10-10 03:31:31 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 199/400 chars, resolved=True): Centre of Excellence for Autism Spectrum Disorder Company Jobs 2026 Ap
 [2026-10-10 03:31:31 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1905 in / 334 out tokens
 [2026-10-10 03:31:31 PM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 7, 'rejected': 1, 'already_seen': 1}
+[2026-10-10 03:31:33 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 292/300 chars, resolved=True): Osmanlı Devleti
+[2026-10-10 03:31:33 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca5a552d3540108e8b9c9507a90bb
+[2026-10-10 03:31:33 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 198/300 chars, resolved=True): Prime Video Takes Global on Turkish AI-Generated Movie 'Çukur:Vartolu'
+[2026-10-10 03:31:34 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 239/300 chars, resolved=True): What Italy need to do to be seeded for the Euro 2028 qualifying draw
+[2026-10-10 03:31:34 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 272/300 chars, resolved=True): Montella: ‘I want to continue as Turkiye coach, we inflated expectatio
+[2026-10-10 03:31:35 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca5a562972409fa59089e57b52a80
+[2026-10-10 03:31:35 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 91/300 chars, resolved=True): Netflix release list for November 2026: Every show, movie, and documen
+[2026-10-10 03:31:35 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca5a562972409fa59089e57b52a80
+[2026-10-10 03:31:35 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 158/300 chars, resolved=True): Disney’s $3 billion franchise rules Netflix’s top 10 rundown ahead of 
+[2026-10-10 03:31:39 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-10 03:31:44 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-10 03:31:55 PM] [DRAMAS_BOT] [INFO] Rejected by quality gate (too short (88 words, need 150)): Dragon Ball Super: Beerus OTT release date is here: When and where to 
+[2026-10-10 03:32:24 PM] [DRAMAS_BOT] [SUCCESS] Published: Taylor Sheridan Star’s New ‘Black Sails’ Replacement Officially Premieres in 24 Hours
+[2026-10-10 03:32:25 PM] [DRAMAS_BOT] [INFO] AI usage: 2 calls, 2282 in / 667 out tokens
