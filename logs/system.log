@@ -7241,3 +7241,20 @@
 [2026-10-10 07:31:26 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
 [2026-10-10 07:31:53 AM] [HEALTH_BOT] [SUCCESS] Published: The health mistakes you have time to undo before you turn 60
 [2026-10-10 07:31:54 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1584 in / 541 out tokens
+[2026-10-10 07:31:54 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9e9ea8042426cbba45b42e488352
+[2026-10-10 07:31:54 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): Did a baby dinosaur eat its own kind? Alberta fossil reveals prehistor
+[2026-10-10 07:31:54 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9e9ea8042426cbba45b42e488352
+[2026-10-10 07:31:54 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 145/400 chars, resolved=True): Fossil researchers believe dog-sized raptor may have fed on larger tyr
+[2026-10-10 07:31:54 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9e9ea8042426cbba45b42e488352
+[2026-10-10 07:31:54 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 165/400 chars, resolved=True): Giant Deep-Sea Creature Hiding in Museum Collection for Decades Identi
+[2026-10-10 07:31:54 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9e9ea8042426cbba45b42e488352
+[2026-10-10 07:31:54 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 108/400 chars, resolved=True): Dinosaur eggshells unearthed Patagonia belong to unexpected giant spec
+[2026-10-10 07:31:55 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9e9ea8a224b448f9603b90f45d2c
+[2026-10-10 07:31:55 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 166/400 chars, resolved=True): Jurassic Park's 'Impossible Cliff' isn't a plot hole, and other Spielb
+[2026-10-10 07:31:55 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9e9ea8a224b448f9603b90f45d2c
+[2026-10-10 07:31:55 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long SNDK Daily Target ETF
+[2026-10-10 07:31:55 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9e9ea8a224b448f9603b90f45d2c
+[2026-10-10 07:31:55 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long BMNR Daily Target ETF
+[2026-10-10 07:31:55 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9e9eb00e446f7a63cc61c5064c15
+[2026-10-10 07:31:55 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 160/400 chars, resolved=True): 2,000-year-old ring engraved with a lost wonder of the ancient world u
+[2026-10-10 07:31:55 AM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 1}
