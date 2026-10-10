@@ -7202,3 +7202,20 @@
 [2026-10-10 07:29:30 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
 [2026-10-10 07:29:52 AM] [NEWS_BOT] [SUCCESS] Published: Country’s nuclear safeguards pass first-ever IPPAS security review
 [2026-10-10 07:29:52 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1352 in / 540 out tokens
+[2026-10-10 07:29:53 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9e9715f06475ab19ddca703b5532
+[2026-10-10 07:29:53 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): Afghanistan after five years of Taliban rule: A former advisor’s insig
+[2026-10-10 07:29:54 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9e9715f06475ab19ddca703b5532
+[2026-10-10 07:29:54 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 149/400 chars, resolved=True): Sit-ins, protests adversely affect business, economy: PA speaker
+[2026-10-10 07:29:54 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9e9715f06475ab19ddca703b5532
+[2026-10-10 07:29:54 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): 1 Olympic Medal, 12 Pro Wins, 0 Regrets: The Bus Driver’s Son Who Chan
+[2026-10-10 07:30:05 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (128 words, need 150); too many 'not specified' (source too thin)): live US Sanctions 17 Vessels Linked To Iran's Shadow Fleet
+[2026-10-10 07:30:06 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9e97da1d34487adf393b7fb1ab4b
+[2026-10-10 07:30:06 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 143/400 chars, resolved=True): Balochistan cabinet approves, economic, health, education reforms
+[2026-10-10 07:30:07 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9e97da1d34487adf393b7fb1ab4b
+[2026-10-10 07:30:07 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 146/400 chars, resolved=True): Latest - September 30, 2026
+[2026-10-10 07:30:08 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9e97f92f644dd8ee988e994450c2
+[2026-10-10 07:30:08 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): PPSC Jobs 2026 Apply Online Advertisement No 11/2026 Latest Vacancies 
+[2026-10-10 07:30:08 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9e97f92f644dd8ee988e994450c2
+[2026-10-10 07:30:08 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 199/400 chars, resolved=True): Centre of Excellence for Autism Spectrum Disorder Company Jobs 2026 Ap
+[2026-10-10 07:30:08 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1463 in / 295 out tokens
+[2026-10-10 07:30:08 AM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 4, 'tried': 8, 'thin': 7, 'rejected': 1}
