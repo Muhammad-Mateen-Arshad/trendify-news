@@ -7370,3 +7370,20 @@
 [2026-10-10 11:35:14 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-10 11:36:01 AM] [HEALTH_BOT] [SUCCESS] Published: The Aging Brain May Prioritize Wisdom Over Details, Study Finds
 [2026-10-10 11:36:02 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1287 in / 474 out tokens
+[2026-10-10 11:36:03 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca232252754bc58b7449acf7e6ad2
+[2026-10-10 11:36:03 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): Did a baby dinosaur eat its own kind? Alberta fossil reveals prehistor
+[2026-10-10 11:36:03 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca232252754bc58b7449acf7e6ad2
+[2026-10-10 11:36:03 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 145/400 chars, resolved=True): Fossil researchers believe dog-sized raptor may have fed on larger tyr
+[2026-10-10 11:36:03 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca232252754bc58b7449acf7e6ad2
+[2026-10-10 11:36:03 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 165/400 chars, resolved=True): Giant Deep-Sea Creature Hiding in Museum Collection for Decades Identi
+[2026-10-10 11:36:03 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca2323f44c4b2ba63f382895cc071
+[2026-10-10 11:36:03 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 166/400 chars, resolved=True): Jurassic Park's 'Impossible Cliff' isn't a plot hole, and other Spielb
+[2026-10-10 11:36:03 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca2323f44c4b2ba63f382895cc071
+[2026-10-10 11:36:03 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long SNDK Daily Target ETF
+[2026-10-10 11:36:04 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca2323f44c4b2ba63f382895cc071
+[2026-10-10 11:36:04 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long BMNR Daily Target ETF
+[2026-10-10 11:36:04 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca2324bd9b4ee586d14b03bb7b306
+[2026-10-10 11:36:04 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 160/400 chars, resolved=True): 2,000-year-old ring engraved with a lost wonder of the ancient world u
+[2026-10-10 11:36:04 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca2324bd9b4ee586d14b03bb7b306
+[2026-10-10 11:36:04 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 182/400 chars, resolved=True): Massive 2,000-year-old discovery from time of Jesus emerges remarkably
+[2026-10-10 11:36:04 AM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 2}
