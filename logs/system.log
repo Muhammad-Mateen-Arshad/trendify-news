@@ -7508,3 +7508,14 @@
 [2026-10-10 04:29:46 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-10 04:30:02 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: HEC, British Council discuss measures to strengthen transnational education in Pakistan
 [2026-10-10 04:30:02 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1206 in / 441 out tokens
+[2026-10-10 04:30:04 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-10 04:30:04 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-10 04:30:04 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca680c275f43168ebfc7fecc69e83
+[2026-10-10 04:30:04 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 146/800 chars, resolved=True): Stop trying to hack your feelings. Mental health takes work | Opinion
+[2026-10-10 04:30:05 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca680c275f43168ebfc7fecc69e83
+[2026-10-10 04:30:05 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 200/800 chars, resolved=True): The business of living longer: Why India’s ageing population is creati
+[2026-10-10 04:30:05 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca680c275f43168ebfc7fecc69e83
+[2026-10-10 04:30:05 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 44/800 chars, resolved=True): Why Your Knees Hurt During Strength Workouts—and Expert Strategies for
+[2026-10-10 04:30:05 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca680d3c1b4fefa42827aa90b552c
+[2026-10-10 04:30:05 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 121/800 chars, resolved=True): YMCA healthy aging event helps area seniors stay active and build comm
+[2026-10-10 04:30:05 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 15, 'tried': 5, 'thin': 5}
