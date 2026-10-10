@@ -7301,3 +7301,10 @@
 [2026-10-10 10:11:50 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0f66157843dfa616a8eff5b017d
 [2026-10-10 10:11:50 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 121/800 chars, resolved=True): YMCA healthy aging event helps area seniors stay active and build comm
 [2026-10-10 10:11:50 AM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 16, 'tried': 4, 'thin': 4}
+[2026-10-10 10:11:51 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0f66ebe942dfbe9efd271e7fba3
+[2026-10-10 10:11:51 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): Did a baby dinosaur eat its own kind? Alberta fossil reveals prehistor
+[2026-10-10 10:11:51 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0f66ebe942dfbe9efd271e7fba3
+[2026-10-10 10:11:51 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 145/400 chars, resolved=True): Fossil researchers believe dog-sized raptor may have fed on larger tyr
+[2026-10-10 10:11:56 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-10 10:12:19 AM] [HISTORY_BOT] [SUCCESS] Published: A Small Dinosaur May Have Devoured a Huge Predator Related to T. rex: Tooth Marks Reveal an Unusual Scene
+[2026-10-10 10:12:20 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1570 in / 544 out tokens
