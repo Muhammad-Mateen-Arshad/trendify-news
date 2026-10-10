@@ -7292,3 +7292,12 @@
 [2026-10-10 10:11:20 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 162/400 chars, resolved=True): Russia announces 70 fully-funded scholarships for Kenyan students
 [2026-10-10 10:11:48 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: JI Launches Campaign for Free Education for Every Child
 [2026-10-10 10:11:48 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 928 in / 482 out tokens
+[2026-10-10 10:11:49 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-10 10:11:49 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-10 10:11:50 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0f65a8f14baa91dd76999cd88ef
+[2026-10-10 10:11:50 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 146/800 chars, resolved=True): Stop trying to hack your feelings. Mental health takes work | Opinion
+[2026-10-10 10:11:50 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0f65a8f14baa91dd76999cd88ef
+[2026-10-10 10:11:50 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 200/800 chars, resolved=True): The business of living longer: Why India’s ageing population is creati
+[2026-10-10 10:11:50 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0f66157843dfa616a8eff5b017d
+[2026-10-10 10:11:50 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 121/800 chars, resolved=True): YMCA healthy aging event helps area seniors stay active and build comm
+[2026-10-10 10:11:50 AM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 16, 'tried': 4, 'thin': 4}
