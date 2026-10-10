@@ -7231,3 +7231,13 @@
 [2026-10-10 07:30:34 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 162/400 chars, resolved=True): Russia announces 70 fully-funded scholarships for Kenyan students
 [2026-10-10 07:30:46 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Canada: Basant Motors awards $35,000 in scholarships to 17 students on its 35th anniversary in Surrey
 [2026-10-10 07:30:47 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1744 in / 483 out tokens
+[2026-10-10 07:30:48 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-10 07:30:48 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-10 07:30:48 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9e9a8eaab48859f5a420d2af2c2b
+[2026-10-10 07:30:48 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 200/800 chars, resolved=True): The business of living longer: Why India’s ageing population is creati
+[2026-10-10 07:30:48 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9e9a8eaab48859f5a420d2af2c2b
+[2026-10-10 07:30:48 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 72/800 chars, resolved=True): Older Adults Ate Peanuts Every Day and Scientists Found a Surprising B
+[2026-10-10 07:31:19 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-10 07:31:26 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-10 07:31:53 AM] [HEALTH_BOT] [SUCCESS] Published: The health mistakes you have time to undo before you turn 60
+[2026-10-10 07:31:54 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1584 in / 541 out tokens
