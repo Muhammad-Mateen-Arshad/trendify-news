@@ -7170,3 +7170,15 @@
 [2026-10-10 03:30:35 AM] [AI_BOT] [INFO] Switched to Gemini key 5 of 5
 [2026-10-10 03:30:54 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: AI Scholarships in UK for Pakistani Students
 [2026-10-10 03:30:55 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1102 in / 533 out tokens
+[2026-10-10 03:30:56 AM] [HEALTH_BOT] [WARN] Feed HTTP 403: https://www.nih.gov/news-releases/feed.xml
+[2026-10-10 03:30:58 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-10 03:30:58 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-10 03:30:59 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b172661a4d78bfff0cd86ae7da3
+[2026-10-10 03:30:59 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 200/800 chars, resolved=True): The business of living longer: Why India’s ageing population is creati
+[2026-10-10 03:30:59 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b172661a4d78bfff0cd86ae7da3
+[2026-10-10 03:30:59 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 72/800 chars, resolved=True): Older Adults Ate Peanuts Every Day and Scientists Found a Surprising B
+[2026-10-10 03:31:00 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b1730fa440d48c5ddd229db4c31
+[2026-10-10 03:31:00 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 121/800 chars, resolved=True): YMCA healthy aging event helps area seniors stay active and build comm
+[2026-10-10 03:31:02 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b1730fa440d48c5ddd229db4c31
+[2026-10-10 03:31:02 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 189/800 chars, resolved=True): Weak Grip, Not Weak Lungs, Drives Metabolic Risk in Older Adults
+[2026-10-10 03:31:02 AM] [HEALTH_BOT] [INFO] Nothing published this run: {'tried': 5, 'thin': 5, 'already_seen': 10}
