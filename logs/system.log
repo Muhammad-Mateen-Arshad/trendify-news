@@ -7424,3 +7424,7 @@
 [2026-10-10 03:31:55 PM] [DRAMAS_BOT] [INFO] Rejected by quality gate (too short (88 words, need 150)): Dragon Ball Super: Beerus OTT release date is here: When and where to 
 [2026-10-10 03:32:24 PM] [DRAMAS_BOT] [SUCCESS] Published: Taylor Sheridan Star’s New ‘Black Sails’ Replacement Officially Premieres in 24 Hours
 [2026-10-10 03:32:25 PM] [DRAMAS_BOT] [INFO] AI usage: 2 calls, 2282 in / 667 out tokens
+[2026-10-10 03:32:26 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca5a8ac2bd4a4c868e153b5f2afa2
+[2026-10-10 03:32:26 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 141/400 chars, resolved=True): Young man shares how he has awarded 3 fully funded scholarships for gr
+[2026-10-10 03:32:41 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Three Gazan students granted visas to study in Ireland
+[2026-10-10 03:32:42 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 550 in / 405 out tokens
