@@ -7456,3 +7456,10 @@
 [2026-10-10 03:32:48 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca5a9fd054482694ad2da74a49bbb
 [2026-10-10 03:32:48 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 182/400 chars, resolved=True): Massive 2,000-year-old discovery from time of Jesus emerges remarkably
 [2026-10-10 03:32:48 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 2}
+[2026-10-10 04:27:10 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-10 04:27:17 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-10 04:27:33 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-10 04:27:58 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-10 04:28:18 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-10 04:28:43 PM] [NEWS_BOT] [SUCCESS] Published: Afridi maintains his stance on counterterrorism policy as PTI long march marks a week
+[2026-10-10 04:28:43 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1527 in / 534 out tokens
