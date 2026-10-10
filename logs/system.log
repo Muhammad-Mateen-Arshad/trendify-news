@@ -7160,3 +7160,13 @@
 [2026-10-10 03:30:23 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b14e94ec4b9fb6f235e75105f74
 [2026-10-10 03:30:23 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 200/300 chars, resolved=True): Symbioz boards Istanbul real estate world drama Sevda, unveils trailer
 [2026-10-10 03:30:23 AM] [DRAMAS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 7}
+[2026-10-10 03:30:24 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b14f92944868a393690a7910dbf
+[2026-10-10 03:30:24 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 141/400 chars, resolved=True): Young man shares how he has awarded 3 fully funded scholarships for gr
+[2026-10-10 03:30:25 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b14f92944868a393690a7910dbf
+[2026-10-10 03:30:25 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 162/400 chars, resolved=True): Russia announces 70 fully-funded scholarships for Kenyan students
+[2026-10-10 03:30:28 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-10 03:30:30 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-10 03:30:33 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-10 03:30:35 AM] [AI_BOT] [INFO] Switched to Gemini key 5 of 5
+[2026-10-10 03:30:54 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: AI Scholarships in UK for Pakistani Students
+[2026-10-10 03:30:55 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1102 in / 533 out tokens
