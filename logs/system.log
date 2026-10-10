@@ -7098,3 +7098,21 @@
 [2026-10-10 03:00:31 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-10 03:00:46 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: New York Bishops Applaud Hochul’s Decision to Join Federal Scholarship Tax Credit
 [2026-10-10 03:00:47 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1553 in / 483 out tokens
+[2026-10-10 03:00:48 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-10 03:00:48 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-10 03:00:48 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9aa60d29b4322841e69c13a773c4
+[2026-10-10 03:00:48 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 200/800 chars, resolved=True): The business of living longer: Why India’s ageing population is creati
+[2026-10-10 03:00:48 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9aa60d29b4322841e69c13a773c4
+[2026-10-10 03:00:48 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 72/800 chars, resolved=True): Older Adults Ate Peanuts Every Day and Scientists Found a Surprising B
+[2026-10-10 03:00:48 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9aa60112447a4ac82f4ddc70ff81
+[2026-10-10 03:00:48 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 121/800 chars, resolved=True): YMCA healthy aging event helps area seniors stay active and build comm
+[2026-10-10 03:00:50 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-10 03:01:00 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-10 03:01:11 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-10 03:01:13 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
+[2026-10-10 03:01:21 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 25s
+[2026-10-10 03:02:14 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-10 03:02:44 AM] [AI_BOT] [INFO] Switched to Gemini key 5 of 5
+[2026-10-10 03:03:25 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-10 03:04:11 AM] [HEALTH_BOT] [SUCCESS] Published: Eating Peanut Butter Regularly May Be Linked to Healthier Aging and a Lower Risk of Frailty
+[2026-10-10 03:04:11 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1471 in / 496 out tokens
