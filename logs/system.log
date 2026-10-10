@@ -7428,3 +7428,14 @@
 [2026-10-10 03:32:26 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 141/400 chars, resolved=True): Young man shares how he has awarded 3 fully funded scholarships for gr
 [2026-10-10 03:32:41 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Three Gazan students granted visas to study in Ireland
 [2026-10-10 03:32:42 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 550 in / 405 out tokens
+[2026-10-10 03:32:44 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: https://www.health.harvard.edu/blog/whats-good-for-the-heart-is-good-for-the-mind-20181123
+[2026-10-10 03:32:44 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 0/800 chars, resolved=True): Brain health rests on heart health: Guidelines for lifestyle changes
+[2026-10-10 03:32:44 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca5a9c6eec425a9c0fbb064d5bf3f
+[2026-10-10 03:32:44 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 146/800 chars, resolved=True): Stop trying to hack your feelings. Mental health takes work | Opinion
+[2026-10-10 03:32:45 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca5a9c6eec425a9c0fbb064d5bf3f
+[2026-10-10 03:32:45 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 200/800 chars, resolved=True): The business of living longer: Why India’s ageing population is creati
+[2026-10-10 03:32:45 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca5a9c6eec425a9c0fbb064d5bf3f
+[2026-10-10 03:32:45 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 44/800 chars, resolved=True): Why Your Knees Hurt During Strength Workouts—and Expert Strategies for
+[2026-10-10 03:32:45 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca5a9d5df44d05905663e11e19802
+[2026-10-10 03:32:45 PM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 121/800 chars, resolved=True): YMCA healthy aging event helps area seniors stay active and build comm
+[2026-10-10 03:32:45 PM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 15, 'tried': 5, 'thin': 5}
