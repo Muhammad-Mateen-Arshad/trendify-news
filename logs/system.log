@@ -7312,3 +7312,20 @@
 [2026-10-10 11:29:37 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
 [2026-10-10 11:30:07 AM] [NEWS_BOT] [SUCCESS] Published: Govt assails PTI over 'lack of governance' in Khyber Pakhtunkhwa
 [2026-10-10 11:30:08 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1393 in / 501 out tokens
+[2026-10-10 11:30:10 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca21c1b0bb44b782315201dc7a769
+[2026-10-10 11:30:10 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): Afghanistan after five years of Taliban rule: A former advisor’s insig
+[2026-10-10 11:30:11 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca21c1b0bb44b782315201dc7a769
+[2026-10-10 11:30:11 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 149/400 chars, resolved=True): Sit-ins, protests adversely affect business, economy: PA speaker
+[2026-10-10 11:30:11 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca21c1b0bb44b782315201dc7a769
+[2026-10-10 11:30:11 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): 1 Olympic Medal, 12 Pro Wins, 0 Regrets: The Bus Driver’s Son Who Chan
+[2026-10-10 11:30:26 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too short (110 words, need 150); too many 'not specified' (source too thin)): Giorgia Cardinaletti and Francesco Bechis today newlyweds, the wedding
+[2026-10-10 11:30:26 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca21d2db8d4b608e51a920b20cd96
+[2026-10-10 11:30:26 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 143/400 chars, resolved=True): Balochistan cabinet approves, economic, health, education reforms
+[2026-10-10 11:30:27 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca21d2db8d4b608e51a920b20cd96
+[2026-10-10 11:30:27 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 146/400 chars, resolved=True): Latest - September 30, 2026
+[2026-10-10 11:30:27 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca21d34f4c4024961a0f96348555d
+[2026-10-10 11:30:27 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): PPSC Jobs 2026 Apply Online Advertisement No 11/2026 Latest Vacancies 
+[2026-10-10 11:30:28 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca21d34f4c4024961a0f96348555d
+[2026-10-10 11:30:28 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 199/400 chars, resolved=True): Centre of Excellence for Autism Spectrum Disorder Company Jobs 2026 Ap
+[2026-10-10 11:30:28 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 2108 in / 275 out tokens
+[2026-10-10 11:30:28 AM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 7, 'already_seen': 2, 'rejected': 1}
