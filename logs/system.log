@@ -7260,3 +7260,20 @@
 [2026-10-10 07:31:55 AM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 1}
 [2026-10-10 10:10:51 AM] [NEWS_BOT] [SUCCESS] Published: Pakistan reaffirms commitment to Saudi security at UN Security Council
 [2026-10-10 10:10:52 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 952 in / 517 out tokens
+[2026-10-10 10:10:53 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0f2dfdd144d4850d0881af2e296
+[2026-10-10 10:10:53 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 200/400 chars, resolved=True): Convert United States Dollar To Pakistani Rupee
+[2026-10-10 10:10:53 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0f2decc74ec08971798f42d4cfc
+[2026-10-10 10:10:53 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): Afghanistan after five years of Taliban rule: A former advisor’s insig
+[2026-10-10 10:10:54 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0f2decc74ec08971798f42d4cfc
+[2026-10-10 10:10:54 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 149/400 chars, resolved=True): Sit-ins, protests adversely affect business, economy: PA speaker
+[2026-10-10 10:10:55 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0f2decc74ec08971798f42d4cfc
+[2026-10-10 10:10:55 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): 1 Olympic Medal, 12 Pro Wins, 0 Regrets: The Bus Driver’s Son Who Chan
+[2026-10-10 10:10:56 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0f2decc74ec08971798f42d4cfc
+[2026-10-10 10:10:56 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): Upcoming Pakistan vs Q-A Schedule and venue
+[2026-10-10 10:10:57 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0f30998a4eb1ae55eb089ae5a7b
+[2026-10-10 10:10:57 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 143/400 chars, resolved=True): Balochistan cabinet approves, economic, health, education reforms
+[2026-10-10 10:10:57 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0f30998a4eb1ae55eb089ae5a7b
+[2026-10-10 10:10:57 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 146/400 chars, resolved=True): Latest - September 30, 2026
+[2026-10-10 10:10:58 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0f31ba0c4a30987233968154d3a
+[2026-10-10 10:10:58 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): PPSC Jobs 2026 Apply Online Advertisement No 11/2026 Latest Vacancies 
+[2026-10-10 10:10:58 AM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 2}
