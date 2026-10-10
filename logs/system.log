@@ -7387,3 +7387,5 @@
 [2026-10-10 11:36:04 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca2324bd9b4ee586d14b03bb7b306
 [2026-10-10 11:36:04 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 182/400 chars, resolved=True): Massive 2,000-year-old discovery from time of Jesus emerges remarkably
 [2026-10-10 11:36:04 AM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 2}
+[2026-10-10 03:29:47 PM] [NEWS_BOT] [SUCCESS] Published: PM Shehbaz meets President Zardari as Centre mulls imposition of emergency in KP
+[2026-10-10 03:29:48 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1531 in / 503 out tokens
