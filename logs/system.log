@@ -7182,3 +7182,20 @@
 [2026-10-10 03:31:02 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b1730fa440d48c5ddd229db4c31
 [2026-10-10 03:31:02 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 189/800 chars, resolved=True): Weak Grip, Not Weak Lungs, Drives Metabolic Risk in Older Adults
 [2026-10-10 03:31:02 AM] [HEALTH_BOT] [INFO] Nothing published this run: {'tried': 5, 'thin': 5, 'already_seen': 10}
+[2026-10-10 03:31:03 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b176f80344f6a3bfb1ce6f0b667
+[2026-10-10 03:31:03 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): Did a baby dinosaur eat its own kind? Alberta fossil reveals prehistor
+[2026-10-10 03:31:03 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b176f80344f6a3bfb1ce6f0b667
+[2026-10-10 03:31:03 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 145/400 chars, resolved=True): Fossil researchers believe dog-sized raptor may have fed on larger tyr
+[2026-10-10 03:31:03 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b176f80344f6a3bfb1ce6f0b667
+[2026-10-10 03:31:03 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 108/400 chars, resolved=True): Dinosaur eggshells unearthed Patagonia belong to unexpected giant spec
+[2026-10-10 03:31:04 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b178d0d342b1a81c1cc0d9212f3
+[2026-10-10 03:31:04 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 166/400 chars, resolved=True): Jurassic Park's 'Impossible Cliff' isn't a plot hole, and other Spielb
+[2026-10-10 03:31:06 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b178d0d342b1a81c1cc0d9212f3
+[2026-10-10 03:31:06 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long SNDK Daily Target ETF
+[2026-10-10 03:31:07 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b178d0d342b1a81c1cc0d9212f3
+[2026-10-10 03:31:07 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 167/400 chars, resolved=True): T-REX 2X Long BMNR Daily Target ETF
+[2026-10-10 03:31:08 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b17b08994218bf6d7a8b00a48ca
+[2026-10-10 03:31:08 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 160/400 chars, resolved=True): 2,000-year-old ring engraved with a lost wonder of the ancient world u
+[2026-10-10 03:31:08 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b17b08994218bf6d7a8b00a48ca
+[2026-10-10 03:31:08 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 182/400 chars, resolved=True): Massive 2,000-year-old discovery from time of Jesus emerges remarkably
+[2026-10-10 03:31:08 AM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 2}
