@@ -7688,3 +7688,9 @@
 [2026-10-10 11:31:02 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-10 11:31:20 PM] [DRAMAS_BOT] [SUCCESS] Published: Russell Crowe’s New Netflix Thriller Is Officially One of the Biggest Streaming Hits of 2026
 [2026-10-10 11:31:21 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1546 in / 462 out tokens
+[2026-10-10 11:31:22 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acacac9844f4ac794c31eb3540dd64
+[2026-10-10 11:31:22 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 197/400 chars, resolved=True): 2026 Trafficking in Persons Report: Zimbabwe
+[2026-10-10 11:31:23 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-10 11:31:25 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-10 11:31:43 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: IGAD Leadership Academy Trains Journalists from Kenya, Somalia and South Sudan Ahead of Elections
+[2026-10-10 11:31:43 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1330 in / 382 out tokens
