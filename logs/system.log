@@ -7116,3 +7116,12 @@
 [2026-10-10 03:03:25 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-10 03:04:11 AM] [HEALTH_BOT] [SUCCESS] Published: Eating Peanut Butter Regularly May Be Linked to Healthier Aging and a Lower Risk of Frailty
 [2026-10-10 03:04:11 AM] [HEALTH_BOT] [INFO] AI usage: 1 calls, 1471 in / 496 out tokens
+[2026-10-10 03:04:12 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9ab2c4f024a03b5f835049fcb81c
+[2026-10-10 03:04:12 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 202/400 chars, resolved=True): Did a baby dinosaur eat its own kind? Alberta fossil reveals prehistor
+[2026-10-10 03:04:12 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9ab2c4f024a03b5f835049fcb81c
+[2026-10-10 03:04:12 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 145/400 chars, resolved=True): Fossil researchers believe dog-sized raptor may have fed on larger tyr
+[2026-10-10 03:04:12 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9ab2c4f024a03b5f835049fcb81c
+[2026-10-10 03:04:12 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 165/400 chars, resolved=True): Giant Deep-Sea Creature Hiding in Museum Collection for Decades Identi
+[2026-10-10 03:04:14 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-10 03:04:35 AM] [HISTORY_BOT] [SUCCESS] Published: Embracing the ‘dinosaur rush’
+[2026-10-10 03:04:36 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1287 in / 527 out tokens
