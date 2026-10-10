@@ -7614,3 +7614,13 @@
 [2026-10-10 11:02:24 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
 [2026-10-10 11:02:41 PM] [DRAMAS_BOT] [SUCCESS] Published: Dragon Ball Super: Beerus Release Schedule: When Does Episode 1 Release?
 [2026-10-10 11:02:42 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1499 in / 521 out tokens
+[2026-10-10 11:02:44 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac4130b284016865d0bc043065d9
+[2026-10-10 11:02:44 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 197/400 chars, resolved=True): 2026 Trafficking in Persons Report: Zimbabwe
+[2026-10-10 11:02:44 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac4130b284016865d0bc043065d9
+[2026-10-10 11:02:44 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 157/400 chars, resolved=True): CUE Releases List of Universities Approved to Operate in Kenya in 2026
+[2026-10-10 11:02:44 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac4146ed94a33bc94f014ddd6453
+[2026-10-10 11:02:44 PM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 152/400 chars, resolved=True): Pakistan issues new directives for Afghan medical students, doctors
+[2026-10-10 11:02:45 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-10 11:02:47 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-10 11:03:07 PM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Minister of Water and Energy travels to Saudi Arabia for World Energy Forum
+[2026-10-10 11:03:08 PM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1427 in / 539 out tokens
