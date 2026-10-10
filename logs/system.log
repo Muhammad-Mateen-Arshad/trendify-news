@@ -7286,3 +7286,9 @@
 [2026-10-10 10:11:02 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 204/300 chars, resolved=True): OTT This Weekend: 9 New Movies And Shows On Netflix, JioHotstar And Mo
 [2026-10-10 10:11:18 AM] [DRAMAS_BOT] [SUCCESS] Published: Below (2026) Cast and Characters, Episode Release Schedule and Where to Watch
 [2026-10-10 10:11:19 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1602 in / 507 out tokens
+[2026-10-10 10:11:19 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0f4757b84c20abb3122d7946128
+[2026-10-10 10:11:19 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 141/400 chars, resolved=True): Young man shares how he has awarded 3 fully funded scholarships for gr
+[2026-10-10 10:11:20 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0f4757b84c20abb3122d7946128
+[2026-10-10 10:11:20 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 162/400 chars, resolved=True): Russia announces 70 fully-funded scholarships for Kenyan students
+[2026-10-10 10:11:48 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: JI Launches Campaign for Free Education for Every Child
+[2026-10-10 10:11:48 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 928 in / 482 out tokens
