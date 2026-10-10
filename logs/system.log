@@ -7062,3 +7062,6 @@
 [2026-10-09 11:40:04 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
 [2026-10-09 11:40:25 PM] [HISTORY_BOT] [SUCCESS] Published: Australian Museum reveals plans for 200th Anniversary in 2027
 [2026-10-09 11:40:28 PM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1568 in / 598 out tokens
+[2026-10-10 02:58:19 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-10 02:59:26 AM] [NEWS_BOT] [SUCCESS] Published: Nepra clears use-of-system charges for competitive power market
+[2026-10-10 02:59:27 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1710 in / 556 out tokens
