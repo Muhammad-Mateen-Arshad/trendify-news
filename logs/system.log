@@ -7482,3 +7482,17 @@
 [2026-10-10 04:29:34 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): PPSC Jobs 2026 Apply Online Advertisement No 11/2026 Latest Vacancies 
 [2026-10-10 04:29:34 PM] [JOBS_BOT] [INFO] AI usage: 2 calls, 2950 in / 677 out tokens
 [2026-10-10 04:29:34 PM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 6, 'rejected': 2, 'already_seen': 1}
+[2026-10-10 04:29:36 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 292/300 chars, resolved=True): Osmanlı Devleti
+[2026-10-10 04:29:36 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca67f07dbe4192a8ceffae14ec40e
+[2026-10-10 04:29:36 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 198/300 chars, resolved=True): Prime Video Takes Global on Turkish AI-Generated Movie 'Çukur:Vartolu'
+[2026-10-10 04:29:37 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 239/300 chars, resolved=True): What Italy need to do to be seeded for the Euro 2028 qualifying draw
+[2026-10-10 04:29:38 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 272/300 chars, resolved=True): Montella: ‘I want to continue as Turkiye coach, we inflated expectatio
+[2026-10-10 04:29:38 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca67f230aa467b8557af9770c6275
+[2026-10-10 04:29:38 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 91/300 chars, resolved=True): Netflix release list for November 2026: Every show, movie, and documen
+[2026-10-10 04:29:38 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca67f230aa467b8557af9770c6275
+[2026-10-10 04:29:38 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 158/300 chars, resolved=True): Disney’s $3 billion franchise rules Netflix’s top 10 rundown ahead of 
+[2026-10-10 04:29:38 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca67f230aa467b8557af9770c6275
+[2026-10-10 04:29:38 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 204/300 chars, resolved=True): Prime Video's ‘Bloodaxe' Sets January 2027 Release, Debuts New Trailer
+[2026-10-10 04:29:39 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca67f2f51349df9fee5257a8dba9f
+[2026-10-10 04:29:39 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 200/300 chars, resolved=True): Symbioz boards Istanbul real estate world drama Sevda, unveils trailer
+[2026-10-10 04:29:39 PM] [DRAMAS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 7}
