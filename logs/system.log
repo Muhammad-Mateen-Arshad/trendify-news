@@ -7389,3 +7389,24 @@
 [2026-10-10 11:36:04 AM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 2}
 [2026-10-10 03:29:47 PM] [NEWS_BOT] [SUCCESS] Published: PM Shehbaz meets President Zardari as Centre mulls imposition of emergency in KP
 [2026-10-10 03:29:48 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1531 in / 503 out tokens
+[2026-10-10 03:29:49 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca59eddf20444bafcb946e604630d
+[2026-10-10 03:29:49 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 160/400 chars, resolved=True): Sanctuary Across The Border: How Afghan Safe Havens Sustain The War Pa
+[2026-10-10 03:29:50 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca59eddf20444bafcb946e604630d
+[2026-10-10 03:29:50 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 149/400 chars, resolved=True): Sit-ins, protests adversely affect business, economy: PA speaker
+[2026-10-10 03:29:50 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca59eddf20444bafcb946e604630d
+[2026-10-10 03:29:50 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): 1 Olympic Medal, 12 Pro Wins, 0 Regrets: The Bus Driver’s Son Who Chan
+[2026-10-10 03:29:55 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-10 03:30:03 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-10 03:30:18 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-10 03:30:57 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-10 03:31:28 PM] [JOBS_BOT] [INFO] Rejected by quality gate (too many 'not specified' (source too thin)): Bad weather in Campania, landslide in Mergellina: three apartments eva
+[2026-10-10 03:31:29 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca59eddf20444bafcb946e604630d
+[2026-10-10 03:31:29 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 204/400 chars, resolved=True): Upcoming Pakistan vs Q-A Schedule and venue
+[2026-10-10 03:31:30 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca5a51e75d4b0b82ab0dae20f8932
+[2026-10-10 03:31:30 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 143/400 chars, resolved=True): Balochistan cabinet approves, economic, health, education reforms
+[2026-10-10 03:31:31 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca5a523ea8450fa4342e4a26b7daa
+[2026-10-10 03:31:31 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): PPSC Jobs 2026 Apply Online Advertisement No 11/2026 Latest Vacancies 
+[2026-10-10 03:31:31 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca5a523ea8450fa4342e4a26b7daa
+[2026-10-10 03:31:31 PM] [JOBS_BOT] [INFO] Skipped (source text too thin, 199/400 chars, resolved=True): Centre of Excellence for Autism Spectrum Disorder Company Jobs 2026 Ap
+[2026-10-10 03:31:31 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1905 in / 334 out tokens
+[2026-10-10 03:31:31 PM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 7, 'rejected': 1, 'already_seen': 1}
