@@ -7130,3 +7130,20 @@
 [2026-10-10 03:29:41 AM] [AI_BOT] [INFO] Switched to Gemini key 4 of 5
 [2026-10-10 03:30:00 AM] [NEWS_BOT] [SUCCESS] Published: World Economic Forum presents case for ‘administrative redesign’ in Pakistan
 [2026-10-10 03:30:01 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1444 in / 556 out tokens
+[2026-10-10 03:30:05 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b13a7f6e4c0e8c45c3c5002f7aa
+[2026-10-10 03:30:05 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 149/400 chars, resolved=True): Sit-ins, protests adversely affect business, economy: PA speaker
+[2026-10-10 03:30:06 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b13a7f6e4c0e8c45c3c5002f7aa
+[2026-10-10 03:30:06 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): Afghanistan after five years of Taliban rule: A former advisor’s insig
+[2026-10-10 03:30:06 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b13a7f6e4c0e8c45c3c5002f7aa
+[2026-10-10 03:30:06 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): Deeply offensive: India invokes colonial past, takes exception to Vanc
+[2026-10-10 03:30:07 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b13a7f6e4c0e8c45c3c5002f7aa
+[2026-10-10 03:30:07 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 125/400 chars, resolved=True): 10 dead, 16 injured: Prison riot breaks out in Mexico's Sinaloa state;
+[2026-10-10 03:30:08 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b13f29fa4ea4b14d3bf1ce25678
+[2026-10-10 03:30:08 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 143/400 chars, resolved=True): Balochistan cabinet approves, economic, health, education reforms
+[2026-10-10 03:30:10 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b13f29fa4ea4b14d3bf1ce25678
+[2026-10-10 03:30:10 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 146/400 chars, resolved=True): Latest - September 30, 2026
+[2026-10-10 03:30:11 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b14286b24aff93002909d5cad40
+[2026-10-10 03:30:11 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): PPSC Jobs 2026 Apply Online Advertisement No 11/2026 Latest Vacancies 
+[2026-10-10 03:30:12 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b14286b24aff93002909d5cad40
+[2026-10-10 03:30:12 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 199/400 chars, resolved=True): Centre of Excellence for Autism Spectrum Disorder Company Jobs 2026 Ap
+[2026-10-10 03:30:12 AM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 5, 'tried': 8, 'thin': 8}
