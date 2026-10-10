@@ -7219,3 +7219,9 @@
 [2026-10-10 07:30:08 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 199/400 chars, resolved=True): Centre of Excellence for Autism Spectrum Disorder Company Jobs 2026 Ap
 [2026-10-10 07:30:08 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1463 in / 295 out tokens
 [2026-10-10 07:30:08 AM] [JOBS_BOT] [INFO] Nothing published this run: {'already_seen': 4, 'tried': 8, 'thin': 7, 'rejected': 1}
+[2026-10-10 07:30:09 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 292/300 chars, resolved=True): Osmanlı Devleti
+[2026-10-10 07:30:10 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 270/300 chars, resolved=True): Juric frustrated by Italy call-up for 20-year-old Kouadio: ‘A waste of
+[2026-10-10 07:30:11 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 274/300 chars, resolved=True): Official: coach sacked after four defeats in the international break
+[2026-10-10 07:30:18 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-10 07:30:33 AM] [DRAMAS_BOT] [SUCCESS] Published: Yüksel Aksu: We need equal citizenship and respect for identity
+[2026-10-10 07:30:34 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 374 in / 293 out tokens
