@@ -7550,3 +7550,9 @@
 [2026-10-10 07:32:02 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
 [2026-10-10 07:32:46 PM] [JOBS_BOT] [SUCCESS] Published: Aurangzeb to attend WB-IMF annual meetings in Thailand
 [2026-10-10 07:32:47 PM] [JOBS_BOT] [INFO] AI usage: 1 calls, 1240 in / 498 out tokens
+[2026-10-10 07:32:49 PM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 292/300 chars, resolved=True): Osmanlı Devleti
+[2026-10-10 07:32:50 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-10 07:32:52 PM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-10 07:32:54 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-10 07:33:33 PM] [DRAMAS_BOT] [SUCCESS] Published: Prime Video Takes Global on Turkish AI-Generated Movie ‘Çukur:Vartolu,’ a Spin-Off From the Hit Series Known Internationally as ‘The Pit’ (EXCLUSIVE)
+[2026-10-10 07:33:34 PM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1379 in / 555 out tokens
