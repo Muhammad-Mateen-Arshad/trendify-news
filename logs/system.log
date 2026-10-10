@@ -7593,3 +7593,7 @@
 [2026-10-10 07:34:29 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca934575dc424d80b2c47015edc37
 [2026-10-10 07:34:29 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 160/400 chars, resolved=True): 2,000-year-old ring engraved with a lost wonder of the ancient world u
 [2026-10-10 07:34:29 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 2}
+[2026-10-10 11:00:38 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-10 11:00:43 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-10 11:01:18 PM] [NEWS_BOT] [SUCCESS] Published: At least 12 dead, over 300 wounded in attack on Riyadh airport
+[2026-10-10 11:01:19 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1521 in / 499 out tokens
