@@ -7225,3 +7225,9 @@
 [2026-10-10 07:30:18 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
 [2026-10-10 07:30:33 AM] [DRAMAS_BOT] [SUCCESS] Published: Yüksel Aksu: We need equal citizenship and respect for identity
 [2026-10-10 07:30:34 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 374 in / 293 out tokens
+[2026-10-10 07:30:34 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9e99a0c0d47deab58c74e2af7943
+[2026-10-10 07:30:34 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 141/400 chars, resolved=True): Young man shares how he has awarded 3 fully funded scholarships for gr
+[2026-10-10 07:30:34 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9e99a0c0d47deab58c74e2af7943
+[2026-10-10 07:30:34 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 162/400 chars, resolved=True): Russia announces 70 fully-funded scholarships for Kenyan students
+[2026-10-10 07:30:46 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: Canada: Basant Motors awards $35,000 in scholarships to 17 students on its 35th anniversary in Surrey
+[2026-10-10 07:30:47 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1744 in / 483 out tokens
