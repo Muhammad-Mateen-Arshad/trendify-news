@@ -7065,3 +7065,14 @@
 [2026-10-10 02:58:19 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
 [2026-10-10 02:59:26 AM] [NEWS_BOT] [SUCCESS] Published: Nepra clears use-of-system charges for competitive power market
 [2026-10-10 02:59:27 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1710 in / 556 out tokens
+[2026-10-10 02:59:29 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9aa10f4674c719168e705c1fc543
+[2026-10-10 02:59:29 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 149/400 chars, resolved=True): Sit-ins, protests adversely affect business, economy: PA speaker
+[2026-10-10 02:59:29 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9aa10f4674c719168e705c1fc543
+[2026-10-10 02:59:29 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 203/400 chars, resolved=True): Afghanistan after five years of Taliban rule: A former advisor’s insig
+[2026-10-10 02:59:29 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9aa10f4674c719168e705c1fc543
+[2026-10-10 02:59:29 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 125/400 chars, resolved=True): 10 dead, 16 injured: Prison riot breaks out in Mexico's Sinaloa state;
+[2026-10-10 02:59:30 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-10 02:59:46 AM] [JOBS_BOT] [INFO] Rejected by quality gate (too many 'not specified' (source too thin)): US to livestream Army firing squad execution of Fort Hood shooter, Pen
+[2026-10-10 02:59:47 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-10 03:00:11 AM] [JOBS_BOT] [SUCCESS] Published: Balochistan cabinet approves mineral fund policy reforms
+[2026-10-10 03:00:12 AM] [JOBS_BOT] [INFO] AI usage: 2 calls, 2136 in / 773 out tokens
