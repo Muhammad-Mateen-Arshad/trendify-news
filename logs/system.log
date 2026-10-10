@@ -7343,3 +7343,14 @@
 [2026-10-10 11:30:33 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca21d8e73e461da3c723dabb98c28
 [2026-10-10 11:30:33 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 200/300 chars, resolved=True): Symbioz boards Istanbul real estate world drama Sevda, unveils trailer
 [2026-10-10 11:30:33 AM] [DRAMAS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 7}
+[2026-10-10 11:30:33 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca21d9841e49068f817a5c128a2c1
+[2026-10-10 11:30:33 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 141/400 chars, resolved=True): Young man shares how he has awarded 3 fully funded scholarships for gr
+[2026-10-10 11:30:35 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-10 11:30:40 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 10s
+[2026-10-10 11:30:54 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-10 11:31:10 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 20s
+[2026-10-10 11:31:30 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-10 11:31:32 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
+[2026-10-10 11:32:12 AM] [SCHOLARSHIPS_BOT] [INFO] Rejected by quality gate (too short (128 words, need 150)): US Report Details How Kenyan Graduates, Women Are Recruited, Mistreate
+[2026-10-10 11:32:39 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: 95% of US Students Are Using AI to Make Assignments
+[2026-10-10 11:32:40 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 2 calls, 1990 in / 680 out tokens
