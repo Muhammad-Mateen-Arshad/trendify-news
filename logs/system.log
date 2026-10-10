@@ -7277,3 +7277,12 @@
 [2026-10-10 10:10:58 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0f31ba0c4a30987233968154d3a
 [2026-10-10 10:10:58 AM] [JOBS_BOT] [INFO] Skipped (source text too thin, 201/400 chars, resolved=True): PPSC Jobs 2026 Apply Online Advertisement No 11/2026 Latest Vacancies 
 [2026-10-10 10:10:58 AM] [JOBS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 2}
+[2026-10-10 10:11:00 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 292/300 chars, resolved=True): Osmanlı Devleti
+[2026-10-10 10:11:01 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 239/300 chars, resolved=True): What Italy need to do to be seeded for the Euro 2028 qualifying draw
+[2026-10-10 10:11:02 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 272/300 chars, resolved=True): Montella: ‘I want to continue as Turkiye coach, we inflated expectatio
+[2026-10-10 10:11:02 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0f36b7d646e39cb019722feb4ec
+[2026-10-10 10:11:02 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 158/300 chars, resolved=True): Disney’s $3 billion franchise rules Netflix’s top 10 rundown ahead of 
+[2026-10-10 10:11:02 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0f36b7d646e39cb019722feb4ec
+[2026-10-10 10:11:02 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 204/300 chars, resolved=True): OTT This Weekend: 9 New Movies And Shows On Netflix, JioHotstar And Mo
+[2026-10-10 10:11:18 AM] [DRAMAS_BOT] [SUCCESS] Published: Below (2026) Cast and Characters, Episode Release Schedule and Where to Watch
+[2026-10-10 10:11:19 AM] [DRAMAS_BOT] [INFO] AI usage: 1 calls, 1602 in / 507 out tokens
