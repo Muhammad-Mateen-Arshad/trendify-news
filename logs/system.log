@@ -7651,3 +7651,7 @@
 [2026-10-10 11:03:12 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac430165d48c79357df457b3cb3c
 [2026-10-10 11:03:12 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 160/400 chars, resolved=True): 2,000-year-old ring engraved with a lost wonder of the ancient world u
 [2026-10-10 11:03:12 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 2}
+[2026-10-10 11:29:37 PM] [AI_BOT] [WARN] Gemini server busy, retrying in 5s
+[2026-10-10 11:29:42 PM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-10 11:29:57 PM] [NEWS_BOT] [SUCCESS] Published: CM Afridi says will not accept 'illegal move' of governor's rule or emergency in KP
+[2026-10-10 11:29:58 PM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1534 in / 493 out tokens
