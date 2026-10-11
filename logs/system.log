@@ -7768,3 +7768,9 @@
 [2026-10-11 02:29:33 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acaf48d2e7a49a89e5cad8124c2aff
 [2026-10-11 02:29:33 AM] [HEALTH_BOT] [INFO] Skipped (source text too thin, 121/800 chars, resolved=True): YMCA healthy aging event helps area seniors stay active and build comm
 [2026-10-11 02:29:33 AM] [HEALTH_BOT] [INFO] Nothing published this run: {'already_seen': 15, 'tried': 5, 'thin': 5}
+[2026-10-11 02:29:34 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acaf48de52343d79b2c3efbb93f435
+[2026-10-11 02:29:34 AM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 162/400 chars, resolved=True): University of Alberta researchers find evidence raptor may have fed on
+[2026-10-11 02:29:35 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-11 02:29:37 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-11 02:29:55 AM] [HISTORY_BOT] [SUCCESS] Published: Last Days Of The Dinosaurs Being Pieced Together From Carbon County Fossils
+[2026-10-11 02:29:56 AM] [HISTORY_BOT] [INFO] AI usage: 1 calls, 1611 in / 507 out tokens
