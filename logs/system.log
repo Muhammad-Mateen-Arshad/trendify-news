@@ -7748,3 +7748,12 @@
 [2026-10-11 02:28:44 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acaf45b191241dd9a368bd6558e7d0
 [2026-10-11 02:28:44 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 200/300 chars, resolved=True): ‘Blade Runner 2099' Trailer: Michelle Yeoh, Hunter Schafer Fugitives
 [2026-10-11 02:28:44 AM] [DRAMAS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 8}
+[2026-10-11 02:28:44 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acaf45cdbd84c988848f4777bc5e48
+[2026-10-11 02:28:44 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 197/400 chars, resolved=True): 2026 Trafficking in Persons Report: Zimbabwe
+[2026-10-11 02:28:45 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acaf45d14074de59ab5d35984a71b8
+[2026-10-11 02:28:45 AM] [SCHOLARSHIPS_BOT] [INFO] Skipped (source text too thin, 152/400 chars, resolved=True): Pakistan issues new directives for Afghan medical students, doctors
+[2026-10-11 02:28:46 AM] [AI_BOT] [INFO] Switched to Gemini key 2 of 5
+[2026-10-11 02:28:48 AM] [AI_BOT] [INFO] Switched to Gemini key 3 of 5
+[2026-10-11 02:28:55 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 15s
+[2026-10-11 02:29:29 AM] [SCHOLARSHIPS_BOT] [SUCCESS] Published: COMSATS Announces HEC Need-Based Scholarships for Fall 2026 Students
+[2026-10-11 02:29:31 AM] [SCHOLARSHIPS_BOT] [INFO] AI usage: 1 calls, 1046 in / 612 out tokens
