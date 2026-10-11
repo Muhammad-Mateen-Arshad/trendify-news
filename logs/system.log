@@ -7721,3 +7721,5 @@
 [2026-10-10 11:31:49 PM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acacae47cff4971b7c0fc05648e120
 [2026-10-10 11:31:49 PM] [HISTORY_BOT] [INFO] Skipped (source text too thin, 160/400 chars, resolved=True): 2,000-year-old ring engraved with a lost wonder of the ancient world u
 [2026-10-10 11:31:49 PM] [HISTORY_BOT] [INFO] Nothing published this run: {'already_seen': 2, 'tried': 8, 'thin': 8}
+[2026-10-11 02:27:45 AM] [NEWS_BOT] [SUCCESS] Published: At least 12 dead, over 300 wounded in attack on Riyadh airport; Saudi-led coalition vows 'decisive' response
+[2026-10-11 02:27:46 AM] [NEWS_BOT] [INFO] AI usage: 1 calls, 1537 in / 528 out tokens
