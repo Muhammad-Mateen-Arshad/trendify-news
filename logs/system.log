@@ -7796,3 +7796,17 @@
 [2026-10-11 03:31:53 AM] [AI_BOT] [WARN] Gemini server busy, retrying in 30s
 [2026-10-11 03:32:37 AM] [JOBS_BOT] [SUCCESS] Published: Lahore To Restore Pre-Partition Hindu, Sikh And British Street Names
 [2026-10-11 03:32:38 AM] [JOBS_BOT] [INFO] AI usage: 1 calls, 633 in / 434 out tokens
+[2026-10-11 03:32:40 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 292/300 chars, resolved=True): Osmanlı Devleti
+[2026-10-11 03:32:40 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acb0358b75f4211a38930577865648
+[2026-10-11 03:32:40 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 198/300 chars, resolved=True): Prime Video Takes Global on Turkish AI-Generated Movie 'Çukur:Vartolu'
+[2026-10-11 03:32:41 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 239/300 chars, resolved=True): What Italy need to do to be seeded for the Euro 2028 qualifying draw
+[2026-10-11 03:32:42 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 272/300 chars, resolved=True): Montella: ‘I want to continue as Turkiye coach, we inflated expectatio
+[2026-10-11 03:32:42 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acb035aca604f248e5248b9de26d5a
+[2026-10-11 03:32:42 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 91/300 chars, resolved=True): Netflix release list for November 2026: Every show, movie, and documen
+[2026-10-11 03:32:42 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acb035aca604f248e5248b9de26d5a
+[2026-10-11 03:32:42 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 195/300 chars, resolved=True): Dragon Ball Super: Beerus OTT India release date, streaming — all you 
+[2026-10-11 03:32:42 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acb035a41524d3385f120bb370134e
+[2026-10-11 03:32:42 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 200/300 chars, resolved=True): Symbioz boards Istanbul real estate world drama Sevda, unveils trailer
+[2026-10-11 03:32:42 AM] [SOURCES_BOT] [WARN] Resolved but could not extract page text: http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acb035a41524d3385f120bb370134e
+[2026-10-11 03:32:42 AM] [DRAMAS_BOT] [INFO] Skipped (source text too thin, 200/300 chars, resolved=True): ‘Blade Runner 2099' Trailer: Michelle Yeoh, Hunter Schafer Fugitives
+[2026-10-11 03:32:42 AM] [DRAMAS_BOT] [INFO] Nothing published this run: {'tried': 8, 'thin': 8, 'already_seen': 8}
